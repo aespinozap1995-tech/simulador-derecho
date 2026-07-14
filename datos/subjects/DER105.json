@@ -1,0 +1,4184 @@
+{
+  "subject_code": "DER105",
+  "subject_name": "Expresión Oral y Redacción Jurídica",
+  "source_file": "Procesado/DER 105 - Expresión Oral y Redacción Jurídica/banco_preguntas.md",
+  "total": 95,
+  "questions": [
+    {
+      "id": "DER105-P001",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Elementos esenciales de la comunicación",
+      "question_type": "single_choice",
+      "topic": "Teoría de la comunicación",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-2, pág. 1; PDF-3, pág. 5; PDF-4, pág. 4; PDF-5, pág. 6",
+      "prompt": "¿Cuál de los siguientes NO es un elemento esencial de la comunicación?",
+      "options": [
+        {
+          "id": "A",
+          "text": "El emisor"
+        },
+        {
+          "id": "B",
+          "text": "La intención personal del receptor"
+        },
+        {
+          "id": "C",
+          "text": "El canal"
+        },
+        {
+          "id": "D",
+          "text": "El contexto"
+        }
+      ],
+      "answer": {
+        "raw": "B. La intención personal del receptor",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Los elementos esenciales de la comunicación son emisor, receptor, mensaje, canal, código y contexto. La \"intención personal del receptor\" no forma parte de ese esquema clásico.",
+      "feedback_incorrect": "Repasa el esquema básico de la comunicación y sus seis elementos. Emisor, canal y contexto sí pertenecen a él.",
+      "tip": "Busca la opción que describe algo subjetivo del receptor, no un componente del proceso comunicativo."
+    },
+    {
+      "id": "DER105-P002",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Oralidad y escritura en el proceso judicial",
+      "question_type": "single_choice",
+      "topic": "Oralidad y escritura",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-2, pág. 2; PDF-3, pág. 2; PDF-4, pág. 3; PDF-5, pág. 4",
+      "prompt": "¿Cuál es la relación ideal entre la oralidad y la escritura en el proceso judicial?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La oralidad es completamente superior a la escritura"
+        },
+        {
+          "id": "B",
+          "text": "La escritura es completamente superior a la oralidad"
+        },
+        {
+          "id": "C",
+          "text": "Son complementarias y se refuerzan mutuamente en el proceso"
+        },
+        {
+          "id": "D",
+          "text": "Son opuestas e incompatibles entre sí"
+        }
+      ],
+      "answer": {
+        "raw": "C. Son complementarias y se refuerzan mutuamente en el proceso",
+        "option_ids": [
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "En el proceso judicial moderno la audiencia oral se apoya en los escritos y los escritos cobran vida en la audiencia: ninguna sustituye a la otra; se complementan.",
+      "feedback_incorrect": "Evita las opciones extremas (\"completamente superior\", \"incompatibles\"). Revisa cómo conviven escritos y audiencias en el proceso.",
+      "tip": "Piensa en una audiencia donde el juez ya leyó los escritos: cada forma refuerza a la otra."
+    },
+    {
+      "id": "DER105-P003",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Legitimidad y claridad de las resoluciones",
+      "question_type": "single_choice",
+      "topic": "Claridad y justicia",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-2, pág. 2; PDF-3, pág. 4; PDF-4, pág. 7; PDF-5, pág. 3",
+      "prompt": "¿Qué conexión existe entre la legitimidad de los tribunales y la claridad de sus resoluciones?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La complejidad de las resoluciones aumenta la legitimidad"
+        },
+        {
+          "id": "B",
+          "text": "La legitimidad está estrechamente ligada a que las resoluciones sean claras y comprensibles"
+        },
+        {
+          "id": "C",
+          "text": "Los ciudadanos no necesitan comprender las resoluciones"
+        },
+        {
+          "id": "D",
+          "text": "La claridad debilita la autoridad judicial"
+        }
+      ],
+      "answer": {
+        "raw": "B. La legitimidad está estrechamente ligada a que las resoluciones sean claras y comprensibles",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Un tribunal es percibido como legítimo cuando la gente puede entender por qué decide lo que decide. La claridad de las resoluciones alimenta la confianza ciudadana.",
+      "feedback_incorrect": "Revisa la relación entre comprensión ciudadana y confianza en la justicia: la oscuridad no da autoridad, la resta.",
+      "tip": "Pregúntate: ¿confiarías más en una sentencia que entiendes o en una que no?"
+    },
+    {
+      "id": "DER105-P004",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Pilares de la redacción jurídica de calidad",
+      "question_type": "single_choice",
+      "topic": "Redacción jurídica",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-2, pág. 3; PDF-3, pág. 5; PDF-4, pág. 5; PDF-5, pág. 10",
+      "prompt": "¿Cuáles son los principales pilares de una redacción jurídica de calidad?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Complejidad, tecnicismo, extensión e incomprensibilidad"
+        },
+        {
+          "id": "B",
+          "text": "Claridad, precisión, sencillez y comprensibilidad"
+        },
+        {
+          "id": "C",
+          "text": "Belleza literaria, poesía, elegancia retórica y adornos"
+        },
+        {
+          "id": "D",
+          "text": "Antigüedad, latinización, arcaísmo y ceremonialismo"
+        }
+      ],
+      "answer": {
+        "raw": "B. Claridad, precisión, sencillez y comprensibilidad",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Un buen texto jurídico se entiende (claridad), dice exactamente lo que quiere decir (precisión), sin complicaciones innecesarias (sencillez) y al alcance del lector (comprensibilidad).",
+      "feedback_incorrect": "Descarta las opciones que celebran la oscuridad, el adorno o el arcaísmo: son los vicios que la asignatura combate.",
+      "tip": "Los cuatro pilares apuntan todos a lo mismo: que el lector entienda."
+    },
+    {
+      "id": "DER105-P005",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Lenguaje jurídico excesivamente complejo",
+      "question_type": "single_choice",
+      "topic": "Lenguaje claro",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-2, pág. 3; PDF-3, pág. 3; PDF-4, pág. 2; PDF-5, pág. 9",
+      "prompt": "¿Cuál de las siguientes es una manifestación del lenguaje jurídico excesivamente complejo?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La precisión terminológica cuando es realmente necesaria"
+        },
+        {
+          "id": "B",
+          "text": "El uso de arcaísmos innecesarios como 'otrosí' o 'empero'"
+        },
+        {
+          "id": "C",
+          "text": "La brevedad y claridad en la expresión"
+        },
+        {
+          "id": "D",
+          "text": "La accesibilidad del lenguaje para ciudadanos"
+        }
+      ],
+      "answer": {
+        "raw": "B. El uso de arcaísmos innecesarios como 'otrosí' o 'empero'",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Palabras anticuadas como \"otrosí\" o \"empero\" no aportan precisión: solo hacen el texto más difícil. Son el ejemplo típico de complejidad innecesaria.",
+      "feedback_incorrect": "Distingue tecnicismo necesario (precisión) de arcaísmo innecesario (adorno anticuado). Solo el segundo es un vicio.",
+      "tip": "Pregúntate si la palabra aporta significado jurídico o solo \"suena a abogado antiguo\"."
+    },
+    {
+      "id": "DER105-P006",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Movimiento de Lenguaje Claro",
+      "question_type": "single_choice",
+      "topic": "Lenguaje claro",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-2, pág. 4; PDF-4, pág. 3; PDF-5, pág. 8; PDF-s/n, pág. 11",
+      "prompt": "¿Cuál es el objetivo principal del movimiento de Lenguaje Claro (Plain Language)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mantener el Derecho como un conocimiento exclusivo de expertos"
+        },
+        {
+          "id": "B",
+          "text": "Hacer que el Derecho sea comprensible y accesible para todos los ciudadanos"
+        },
+        {
+          "id": "C",
+          "text": "Eliminar completamente el uso de términos técnicos"
+        },
+        {
+          "id": "D",
+          "text": "Reemplazar la escritura jurídica con comunicación oral"
+        }
+      ],
+      "answer": {
+        "raw": "B. Hacer que el Derecho sea comprensible y accesible para todos los ciudadanos",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El movimiento de Lenguaje Claro busca que las leyes, sentencias y documentos jurídicos puedan ser entendidos por sus destinatarios: la ciudadanía, no solo los especialistas.",
+      "feedback_incorrect": "Ojo: el Lenguaje Claro no elimina los tecnicismos necesarios ni sustituye la escritura; solo exige comprensibilidad.",
+      "tip": "\"Claro\" se opone a \"exclusivo de expertos\"."
+    },
+    {
+      "id": "DER105-P007",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Escritos confusos o extensos",
+      "question_type": "single_choice",
+      "topic": "Redacción jurídica",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-2, pág. 4; PDF-3, pág. 9; PDF-4, pág. 10; PDF-s/n, pág. 2",
+      "prompt": "¿Qué sucede cuando un escrito judicial es confuso o excesivamente extenso?",
+      "options": [
+        {
+          "id": "A",
+          "text": "El juez lo examina con mayor profundidad y atención"
+        },
+        {
+          "id": "B",
+          "text": "Automáticamente aumenta su validez legal"
+        },
+        {
+          "id": "C",
+          "text": "El mensaje esencial puede perderse antes de llegar a su destinatario"
+        },
+        {
+          "id": "D",
+          "text": "Se reduce automáticamente los costos procesales"
+        }
+      ],
+      "answer": {
+        "raw": "C. El mensaje esencial puede perderse antes de llegar a su destinatario",
+        "option_ids": [
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Un escrito confuso o interminable diluye el argumento central: el juez puede no encontrar lo importante entre tanta maleza. La extensión no equivale a calidad.",
+      "feedback_incorrect": "Recuerda que el lector judicial tiene tiempo limitado. La confusión juega contra quien escribe.",
+      "tip": "Piensa en qué le pasa a la idea principal cuando está enterrada en 50 páginas enredadas."
+    },
+    {
+      "id": "DER105-P008",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "El buen abogado como comunicador",
+      "question_type": "single_choice",
+      "topic": "Comunicación jurídica",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-2, pág. 5; PDF-3, pág. 7; PDF-5, pág. 6; PDF-s/n, pág. 4",
+      "prompt": "¿Cuál es la característica fundamental de un buen abogado según los estándares de comunicación jurídica?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Es quien escribe con lenguaje más complicado y difícil"
+        },
+        {
+          "id": "B",
+          "text": "Es quien utiliza la mayor cantidad de términos en latín"
+        },
+        {
+          "id": "C",
+          "text": "Es quien se hace entender con claridad, generando justicia efectiva"
+        },
+        {
+          "id": "D",
+          "text": "Es quien produce los documentos más extensos posible"
+        }
+      ],
+      "answer": {
+        "raw": "C. Es quien se hace entender con claridad, generando justicia efectiva",
+        "option_ids": [
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El mejor abogado no es el que más complica, sino el que logra que su mensaje llegue: claridad que se traduce en defensa efectiva de derechos.",
+      "feedback_incorrect": "Complejidad, latinismos y extensión no son méritos comunicativos; revisa el ideal de claridad de la asignatura.",
+      "tip": "Hacerse entender es la meta; todo lo demás es medio o estorbo."
+    },
+    {
+      "id": "DER105-P009",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Claridad y justicia",
+      "question_type": "single_choice",
+      "topic": "Claridad y justicia",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-2, pág. 5; PDF-3, pág. 11; PDF-5, pág. 8; PDF-s/n, pág. 1",
+      "prompt": "¿Qué relación existe entre la claridad en la comunicación jurídica y la justicia?",
+      "options": [
+        {
+          "id": "A",
+          "text": "No tienen relación alguna"
+        },
+        {
+          "id": "B",
+          "text": "La claridad es una cuestión de justicia porque permite que las personas ejerzan sus derechos"
+        },
+        {
+          "id": "C",
+          "text": "La justicia requiere necesariamente lenguaje complicado"
+        },
+        {
+          "id": "D",
+          "text": "La claridad dificulta el acceso a la justicia"
+        }
+      ],
+      "answer": {
+        "raw": "B. La claridad es una cuestión de justicia porque permite que las personas ejerzan sus derechos",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Quien no entiende una norma o una sentencia difícilmente puede ejercer o defender sus derechos. Por eso la claridad no es cortesía: es una condición del acceso a la justicia.",
+      "feedback_incorrect": "Conecta claridad con ejercicio de derechos: entender es el primer paso para reclamar.",
+      "tip": "Un derecho que no se entiende es un derecho difícil de ejercer."
+    },
+    {
+      "id": "DER105-P010",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Consecuencia de la mala comunicación jurídica",
+      "question_type": "single_choice",
+      "topic": "Comunicación jurídica",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-2, pág. 6; PDF-4, pág. 6; PDF-5, pág. 2; PDF-s/n, pág. 9",
+      "prompt": "¿Cuál es la principal consecuencia de una mala comunicación jurídica?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pérdida de prestigio profesional del abogado"
+        },
+        {
+          "id": "B",
+          "text": "Pérdida de derechos y afectación de obligaciones de personas reales"
+        },
+        {
+          "id": "C",
+          "text": "Aumento en los honorarios profesionales"
+        },
+        {
+          "id": "D",
+          "text": "Mejora en la eficiencia del sistema judicial"
+        }
+      ],
+      "answer": {
+        "raw": "B. Pérdida de derechos y afectación de obligaciones de personas reales",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Detrás de cada escrito hay personas: una mala comunicación puede costarles derechos, plazos y obligaciones. Ese es el daño más grave, más allá del prestigio del abogado.",
+      "feedback_incorrect": "Piensa en quién sufre las consecuencias finales de un escrito defectuoso: el cliente, no solo el redactor.",
+      "tip": "La opción correcta es la que mira a las personas afectadas, no al profesional."
+    },
+    {
+      "id": "DER105-P011",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Origen histórico del mito de la complejidad",
+      "question_type": "single_choice",
+      "topic": "Historia del lenguaje jurídico",
+      "difficulty": "advanced",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-2, pág. 6; PDF-3, pág. 10; PDF-4, pág. 9; PDF-s/n, pág. 3 (intento incorrecto en esta última; respuesta confirmada en las otras fuentes)",
+      "prompt": "¿En cuál período histórico se consolidó la creencia de que el lenguaje jurídico debía ser necesariamente complejo?",
+      "options": [
+        {
+          "id": "A",
+          "text": "En el siglo XVI con el Derecho Romano"
+        },
+        {
+          "id": "B",
+          "text": "En el siglo XIX bajo la influencia del positivismo jurídico"
+        },
+        {
+          "id": "C",
+          "text": "En el siglo XX con los Códigos modernos"
+        },
+        {
+          "id": "D",
+          "text": "En el siglo XXI con la era digital"
+        }
+      ],
+      "answer": {
+        "raw": "B. En el siglo XIX bajo la influencia del positivismo jurídico",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "En el siglo XIX, con el positivismo jurídico y su culto a la técnica y al sistema, se consolidó la idea de que el Derecho requería un lenguaje especializado y complejo.",
+      "feedback_incorrect": "Asocia el auge del formalismo y la ciencia jurídica del siglo XIX con la profesionalización (y complicación) del lenguaje legal.",
+      "tip": "Piensa en la época de las grandes codificaciones y la \"ciencia del Derecho\": el siglo XIX."
+    },
+    {
+      "id": "DER105-P012",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Función primaria del texto jurídico",
+      "question_type": "single_choice",
+      "topic": "Redacción jurídica",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-2, pág. 7; PDF-3, pág. 8; PDF-5, pág. 4; PDF-s/n, pág. 7",
+      "prompt": "¿Cuál es la función primaria de un texto jurídico?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Impresionar al lector con lenguaje elaborado"
+        },
+        {
+          "id": "B",
+          "text": "Demostrar la erudición del autor"
+        },
+        {
+          "id": "C",
+          "text": "Transmitir información de forma clara y regular conductas"
+        },
+        {
+          "id": "D",
+          "text": "Generar honorarios para el abogado"
+        }
+      ],
+      "answer": {
+        "raw": "C. Transmitir información de forma clara y regular conductas",
+        "option_ids": [
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El texto jurídico existe para comunicar contenidos normativos y ordenar conductas. Si no transmite con claridad, falla en su función esencial.",
+      "feedback_incorrect": "Separa la función del texto (comunicar y regular) de las motivaciones personales del autor.",
+      "tip": "Pregúntate para qué sirve una ley o una demanda: para ser entendida y aplicada."
+    },
+    {
+      "id": "DER105-P013",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Vigencia del escrito jurídico",
+      "question_type": "single_choice",
+      "topic": "Oralidad y escritura",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-2, pág. 7; PDF-3, pág. 8; PDF-5, pág. 10; PDF-s/n, pág. 2",
+      "prompt": "¿Por qué el escrito jurídico sigue siendo fundamental en el proceso judicial moderno?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Porque es más fácil de producir que la comunicación oral"
+        },
+        {
+          "id": "B",
+          "text": "Porque forma la base documental, garantiza constancia y es revisable por todas las partes"
+        },
+        {
+          "id": "C",
+          "text": "Porque permite que los abogados cobren honorarios más altos"
+        },
+        {
+          "id": "D",
+          "text": "Porque la oralidad ha sido completamente eliminada del proceso"
+        }
+      ],
+      "answer": {
+        "raw": "B. Porque forma la base documental, garantiza constancia y es revisable por todas las partes",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Lo escrito queda: el expediente documenta el proceso, da constancia de lo actuado y permite que las partes y los jueces lo revisen en cualquier momento.",
+      "feedback_incorrect": "Revisa las funciones del escrito: documentar, dar seguridad y permitir el control. La oralidad no lo ha eliminado; lo complementa.",
+      "tip": "\"Las palabras vuelan, lo escrito permanece.\""
+    },
+    {
+      "id": "DER105-P014",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "La sencillez no es vulgaridad",
+      "question_type": "single_choice",
+      "topic": "Lenguaje claro",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-2, pág. 8; PDF-4, pág. 2; PDF-5, pág. 9; PDF-s/n, pág. 10",
+      "prompt": "¿Qué significa que \"la sencillez no es vulgaridad\" en la redacción jurídica?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Que se puede escribir de forma tosca sin preocuparse por el rigor"
+        },
+        {
+          "id": "B",
+          "text": "Que usar vocabulario accesible es compatible con el rigor jurídico y demuestra respeto al lector"
+        },
+        {
+          "id": "C",
+          "text": "Que los ciudadanos no merecen textos comprensibles"
+        },
+        {
+          "id": "D",
+          "text": "Que debe eliminarse completamente la escritura jurídica"
+        }
+      ],
+      "answer": {
+        "raw": "B. Que usar vocabulario accesible es compatible con el rigor jurídico y demuestra respeto al lector",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Escribir sencillo no es escribir mal: se puede ser riguroso y preciso con palabras accesibles. La sencillez es una forma de respeto hacia quien lee.",
+      "feedback_incorrect": "No confundas sencillez con descuido: la frase defiende la claridad rigurosa, no la tosquedad.",
+      "tip": "Sencillez + rigor = respeto al lector. Busca la opción que combine ambos."
+    },
+    {
+      "id": "DER105-P015",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Falsa tecnificación del lenguaje",
+      "question_type": "single_choice",
+      "topic": "Lenguaje claro",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-2, pág. 8; PDF-4, pág. 7; PDF-5, pág. 5; PDF-s/n, pág. 5",
+      "prompt": "¿Qué es la falsa tecnificación del lenguaje jurídico?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Usar correctamente términos técnicos en contextos apropiados"
+        },
+        {
+          "id": "B",
+          "text": "Recargar el lenguaje con términos que simulan profundidad sin aportarla realmente"
+        },
+        {
+          "id": "C",
+          "text": "Capacitar a los profesionales en tecnología moderna"
+        },
+        {
+          "id": "D",
+          "text": "Simplificar excesivamente el lenguaje jurídico"
+        }
+      ],
+      "answer": {
+        "raw": "B. Recargar el lenguaje con términos que simulan profundidad sin aportarla realmente",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La falsa tecnificación es disfrazar de técnico lo que no lo es: palabras rebuscadas que aparentan profundidad pero no agregan precisión jurídica.",
+      "feedback_incorrect": "Distingue el tecnicismo legítimo (aporta precisión) del falso (solo aparenta). La opción correcta describe la simulación.",
+      "tip": "La clave está en \"simulan\": parecen técnicas, pero están vacías."
+    },
+    {
+      "id": "DER105-P016",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Responsabilidad del abogado como comunicador",
+      "question_type": "single_choice",
+      "topic": "Comunicación jurídica",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-2, pág. 9; PDF-3, pág. 10; PDF-4, pág. 11; PDF-s/n, pág. 10",
+      "prompt": "¿Cuál es la responsabilidad fundamental del abogado como comunicador?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Escribir de manera que solo otros expertos legales puedan comprender"
+        },
+        {
+          "id": "B",
+          "text": "Garantizar que tanto el cliente como el tribunal comprendan claramente los argumentos"
+        },
+        {
+          "id": "C",
+          "text": "Usar la mayor cantidad posible de términos técnicos especializados"
+        },
+        {
+          "id": "D",
+          "text": "Impresionar mediante lenguaje complicado y erudito"
+        }
+      ],
+      "answer": {
+        "raw": "B. Garantizar que tanto el cliente como el tribunal comprendan claramente los argumentos",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El abogado escribe y habla para dos públicos a la vez: el tribunal que decide y el cliente que confía. Su deber es que ambos comprendan los argumentos.",
+      "feedback_incorrect": "La comunicación del abogado no es un lucimiento personal; revisa el deber de comprensibilidad hacia cliente y tribunal.",
+      "tip": "Piensa en los dos destinatarios del mensaje del abogado."
+    },
+    {
+      "id": "DER105-P017",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Cuándo usar lenguaje técnico",
+      "question_type": "single_choice",
+      "topic": "Lenguaje claro",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-2, pág. 9; PDF-4, pág. 8; PDF-5, pág. 7; PDF-s/n, pág. 8",
+      "prompt": "¿Cuándo debe utilizarse el lenguaje técnico jurídico?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Siempre, para demostrar erudición y dominio del Derecho"
+        },
+        {
+          "id": "B",
+          "text": "Nunca, es totalmente innecesario en cualquier contexto"
+        },
+        {
+          "id": "C",
+          "text": "Cuando aporta precisión indispensable que el lenguaje ordinario no puede lograr"
+        },
+        {
+          "id": "D",
+          "text": "Solo en escrituras públicas y documentos formales"
+        }
+      ],
+      "answer": {
+        "raw": "C. Cuando aporta precisión indispensable que el lenguaje ordinario no puede lograr",
+        "option_ids": [
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El tecnicismo se justifica solo cuando es necesario: cuando ninguna palabra común expresa con la misma precisión el concepto jurídico.",
+      "feedback_incorrect": "Evita el \"siempre\" y el \"nunca\": el criterio es la necesidad de precisión, no la costumbre ni el contexto formal.",
+      "tip": "El término técnico es una herramienta de precisión, no un adorno."
+    },
+    {
+      "id": "DER105-P018",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Mala redacción y defensa del cliente",
+      "question_type": "single_choice",
+      "topic": "Redacción jurídica",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-2, pág. 10; PDF-3, pág. 7; PDF-4, pág. 9; PDF-s/n, pág. 4",
+      "prompt": "¿Cuál es el principal impacto de una mala redacción en la defensa jurídica del cliente?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ninguno, porque la oralidad puede compensar cualquier deficiencia"
+        },
+        {
+          "id": "B",
+          "text": "Puede perjudicar gravemente al cliente incluso antes de la audiencia oral"
+        },
+        {
+          "id": "C",
+          "text": "Solo afecta la apariencia estética del documento"
+        },
+        {
+          "id": "D",
+          "text": "Siempre mejora los resultados del proceso"
+        }
+      ],
+      "answer": {
+        "raw": "B. Puede perjudicar gravemente al cliente incluso antes de la audiencia oral",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El juez suele formarse una primera impresión con los escritos. Una demanda mal redactada puede dañar la posición del cliente antes de que alguien hable en audiencia.",
+      "feedback_incorrect": "No sobrevalores la oralidad como remedio: lo escrito llega primero y condiciona el proceso.",
+      "tip": "¿Qué lee el juez antes de escuchar a nadie? Los escritos."
+    },
+    {
+      "id": "DER105-P019",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Término técnico necesario",
+      "question_type": "single_choice",
+      "topic": "Lenguaje claro",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-2, pág. 10; PDF-3, pág. 9; PDF-4, pág. 10; PDF-s/n, pág. 5",
+      "prompt": "¿Cuál de los siguientes es un término técnico jurídico NECESARIO?",
+      "options": [
+        {
+          "id": "A",
+          "text": "'Empero' como sinónimo de 'pero'"
+        },
+        {
+          "id": "B",
+          "text": "'Nulidad' como concepto jurídico específico"
+        },
+        {
+          "id": "C",
+          "text": "'Otrosí' como fórmula de transición entre párrafos"
+        },
+        {
+          "id": "D",
+          "text": "'En virtud de lo cual' como frase ceremonial"
+        }
+      ],
+      "answer": {
+        "raw": "B. 'Nulidad' como concepto jurídico específico",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "\"Nulidad\" designa un concepto jurídico preciso que no puede sustituirse por una palabra común sin perder significado. \"Empero\", \"otrosí\" y las frases ceremoniales sí tienen sustitutos claros.",
+      "feedback_incorrect": "Pregunta clave: ¿la palabra tiene contenido jurídico propio o es solo una forma anticuada de decir algo común?",
+      "tip": "Intenta reemplazar cada término por una palabra ordinaria: el único que pierde significado al reemplazarse es el necesario."
+    },
+    {
+      "id": "DER105-P020",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Concepto de ambigüedad",
+      "question_type": "single_choice",
+      "topic": "Redacción jurídica",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-2, pág. 11; PDF-3, pág. 6; PDF-5, pág. 11; PDF-s/n, pág. 8",
+      "prompt": "¿Cómo se define la ambigüedad en un texto jurídico?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Una cualidad que enriquece el significado del texto"
+        },
+        {
+          "id": "B",
+          "text": "Cuando el texto admite más de un significado, generando incertidumbre sobre su alcance"
+        },
+        {
+          "id": "C",
+          "text": "La capacidad de ser breve y conciso"
+        },
+        {
+          "id": "D",
+          "text": "El uso correcto del lenguaje técnico especializado"
+        }
+      ],
+      "answer": {
+        "raw": "B. Cuando el texto admite más de un significado, generando incertidumbre sobre su alcance",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Un texto es ambiguo cuando puede leerse de dos o más maneras. En el Derecho eso es un defecto grave: genera incertidumbre sobre derechos y obligaciones.",
+      "feedback_incorrect": "En literatura la ambigüedad puede ser riqueza; en Derecho es un riesgo. Revisa por qué la certeza exige un solo sentido.",
+      "tip": "Ambiguo = admite más de una lectura."
+    },
+    {
+      "id": "DER105-P021",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Oralidad sin lectura previa de escritos",
+      "question_type": "single_choice",
+      "topic": "Oralidad y escritura",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-3, pág. 1; PDF-4, pág. 4; PDF-5, pág. 1; PDF-s/n, pág. 3",
+      "prompt": "¿Qué ocurre con la efectividad de la oralidad cuando el juez no ha leído los escritos con antelación?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La oralidad gana total efectividad sin necesidad de lo escrito"
+        },
+        {
+          "id": "B",
+          "text": "Los escritos se vuelven completamente innecesarios"
+        },
+        {
+          "id": "C",
+          "text": "La oralidad pierde gran parte de su efectividad sin ese respaldo"
+        },
+        {
+          "id": "D",
+          "text": "El proceso judicial se acelera significativamente"
+        }
+      ],
+      "answer": {
+        "raw": "C. La oralidad pierde gran parte de su efectividad sin ese respaldo",
+        "option_ids": [
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La audiencia rinde cuando el juez llega preparado: si no leyó los escritos, la exposición oral pierde contexto y fuerza. La oralidad necesita el respaldo de lo escrito.",
+      "feedback_incorrect": "Recuerda la complementariedad: la oralidad funciona mejor sobre la base documental previa.",
+      "tip": "Imagina exponer ante alguien que no conoce el caso: eso le pasa a la oralidad sin escritos leídos."
+    },
+    {
+      "id": "DER105-P022",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "El principal mito del lenguaje jurídico",
+      "question_type": "single_choice",
+      "topic": "Lenguaje claro",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-3, pág. 2; PDF-4, pág. 8; PDF-5, pág. 2; PDF-s/n, pág. 7",
+      "prompt": "¿Cuál es el principal mito en relación al lenguaje jurídico?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Que la claridad es símbolo de debilidad jurídica"
+        },
+        {
+          "id": "B",
+          "text": "Que cuanto más difícil y enrevesado es el lenguaje, mayor calidad tiene el trabajo jurídico"
+        },
+        {
+          "id": "C",
+          "text": "Que el español es la mejor lengua para redactar documentos"
+        },
+        {
+          "id": "D",
+          "text": "Que los abogados no necesitan conocer gramática básica"
+        }
+      ],
+      "answer": {
+        "raw": "B. Que cuanto más difícil y enrevesado es el lenguaje, mayor calidad tiene el trabajo jurídico",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El gran mito es confundir dificultad con calidad: se cree que escribir enredado es escribir \"más jurídico\", cuando en realidad la calidad está en la claridad y la precisión.",
+      "feedback_incorrect": "Revisa la crítica de la asignatura a la equiparación entre complejidad y profesionalismo.",
+      "tip": "El mito premia lo enrevesado; la realidad premia lo claro."
+    },
+    {
+      "id": "DER105-P023",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Mala redacción e inseguridad jurídica",
+      "question_type": "single_choice",
+      "topic": "Redacción jurídica",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-3, pág. 3; PDF-4, pág. 1; PDF-5, pág. 5; PDF-s/n, pág. 6",
+      "prompt": "¿Cuál de las siguientes es una consecuencia importante de la mala redacción jurídica?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mayor confianza ciudadana en el sistema de justicia"
+        },
+        {
+          "id": "B",
+          "text": "Inseguridad jurídica y dificultad de acceso a la justicia"
+        },
+        {
+          "id": "C",
+          "text": "Reducción significativa de pleitos judiciales"
+        },
+        {
+          "id": "D",
+          "text": "Aumento automático en la efectividad de los procesos"
+        }
+      ],
+      "answer": {
+        "raw": "B. Inseguridad jurídica y dificultad de acceso a la justicia",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Textos jurídicos mal redactados generan dudas sobre qué se ordena o reconoce: eso es inseguridad jurídica, y aleja a las personas de la justicia.",
+      "feedback_incorrect": "Conecta mala redacción → ambigüedad → incertidumbre → obstáculo para ejercer derechos.",
+      "tip": "Las otras opciones describen mejoras; la mala redacción solo empeora las cosas."
+    },
+    {
+      "id": "DER105-P024",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "El verdadero problema de la escritura jurídica",
+      "question_type": "single_choice",
+      "topic": "Redacción jurídica",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-3, pág. 4; PDF-4, pág. 5; PDF-5, pág. 3; PDF-s/n, pág. 9",
+      "prompt": "¿Cuál de los siguientes es el verdadero problema en la escritura jurídica?",
+      "options": [
+        {
+          "id": "A",
+          "text": "El uso de términos técnicos precisos"
+        },
+        {
+          "id": "B",
+          "text": "La sintaxis enredada, palabras superfluas y estructuras que oscurecen el mensaje"
+        },
+        {
+          "id": "C",
+          "text": "La brevedad excesiva de los párrafos"
+        },
+        {
+          "id": "D",
+          "text": "El uso de palabras modernas y actuales"
+        }
+      ],
+      "answer": {
+        "raw": "B. La sintaxis enredada, palabras superfluas y estructuras que oscurecen el mensaje",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El problema no son los tecnicismos necesarios sino la construcción del texto: frases enredadas, palabras que sobran y estructuras que esconden la idea.",
+      "feedback_incorrect": "Diferencia el vocabulario técnico (legítimo) de la mala arquitectura de las oraciones (el verdadero vicio).",
+      "tip": "El enemigo es el enredo, no el término técnico."
+    },
+    {
+      "id": "DER105-P025",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Principio hermenéutico del sentido natural",
+      "question_type": "single_choice",
+      "topic": "Interpretación y lenguaje",
+      "difficulty": "advanced",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-3, pág. 6; PDF-4, pág. 6; PDF-5, pág. 7; PDF-s/n, pág. 6",
+      "prompt": "¿Cuál es el principio hermenéutico fundamental en la interpretación de las leyes?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Las palabras deben entenderse en el sentido más complicado posible"
+        },
+        {
+          "id": "B",
+          "text": "Las palabras deben entenderse en su sentido natural y obvio según el uso general"
+        },
+        {
+          "id": "C",
+          "text": "Las palabras deben incluir necesariamente latinismos"
+        },
+        {
+          "id": "D",
+          "text": "Las palabras deben ser interpretadas únicamente por expertos"
+        }
+      ],
+      "answer": {
+        "raw": "B. Las palabras deben entenderse en su sentido natural y obvio según el uso general",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La regla clásica de interpretación ordena entender las palabras de la ley en su sentido natural y obvio, según el uso común, salvo que el legislador las haya definido técnicamente.",
+      "feedback_incorrect": "Repasa las reglas de interpretación de la ley: el punto de partida es el sentido corriente de las palabras.",
+      "tip": "La ley se escribe para ser entendida: su primer sentido es el del uso general."
+    },
+    {
+      "id": "DER105-P026",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Corrección del conector \"sin embargo\"",
+      "question_type": "single_choice",
+      "topic": "Conectores y puntuación",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-6, pág. 1",
+      "prompt": "En el mismo texto anterior, ¿qué corrección corresponde realizar respecto al conector \"sin embargo\"?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Colocar dos puntos antes del conector."
+        },
+        {
+          "id": "B",
+          "text": "Colocar únicamente una coma antes."
+        },
+        {
+          "id": "C",
+          "text": "Eliminar el conector."
+        },
+        {
+          "id": "D",
+          "text": "Colocar punto y coma antes y coma después del conector."
+        }
+      ],
+      "answer": {
+        "raw": "D. Colocar punto y coma antes y coma después del conector.",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "\"Sin embargo\" entre dos oraciones se puntúa así: punto y coma antes, coma después (\"…fue admitida; sin embargo, no se notificó…\").",
+      "feedback_incorrect": "Repasa la puntuación de los conectores adversativos entre oraciones independientes: requieren pausa fuerte antes y coma después.",
+      "tip": "Memoriza el patrón: \"; sin embargo,\"."
+    },
+    {
+      "id": "DER105-P027",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Conector adversativo bien puntuado",
+      "question_type": "single_choice",
+      "topic": "Conectores y puntuación",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-6, pág. 2",
+      "prompt": "¿Cuál de las siguientes oraciones utiliza correctamente un conector adversativo?",
+      "options": [
+        {
+          "id": "A",
+          "text": "El informe fue presentado, sin embargo no fue valorado."
+        },
+        {
+          "id": "B",
+          "text": "El informe fue presentado sin embargo, no fue valorado."
+        },
+        {
+          "id": "C",
+          "text": "El informe fue presentado; sin embargo no fue valorado."
+        },
+        {
+          "id": "D",
+          "text": "El informe fue presentado; sin embargo, no fue valorado."
+        }
+      ],
+      "answer": {
+        "raw": "D. El informe fue presentado; sin embargo, no fue valorado.",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La forma correcta lleva punto y coma antes de \"sin embargo\" y coma después: dos oraciones independientes unidas por el conector adversativo.",
+      "feedback_incorrect": "Compara las cuatro opciones fijándote solo en los signos: falta la coma posterior o la pausa fuerte previa en las incorrectas.",
+      "tip": "El patrón completo es \"; sin embargo,\" — con ambos signos."
+    },
+    {
+      "id": "DER105-P028",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Coma antes de \"y\"",
+      "question_type": "single_choice",
+      "topic": "Uso de la coma",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-6, pág. 2",
+      "prompt": "Seleccione la oración en la que la coma antes de \"y\" está correctamente utilizada.",
+      "options": [
+        {
+          "id": "A",
+          "text": "El abogado redactó el recurso, y presentó."
+        },
+        {
+          "id": "B",
+          "text": "El demandado contestó la demanda y presentó pruebas."
+        },
+        {
+          "id": "C",
+          "text": "El perito rindió su informe, y el juez ordenó incorporarlo al expediente."
+        },
+        {
+          "id": "D",
+          "text": "La jueza analizó la prueba, y resolvió el caso."
+        }
+      ],
+      "answer": {
+        "raw": "C. El perito rindió su informe, y el juez ordenó incorporarlo al expediente.",
+        "option_ids": [
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La coma antes de \"y\" es correcta cuando une dos oraciones con sujetos distintos (\"el perito… , y el juez…\"). Si el sujeto es el mismo, no se usa coma.",
+      "feedback_incorrect": "Verifica los sujetos de cada parte: la coma ante \"y\" se justifica al cambiar de sujeto u oración completa.",
+      "tip": "Busca la opción con dos sujetos diferentes a cada lado de la \"y\"."
+    },
+    {
+      "id": "DER105-P029",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Masculino genérico",
+      "question_type": "single_choice",
+      "topic": "Gramática y género",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-6, pág. 3",
+      "prompt": "En un documento jurídico se escribe: \"Los abogados deberán presentar sus alegatos hasta el viernes.\" ¿Qué característica presenta esta expresión?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Utiliza un error de concordancia."
+        },
+        {
+          "id": "B",
+          "text": "Contiene una oración adversativa."
+        },
+        {
+          "id": "C",
+          "text": "Presenta una omisión del sujeto."
+        },
+        {
+          "id": "D",
+          "text": "Emplea el masculino genérico para referirse al colectivo."
+        }
+      ],
+      "answer": {
+        "raw": "D. Emplea el masculino genérico para referirse al colectivo.",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "\"Los abogados\" designa aquí a todo el colectivo profesional (hombres y mujeres): es el masculino genérico del español, no un error gramatical.",
+      "feedback_incorrect": "Repasa el concepto de masculino genérico: la oración es gramaticalmente correcta y tiene sujeto expreso.",
+      "tip": "Pregúntate a quiénes abarca \"los abogados\" en esa frase."
+    },
+    {
+      "id": "DER105-P030",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Comas del inciso explicativo",
+      "question_type": "single_choice",
+      "topic": "Incisos y aposiciones",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-6, pág. 3",
+      "prompt": "En la oración: \"David, el contable, no ha venido hoy\", las comas aíslan:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Una oración subordinada."
+        },
+        {
+          "id": "B",
+          "text": "Un complemento directo."
+        },
+        {
+          "id": "C",
+          "text": "Un verbo."
+        },
+        {
+          "id": "D",
+          "text": "Un inciso explicativo."
+        }
+      ],
+      "answer": {
+        "raw": "D. Un inciso explicativo.",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "\"El contable\" es un inciso explicativo (aposición) que aclara quién es David; por eso va entre comas y puede suprimirse sin dañar la oración.",
+      "feedback_incorrect": "Repasa los incisos explicativos: información adicional entre comas que puede eliminarse sin alterar el sentido básico.",
+      "tip": "Quita lo que está entre comas: si la oración sigue funcionando, era un inciso."
+    },
+    {
+      "id": "DER105-P031",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Signo que introduce enumeraciones",
+      "question_type": "single_choice",
+      "topic": "Signos de puntuación",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-6, pág. 4; PDF-9, pág. 9",
+      "prompt": "¿Qué signo suele introducir una enumeración jurídica?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Paréntesis"
+        },
+        {
+          "id": "B",
+          "text": "Coma"
+        },
+        {
+          "id": "C",
+          "text": "Punto final"
+        },
+        {
+          "id": "D",
+          "text": "Dos puntos"
+        }
+      ],
+      "answer": {
+        "raw": "D. Dos puntos",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Los dos puntos anuncian lo que viene: son el signo típico para abrir una enumeración (\"Se requieren los siguientes documentos: …\").",
+      "feedback_incorrect": "Repasa las funciones de los dos puntos: anunciar enumeraciones, citas y explicaciones.",
+      "tip": "Piensa en cómo se abre una lista en un contrato."
+    },
+    {
+      "id": "DER105-P032",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Supresión de la relativa explicativa",
+      "question_type": "single_choice",
+      "topic": "Oraciones de relativo",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-6, pág. 4",
+      "prompt": "Si eliminamos la frase \"que está junto a la linde\" de la oración anterior (\"La vivienda, que está junto a la linde, pertenece al demandante\"):",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cambia el sujeto de la oración."
+        },
+        {
+          "id": "B",
+          "text": "La oración pierde sentido completamente."
+        },
+        {
+          "id": "C",
+          "text": "Se convierte en una pregunta."
+        },
+        {
+          "id": "D",
+          "text": "La idea principal permanece intacta."
+        }
+      ],
+      "answer": {
+        "raw": "D. La idea principal permanece intacta.",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Las relativas explicativas (entre comas) añaden información prescindible: al quitarlas, la oración principal conserva íntegro su sentido (\"La vivienda pertenece al demandante\").",
+      "feedback_incorrect": "Repasa la diferencia entre relativas explicativas (suprimibles) y especificativas (necesarias para identificar al sustantivo).",
+      "tip": "Lo que va entre comas suele poder quitarse sin romper la oración."
+    },
+    {
+      "id": "DER105-P033",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Aposición \"doctor Luis Pérez\"",
+      "question_type": "single_choice",
+      "topic": "Incisos y aposiciones",
+      "difficulty": "medium",
+      "status": "pending_review",
+      "active": false,
+      "provenance": "original_simulator",
+      "source": "PDF-6, pág. 5 (pregunta sin contestar en el intento; el aula virtual no reveló la respuesta)",
+      "prompt": "En la oración \"El procurador del caso, doctor Luis Pérez, presentó la demanda\", la expresión \"doctor Luis Pérez\" es:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Inciso explicativo."
+        },
+        {
+          "id": "B",
+          "text": "Objeto indirecto."
+        },
+        {
+          "id": "C",
+          "text": "Complemento directo."
+        },
+        {
+          "id": "D",
+          "text": "Verbo."
+        }
+      ],
+      "answer": {
+        "raw": "Pendiente de revisión. La fuente no permite identificar con seguridad la alternativa marcada como correcta (pregunta sin contestar; el aula no mostró la solución). Gramaticalmente, la opción A (inciso explicativo) es la más defendible, pero debe confirmarse con el aula virtual antes de usarla en el simulador.",
+        "option_ids": [],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La expresión entre comas aclara quién es el procurador; ese tipo de construcción se conoce como inciso o aposición explicativa.",
+      "feedback_incorrect": "Repasa las aposiciones explicativas: elementos entre comas que identifican o aclaran al sustantivo anterior.",
+      "tip": "Fíjate en que la expresión va entre comas y puede suprimirse."
+    },
+    {
+      "id": "DER105-P034",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Mayúscula institucional",
+      "question_type": "single_choice",
+      "topic": "Uso de mayúsculas",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-6, pág. 5",
+      "prompt": "¿Cuál de las siguientes palabras debe escribirse con mayúscula cuando se refiere a una institución específica?",
+      "options": [
+        {
+          "id": "A",
+          "text": "abogado"
+        },
+        {
+          "id": "B",
+          "text": "juez"
+        },
+        {
+          "id": "C",
+          "text": "Parlamento, como órgano legislativo específico"
+        },
+        {
+          "id": "D",
+          "text": "parlamento"
+        }
+      ],
+      "answer": {
+        "raw": "C. Parlamento, como órgano legislativo específico",
+        "option_ids": [
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Los nombres de instituciones concretas se escriben con mayúscula: \"el Parlamento aprobó la ley\" (institución específica) frente a \"un parlamento\" (genérico).",
+      "feedback_incorrect": "Repasa la regla: mayúscula para la institución determinada; minúscula para el uso genérico y para las profesiones.",
+      "tip": "Profesiones en minúscula; instituciones concretas en mayúscula."
+    },
+    {
+      "id": "DER105-P035",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Relativa explicativa (vivienda junto a la linde)",
+      "question_type": "single_choice",
+      "topic": "Oraciones de relativo",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-6, pág. 6; PDF-9, pág. 7",
+      "prompt": "¿Cuál de las siguientes oraciones contiene una oración de relativo explicativa?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La vivienda, que está junto a la linde, pertenece al demandante."
+        },
+        {
+          "id": "B",
+          "text": "El juez dictó sentencia ayer."
+        },
+        {
+          "id": "C",
+          "text": "El abogado presentó la demanda."
+        },
+        {
+          "id": "D",
+          "text": "La vivienda que está junto a la linde pertenece al demandante."
+        }
+      ],
+      "answer": {
+        "raw": "A. La vivienda, que está junto a la linde, pertenece al demandante.",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La relativa explicativa va entre comas y añade información no restrictiva: la opción A explica algo de la vivienda sin restringir de cuál se habla. Sin comas (opción D), la misma frase se vuelve especificativa.",
+      "feedback_incorrect": "Compara A y D: la única diferencia son las comas, y esas comas cambian el tipo de oración y su alcance jurídico.",
+      "tip": "Explicativa = entre comas; especificativa = sin comas."
+    },
+    {
+      "id": "DER105-P036",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Párrafo jurídico bien elaborado",
+      "question_type": "single_choice",
+      "topic": "Estructura del párrafo",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-6, pág. 6; PDF-9, pág. 9 (intento incorrecto en esta última; respuesta confirmada en PDF-6)",
+      "prompt": "¿Qué caracteriza a un párrafo jurídico bien elaborado?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Unidad temática."
+        },
+        {
+          "id": "B",
+          "text": "Ausencia de signos de puntuación."
+        },
+        {
+          "id": "C",
+          "text": "Varias ideas principales simultáneas."
+        },
+        {
+          "id": "D",
+          "text": "Uso exclusivo de mayúsculas."
+        }
+      ],
+      "answer": {
+        "raw": "A. Unidad temática.",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Un buen párrafo desarrolla una sola idea principal: eso es la unidad temática. Varias ideas mezcladas o la falta de puntuación destruyen la claridad.",
+      "feedback_incorrect": "Repasa la regla de oro del párrafo: una idea principal por párrafo, con oraciones que la desarrollan.",
+      "tip": "Un párrafo, una idea."
+    },
+    {
+      "id": "DER105-P037",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Coma vocativa",
+      "question_type": "single_choice",
+      "topic": "Uso de la coma",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-6, pág. 7",
+      "prompt": "Seleccione la oración que utiliza correctamente la coma vocativa.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Señor juez solicito, que se admita la demanda."
+        },
+        {
+          "id": "B",
+          "text": "Señor juez solicito que se admita la demanda."
+        },
+        {
+          "id": "C",
+          "text": "Señor, juez solicito que se admita la demanda."
+        },
+        {
+          "id": "D",
+          "text": "Señor juez, solicito que se admita la demanda."
+        }
+      ],
+      "answer": {
+        "raw": "D. Señor juez, solicito que se admita la demanda.",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El vocativo (\"Señor juez\") es el destinatario al que nos dirigimos y debe separarse con coma del resto de la oración.",
+      "feedback_incorrect": "Identifica primero el vocativo completo (\"Señor juez\") y colócale la coma inmediatamente después.",
+      "tip": "La coma va después de nombrar a quien te diriges."
+    },
+    {
+      "id": "DER105-P038",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Función de la mayúscula",
+      "question_type": "single_choice",
+      "topic": "Uso de mayúsculas",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-6, pág. 7",
+      "prompt": "¿Cuál es una de las funciones principales de la mayúscula en la redacción jurídica?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sustituir signos de puntuación."
+        },
+        {
+          "id": "B",
+          "text": "Separar párrafos."
+        },
+        {
+          "id": "C",
+          "text": "Reemplazar conectores jurídicos."
+        },
+        {
+          "id": "D",
+          "text": "Delimitar nombres propios e iniciar oraciones."
+        }
+      ],
+      "answer": {
+        "raw": "D. Delimitar nombres propios e iniciar oraciones.",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La mayúscula marca el inicio de oración y señala los nombres propios (personas, instituciones, lugares). No sustituye signos ni conectores.",
+      "feedback_incorrect": "Repasa las dos funciones básicas de la mayúscula: demarcativa (inicio de oración) y distintiva (nombres propios).",
+      "tip": "Piensa en cuándo usas mayúscula al escribir cualquier texto."
+    },
+    {
+      "id": "DER105-P039",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "El punto final",
+      "question_type": "single_choice",
+      "topic": "Signos de puntuación",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-6, pág. 8",
+      "prompt": "¿Qué indica el punto final?",
+      "options": [
+        {
+          "id": "A",
+          "text": "El cierre total del texto."
+        },
+        {
+          "id": "B",
+          "text": "Una aclaración."
+        },
+        {
+          "id": "C",
+          "text": "Una pausa breve."
+        },
+        {
+          "id": "D",
+          "text": "Una enumeración."
+        }
+      ],
+      "answer": {
+        "raw": "A. El cierre total del texto.",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El punto final es el que cierra todo el texto; se distingue del punto y seguido (cierra oración) y del punto y aparte (cierra párrafo).",
+      "feedback_incorrect": "Repasa los tres tipos de punto: y seguido, y aparte, y final.",
+      "tip": "\"Final\" lo dice todo: no viene nada después."
+    },
+    {
+      "id": "DER105-P040",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Apodo entre comas",
+      "question_type": "single_choice",
+      "topic": "Incisos y aposiciones",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-6, pág. 8",
+      "prompt": "¿Cuál de los siguientes ejemplos contiene correctamente un apodo separado por comas?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lola Flores la Faraona fue artista."
+        },
+        {
+          "id": "B",
+          "text": "Lola Flores, la Faraona, fue artista."
+        },
+        {
+          "id": "C",
+          "text": "Alfonso II, el Casto, fue rey."
+        },
+        {
+          "id": "D",
+          "text": "Lorenzo, el Magnífico fue mecenas."
+        }
+      ],
+      "answer": {
+        "raw": "B. Lola Flores, la Faraona, fue artista.",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El apodo que acompaña al nombre se aísla entre dos comas: \"Lola Flores, la Faraona, fue artista\". Falta una coma o sobran en las demás opciones marcadas como incorrectas por la fuente.",
+      "feedback_incorrect": "Verifica que el apodo tenga coma de apertura y coma de cierre.",
+      "tip": "El inciso necesita dos comas, como un paréntesis."
+    },
+    {
+      "id": "DER105-P041",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Coma vocativa en pregunta",
+      "question_type": "single_choice",
+      "topic": "Uso de la coma",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-6, pág. 9",
+      "prompt": "¿Cuál de las siguientes oraciones presenta un uso correcto de la coma vocativa en una pregunta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "¿Doctor podría revisar este contrato?"
+        },
+        {
+          "id": "B",
+          "text": "¿Doctor podría revisar, este contrato?"
+        },
+        {
+          "id": "C",
+          "text": "¿Doctor podría, revisar este contrato?"
+        },
+        {
+          "id": "D",
+          "text": "¿Doctor, podría revisar este contrato?"
+        }
+      ],
+      "answer": {
+        "raw": "D. ¿Doctor, podría revisar este contrato?",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El vocativo \"Doctor\" se separa con coma también dentro de una pregunta: \"¿Doctor, podría revisar este contrato?\".",
+      "feedback_incorrect": "La regla del vocativo no cambia por los signos de interrogación: coma tras el nombre del destinatario.",
+      "tip": "Ubica a quién se dirige la pregunta y sepáralo con coma."
+    },
+    {
+      "id": "DER105-P042",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Signo para separar elementos",
+      "question_type": "single_choice",
+      "topic": "Signos de puntuación",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-6, pág. 9",
+      "prompt": "¿Qué signo de puntuación se utiliza para separar elementos dentro de una oración y facilitar su comprensión?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Coma."
+        },
+        {
+          "id": "B",
+          "text": "Dos puntos."
+        },
+        {
+          "id": "C",
+          "text": "Paréntesis."
+        },
+        {
+          "id": "D",
+          "text": "Punto y coma."
+        }
+      ],
+      "answer": {
+        "raw": "A. Coma.",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La coma es el signo básico para separar elementos dentro de la oración: enumeraciones, incisos, circunstancias.",
+      "feedback_incorrect": "Repasa la función separadora de la coma frente a los signos de cierre o anuncio.",
+      "tip": "Es el signo más frecuente del español."
+    },
+    {
+      "id": "DER105-P043",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "La coma cambia la interpretación",
+      "question_type": "single_choice",
+      "topic": "Puntuación y Derecho",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-6, pág. 10; PDF-9, pág. 8",
+      "prompt": "¿Cuál de las siguientes afirmaciones es correcta respecto de la coma en Derecho?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Puede cambiar la interpretación jurídica de un texto."
+        },
+        {
+          "id": "B",
+          "text": "Es opcional en los documentos jurídicos."
+        },
+        {
+          "id": "C",
+          "text": "Nunca modifica el significado de una oración."
+        },
+        {
+          "id": "D",
+          "text": "Solo se utiliza en contratos."
+        }
+      ],
+      "answer": {
+        "raw": "A. Puede cambiar la interpretación jurídica de un texto.",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Una coma puede convertir una cláusula explicativa en restrictiva o alterar el alcance de una obligación: en Derecho, la coma tiene consecuencias interpretativas reales.",
+      "feedback_incorrect": "Recuerda el caso de las relativas: con o sin comas, la misma frase abarca cosas distintas.",
+      "tip": "Piensa en \"La vivienda, que está junto a la linde\" frente a \"La vivienda que está junto a la linde\"."
+    },
+    {
+      "id": "DER105-P044",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Error frecuente de organización",
+      "question_type": "single_choice",
+      "topic": "Estructura del texto",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-6, pág. 10",
+      "prompt": "¿Cuál es un error frecuente en la organización de textos jurídicos?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Emplear títulos."
+        },
+        {
+          "id": "B",
+          "text": "Redactar oraciones excesivamente largas."
+        },
+        {
+          "id": "C",
+          "text": "Separar ideas por párrafos."
+        },
+        {
+          "id": "D",
+          "text": "Utilizar conectores."
+        }
+      ],
+      "answer": {
+        "raw": "B. Redactar oraciones excesivamente largas.",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Las oraciones kilométricas son el vicio organizativo más común del texto jurídico: dificultan seguir la idea y multiplican los errores de puntuación.",
+      "feedback_incorrect": "Títulos, párrafos y conectores son ayudas, no errores. El problema es la extensión desmedida de las oraciones.",
+      "tip": "Busca la opción que describe un exceso, no una herramienta."
+    },
+    {
+      "id": "DER105-P045",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Punto y seguido",
+      "question_type": "single_choice",
+      "topic": "Signos de puntuación",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-6, pág. 11",
+      "prompt": "¿Qué tipo de punto separa oraciones dentro de un mismo párrafo?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Punto y seguido"
+        },
+        {
+          "id": "B",
+          "text": "Punto y aparte"
+        },
+        {
+          "id": "C",
+          "text": "Dos puntos"
+        },
+        {
+          "id": "D",
+          "text": "Punto final"
+        }
+      ],
+      "answer": {
+        "raw": "A. Punto y seguido",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El punto y seguido cierra una oración y permite continuar en el mismo párrafo; el punto y aparte cambia de párrafo; el final cierra el texto.",
+      "feedback_incorrect": "Repasa los tres tipos de punto y su ámbito: oración, párrafo, texto.",
+      "tip": "\"Seguido\" = se sigue escribiendo en el mismo párrafo."
+    },
+    {
+      "id": "DER105-P046",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Coma circunstancial",
+      "question_type": "single_choice",
+      "topic": "Uso de la coma",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-7, pág. 1; PDF-9, pág. 10",
+      "prompt": "¿Cuál es la finalidad principal de la coma circunstancial?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Separar elementos de una enumeración."
+        },
+        {
+          "id": "B",
+          "text": "Delimitar información circunstancial que complementa la acción principal."
+        },
+        {
+          "id": "C",
+          "text": "Sustituir un verbo."
+        },
+        {
+          "id": "D",
+          "text": "Separar al destinatario del mensaje."
+        }
+      ],
+      "answer": {
+        "raw": "B. Delimitar información circunstancial que complementa la acción principal.",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La coma circunstancial aísla complementos de tiempo, modo o lugar (\"El juez, luego del análisis probatorio, dictó sentencia\"), marcando qué es contexto y qué es acción principal.",
+      "feedback_incorrect": "Distingue las funciones de la coma: enumerativa, vocativa, elíptica y circunstancial. Aquí se pregunta por la circunstancial.",
+      "tip": "\"Circunstancial\" alude a las circunstancias: cuándo, cómo, dónde."
+    },
+    {
+      "id": "DER105-P047",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Sustantivo de forma única (común en cuanto al género)",
+      "question_type": "single_choice",
+      "topic": "Gramática y género",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-7, pág. 2; PDF-9, pág. 8 (intento incorrecto en esta última; respuesta confirmada en PDF-7)",
+      "prompt": "¿Cuál de los siguientes sustantivos mantiene la misma forma para el masculino y el femenino, diferenciándose únicamente por el artículo?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Magistrado."
+        },
+        {
+          "id": "B",
+          "text": "Testigo."
+        },
+        {
+          "id": "C",
+          "text": "Fiscal."
+        },
+        {
+          "id": "D",
+          "text": "Abogado."
+        }
+      ],
+      "answer": {
+        "raw": "B. Testigo.",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "\"Testigo\" es común en cuanto al género: el testigo / la testigo. En cambio, magistrado/magistrada y abogado/abogada cambian de forma.",
+      "feedback_incorrect": "Prueba a formar el femenino de cada palabra: solo \"testigo\" queda igual y distingue el género con el artículo. Nota: \"fiscal\" también funciona así en el uso general, pero la fuente del aula virtual marcó \"testigo\" como la respuesta correcta.",
+      "tip": "Di \"la ___\" con cada opción y observa cuál no necesita cambiar su terminación."
+    },
+    {
+      "id": "DER105-P048",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Coma elíptica",
+      "question_type": "single_choice",
+      "topic": "Uso de la coma",
+      "difficulty": "advanced",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-7, pág. 2",
+      "prompt": "Seleccione la opción que emplea correctamente la coma elíptica.",
+      "options": [
+        {
+          "id": "A",
+          "text": "El actor presentó pruebas; el demandado presentó testigos."
+        },
+        {
+          "id": "B",
+          "text": "El actor, presentó pruebas; el demandado presentó testigos."
+        },
+        {
+          "id": "C",
+          "text": "El actor presentó, pruebas; el demandado testigos."
+        },
+        {
+          "id": "D",
+          "text": "El actor presentó pruebas; el demandado, testigos."
+        }
+      ],
+      "answer": {
+        "raw": "D. El actor presentó pruebas; el demandado, testigos.",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La coma elíptica sustituye a un verbo ya mencionado: \"el demandado, testigos\" omite \"presentó\" y lo marca con la coma.",
+      "feedback_incorrect": "Repasa la elipsis verbal: cuando el segundo miembro repite el mismo verbo, se suprime y en su lugar va una coma.",
+      "tip": "Busca dónde falta el verbo y hay una coma ocupando su lugar."
+    },
+    {
+      "id": "DER105-P049",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Uso del punto y coma",
+      "question_type": "single_choice",
+      "topic": "Signos de puntuación",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-7, pág. 3",
+      "prompt": "¿En cuál de las siguientes situaciones resulta más adecuado utilizar el punto y coma?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Para sustituir los dos puntos."
+        },
+        {
+          "id": "B",
+          "text": "Para unir dos oraciones estrechamente relacionadas que podrían escribirse por separado."
+        },
+        {
+          "id": "C",
+          "text": "Para separar el sujeto del verbo."
+        },
+        {
+          "id": "D",
+          "text": "Para separar los elementos de una enumeración simple."
+        }
+      ],
+      "answer": {
+        "raw": "B. Para unir dos oraciones estrechamente relacionadas que podrían escribirse por separado.",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El punto y coma une oraciones independientes pero vinculadas por el sentido: más fuerte que la coma, más suave que el punto.",
+      "feedback_incorrect": "Nunca se separa sujeto y verbo con signo; y las enumeraciones simples usan coma. Repasa el punto y coma como \"puente\" entre oraciones hermanas.",
+      "tip": "Piensa en dos oraciones que podrían ir con punto, pero que quieres mantener unidas."
+    },
+    {
+      "id": "DER105-P050",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Concordancia artículo-sustantivo",
+      "question_type": "single_choice",
+      "topic": "Gramática y género",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-7, pág. 3",
+      "prompt": "¿Cuál de las siguientes expresiones presenta una concordancia correcta entre artículo y sustantivo?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La abogado presentó la demanda."
+        },
+        {
+          "id": "B",
+          "text": "La fiscalo solicitó medidas cautelares."
+        },
+        {
+          "id": "C",
+          "text": "La magistrado emitió su voto."
+        },
+        {
+          "id": "D",
+          "text": "La jueza dictó sentencia."
+        }
+      ],
+      "answer": {
+        "raw": "D. La jueza dictó sentencia.",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "\"La jueza\" concuerda en género artículo y sustantivo. \"La abogado\" y \"la magistrado\" rompen la concordancia, y \"fiscalo\" no existe.",
+      "feedback_incorrect": "Repasa los femeninos profesionales aceptados: abogada, magistrada, jueza, fiscal (común).",
+      "tip": "Lee cada opción en voz alta: la correcta suena natural."
+    },
+    {
+      "id": "DER105-P051",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Punto y coma en enumeraciones complejas",
+      "question_type": "single_choice",
+      "topic": "Signos de puntuación",
+      "difficulty": "advanced",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-7, pág. 4; PDF-9, pág. 10",
+      "prompt": "Observe la siguiente enumeración: \"Se entregarán recursos para infraestructura, equipamiento tecnológico, capacitación docente y adquisición de bibliografía.\" Si cada elemento incluyera explicaciones internas separadas por comas, ¿qué signo sería el más adecuado para separar cada elemento principal?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Punto."
+        },
+        {
+          "id": "B",
+          "text": "Dos puntos."
+        },
+        {
+          "id": "C",
+          "text": "Coma."
+        },
+        {
+          "id": "D",
+          "text": "Punto y coma."
+        }
+      ],
+      "answer": {
+        "raw": "D. Punto y coma.",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Cuando los elementos de una enumeración ya contienen comas internas, los elementos principales se separan con punto y coma para que la estructura sea legible.",
+      "feedback_incorrect": "Repasa la regla de las enumeraciones complejas: coma dentro de cada elemento, punto y coma entre elementos.",
+      "tip": "El punto y coma es la \"coma mayor\" de las listas complejas."
+    },
+    {
+      "id": "DER105-P052",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Complemento indirecto",
+      "question_type": "single_choice",
+      "topic": "Sintaxis",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-7, pág. 4",
+      "prompt": "En la oración: \"La fiscal remitió el expediente al juez.\" ¿Cuál es el complemento indirecto?",
+      "options": [
+        {
+          "id": "A",
+          "text": "El expediente."
+        },
+        {
+          "id": "B",
+          "text": "La fiscal."
+        },
+        {
+          "id": "C",
+          "text": "Remitió."
+        },
+        {
+          "id": "D",
+          "text": "Al juez."
+        }
+      ],
+      "answer": {
+        "raw": "D. Al juez.",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El complemento indirecto señala al destinatario de la acción: ¿a quién remitió el expediente? Al juez. \"El expediente\" es el complemento directo.",
+      "feedback_incorrect": "Usa las preguntas de prueba: ¿qué remitió? (directo); ¿a quién lo remitió? (indirecto).",
+      "tip": "El indirecto suele ir introducido por \"a\" y responde a \"¿a quién?\"."
+    },
+    {
+      "id": "DER105-P053",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Función principal de la coma",
+      "question_type": "single_choice",
+      "topic": "Uso de la coma",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-7, pág. 5",
+      "prompt": "¿Cuál es la función principal de la coma?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sustituir al punto final."
+        },
+        {
+          "id": "B",
+          "text": "Delimitar ciertos grupos sintácticos y separar elementos."
+        },
+        {
+          "id": "C",
+          "text": "Finalizar un texto."
+        },
+        {
+          "id": "D",
+          "text": "Iniciar párrafos."
+        }
+      ],
+      "answer": {
+        "raw": "B. Delimitar ciertos grupos sintácticos y separar elementos.",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La coma organiza el interior de la oración: delimita incisos y grupos sintácticos y separa elementos de una serie.",
+      "feedback_incorrect": "La coma nunca cierra textos ni abre párrafos; su territorio es el interior de la oración.",
+      "tip": "Coma = organizadora interna de la oración."
+    },
+    {
+      "id": "DER105-P054",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Nombre que va en minúscula",
+      "question_type": "single_choice",
+      "topic": "Uso de mayúsculas",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-7, pág. 5",
+      "prompt": "¿Cuál de los siguientes nombres debe escribirse en minúscula?",
+      "options": [
+        {
+          "id": "A",
+          "text": "lunes"
+        },
+        {
+          "id": "B",
+          "text": "República del Ecuador"
+        },
+        {
+          "id": "C",
+          "text": "Poder Judicial"
+        },
+        {
+          "id": "D",
+          "text": "Derecho Constitucional"
+        }
+      ],
+      "answer": {
+        "raw": "A. lunes",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Los días de la semana se escriben con minúscula en español. Los nombres oficiales de Estados, instituciones y disciplinas consagradas llevan mayúscula.",
+      "feedback_incorrect": "Repasa la regla: días, meses y estaciones van en minúscula, a diferencia del inglés.",
+      "tip": "¿Escribirías \"Lunes\" a mitad de una frase? En español, no."
+    },
+    {
+      "id": "DER105-P055",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Coma antes de \"y\" entre oraciones",
+      "question_type": "single_choice",
+      "topic": "Uso de la coma",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-7, pág. 6",
+      "prompt": "¿Cuándo es correcto colocar una coma antes de la conjunción \"y\"?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Nunca."
+        },
+        {
+          "id": "B",
+          "text": "Siempre."
+        },
+        {
+          "id": "C",
+          "text": "Únicamente cuando la oración termina."
+        },
+        {
+          "id": "D",
+          "text": "Cuando une dos oraciones independientes con sujeto y verbo propios."
+        }
+      ],
+      "answer": {
+        "raw": "D. Cuando une dos oraciones independientes con sujeto y verbo propios.",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Ante \"y\" puede ir coma cuando enlaza oraciones completas con sujetos distintos (\"El perito rindió su informe, y el juez ordenó incorporarlo\").",
+      "feedback_incorrect": "Ni \"nunca\" ni \"siempre\": la coma ante \"y\" depende de si une elementos simples (sin coma) u oraciones independientes (con coma posible).",
+      "tip": "Busca sujeto y verbo a cada lado de la \"y\"."
+    },
+    {
+      "id": "DER105-P056",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Error frecuente de puntuación",
+      "question_type": "single_choice",
+      "topic": "Puntuación y Derecho",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-7, pág. 6",
+      "prompt": "¿Cuál es un error frecuente en la puntuación jurídica?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Omitir las comas de los incisos explicativos."
+        },
+        {
+          "id": "B",
+          "text": "Utilizar incisos explicativos."
+        },
+        {
+          "id": "C",
+          "text": "Emplear comas para separar aclaraciones."
+        },
+        {
+          "id": "D",
+          "text": "Usar correctamente las oraciones de relativo."
+        }
+      ],
+      "answer": {
+        "raw": "A. Omitir las comas de los incisos explicativos.",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Olvidar las comas que encierran un inciso explicativo es un error típico: cambia el sentido de la frase y puede alterar su alcance jurídico.",
+      "feedback_incorrect": "Las opciones B, C y D describen usos correctos; el error está en omitir las comas necesarias.",
+      "tip": "El inciso sin comas deja de ser inciso."
+    },
+    {
+      "id": "DER105-P057",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Aposición explicativa",
+      "question_type": "single_choice",
+      "topic": "Incisos y aposiciones",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-7, pág. 7",
+      "prompt": "¿Cuál de las siguientes expresiones constituye una aposición explicativa?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La vivienda que fue hipotecada."
+        },
+        {
+          "id": "B",
+          "text": "El actor, doctor Juan Pérez, presentó la apelación."
+        },
+        {
+          "id": "C",
+          "text": "El juez resolvió la causa."
+        },
+        {
+          "id": "D",
+          "text": "El inmueble hipotecado."
+        }
+      ],
+      "answer": {
+        "raw": "B. El actor, doctor Juan Pérez, presentó la apelación.",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "\"Doctor Juan Pérez\" entre comas explica quién es el actor: es una aposición explicativa, información aclaratoria y suprimible.",
+      "feedback_incorrect": "Busca el sustantivo seguido de otra expresión nominal entre comas que lo identifica o aclara.",
+      "tip": "Aposición explicativa = \"nombre, aclaración, resto de la frase\"."
+    },
+    {
+      "id": "DER105-P058",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Importancia de los signos de puntuación",
+      "question_type": "single_choice",
+      "topic": "Puntuación y Derecho",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-7, pág. 7",
+      "prompt": "¿Por qué es importante utilizar correctamente los signos de puntuación en un documento jurídico?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Porque permiten utilizar menos palabras."
+        },
+        {
+          "id": "B",
+          "text": "Porque evitan ambigüedades y facilitan una interpretación precisa del contenido."
+        },
+        {
+          "id": "C",
+          "text": "Porque embellecen la presentación del texto."
+        },
+        {
+          "id": "D",
+          "text": "Porque sustituyen el uso de conectores."
+        }
+      ],
+      "answer": {
+        "raw": "B. Porque evitan ambigüedades y facilitan una interpretación precisa del contenido.",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La puntuación estructura el sentido: bien usada, elimina lecturas dobles y permite interpretar el documento con precisión.",
+      "feedback_incorrect": "La puntuación no es estética ni economía de palabras: es una herramienta de precisión interpretativa.",
+      "tip": "Puntuación correcta = un solo sentido posible."
+    },
+    {
+      "id": "DER105-P059",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Conector adversativo en oración extensa",
+      "question_type": "single_choice",
+      "topic": "Conectores y puntuación",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-7, pág. 8",
+      "prompt": "¿Cuál de las siguientes opciones utiliza correctamente un conector adversativo en una oración extensa?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La demanda fue admitida; sin embargo, no se notificó al demandado."
+        },
+        {
+          "id": "B",
+          "text": "La demanda fue admitida: sin embargo no se notificó al demandado."
+        },
+        {
+          "id": "C",
+          "text": "La demanda fue admitida, sin embargo no se notificó al demandado."
+        },
+        {
+          "id": "D",
+          "text": "La demanda fue admitida sin embargo, no se notificó al demandado."
+        }
+      ],
+      "answer": {
+        "raw": "A. La demanda fue admitida; sin embargo, no se notificó al demandado.",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "De nuevo el patrón correcto: punto y coma antes de \"sin embargo\" y coma después, al unir dos oraciones independientes.",
+      "feedback_incorrect": "Verifica los dos signos del conector: la pausa fuerte previa y la coma posterior.",
+      "tip": "\"; sin embargo,\" — grábatelo como fórmula."
+    },
+    {
+      "id": "DER105-P060",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Comas en aclaración circunstancial",
+      "question_type": "single_choice",
+      "topic": "Uso de la coma",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-7, pág. 8",
+      "prompt": "¿Cuál es la función de las comas en la oración \"El juez, luego del análisis probatorio, dictó sentencia\"?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Introducir una cita textual."
+        },
+        {
+          "id": "B",
+          "text": "Separar dos párrafos."
+        },
+        {
+          "id": "C",
+          "text": "Introducir una aclaración circunstancial."
+        },
+        {
+          "id": "D",
+          "text": "Separar dos sujetos."
+        }
+      ],
+      "answer": {
+        "raw": "C. Introducir una aclaración circunstancial.",
+        "option_ids": [
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "\"Luego del análisis probatorio\" es un complemento circunstancial de tiempo intercalado; las comas lo delimitan como aclaración dentro de la oración.",
+      "feedback_incorrect": "Identifica qué aporta la frase entre comas: dice cuándo dictó sentencia, es decir, una circunstancia.",
+      "tip": "Pregúntale a la frase entre comas: ¿cuándo, cómo o dónde?"
+    },
+    {
+      "id": "DER105-P061",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Primer error a corregir",
+      "question_type": "single_choice",
+      "topic": "Gramática y género",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-7, pág. 9",
+      "prompt": "Un abogado redacta el siguiente texto: \"La abogado presentó la demanda y la jueza admitió la misma, sin embargo no notificó a las partes.\" ¿Cuál es el primer error que debe corregirse?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cambiar \"La abogado\" por \"La abogada\"."
+        },
+        {
+          "id": "B",
+          "text": "Cambiar \"jueza\" por \"juez\"."
+        },
+        {
+          "id": "C",
+          "text": "Eliminar \"la misma\"."
+        },
+        {
+          "id": "D",
+          "text": "Sustituir \"demanda\" por \"escrito\"."
+        }
+      ],
+      "answer": {
+        "raw": "A. Cambiar \"La abogado\" por \"La abogada\".",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El primer error del texto (en orden de aparición) es la falta de concordancia de género: \"la abogado\" debe ser \"la abogada\".",
+      "feedback_incorrect": "Lee el texto de izquierda a derecha buscando el primer fallo: aparece en las tres primeras palabras.",
+      "tip": "\"Primer error\" = el que aparece antes en el texto."
+    },
+    {
+      "id": "DER105-P062",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Relativa especificativa",
+      "question_type": "single_choice",
+      "topic": "Oraciones de relativo",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-7, pág. 9",
+      "prompt": "¿Cuál es una oración de relativo especificativa?",
+      "options": [
+        {
+          "id": "A",
+          "text": "El testigo, que estuvo presente en los hechos, declaró."
+        },
+        {
+          "id": "B",
+          "text": "El contrato, que fue firmado en mayo, será ejecutado."
+        },
+        {
+          "id": "C",
+          "text": "La vivienda que está hipotecada será rematada."
+        },
+        {
+          "id": "D",
+          "text": "La vivienda, que fue inspeccionada, será entregada."
+        }
+      ],
+      "answer": {
+        "raw": "C. La vivienda que está hipotecada será rematada.",
+        "option_ids": [
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La especificativa va sin comas y restringe el significado: se rematará precisamente la vivienda hipotecada (no otra). Las opciones con comas son explicativas.",
+      "feedback_incorrect": "Regla visual: sin comas = especificativa (restringe); con comas = explicativa (añade).",
+      "tip": "Busca la única opción sin comas."
+    },
+    {
+      "id": "DER105-P063",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Redacción jurídica más clara (práctica de prueba)",
+      "question_type": "single_choice",
+      "topic": "Claridad sintáctica",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-7, pág. 10",
+      "prompt": "¿Cuál de las siguientes versiones presenta la redacción jurídica más clara?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ante el juez competente la práctica de prueba fue solicitada."
+        },
+        {
+          "id": "B",
+          "text": "Fue solicitada la práctica de prueba por el actor."
+        },
+        {
+          "id": "C",
+          "text": "El actor solicitó la práctica de prueba ante el juez competente."
+        },
+        {
+          "id": "D",
+          "text": "Respecto de la demanda presentada por el actor ante el juez competente, fue solicitada la práctica de prueba."
+        }
+      ],
+      "answer": {
+        "raw": "C. El actor solicitó la práctica de prueba ante el juez competente.",
+        "option_ids": [
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La estructura sujeto + verbo + complementos en voz activa (\"El actor solicitó…\") es la más directa y clara. Las pasivas y los rodeos oscurecen quién hace qué.",
+      "feedback_incorrect": "Prefiere la voz activa y el orden natural de la oración; desconfía de las pasivas con el sujeto escondido.",
+      "tip": "Pregunta: ¿quién hizo qué? La opción que lo responde de inmediato es la clara."
+    },
+    {
+      "id": "DER105-P064",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Función del verbo",
+      "question_type": "single_choice",
+      "topic": "Sintaxis",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-7, pág. 10",
+      "prompt": "¿Cuál de las siguientes afirmaciones describe correctamente la función del verbo en una oración?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Identifica únicamente al destinatario del mensaje."
+        },
+        {
+          "id": "B",
+          "text": "Determina exclusivamente el tiempo de la oración."
+        },
+        {
+          "id": "C",
+          "text": "Expresa la acción, estado o proceso y constituye el núcleo de la oración."
+        },
+        {
+          "id": "D",
+          "text": "Sustituye al complemento directo."
+        }
+      ],
+      "answer": {
+        "raw": "C. Expresa la acción, estado o proceso y constituye el núcleo de la oración.",
+        "option_ids": [
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El verbo es el corazón de la oración: expresa la acción, el estado o el proceso, y en torno a él se organizan el sujeto y los complementos.",
+      "feedback_incorrect": "Repasa el papel del verbo como núcleo del predicado; el tiempo es solo una de sus propiedades.",
+      "tip": "Sin verbo no hay oración."
+    },
+    {
+      "id": "DER105-P065",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Importancia de la puntuación jurídica",
+      "question_type": "single_choice",
+      "topic": "Puntuación y Derecho",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-7, pág. 11; PDF-9, pág. 6 (misma pregunta con alternativas reordenadas; duplicado consolidado)",
+      "prompt": "¿Cuál de las siguientes afirmaciones resume mejor la importancia de la puntuación jurídica?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Solo sirve para mejorar la estética del documento."
+        },
+        {
+          "id": "B",
+          "text": "Es un elemento secundario frente al contenido jurídico."
+        },
+        {
+          "id": "C",
+          "text": "Permite estructurar y comprender correctamente normas, contratos y sentencias."
+        },
+        {
+          "id": "D",
+          "text": "Solo es importante en documentos académicos."
+        }
+      ],
+      "answer": {
+        "raw": "C. Permite estructurar y comprender correctamente normas, contratos y sentencias.",
+        "option_ids": [
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La puntuación es parte del contenido jurídico: estructura normas, contratos y sentencias y hace posible comprenderlos correctamente.",
+      "feedback_incorrect": "Descarta las opciones con \"solo\" o \"secundario\": minimizan lo que la asignatura destaca como esencial.",
+      "tip": "La puntuación no decora: estructura."
+    },
+    {
+      "id": "DER105-P066",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Frase entre comas de modo",
+      "question_type": "single_choice",
+      "topic": "Uso de la coma",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-8, pág. 1",
+      "prompt": "En la oración \"El actor, mediante procurador judicial, presentó la acción\", la frase entre comas indica:",
+      "options": [
+        {
+          "id": "A",
+          "text": "El tiempo de la acción."
+        },
+        {
+          "id": "B",
+          "text": "El lugar de la acción."
+        },
+        {
+          "id": "C",
+          "text": "La forma en que se presentó la acción."
+        },
+        {
+          "id": "D",
+          "text": "La finalidad de la acción."
+        }
+      ],
+      "answer": {
+        "raw": "C. La forma en que se presentó la acción.",
+        "option_ids": [
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "\"Mediante procurador judicial\" responde a cómo se presentó la acción: es un complemento de modo intercalado entre comas.",
+      "feedback_incorrect": "Interroga a la frase entre comas: no dice cuándo ni dónde, sino de qué manera.",
+      "tip": "\"Mediante\" introduce el medio o modo."
+    },
+    {
+      "id": "DER105-P067",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Punto y coma entre oraciones",
+      "question_type": "single_choice",
+      "topic": "Signos de puntuación",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-8, pág. 2",
+      "prompt": "¿Cuál de las siguientes oraciones utiliza correctamente el punto y coma?",
+      "options": [
+        {
+          "id": "A",
+          "text": "El juez dictó sentencia; ninguna de las partes apeló."
+        },
+        {
+          "id": "B",
+          "text": "El juez dictó sentencia: ninguna de las partes apeló."
+        },
+        {
+          "id": "C",
+          "text": "El juez dictó sentencia, ninguna de las partes apeló."
+        },
+        {
+          "id": "D",
+          "text": "El juez dictó sentencia ninguna de las partes apeló."
+        }
+      ],
+      "answer": {
+        "raw": "A. El juez dictó sentencia; ninguna de las partes apeló.",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Dos oraciones independientes y estrechamente relacionadas se unen con punto y coma. La coma sola produce el error llamado \"coma splice\", y sin signo alguno la frase es agramatical.",
+      "feedback_incorrect": "Repasa cuándo la coma es insuficiente: entre dos oraciones completas hace falta punto y coma o punto.",
+      "tip": "Si a cada lado hay oración completa, la coma se queda corta."
+    },
+    {
+      "id": "DER105-P068",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Por qué importa puntuar bien",
+      "question_type": "single_choice",
+      "topic": "Puntuación y Derecho",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-8, pág. 2",
+      "prompt": "¿Por qué es importante la correcta puntuación en los documentos jurídicos?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Porque hace el texto más extenso."
+        },
+        {
+          "id": "B",
+          "text": "Porque permite utilizar más mayúsculas."
+        },
+        {
+          "id": "C",
+          "text": "Porque evita interpretaciones erróneas y mejora la claridad jurídica."
+        },
+        {
+          "id": "D",
+          "text": "Porque elimina la necesidad de párrafos."
+        }
+      ],
+      "answer": {
+        "raw": "C. Porque evita interpretaciones erróneas y mejora la claridad jurídica.",
+        "option_ids": [
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Puntuar bien es interpretar bien: los signos correctos cierran la puerta a lecturas equivocadas del documento.",
+      "feedback_incorrect": "Las otras opciones describen efectos irrelevantes o inexistentes; la puntuación sirve a la claridad y a la interpretación.",
+      "tip": "Piensa en pleitos causados por una coma mal puesta."
+    },
+    {
+      "id": "DER105-P069",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Qué es un inciso explicativo",
+      "question_type": "single_choice",
+      "topic": "Incisos y aposiciones",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-8, pág. 3",
+      "prompt": "¿Qué es un inciso explicativo?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Una oración principal."
+        },
+        {
+          "id": "B",
+          "text": "Una información adicional que puede eliminarse sin afectar el sentido principal."
+        },
+        {
+          "id": "C",
+          "text": "Un error de redacción."
+        },
+        {
+          "id": "D",
+          "text": "Una norma jurídica."
+        }
+      ],
+      "answer": {
+        "raw": "B. Una información adicional que puede eliminarse sin afectar el sentido principal.",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El inciso explicativo agrega información prescindible, va entre comas y puede quitarse sin que la oración principal pierda su sentido.",
+      "feedback_incorrect": "Repasa la definición de inciso: añadido aclaratorio, delimitado por comas, suprimible.",
+      "tip": "Inciso = paréntesis hecho con comas."
+    },
+    {
+      "id": "DER105-P070",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Recursos frecuentes en documentos jurídicos",
+      "question_type": "single_choice",
+      "topic": "Estructura del texto",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-8, pág. 3",
+      "prompt": "En los documentos jurídicos es frecuente encontrar:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ausencia de conectores."
+        },
+        {
+          "id": "B",
+          "text": "Párrafos sin estructura alguna."
+        },
+        {
+          "id": "C",
+          "text": "Únicamente párrafos narrativos."
+        },
+        {
+          "id": "D",
+          "text": "Enumeraciones con guiones y puntos y coma."
+        }
+      ],
+      "answer": {
+        "raw": "D. Enumeraciones con guiones y puntos y coma.",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Los documentos jurídicos suelen organizar requisitos, cláusulas y listados mediante enumeraciones con guiones o literales, separadas con punto y coma.",
+      "feedback_incorrect": "Piensa en cómo se presentan las cláusulas de un contrato o los requisitos de una norma: en listas estructuradas.",
+      "tip": "Visualiza un contrato: ¿cómo están ordenadas sus cláusulas?"
+    },
+    {
+      "id": "DER105-P071",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Oración correctamente puntuada (allanamiento)",
+      "question_type": "single_choice",
+      "topic": "Uso de la coma",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-8, pág. 4",
+      "prompt": "Seleccione la oración correctamente puntuada.",
+      "options": [
+        {
+          "id": "A",
+          "text": "El allanamiento se ejecutó en la ciudad de Cuenca."
+        },
+        {
+          "id": "B",
+          "text": "El allanamiento, se ejecutó, en la ciudad de Cuenca."
+        },
+        {
+          "id": "C",
+          "text": "El allanamiento, se ejecutó en la ciudad de Cuenca."
+        },
+        {
+          "id": "D",
+          "text": "El allanamiento se ejecutó, en la ciudad de Cuenca."
+        }
+      ],
+      "answer": {
+        "raw": "D. El allanamiento se ejecutó, en la ciudad de Cuenca.",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La fuente del aula virtual marcó como correcta la versión con coma antes del complemento de lugar (\"se ejecutó, en la ciudad de Cuenca\").",
+      "feedback_incorrect": "Revisa en el material de la asignatura el tratamiento de la coma ante complementos circunstanciales pospuestos.",
+      "tip": "Fíjate en la opción que el material de la asignatura da como modelo de puntuación."
+    },
+    {
+      "id": "DER105-P072",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Ventaja de la coma elíptica",
+      "question_type": "single_choice",
+      "topic": "Uso de la coma",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-8, pág. 4",
+      "prompt": "¿Cuál es la principal ventaja de utilizar la coma elíptica en un texto?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Evitar la repetición innecesaria de un verbo ya mencionado."
+        },
+        {
+          "id": "B",
+          "text": "Cambiar el tiempo verbal de la oración."
+        },
+        {
+          "id": "C",
+          "text": "Sustituir al sujeto de la oración."
+        },
+        {
+          "id": "D",
+          "text": "Reemplazar los signos de interrogación."
+        }
+      ],
+      "answer": {
+        "raw": "A. Evitar la repetición innecesaria de un verbo ya mencionado.",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La coma elíptica permite no repetir el verbo: \"El actor presentó pruebas; el demandado, testigos\". El texto gana agilidad sin perder sentido.",
+      "feedback_incorrect": "Repasa la elipsis verbal: la coma ocupa el lugar del verbo omitido.",
+      "tip": "Elipsis = omisión; la coma marca lo omitido."
+    },
+    {
+      "id": "DER105-P073",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Relativa explicativa (inmueble inspeccionado)",
+      "question_type": "single_choice",
+      "topic": "Oraciones de relativo",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-8, pág. 5",
+      "prompt": "¿Cuál de las siguientes oraciones contiene una oración de relativo explicativa?",
+      "options": [
+        {
+          "id": "A",
+          "text": "El abogado que presentó la demanda compareció."
+        },
+        {
+          "id": "B",
+          "text": "El juez que dictó la sentencia fue recusado."
+        },
+        {
+          "id": "C",
+          "text": "El inmueble, que fue inspeccionado previamente, será entregado."
+        },
+        {
+          "id": "D",
+          "text": "La vivienda que está hipotecada será rematada."
+        }
+      ],
+      "answer": {
+        "raw": "C. El inmueble, que fue inspeccionado previamente, será entregado.",
+        "option_ids": [
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La única relativa entre comas es la de la opción C: añade información sobre el inmueble sin restringir de cuál se trata. Las demás son especificativas (sin comas).",
+      "feedback_incorrect": "Busca las comas: son la marca visible de la relativa explicativa.",
+      "tip": "Una sola opción lleva comas alrededor del \"que…\"."
+    },
+    {
+      "id": "DER105-P074",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Función de las especificativas",
+      "question_type": "single_choice",
+      "topic": "Oraciones de relativo",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-8, pág. 5",
+      "prompt": "Las oraciones de relativo especificativas:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Son equivalentes a las explicativas."
+        },
+        {
+          "id": "B",
+          "text": "Identifican de manera precisa al sustantivo."
+        },
+        {
+          "id": "C",
+          "text": "Siempre van entre comas."
+        },
+        {
+          "id": "D",
+          "text": "Nunca aportan información relevante."
+        }
+      ],
+      "answer": {
+        "raw": "B. Identifican de manera precisa al sustantivo.",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La especificativa restringe y precisa: \"la vivienda que está hipotecada\" identifica exactamente cuál vivienda. Por eso no lleva comas y su información es esencial.",
+      "feedback_incorrect": "Contrasta: explicativa añade (entre comas); especificativa identifica (sin comas).",
+      "tip": "\"Especificar\" es precisar: esa es su función."
+    },
+    {
+      "id": "DER105-P075",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Qué son las explicativas",
+      "question_type": "single_choice",
+      "topic": "Oraciones de relativo",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-8, pág. 6; PDF-9, pág. 7",
+      "prompt": "¿Qué son las oraciones de relativo explicativas?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Oraciones indispensables para identificar un sustantivo."
+        },
+        {
+          "id": "B",
+          "text": "Oraciones que sustituyen al sujeto."
+        },
+        {
+          "id": "C",
+          "text": "Oraciones que siempre terminan con punto y coma."
+        },
+        {
+          "id": "D",
+          "text": "Oraciones que añaden información adicional y van entre comas."
+        }
+      ],
+      "answer": {
+        "raw": "D. Oraciones que añaden información adicional y van entre comas.",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Las explicativas agregan información complementaria sobre el sustantivo y se delimitan con comas; pueden suprimirse sin alterar el sentido esencial.",
+      "feedback_incorrect": "La opción A define a las especificativas; repasa la diferencia entre ambas.",
+      "tip": "Explicativa: añade y va entre comas."
+    },
+    {
+      "id": "DER105-P076",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Pronombres demostrativos sin tilde",
+      "question_type": "single_choice",
+      "topic": "Ortografía y normativa vigente",
+      "difficulty": "advanced",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-8, pág. 6",
+      "prompt": "¿Cuál de las siguientes expresiones demuestra un uso adecuado de los pronombres demostrativos conforme a la normativa vigente?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ese contrato fue declarado nulo."
+        },
+        {
+          "id": "B",
+          "text": "Aquél expediente fue archivado."
+        },
+        {
+          "id": "C",
+          "text": "Éste documento acredita la propiedad."
+        },
+        {
+          "id": "D",
+          "text": "Ése proceso concluyó el año pasado."
+        }
+      ],
+      "answer": {
+        "raw": "A. Ese contrato fue declarado nulo.",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Desde la Ortografía de 2010, los demostrativos no llevan tilde en ningún caso. \"Ese contrato\" es la forma correcta; \"Aquél\", \"Éste\" y \"Ése\" arrastran una tilde ya suprimida.",
+      "feedback_incorrect": "Actualízate con la normativa RAE vigente: se eliminó la tilde diacrítica de los demostrativos.",
+      "tip": "Busca la única opción sin tildes en el demostrativo."
+    },
+    {
+      "id": "DER105-P077",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Complemento directo",
+      "question_type": "single_choice",
+      "topic": "Sintaxis",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-8, pág. 7",
+      "prompt": "Lea el siguiente enunciado: \"La secretaria entregó el expediente al juez.\" ¿Cuál de las siguientes opciones identifica correctamente el complemento directo?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Entregó."
+        },
+        {
+          "id": "B",
+          "text": "Al juez."
+        },
+        {
+          "id": "C",
+          "text": "La secretaria."
+        },
+        {
+          "id": "D",
+          "text": "El expediente."
+        }
+      ],
+      "answer": {
+        "raw": "D. El expediente.",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "¿Qué entregó la secretaria? El expediente: ese es el complemento directo. \"Al juez\" es el indirecto (destinatario).",
+      "feedback_incorrect": "Aplica la prueba: directo responde a \"¿qué?\"; indirecto a \"¿a quién?\".",
+      "tip": "Convierte a pasiva: lo que pasa a ser sujeto (\"El expediente fue entregado…\") era el directo."
+    },
+    {
+      "id": "DER105-P078",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Función del punto",
+      "question_type": "single_choice",
+      "topic": "Signos de puntuación",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-8, pág. 7",
+      "prompt": "¿Cuál es la función principal del punto?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Delimitar incisos."
+        },
+        {
+          "id": "B",
+          "text": "Introducir citas."
+        },
+        {
+          "id": "C",
+          "text": "Separar elementos de una enumeración."
+        },
+        {
+          "id": "D",
+          "text": "Marcar el final de una unidad de sentido."
+        }
+      ],
+      "answer": {
+        "raw": "D. Marcar el final de una unidad de sentido.",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El punto cierra unidades completas de sentido: oraciones, párrafos o el texto entero.",
+      "feedback_incorrect": "Incisos → comas; citas → dos puntos; enumeraciones → comas o punto y coma. El punto cierra.",
+      "tip": "El punto es el signo del cierre."
+    },
+    {
+      "id": "DER105-P079",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Tratamiento en minúscula",
+      "question_type": "single_choice",
+      "topic": "Uso de mayúsculas",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-8, pág. 8",
+      "prompt": "¿Cuál de los siguientes tratamientos generalmente se escribe con minúscula?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Presidente de la República"
+        },
+        {
+          "id": "B",
+          "text": "Don"
+        },
+        {
+          "id": "C",
+          "text": "don"
+        },
+        {
+          "id": "D",
+          "text": "Doctor"
+        }
+      ],
+      "answer": {
+        "raw": "C. don",
+        "option_ids": [
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Los tratamientos como \"don\", \"doña\", \"usted\", \"señor\" se escriben con minúscula (\"don Juan Pérez\"), salvo al inicio de oración o en abreviatura (D.).",
+      "feedback_incorrect": "Repasa la regla de los tratamientos: en su forma plena van en minúscula.",
+      "tip": "\"don Juan\" — como en la literatura clásica."
+    },
+    {
+      "id": "DER105-P080",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Mayúscula obligatoria tras signo",
+      "question_type": "single_choice",
+      "topic": "Uso de mayúsculas",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-8, pág. 8",
+      "prompt": "¿Después de qué signo debe escribirse obligatoriamente mayúscula inicial?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Coma"
+        },
+        {
+          "id": "B",
+          "text": "Guion"
+        },
+        {
+          "id": "C",
+          "text": "Punto"
+        },
+        {
+          "id": "D",
+          "text": "Punto y coma"
+        }
+      ],
+      "answer": {
+        "raw": "C. Punto",
+        "option_ids": [
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Tras un punto siempre se inicia con mayúscula. Después de coma o punto y coma se sigue con minúscula.",
+      "feedback_incorrect": "Repasa la función demarcativa de la mayúscula: acompaña al punto porque abre nueva oración.",
+      "tip": "Punto y mayúscula van de la mano."
+    },
+    {
+      "id": "DER105-P081",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Beneficio de aplicar las reglas conjuntamente",
+      "question_type": "single_choice",
+      "topic": "Redacción jurídica",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-8, pág. 9",
+      "prompt": "Durante la elaboración de una demanda, el abogado procura evitar ambigüedades, mantener una estructura lógica de las oraciones, emplear correctamente los signos de puntuación y respetar la concordancia gramatical. ¿Cuál es el principal beneficio de aplicar conjuntamente estas reglas?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reducir la extensión del documento."
+        },
+        {
+          "id": "B",
+          "text": "Lograr una redacción clara, precisa y de fácil interpretación jurídica."
+        },
+        {
+          "id": "C",
+          "text": "Incrementar el número de citas legales."
+        },
+        {
+          "id": "D",
+          "text": "Sustituir la fundamentación jurídica mediante una mejor gramática."
+        }
+      ],
+      "answer": {
+        "raw": "B. Lograr una redacción clara, precisa y de fácil interpretación jurídica.",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Todas esas reglas convergen en un mismo resultado: un texto claro, preciso y fácil de interpretar. La gramática no reemplaza al fundamento jurídico, pero lo hace comprensible.",
+      "feedback_incorrect": "Observa que cada regla mencionada apunta a la claridad; el beneficio conjunto es la suma de todas.",
+      "tip": "¿Qué tienen en común evitar ambigüedad, orden lógico, puntuación y concordancia? La claridad."
+    },
+    {
+      "id": "DER105-P082",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Función de la puntuación en documentos jurídicos",
+      "question_type": "single_choice",
+      "topic": "Puntuación y Derecho",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-8, pág. 9",
+      "prompt": "¿Cuál es la función principal de la puntuación en los documentos jurídicos?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Organizar y precisar las ideas para evitar ambigüedades."
+        },
+        {
+          "id": "B",
+          "text": "Decorar el texto jurídico."
+        },
+        {
+          "id": "C",
+          "text": "Hacer más extenso el documento."
+        },
+        {
+          "id": "D",
+          "text": "Sustituir los argumentos jurídicos."
+        }
+      ],
+      "answer": {
+        "raw": "A. Organizar y precisar las ideas para evitar ambigüedades.",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La puntuación ordena las ideas y precisa su alcance; su meta es que el documento admita una sola lectura correcta.",
+      "feedback_incorrect": "Elimina las opciones decorativas o absurdas: la puntuación trabaja para la precisión.",
+      "tip": "Organizar + precisar = evitar ambigüedad."
+    },
+    {
+      "id": "DER105-P083",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Punto y aparte",
+      "question_type": "single_choice",
+      "topic": "Signos de puntuación",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-8, pág. 10",
+      "prompt": "¿Cuándo se utiliza el punto y aparte?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Para separar elementos de una lista."
+        },
+        {
+          "id": "B",
+          "text": "Para sustituir una coma."
+        },
+        {
+          "id": "C",
+          "text": "Para cerrar una cita textual."
+        },
+        {
+          "id": "D",
+          "text": "Para iniciar una nueva idea o párrafo."
+        }
+      ],
+      "answer": {
+        "raw": "D. Para iniciar una nueva idea o párrafo.",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El punto y aparte cierra un párrafo cuando se agota una idea y se va a desarrollar otra distinta en el párrafo siguiente.",
+      "feedback_incorrect": "Vincula punto y aparte con cambio de idea: nuevo tema, nuevo párrafo.",
+      "tip": "\"Aparte\" = lo que sigue va en otro párrafo."
+    },
+    {
+      "id": "DER105-P084",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Función de la coma vocativa",
+      "question_type": "single_choice",
+      "topic": "Uso de la coma",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-8, pág. 10; PDF-9, pág. 11",
+      "prompt": "¿Cuál es la función principal de la coma vocativa en una oración?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Separar dos oraciones independientes."
+        },
+        {
+          "id": "B",
+          "text": "Separar el nombre o cargo de la persona a quien se dirige el mensaje."
+        },
+        {
+          "id": "C",
+          "text": "Introducir una enumeración compleja."
+        },
+        {
+          "id": "D",
+          "text": "Sustituir un verbo previamente mencionado."
+        }
+      ],
+      "answer": {
+        "raw": "B. Separar el nombre o cargo de la persona a quien se dirige el mensaje.",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La coma vocativa aísla al destinatario del mensaje: \"Señor juez, solicito…\". Sin ella, el sentido puede confundirse.",
+      "feedback_incorrect": "Repasa el vocativo: nombre o cargo de la persona interpelada, siempre separado por coma.",
+      "tip": "Vocativo viene de \"vocare\", llamar: es a quien llamas."
+    },
+    {
+      "id": "DER105-P085",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Estructura sintáctica más clara (demanda)",
+      "question_type": "single_choice",
+      "topic": "Claridad sintáctica",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-8, pág. 11",
+      "prompt": "¿Cuál de las siguientes oraciones presenta una estructura sintáctica más clara para un documento jurídico?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ante el juez competente la demanda fue presentada por el abogado respecto de los hechos ocurridos."
+        },
+        {
+          "id": "B",
+          "text": "El abogado presentó la demanda ante el juez competente."
+        },
+        {
+          "id": "C",
+          "text": "La demanda, respecto de los hechos ocurridos el día 10 de marzo, fue presentada."
+        },
+        {
+          "id": "D",
+          "text": "Respecto de los hechos ocurridos el día 10 de marzo, por el abogado fue presentada la demanda ante el juez competente."
+        }
+      ],
+      "answer": {
+        "raw": "B. El abogado presentó la demanda ante el juez competente.",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Sujeto + verbo + complementos, en voz activa y sin rodeos: la opción B comunica de inmediato quién hizo qué y ante quién.",
+      "feedback_incorrect": "Detecta las pasivas y los complementos antepuestos que retrasan la información principal: son los enemigos de la claridad.",
+      "tip": "La oración clara empieza por su protagonista."
+    },
+    {
+      "id": "DER105-P086",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Coordinadas adversativas",
+      "question_type": "single_choice",
+      "topic": "Conectores y puntuación",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-9, pág. 1",
+      "prompt": "¿Qué expresan las oraciones coordinadas adversativas?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Una relación de causa y efecto."
+        },
+        {
+          "id": "B",
+          "text": "Una explicación adicional."
+        },
+        {
+          "id": "C",
+          "text": "Una enumeración de acciones."
+        },
+        {
+          "id": "D",
+          "text": "Una oposición o contraste entre dos ideas."
+        }
+      ],
+      "answer": {
+        "raw": "D. Una oposición o contraste entre dos ideas.",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Las adversativas (\"pero\", \"sin embargo\", \"no obstante\") contraponen ideas: una afirma algo y la otra lo limita o contrasta.",
+      "feedback_incorrect": "Repasa los tipos de coordinación: copulativa (suma), disyuntiva (opción), adversativa (contraste).",
+      "tip": "\"Adversativo\" comparte raíz con \"adversario\": ideas enfrentadas."
+    },
+    {
+      "id": "DER105-P087",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Expresión entre comas (vivienda junto a la linde)",
+      "question_type": "single_choice",
+      "topic": "Oraciones de relativo",
+      "difficulty": "medium",
+      "status": "pending_review",
+      "active": false,
+      "provenance": "original_simulator",
+      "source": "PDF-9, pág. 2 (intento incorrecto: se marcó la alternativa \"Identifica una vivienda específica\" con ✘ y el aula no reveló la respuesta correcta)",
+      "prompt": "En la oración \"La vivienda, que está junto a la linde, pertenece al demandante\", la expresión entre comas:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Es información complementaria."
+        },
+        {
+          "id": "B",
+          "text": "Identifica una vivienda específica."
+        },
+        {
+          "id": "C",
+          "text": "Es una oración independiente."
+        },
+        {
+          "id": "D",
+          "text": "Es el sujeto principal."
+        }
+      ],
+      "answer": {
+        "raw": "Pendiente de revisión. La fuente solo permite descartar la alternativa B (marcada como incorrecta por el aula virtual). Gramaticalmente, la opción A (información complementaria) es la más defendible, pues la relativa entre comas es explicativa; debe confirmarse con el aula virtual antes de usarla en el simulador.",
+        "option_ids": [],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Una relativa entre comas es explicativa: añade información complementaria sobre la vivienda, sin identificarla de manera restrictiva.",
+      "feedback_incorrect": "Repasa la diferencia entre relativas explicativas (entre comas, información adicional) y especificativas (sin comas, identifican al sustantivo).",
+      "tip": "Las comas son la pista: lo que va entre comas complementa, no restringe."
+    },
+    {
+      "id": "DER105-P088",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Oración correctamente redactada (comparecencia)",
+      "question_type": "single_choice",
+      "topic": "Conectores y puntuación",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-9, pág. 2",
+      "prompt": "Seleccione la oración correctamente redactada.",
+      "options": [
+        {
+          "id": "A",
+          "text": "No compareció a la audiencia, presentó su escrito oportunamente."
+        },
+        {
+          "id": "B",
+          "text": "No compareció a la audiencia; pero, presentó su escrito oportunamente."
+        },
+        {
+          "id": "C",
+          "text": "No compareció a la audiencia; sin embargo, presentó su escrito oportunamente."
+        },
+        {
+          "id": "D",
+          "text": "No compareció a la audiencia pero, presentó su escrito oportunamente."
+        }
+      ],
+      "answer": {
+        "raw": "C. No compareció a la audiencia; sin embargo, presentó su escrito oportunamente.",
+        "option_ids": [
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Otra vez el patrón \"; sin embargo,\": pausa fuerte antes del conector y coma después. \"Pero\" no lleva coma detrás y no admite ese esquema.",
+      "feedback_incorrect": "Ojo con \"pero,\": ese conector no se sigue de coma. El esquema correcto corresponde a \"sin embargo\".",
+      "tip": "Solo un conector admite el esquema punto y coma + coma: \"sin embargo\"."
+    },
+    {
+      "id": "DER105-P089",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Impacto jurídico de la puntuación incorrecta",
+      "question_type": "single_choice",
+      "topic": "Puntuación y Derecho",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-9, pág. 3",
+      "prompt": "¿Cuál es el principal impacto jurídico de una puntuación incorrecta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mejora la redacción."
+        },
+        {
+          "id": "B",
+          "text": "Puede generar interpretaciones ambiguas o erróneas."
+        },
+        {
+          "id": "C",
+          "text": "Facilita la lectura técnica."
+        },
+        {
+          "id": "D",
+          "text": "Reduce la extensión del documento."
+        }
+      ],
+      "answer": {
+        "raw": "B. Puede generar interpretaciones ambiguas o erróneas.",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Una coma mal puesta puede cambiar el alcance de una cláusula: el riesgo jurídico de la mala puntuación es la interpretación ambigua o equivocada.",
+      "feedback_incorrect": "Las demás opciones describen ventajas; la puntuación incorrecta solo trae riesgos interpretativos.",
+      "tip": "Mala puntuación = varias lecturas posibles = conflicto."
+    },
+    {
+      "id": "DER105-P090",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Organización de ideas",
+      "question_type": "single_choice",
+      "topic": "Estructura del texto",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-9, pág. 3",
+      "prompt": "La organización adecuada de las ideas en un texto jurídico exige principalmente:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Coherencia y orden lógico."
+        },
+        {
+          "id": "B",
+          "text": "Eliminación de párrafos."
+        },
+        {
+          "id": "C",
+          "text": "Uso constante de mayúsculas."
+        },
+        {
+          "id": "D",
+          "text": "Frases muy extensas."
+        }
+      ],
+      "answer": {
+        "raw": "A. Coherencia y orden lógico.",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Un texto jurídico bien organizado presenta las ideas en orden lógico y coherente: cada parte se conecta con la anterior y conduce a la conclusión.",
+      "feedback_incorrect": "Las otras opciones destruyen la organización; repasa las propiedades del texto: coherencia y cohesión.",
+      "tip": "Orden lógico: de los hechos al derecho, y del derecho a la petición."
+    },
+    {
+      "id": "DER105-P091",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Características de las explicativas",
+      "question_type": "single_choice",
+      "topic": "Oraciones de relativo",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-9, pág. 4",
+      "prompt": "Las oraciones de relativo explicativas se caracterizan porque:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Nunca llevan comas."
+        },
+        {
+          "id": "B",
+          "text": "Añaden información complementaria y van entre comas."
+        },
+        {
+          "id": "C",
+          "text": "Son obligatorias para identificar al sustantivo."
+        },
+        {
+          "id": "D",
+          "text": "Restringen el significado del sustantivo."
+        }
+      ],
+      "answer": {
+        "raw": "B. Añaden información complementaria y van entre comas.",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Explicativa: complementa y va entre comas. Las opciones A, C y D describen a las especificativas o las contradicen.",
+      "feedback_incorrect": "Vuelve al par explicativa/especificativa: comas y complemento frente a restricción sin comas.",
+      "tip": "Comas + información extra = explicativa."
+    },
+    {
+      "id": "DER105-P092",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Por qué va entre comas (sentencia ejecutoriada)",
+      "question_type": "single_choice",
+      "topic": "Oraciones de relativo",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-9, pág. 4",
+      "prompt": "Lea la siguiente oración: \"La sentencia, que fue emitida por el tribunal competente, quedó ejecutoriada.\" ¿Por qué la expresión intermedia está entre comas?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Porque constituye una enumeración."
+        },
+        {
+          "id": "B",
+          "text": "Porque funciona como vocativo."
+        },
+        {
+          "id": "C",
+          "text": "Porque es una explicación que puede omitirse sin alterar el sentido esencial."
+        },
+        {
+          "id": "D",
+          "text": "Porque reemplaza el verbo principal."
+        }
+      ],
+      "answer": {
+        "raw": "C. Porque es una explicación que puede omitirse sin alterar el sentido esencial.",
+        "option_ids": [
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "\"Que fue emitida por el tribunal competente\" es una relativa explicativa: aclara algo de la sentencia y puede suprimirse sin que la oración pierda su sentido básico.",
+      "feedback_incorrect": "Haz la prueba de supresión: quita la frase entre comas y verifica que la oración siga completa.",
+      "tip": "Si puedes borrarlo sin romper la frase, iba entre comas por explicativo."
+    },
+    {
+      "id": "DER105-P093",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Coma tras subordinada concesiva",
+      "question_type": "single_choice",
+      "topic": "Uso de la coma",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-9, pág. 5",
+      "prompt": "En la oración: \"Aunque el demandado negó los hechos, deberá comparecer\", la coma separa:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dos sujetos."
+        },
+        {
+          "id": "B",
+          "text": "Una condición y una consecuencia."
+        },
+        {
+          "id": "C",
+          "text": "Dos verbos."
+        },
+        {
+          "id": "D",
+          "text": "Dos complementos directos."
+        }
+      ],
+      "answer": {
+        "raw": "B. Una condición y una consecuencia.",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La subordinada encabezada por \"aunque\" plantea la circunstancia (condición concesiva) y la principal expresa la consecuencia; la coma marca esa frontera.",
+      "feedback_incorrect": "Cuando la subordinada va primero, se separa con coma de la oración principal. Identifica ambas partes.",
+      "tip": "Estructura: [circunstancia], [consecuencia]."
+    },
+    {
+      "id": "DER105-P094",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Comas indebidas en especificativa",
+      "question_type": "single_choice",
+      "topic": "Oraciones de relativo",
+      "difficulty": "advanced",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-9, pág. 5",
+      "prompt": "¿Qué ocurre si se añaden comas indebidamente a una oración especificativa?",
+      "options": [
+        {
+          "id": "A",
+          "text": "No cambia nada."
+        },
+        {
+          "id": "B",
+          "text": "Se elimina el verbo principal."
+        },
+        {
+          "id": "C",
+          "text": "Se convierte en una oración interrogativa."
+        },
+        {
+          "id": "D",
+          "text": "Puede modificarse el alcance jurídico del enunciado."
+        }
+      ],
+      "answer": {
+        "raw": "D. Puede modificarse el alcance jurídico del enunciado.",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Poner comas a una especificativa la convierte en explicativa: la frase deja de restringir y pasa a abarcar más de lo querido. En un contrato o sentencia, eso cambia el alcance jurídico.",
+      "feedback_incorrect": "Recuerda el ejemplo de la vivienda: con comas, todas las viviendas; sin comas, solo la que cumple la condición.",
+      "tip": "Comas mal puestas = obligaciones o derechos más amplios (o distintos) de lo previsto."
+    },
+    {
+      "id": "DER105-P095",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Oración correctamente puntuada (según el expediente)",
+      "question_type": "single_choice",
+      "topic": "Uso de la coma",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "PDF-9, pág. 6",
+      "prompt": "¿Cuál de las siguientes oraciones está correctamente puntuada?",
+      "options": [
+        {
+          "id": "A",
+          "text": "El juez, según el expediente resolvió."
+        },
+        {
+          "id": "B",
+          "text": "El juez según el expediente, resolvió."
+        },
+        {
+          "id": "C",
+          "text": "El juez según el expediente resolvió."
+        },
+        {
+          "id": "D",
+          "text": "El juez, según el expediente, resolvió."
+        }
+      ],
+      "answer": {
+        "raw": "D. El juez, según el expediente, resolvió.",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El inciso \"según el expediente\" debe ir encerrado entre dos comas: apertura y cierre. Una sola coma deja el inciso cojo.",
+      "feedback_incorrect": "Los incisos funcionan como paréntesis: necesitan coma de entrada y de salida.",
+      "tip": "Cuenta las comas: el inciso completo lleva dos."
+    }
+  ]
+}

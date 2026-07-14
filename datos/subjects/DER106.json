@@ -1,0 +1,1460 @@
+{
+  "subject_code": "DER106",
+  "subject_name": "Historia y Filosofía del Derecho",
+  "source_file": "Procesado/DER 106 - Historia y Filosofía del Derecho/banco_preguntas.md",
+  "total": 33,
+  "questions": [
+    {
+      "id": "DER106-P001",
+      "subject_code": "DER106",
+      "subject_name": "Historia y Filosofía del Derecho",
+      "title": "Control social primitivo",
+      "question_type": "single_choice",
+      "topic": "Control social primitivo",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "Simulador_Final.md, pregunta 1; gemini-code.md, sección 2",
+      "prompt": "¿Cuál es una característica del control social primitivo?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Poder legislativo"
+        },
+        {
+          "id": "B",
+          "text": "Uso obligatorio de leyes escritas"
+        },
+        {
+          "id": "C",
+          "text": "Existencia de tribunales"
+        },
+        {
+          "id": "D",
+          "text": "Basarse en costumbres y tradiciones"
+        }
+      ],
+      "answer": {
+        "raw": "D. Basarse en costumbres y tradiciones",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "En las comunidades primitivas no había leyes escritas, tribunales ni legisladores: el orden se mantenía mediante costumbres y tradiciones transmitidas de generación en generación.",
+      "feedback_incorrect": "Recuerda que legisladores, leyes escritas y tribunales son instituciones posteriores, propias del Estado. Lo primitivo se regula por costumbre.",
+      "tip": "Piensa en qué existía antes de que existiera el Estado."
+    },
+    {
+      "id": "DER106-P002",
+      "subject_code": "DER106",
+      "subject_name": "Historia y Filosofía del Derecho",
+      "title": "Elemento material de la costumbre",
+      "question_type": "single_choice",
+      "topic": "Derecho consuetudinario",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "Simulador_Final.md, pregunta 2; gemini-code.md, sección 3",
+      "prompt": "¿Qué es el elemento material de la costumbre?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La opinión de un juez"
+        },
+        {
+          "id": "B",
+          "text": "El castigo legal"
+        },
+        {
+          "id": "C",
+          "text": "La repetición constante de una conducta"
+        },
+        {
+          "id": "D",
+          "text": "Una ley escrita"
+        }
+      ],
+      "answer": {
+        "raw": "C. La repetición constante de una conducta",
+        "option_ids": [
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La costumbre tiene dos elementos: el material (la repetición constante y uniforme de una conducta) y el psicológico (la convicción de que es obligatoria). El material es el hecho visible de repetir.",
+      "feedback_incorrect": "Repasa los dos elementos de la costumbre jurídica y distingue el hecho externo (repetición) de la creencia interna (obligatoriedad).",
+      "tip": "\"Material\" = lo que se puede observar: la conducta repetida."
+    },
+    {
+      "id": "DER106-P003",
+      "subject_code": "DER106",
+      "subject_name": "Historia y Filosofía del Derecho",
+      "title": "Integración del clan",
+      "question_type": "single_choice",
+      "topic": "Organización social primitiva",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "Simulador_Final.md, pregunta 3",
+      "prompt": "¿Cómo estaba integrado el clan?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Por familias unidas por un antepasado común"
+        },
+        {
+          "id": "B",
+          "text": "Por gobernantes"
+        },
+        {
+          "id": "C",
+          "text": "Por comerciantes"
+        },
+        {
+          "id": "D",
+          "text": "Por varias tribus"
+        }
+      ],
+      "answer": {
+        "raw": "A. Por familias unidas por un antepasado común",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El clan agrupa a varias familias que se reconocen descendientes de un antepasado común. La tribu, a su vez, agrupa varios clanes.",
+      "feedback_incorrect": "Repasa la secuencia evolutiva: familia → clan → tribu. El clan es el escalón intermedio, unido por parentesco.",
+      "tip": "El vínculo del clan es la sangre: un ancestro compartido."
+    },
+    {
+      "id": "DER106-P004",
+      "subject_code": "DER106",
+      "subject_name": "Historia y Filosofía del Derecho",
+      "title": "El espacio histórico",
+      "question_type": "single_choice",
+      "topic": "Historiografía jurídica",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "Simulador_Final.md, pregunta 4",
+      "prompt": "¿Qué representa el espacio histórico?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Las normas jurídicas"
+        },
+        {
+          "id": "B",
+          "text": "La edad de las personas"
+        },
+        {
+          "id": "C",
+          "text": "El contexto geográfico, social y cultural"
+        },
+        {
+          "id": "D",
+          "text": "Las sanciones legales"
+        }
+      ],
+      "answer": {
+        "raw": "C. El contexto geográfico, social y cultural",
+        "option_ids": [
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El espacio histórico no es solo el lugar físico: abarca el contexto geográfico, social y cultural en el que ocurren los hechos históricos.",
+      "feedback_incorrect": "Repasa los elementos de la Historia: sujeto, tiempo y espacio. El espacio es el marco donde suceden los hechos.",
+      "tip": "\"Espacio\" = dónde y en qué entorno ocurre el hecho."
+    },
+    {
+      "id": "DER106-P005",
+      "subject_code": "DER106",
+      "subject_name": "Historia y Filosofía del Derecho",
+      "title": "Análisis histórico del Derecho",
+      "question_type": "single_choice",
+      "topic": "Historia del Derecho",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "Simulador_Final.md, preguntas 5 y 19 (duplicado con alternativas reordenadas)",
+      "prompt": "¿Qué demuestra el análisis histórico del Derecho?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Que las normas son permanentes"
+        },
+        {
+          "id": "B",
+          "text": "Que el Derecho no evoluciona"
+        },
+        {
+          "id": "C",
+          "text": "Que las normas cambian según la sociedad"
+        },
+        {
+          "id": "D",
+          "text": "Que el Derecho es idéntico en todos los países"
+        }
+      ],
+      "answer": {
+        "raw": "C. Que las normas cambian según la sociedad",
+        "option_ids": [
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La historia muestra que cada sociedad produce su propio Derecho y que las normas se transforman con los cambios sociales: el Derecho es un fenómeno histórico, no estático.",
+      "feedback_incorrect": "Descarta las opciones que niegan el cambio: la premisa de la Historia del Derecho es precisamente la evolución de las normas.",
+      "tip": "Compara el Derecho romano con el actual: ¿permanencia o cambio?"
+    },
+    {
+      "id": "DER106-P006",
+      "subject_code": "DER106",
+      "subject_name": "Historia y Filosofía del Derecho",
+      "title": "La compensación primitiva",
+      "question_type": "single_choice",
+      "topic": "Solución de conflictos primitiva",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "Simulador_Final.md, pregunta 6; gemini-code.md, sección 4",
+      "prompt": "¿Qué implicaba la compensación en las comunidades primitivas?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reparación del daño mediante bienes o servicios"
+        },
+        {
+          "id": "B",
+          "text": "Juicio penal"
+        },
+        {
+          "id": "C",
+          "text": "Expulsión social"
+        },
+        {
+          "id": "D",
+          "text": "Cárcel"
+        }
+      ],
+      "answer": {
+        "raw": "A. Reparación del daño mediante bienes o servicios",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La compensación sustituyó a la venganza: el ofensor reparaba el daño entregando bienes o prestando servicios a la víctima o a su grupo.",
+      "feedback_incorrect": "Recuerda que no existían cárceles ni juicios penales estatales; la reparación era material y directa.",
+      "tip": "Compensar es reparar: dar algo a cambio del daño."
+    },
+    {
+      "id": "DER106-P007",
+      "subject_code": "DER106",
+      "subject_name": "Historia y Filosofía del Derecho",
+      "title": "Origen de la venganza privada",
+      "question_type": "single_choice",
+      "topic": "Solución de conflictos primitiva",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "Simulador_Final.md, preguntas 7 y 15 (duplicado con alternativas reordenadas)",
+      "prompt": "¿Qué originó la venganza privada?",
+      "options": [
+        {
+          "id": "A",
+          "text": "El derecho escrito"
+        },
+        {
+          "id": "B",
+          "text": "La Constitución"
+        },
+        {
+          "id": "C",
+          "text": "La ley del Talión y la represalia"
+        },
+        {
+          "id": "D",
+          "text": "La mediación moderna"
+        }
+      ],
+      "answer": {
+        "raw": "C. La ley del Talión y la represalia",
+        "option_ids": [
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La venganza privada se articuló a través de la represalia y de la ley del Talión (\"ojo por ojo\"), que fijaba un límite: responder con un daño equivalente al recibido.",
+      "feedback_incorrect": "Ubica la venganza privada en la etapa previa al Derecho estatal; el Talión fue su primera regla de proporcionalidad.",
+      "tip": "\"Ojo por ojo, diente por diente\" es la pista."
+    },
+    {
+      "id": "DER106-P008",
+      "subject_code": "DER106",
+      "subject_name": "Historia y Filosofía del Derecho",
+      "title": "Primera forma de organización social",
+      "question_type": "single_choice",
+      "topic": "Organización social primitiva",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "Simulador_Final.md, pregunta 8",
+      "prompt": "¿Qué constituye la primera forma de organización social?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La ciudad"
+        },
+        {
+          "id": "B",
+          "text": "La tribu"
+        },
+        {
+          "id": "C",
+          "text": "La comunidad primitiva"
+        },
+        {
+          "id": "D",
+          "text": "El Estado"
+        }
+      ],
+      "answer": {
+        "raw": "C. La comunidad primitiva",
+        "option_ids": [
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La comunidad primitiva es la primera forma de organización social de la humanidad, anterior a las ciudades y al Estado.",
+      "feedback_incorrect": "Ordena históricamente las formas de organización: comunidad primitiva → formas intermedias → ciudad → Estado.",
+      "tip": "Busca la opción más antigua de todas."
+    },
+    {
+      "id": "DER106-P009",
+      "subject_code": "DER106",
+      "subject_name": "Historia y Filosofía del Derecho",
+      "title": "Actividad económica de las tribus",
+      "question_type": "single_choice",
+      "topic": "Organización social primitiva",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "Simulador_Final.md, preguntas 9 y 18 (duplicado con alternativas reordenadas)",
+      "prompt": "¿Qué actividad económica practicaban las tribus?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Turismo"
+        },
+        {
+          "id": "B",
+          "text": "Comercio internacional"
+        },
+        {
+          "id": "C",
+          "text": "Industria"
+        },
+        {
+          "id": "D",
+          "text": "Caza, pesca y agricultura incipiente"
+        }
+      ],
+      "answer": {
+        "raw": "D. Caza, pesca y agricultura incipiente",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Las tribus vivían de la caza, la pesca y una agricultura incipiente: economías de subsistencia previas al comercio y a la industria.",
+      "feedback_incorrect": "Descarta las actividades modernas (turismo, industria, comercio internacional): son incompatibles con la economía tribal.",
+      "tip": "Piensa en cómo se alimentaba un grupo humano hace miles de años."
+    },
+    {
+      "id": "DER106-P010",
+      "subject_code": "DER106",
+      "subject_name": "Historia y Filosofía del Derecho",
+      "title": "Sujeto del Derecho",
+      "question_type": "single_choice",
+      "topic": "Conceptos fundamentales del Derecho",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "Simulador_Final.md, pregunta 10",
+      "prompt": "¿Qué es el sujeto del Derecho?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Toda persona o entidad con derechos y obligaciones"
+        },
+        {
+          "id": "B",
+          "text": "Solo las personas naturales"
+        },
+        {
+          "id": "C",
+          "text": "Los abogados"
+        },
+        {
+          "id": "D",
+          "text": "El Estado exclusivamente"
+        }
+      ],
+      "answer": {
+        "raw": "A. Toda persona o entidad con derechos y obligaciones",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Sujeto de derecho es todo ente capaz de tener derechos y contraer obligaciones: personas naturales y también personas jurídicas.",
+      "feedback_incorrect": "Evita las opciones excluyentes (\"solo\", \"exclusivamente\"): el concepto abarca a personas naturales y jurídicas.",
+      "tip": "Pregúntate quiénes pueden ser titulares de derechos: la respuesta es amplia."
+    },
+    {
+      "id": "DER106-P011",
+      "subject_code": "DER106",
+      "subject_name": "Historia y Filosofía del Derecho",
+      "title": "Elemento psicológico de la costumbre",
+      "question_type": "single_choice",
+      "topic": "Derecho consuetudinario",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "Simulador_Final.md, pregunta 11; gemini-code.md, sección 3",
+      "prompt": "¿Qué significa el elemento psicológico de la costumbre?",
+      "options": [
+        {
+          "id": "A",
+          "text": "El poder del Estado"
+        },
+        {
+          "id": "B",
+          "text": "La costumbre impuesta por miedo"
+        },
+        {
+          "id": "C",
+          "text": "El derecho natural"
+        },
+        {
+          "id": "D",
+          "text": "La convicción de obligatoriedad social"
+        }
+      ],
+      "answer": {
+        "raw": "D. La convicción de obligatoriedad social",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El elemento psicológico (opinio iuris) es el convencimiento del grupo de que la conducta repetida no es opcional, sino jurídicamente obligatoria.",
+      "feedback_incorrect": "Repasa la \"opinio iuris\": no basta repetir la conducta (elemento material); hay que creer que es obligatoria.",
+      "tip": "Psicológico = lo que la gente cree sobre la conducta."
+    },
+    {
+      "id": "DER106-P012",
+      "subject_code": "DER106",
+      "subject_name": "Historia y Filosofía del Derecho",
+      "title": "Las costumbres antes del Derecho escrito",
+      "question_type": "single_choice",
+      "topic": "Derecho consuetudinario",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "Simulador_Final.md, pregunta 12",
+      "prompt": "¿Qué regulaban las costumbres antes del Derecho escrito?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Solo actividades económicas"
+        },
+        {
+          "id": "B",
+          "text": "La convivencia social"
+        },
+        {
+          "id": "C",
+          "text": "La política estatal"
+        },
+        {
+          "id": "D",
+          "text": "El comercio internacional"
+        }
+      ],
+      "answer": {
+        "raw": "B. La convivencia social",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Antes de la escritura, las costumbres ordenaban toda la convivencia del grupo: familia, propiedad, conflictos, ritos.",
+      "feedback_incorrect": "Evita las opciones restringidas a un solo ámbito: la costumbre primitiva regulaba la vida social completa.",
+      "tip": "La costumbre era el \"código completo\" de la comunidad."
+    },
+    {
+      "id": "DER106-P013",
+      "subject_code": "DER106",
+      "subject_name": "Historia y Filosofía del Derecho",
+      "title": "Qué representa la tribu",
+      "question_type": "single_choice",
+      "topic": "Organización social primitiva",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "Simulador_Final.md, pregunta 13; gemini-code.md, sección 1",
+      "prompt": "¿Qué representa la tribu?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Una organización formada por varios clanes"
+        },
+        {
+          "id": "B",
+          "text": "Una organización estatal"
+        },
+        {
+          "id": "C",
+          "text": "Un grupo sin liderazgo"
+        },
+        {
+          "id": "D",
+          "text": "Una organización militar"
+        }
+      ],
+      "answer": {
+        "raw": "A. Una organización formada por varios clanes",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La tribu es la unión de varios clanes: el escalón más amplio de la organización social primitiva. El orden evolutivo es familia → clan → tribu.",
+      "feedback_incorrect": "Repasa la escala: la familia forma clanes, y los clanes forman tribus.",
+      "tip": "La tribu es la \"federación\" de clanes."
+    },
+    {
+      "id": "DER106-P014",
+      "subject_code": "DER106",
+      "subject_name": "Historia y Filosofía del Derecho",
+      "title": "Hecho histórico",
+      "question_type": "single_choice",
+      "topic": "Historiografía jurídica",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "Simulador_Final.md, pregunta 14",
+      "prompt": "¿Qué es un hecho histórico?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Una ley vigente"
+        },
+        {
+          "id": "B",
+          "text": "Un acontecimiento humano con consecuencias sociales"
+        },
+        {
+          "id": "C",
+          "text": "Un fenómeno natural"
+        },
+        {
+          "id": "D",
+          "text": "Un acontecimiento sin importancia social"
+        }
+      ],
+      "answer": {
+        "raw": "B. Un acontecimiento humano con consecuencias sociales",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El hecho histórico es obra humana y deja huella social: por eso interesa a la Historia. Un fenómeno natural sin impacto social no lo es.",
+      "feedback_incorrect": "Recuerda los dos requisitos: acción humana + consecuencias sociales.",
+      "tip": "Historia = seres humanos transformando su sociedad."
+    },
+    {
+      "id": "DER106-P015",
+      "subject_code": "DER106",
+      "subject_name": "Historia y Filosofía del Derecho",
+      "title": "Principal mecanismo regulador primitivo",
+      "question_type": "single_choice",
+      "topic": "Control social primitivo",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "Simulador_Final.md, pregunta 16; gemini-code.md, sección 2 (formulación casi idéntica consolidada)",
+      "prompt": "¿Cuál fue el principal mecanismo regulador de las comunidades primitivas?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Los jueces"
+        },
+        {
+          "id": "B",
+          "text": "La ley escrita"
+        },
+        {
+          "id": "C",
+          "text": "La Constitución"
+        },
+        {
+          "id": "D",
+          "text": "La costumbre"
+        }
+      ],
+      "answer": {
+        "raw": "D. La costumbre",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "En ausencia de Estado, jueces y leyes escritas, la costumbre era la norma: regulaba conductas y resolvía conflictos.",
+      "feedback_incorrect": "Todas las demás opciones requieren un Estado organizado, inexistente en las comunidades primitivas.",
+      "tip": "¿Qué norma no necesita ser escrita para existir?"
+    },
+    {
+      "id": "DER106-P016",
+      "subject_code": "DER106",
+      "subject_name": "Historia y Filosofía del Derecho",
+      "title": "Evolución hacia el Derecho formal",
+      "question_type": "single_choice",
+      "topic": "Evolución del Derecho",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "Simulador_Final.md, pregunta 17",
+      "prompt": "¿Qué permitió la evolución hacia el Derecho formal?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La eliminación de costumbres"
+        },
+        {
+          "id": "B",
+          "text": "La aparición del Estado y las leyes escritas"
+        },
+        {
+          "id": "C",
+          "text": "El aislamiento social"
+        },
+        {
+          "id": "D",
+          "text": "La desaparición de conflictos"
+        }
+      ],
+      "answer": {
+        "raw": "B. La aparición del Estado y las leyes escritas",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El Derecho se formaliza cuando surge el Estado y con él la ley escrita: normas generales, públicas y respaldadas por un poder organizado.",
+      "feedback_incorrect": "Nota que las costumbres no desaparecieron (se integraron) y que los conflictos nunca desaparecen: lo nuevo fue el Estado y la escritura.",
+      "tip": "Formalizar el Derecho exige alguien que lo dicte (Estado) y un soporte (escritura)."
+    },
+    {
+      "id": "DER106-P017",
+      "subject_code": "DER106",
+      "subject_name": "Historia y Filosofía del Derecho",
+      "title": "Objeto del Derecho",
+      "question_type": "single_choice",
+      "topic": "Conceptos fundamentales del Derecho",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "Simulador_Final.md, pregunta 20",
+      "prompt": "¿Cuál es el objeto del Derecho?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Crear gobiernos"
+        },
+        {
+          "id": "B",
+          "text": "Administrar bienes"
+        },
+        {
+          "id": "C",
+          "text": "Regular únicamente delitos"
+        },
+        {
+          "id": "D",
+          "text": "El conjunto de normas que regulan la conducta humana"
+        }
+      ],
+      "answer": {
+        "raw": "D. El conjunto de normas que regulan la conducta humana",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El Derecho tiene por objeto las normas que ordenan la conducta humana en sociedad, en todos los ámbitos, no solo en el penal.",
+      "feedback_incorrect": "Descarta los objetos parciales (gobiernos, bienes, delitos): el Derecho regula la conducta humana en general.",
+      "tip": "Piensa en la definición más amplia posible del Derecho."
+    },
+    {
+      "id": "DER106-P018",
+      "subject_code": "DER106",
+      "subject_name": "Historia y Filosofía del Derecho",
+      "title": "Célula primaria de organización social",
+      "question_type": "single_choice",
+      "topic": "Organización social primitiva",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "gemini-code.md, sección 1",
+      "prompt": "¿Cuál fue la célula primaria de organización social?",
+      "options": [
+        {
+          "id": "A",
+          "text": "El Estado"
+        },
+        {
+          "id": "B",
+          "text": "La tribu"
+        },
+        {
+          "id": "C",
+          "text": "El clan"
+        },
+        {
+          "id": "D",
+          "text": "La familia"
+        }
+      ],
+      "answer": {
+        "raw": "D. La familia",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La familia es la célula primaria: de ella nacen los clanes y de los clanes las tribus. Es la unidad mínima de la organización social.",
+      "feedback_incorrect": "Recuerda el orden evolutivo de menor a mayor: familia → clan → tribu (nota de estudio de la fuente).",
+      "tip": "\"Célula\" sugiere lo más pequeño y básico."
+    },
+    {
+      "id": "DER106-P019",
+      "subject_code": "DER106",
+      "subject_name": "Historia y Filosofía del Derecho",
+      "title": "Qué representa el clan",
+      "question_type": "single_choice",
+      "topic": "Organización social primitiva",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "gemini-code.md, sección 1",
+      "prompt": "¿Qué representa el clan?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Una organización estatal"
+        },
+        {
+          "id": "B",
+          "text": "Una comunidad sin vínculos de sangre"
+        },
+        {
+          "id": "C",
+          "text": "Un conjunto de tribus"
+        },
+        {
+          "id": "D",
+          "text": "Un grupo de familias con un antepasado común"
+        }
+      ],
+      "answer": {
+        "raw": "D. Un grupo de familias con un antepasado común",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El clan reúne familias emparentadas que reconocen un antepasado común. No es estatal ni carece de vínculos de sangre: el parentesco es su esencia.",
+      "feedback_incorrect": "Cuidado con la opción \"conjunto de tribus\": es al revés, la tribu es un conjunto de clanes.",
+      "tip": "Clan = familias + ancestro compartido."
+    },
+    {
+      "id": "DER106-P020",
+      "subject_code": "DER106",
+      "subject_name": "Historia y Filosofía del Derecho",
+      "title": "Función social de las costumbres",
+      "question_type": "single_choice",
+      "topic": "Control social primitivo",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "gemini-code.md, sección 2",
+      "prompt": "¿Cuál es una función social de las costumbres?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Eliminar conflictos totalmente"
+        },
+        {
+          "id": "B",
+          "text": "Crear constituciones"
+        },
+        {
+          "id": "C",
+          "text": "Sustituir al gobierno"
+        },
+        {
+          "id": "D",
+          "text": "Facilitar la convivencia pacífica"
+        }
+      ],
+      "answer": {
+        "raw": "D. Facilitar la convivencia pacífica",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Las costumbres ordenan expectativas y conductas, y con ello facilitan la convivencia pacífica del grupo. No eliminan todo conflicto, pero lo encauzan.",
+      "feedback_incorrect": "Desconfía de los absolutos (\"totalmente\"): las costumbres regulan, no hacen milagros.",
+      "tip": "La función de toda norma social: hacer posible vivir juntos."
+    },
+    {
+      "id": "DER106-P021",
+      "subject_code": "DER106",
+      "subject_name": "Historia y Filosofía del Derecho",
+      "title": "Religión y legitimidad normativa",
+      "question_type": "single_choice",
+      "topic": "Control social primitivo",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "gemini-code.md, sección 2",
+      "prompt": "¿Qué papel desempeñó la religión en el control social primitivo?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ninguno"
+        },
+        {
+          "id": "B",
+          "text": "Eliminó conflictos totalmente"
+        },
+        {
+          "id": "C",
+          "text": "Sustituyó al clan"
+        },
+        {
+          "id": "D",
+          "text": "Sirvió como fuente de legitimidad normativa"
+        }
+      ],
+      "answer": {
+        "raw": "D. Sirvió como fuente de legitimidad normativa",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Las normas primitivas se respetaban en gran parte por su supuesto origen divino o sagrado: la religión daba legitimidad a la costumbre.",
+      "feedback_incorrect": "Piensa por qué se obedecían normas sin Estado ni policía: el respaldo sagrado era la fuente de autoridad.",
+      "tip": "Lo sagrado legitima: quien viola la norma ofende a los dioses."
+    },
+    {
+      "id": "DER106-P022",
+      "subject_code": "DER106",
+      "subject_name": "Historia y Filosofía del Derecho",
+      "title": "Prácticas religiosas y cohesión",
+      "question_type": "single_choice",
+      "topic": "Control social primitivo",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "gemini-code.md, sección 2",
+      "prompt": "¿Qué papel cumplían las prácticas religiosas en la comunidad primitiva?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Creaban leyes escritas"
+        },
+        {
+          "id": "B",
+          "text": "Eliminaban las costumbres"
+        },
+        {
+          "id": "C",
+          "text": "No tenían importancia"
+        },
+        {
+          "id": "D",
+          "text": "Ayudaban a la cohesión social"
+        }
+      ],
+      "answer": {
+        "raw": "D. Ayudaban a la cohesión social",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Los ritos y prácticas religiosas unían al grupo: reforzaban la identidad común y la cohesión social de la comunidad.",
+      "feedback_incorrect": "Distingue este papel (cohesión, unir al grupo) del de la pregunta anterior (legitimar las normas): ambos son aportes de la religión primitiva.",
+      "tip": "Ritos compartidos = grupo unido."
+    },
+    {
+      "id": "DER106-P023",
+      "subject_code": "DER106",
+      "subject_name": "Historia y Filosofía del Derecho",
+      "title": "Sanción por incumplir costumbres",
+      "question_type": "single_choice",
+      "topic": "Solución de conflictos primitiva",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "gemini-code.md, sección 4",
+      "prompt": "¿Qué sanción podía existir en las comunidades primitivas por incumplir costumbres?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Multas económicas"
+        },
+        {
+          "id": "B",
+          "text": "Prisión"
+        },
+        {
+          "id": "C",
+          "text": "Pena de muerte obligatoria"
+        },
+        {
+          "id": "D",
+          "text": "Exclusión social"
+        }
+      ],
+      "answer": {
+        "raw": "D. Exclusión social",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Sin cárceles ni dinero formal, la sanción más temida era la exclusión: apartar o desterrar al infractor comprometía directamente su supervivencia.",
+      "feedback_incorrect": "Descarta las sanciones que requieren instituciones estatales (multas, prisión). La comunidad castigaba con el aislamiento.",
+      "tip": "¿Qué podía hacer un grupo sin Estado contra quien rompía las reglas? Dejarlo fuera."
+    },
+    {
+      "id": "DER106-P024",
+      "subject_code": "DER106",
+      "subject_name": "Historia y Filosofía del Derecho",
+      "title": "El juicio comunitario",
+      "question_type": "single_choice",
+      "topic": "Solución de conflictos primitiva",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "gemini-code.md, sección 4",
+      "prompt": "¿Qué caracteriza al juicio comunitario?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La imposición del Estado"
+        },
+        {
+          "id": "B",
+          "text": "La existencia de abogados"
+        },
+        {
+          "id": "C",
+          "text": "La decisión exclusiva de un juez"
+        },
+        {
+          "id": "D",
+          "text": "La participación de la comunidad en la solución del conflicto"
+        }
+      ],
+      "answer": {
+        "raw": "D. La participación de la comunidad en la solución del conflicto",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "En el juicio comunitario el conflicto se resuelve con la participación del grupo: la comunidad delibera y decide, sin jueces profesionales ni abogados.",
+      "feedback_incorrect": "La palabra clave está en el nombre: \"comunitario\" = decide la comunidad.",
+      "tip": "Contrasta con el juicio moderno: allí decide un juez; aquí, el grupo."
+    },
+    {
+      "id": "DER106-P025",
+      "subject_code": "DER106",
+      "subject_name": "Historia y Filosofía del Derecho",
+      "title": "Finalidad de la conciliación",
+      "question_type": "single_choice",
+      "topic": "Solución de conflictos primitiva",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "gemini-code.md, sección 4",
+      "prompt": "¿Qué buscaba la conciliación?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Imponer una sanción estatal"
+        },
+        {
+          "id": "B",
+          "text": "Castigar al culpable"
+        },
+        {
+          "id": "C",
+          "text": "Expulsar al infractor"
+        },
+        {
+          "id": "D",
+          "text": "Llegar a un acuerdo voluntario"
+        }
+      ],
+      "answer": {
+        "raw": "D. Llegar a un acuerdo voluntario",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La conciliación busca que las partes lleguen voluntariamente a un acuerdo que restablezca la paz, sin castigos ni imposiciones.",
+      "feedback_incorrect": "Diferencia conciliación (acuerdo) de sanción (castigo): son caminos opuestos de resolver el conflicto.",
+      "tip": "Conciliar es acercar voluntades, no imponer."
+    },
+    {
+      "id": "DER106-P026",
+      "subject_code": "DER106",
+      "subject_name": "Historia y Filosofía del Derecho",
+      "title": "La venganza de sangre",
+      "question_type": "single_choice",
+      "topic": "Solución de conflictos primitiva",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "gemini-code.md, sección 4",
+      "prompt": "¿Qué caracterizaba a la venganza de sangre?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un juicio estatal formal"
+        },
+        {
+          "id": "B",
+          "text": "Una sanción pecuniaria"
+        },
+        {
+          "id": "C",
+          "text": "Un acuerdo pacífico"
+        },
+        {
+          "id": "D",
+          "text": "Una respuesta violenta ante una ofensa grupal"
+        }
+      ],
+      "answer": {
+        "raw": "D. Una respuesta violenta ante una ofensa grupal",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La venganza de sangre era la reacción violenta del grupo ofendido contra el grupo del ofensor: el conflicto era colectivo, no individual.",
+      "feedback_incorrect": "Nota el componente grupal: la ofensa a un miembro era ofensa a todo su clan, y la respuesta también era colectiva.",
+      "tip": "\"De sangre\" alude al vínculo de parentesco que arrastraba a todo el grupo."
+    },
+    {
+      "id": "DER106-P027",
+      "subject_code": "DER106",
+      "subject_name": "Historia y Filosofía del Derecho",
+      "title": "El sujeto histórico",
+      "question_type": "single_choice",
+      "topic": "Historiografía jurídica",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "gemini-code.md, sección 5",
+      "prompt": "¿Quién es el sujeto histórico?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La ley"
+        },
+        {
+          "id": "B",
+          "text": "El Estado únicamente"
+        },
+        {
+          "id": "C",
+          "text": "El juez"
+        },
+        {
+          "id": "D",
+          "text": "El ser humano protagonista de procesos sociales"
+        }
+      ],
+      "answer": {
+        "raw": "D. El ser humano protagonista de procesos sociales",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El protagonista de la Historia es el ser humano, individual y colectivamente, como actor de los procesos sociales.",
+      "feedback_incorrect": "Leyes, jueces y Estados son creaciones humanas: detrás de todos ellos, el sujeto es la persona.",
+      "tip": "¿Quién hace la historia? Las personas."
+    },
+    {
+      "id": "DER106-P028",
+      "subject_code": "DER106",
+      "subject_name": "Historia y Filosofía del Derecho",
+      "title": "El tiempo histórico",
+      "question_type": "single_choice",
+      "topic": "Historiografía jurídica",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "gemini-code.md, sección 5",
+      "prompt": "¿Qué elemento histórico ubica los hechos en una dimensión temporal?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Objeto jurídico"
+        },
+        {
+          "id": "B",
+          "text": "Espacio histórico"
+        },
+        {
+          "id": "C",
+          "text": "Sujeto histórico"
+        },
+        {
+          "id": "D",
+          "text": "Tiempo histórico"
+        }
+      ],
+      "answer": {
+        "raw": "D. Tiempo histórico",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El tiempo histórico sitúa los hechos en su época y permite ordenarlos y compararlos: es la dimensión temporal de la Historia.",
+      "feedback_incorrect": "Asocia cada elemento con su pregunta: sujeto (¿quién?), espacio (¿dónde?), tiempo (¿cuándo?).",
+      "tip": "\"Dimensión temporal\" = cuándo."
+    },
+    {
+      "id": "DER106-P029",
+      "subject_code": "DER106",
+      "subject_name": "Historia y Filosofía del Derecho",
+      "title": "El espacio histórico como lugar",
+      "question_type": "single_choice",
+      "topic": "Historiografía jurídica",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "gemini-code.md, sección 5",
+      "prompt": "¿Qué elemento histórico se refiere al lugar donde ocurren los hechos?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Objeto histórico"
+        },
+        {
+          "id": "B",
+          "text": "Sujeto histórico"
+        },
+        {
+          "id": "C",
+          "text": "Tiempo histórico"
+        },
+        {
+          "id": "D",
+          "text": "Espacio histórico"
+        }
+      ],
+      "answer": {
+        "raw": "D. Espacio histórico",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El espacio histórico es el elemento que responde a la pregunta \"¿dónde?\": el lugar y contexto en que suceden los hechos.",
+      "feedback_incorrect": "Repasa la tríada sujeto-tiempo-espacio y la pregunta que responde cada uno.",
+      "tip": "Lugar = espacio."
+    },
+    {
+      "id": "DER106-P030",
+      "subject_code": "DER106",
+      "subject_name": "Historia y Filosofía del Derecho",
+      "title": "La Historia en relación con el Derecho",
+      "question_type": "single_choice",
+      "topic": "Historia del Derecho",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "gemini-code.md, sección 5",
+      "prompt": "¿Qué estudia la Historia en relación con el Derecho?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Las costumbres religiosas únicamente"
+        },
+        {
+          "id": "B",
+          "text": "Solo guerras antiguas"
+        },
+        {
+          "id": "C",
+          "text": "Los conflictos económicos"
+        },
+        {
+          "id": "D",
+          "text": "La evolución de las normas e instituciones jurídicas"
+        }
+      ],
+      "answer": {
+        "raw": "D. La evolución de las normas e instituciones jurídicas",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La Historia aplicada al Derecho estudia cómo nacieron y evolucionaron las normas y las instituciones jurídicas a lo largo del tiempo.",
+      "feedback_incorrect": "Evita las opciones parciales (\"únicamente\", \"solo\"): el objeto es la evolución jurídica en general.",
+      "tip": "Historia + Derecho = evolución de normas e instituciones."
+    },
+    {
+      "id": "DER106-P031",
+      "subject_code": "DER106",
+      "subject_name": "Historia y Filosofía del Derecho",
+      "title": "Historia del Derecho como disciplina",
+      "question_type": "single_choice",
+      "topic": "Historia del Derecho",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "gemini-code.md, sección 5",
+      "prompt": "¿Qué es la Historia del Derecho como disciplina?",
+      "options": [
+        {
+          "id": "A",
+          "text": "El estudio exclusivo de leyes actuales"
+        },
+        {
+          "id": "B",
+          "text": "Una rama de la sociología pura"
+        },
+        {
+          "id": "C",
+          "text": "La filosofía de las normas modernas"
+        },
+        {
+          "id": "D",
+          "text": "El estudio del origen y evolución de los sistemas jurídicos"
+        }
+      ],
+      "answer": {
+        "raw": "D. El estudio del origen y evolución de los sistemas jurídicos",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Como disciplina, la Historia del Derecho investiga el origen y la evolución de los sistemas jurídicos: de dónde vienen y cómo llegaron a ser lo que son.",
+      "feedback_incorrect": "Distingue disciplinas: la sociología estudia la sociedad actual; la filosofía, los fundamentos; la historia, el origen y la evolución.",
+      "tip": "Origen + evolución: las dos palabras clave de la disciplina."
+    },
+    {
+      "id": "DER106-P032",
+      "subject_code": "DER106",
+      "subject_name": "Historia y Filosofía del Derecho",
+      "title": "Fuente directa o primaria",
+      "question_type": "single_choice",
+      "topic": "Historiografía jurídica",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "gemini-code.md, sección 5",
+      "prompt": "¿Qué tipo de fuente histórica es un código de leyes antiguo?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fuente secundaria"
+        },
+        {
+          "id": "B",
+          "text": "Fuente oral"
+        },
+        {
+          "id": "C",
+          "text": "Fuente indirecta"
+        },
+        {
+          "id": "D",
+          "text": "Fuente directa o primaria"
+        }
+      ],
+      "answer": {
+        "raw": "D. Fuente directa o primaria",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Un código antiguo es un testimonio producido en la propia época estudiada: por eso es fuente directa o primaria, la más valiosa para el historiador.",
+      "feedback_incorrect": "Repasa la clasificación de fuentes: primarias (de la época) frente a secundarias (estudios posteriores sobre la época).",
+      "tip": "¿El documento nació en la época que estudias? Entonces es primario."
+    },
+    {
+      "id": "DER106-P033",
+      "subject_code": "DER106",
+      "subject_name": "Historia y Filosofía del Derecho",
+      "title": "Utilidad del estudio de la Historia del Derecho",
+      "question_type": "single_choice",
+      "topic": "Historia del Derecho",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "gemini-code.md, sección 5",
+      "prompt": "¿Qué permite comprender el estudio de la Historia del Derecho?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Las leyes del futuro únicamente"
+        },
+        {
+          "id": "B",
+          "text": "Cómo eliminar todas las leyes"
+        },
+        {
+          "id": "C",
+          "text": "Solo la historia militar de un país"
+        },
+        {
+          "id": "D",
+          "text": "El origen y fundamento de las instituciones jurídicas actuales"
+        }
+      ],
+      "answer": {
+        "raw": "D. El origen y fundamento de las instituciones jurídicas actuales",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Estudiar la Historia del Derecho permite entender por qué nuestras instituciones jurídicas son como son: su origen explica su fundamento actual.",
+      "feedback_incorrect": "La historia no predice el futuro ni elimina leyes: ilumina el presente desde el pasado.",
+      "tip": "Conocer el pasado para entender el presente jurídico."
+    }
+  ]
+}

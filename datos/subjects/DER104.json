@@ -1,0 +1,1328 @@
+{
+  "subject_code": "DER104",
+  "subject_name": "Teoría General del Estado y Sociología Jurídica",
+  "source_file": "Procesado/DER 104 - Teoría General del Estado y Sociología Jurídica/banco_preguntas.md",
+  "total": 30,
+  "questions": [
+    {
+      "id": "DER104-P001",
+      "subject_code": "DER104",
+      "subject_name": "Teoría General del Estado y Sociología Jurídica",
+      "title": "Enfoque marxista del Estado",
+      "question_type": "single_choice",
+      "topic": "Teorías sobre el Estado",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "1 SIMULADOR_TEORÍA_GENERAL_DEL_ESTADO,_ESTADO_PLURINACIONAL_Y_SOCIOLOGÍA_JURÍDICA_C2 (copia)_ Revisión del intento _ Grado B UNEMI.pdf, pág. 1",
+      "prompt": "¿Qué enfoque interpreta al Estado como una fuerza pública organizada vinculada al dominio de clase?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Feudalista"
+        },
+        {
+          "id": "B",
+          "text": "Pluralista"
+        },
+        {
+          "id": "C",
+          "text": "Teológico"
+        },
+        {
+          "id": "D",
+          "text": "Marxista"
+        }
+      ],
+      "answer": {
+        "raw": "D. Marxista",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El enfoque marxista concibe al Estado como un instrumento de la clase dominante: una fuerza pública organizada al servicio del dominio de una clase sobre otra.",
+      "feedback_incorrect": "Repasa las distintas teorías sobre el origen y la naturaleza del Estado. La clave del enunciado está en la expresión \"dominio de clase\", concepto central del marxismo.",
+      "tip": "¿Qué corriente de pensamiento analiza la sociedad en términos de lucha de clases?"
+    },
+    {
+      "id": "DER104-P002",
+      "subject_code": "DER104",
+      "subject_name": "Teoría General del Estado y Sociología Jurídica",
+      "title": "Origen del Estado absolutista",
+      "question_type": "single_choice",
+      "topic": "Evolución histórica del Estado",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "1 SIMULADOR_TEORÍA_GENERAL_DEL_ESTADO,_ESTADO_PLURINACIONAL_Y_SOCIOLOGÍA_JURÍDICA_C2 (copia)_ Revisión del intento _ Grado B UNEMI.pdf, pág. 1",
+      "prompt": "¿Qué hecho favoreció el surgimiento del Estado absolutista?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La creación de organismos internacionales contemporáneos"
+        },
+        {
+          "id": "B",
+          "text": "La eliminación de toda forma de monarquía"
+        },
+        {
+          "id": "C",
+          "text": "La promulgación de la Constitución ecuatoriana de 2008"
+        },
+        {
+          "id": "D",
+          "text": "La crisis económica y social del sistema feudal"
+        }
+      ],
+      "answer": {
+        "raw": "D. La crisis económica y social del sistema feudal",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El Estado absolutista surgió cuando el sistema feudal entró en crisis: la fragmentación del poder feudal dio paso a la concentración del poder en el monarca.",
+      "feedback_incorrect": "Revisa la transición del feudalismo al Estado moderno. Las demás opciones corresponden a épocas muy posteriores o contradicen la esencia del absolutismo (que es monárquico).",
+      "tip": "Ordena mentalmente las etapas: feudalismo → crisis → concentración del poder en el rey."
+    },
+    {
+      "id": "DER104-P003",
+      "subject_code": "DER104",
+      "subject_name": "Teoría General del Estado y Sociología Jurídica",
+      "title": "Función legislativa",
+      "question_type": "single_choice",
+      "topic": "Funciones del Estado",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "1 SIMULADOR_TEORÍA_GENERAL_DEL_ESTADO,_ESTADO_PLURINACIONAL_Y_SOCIOLOGÍA_JURÍDICA_C2 (copia)_ Revisión del intento _ Grado B UNEMI.pdf, pág. 2",
+      "prompt": "¿Qué función pública crea, modifica y deroga normas jurídicas?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Función legislativa"
+        },
+        {
+          "id": "B",
+          "text": "Función privada"
+        },
+        {
+          "id": "C",
+          "text": "Función judicial"
+        },
+        {
+          "id": "D",
+          "text": "Función ejecutiva"
+        }
+      ],
+      "answer": {
+        "raw": "A. Función legislativa",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La función legislativa es la encargada de crear, modificar y derogar las leyes. La judicial las aplica en los conflictos y la ejecutiva administra y gobierna.",
+      "feedback_incorrect": "Repasa la división clásica de funciones del Estado y qué hace cada una con la norma jurídica: crearla, aplicarla o ejecutarla.",
+      "tip": "\"Legislativa\" viene de \"legislar\", que significa precisamente hacer leyes."
+    },
+    {
+      "id": "DER104-P004",
+      "subject_code": "DER104",
+      "subject_name": "Teoría General del Estado y Sociología Jurídica",
+      "title": "Objetivo del neoconstitucionalismo latinoamericano",
+      "question_type": "single_choice",
+      "topic": "Neoconstitucionalismo",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "1 SIMULADOR_TEORÍA_GENERAL_DEL_ESTADO,_ESTADO_PLURINACIONAL_Y_SOCIOLOGÍA_JURÍDICA_C2 (copia)_ Revisión del intento _ Grado B UNEMI.pdf, pág. 2",
+      "prompt": "¿Qué busca responder el neoconstitucionalismo latinoamericano según el contenido de la unidad?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cómo solucionar el problema de la desigualdad"
+        },
+        {
+          "id": "B",
+          "text": "Cómo eliminar la democracia constitucional"
+        },
+        {
+          "id": "C",
+          "text": "Cómo sustituir la Constitución por costumbres privadas"
+        },
+        {
+          "id": "D",
+          "text": "Cómo consolidar privilegios hereditarios"
+        }
+      ],
+      "answer": {
+        "raw": "A. Cómo solucionar el problema de la desigualdad",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El neoconstitucionalismo latinoamericano pone los derechos y la justicia material en el centro del orden jurídico; su gran pregunta es cómo enfrentar la desigualdad estructural de la región.",
+      "feedback_incorrect": "Revisa los fines del neoconstitucionalismo: fortalecer los derechos y la igualdad, no debilitarlos ni eliminar la democracia constitucional.",
+      "tip": "Piensa en el principal problema social e histórico de América Latina que las nuevas constituciones intentan corregir."
+    },
+    {
+      "id": "DER104-P005",
+      "subject_code": "DER104",
+      "subject_name": "Teoría General del Estado y Sociología Jurídica",
+      "title": "Norma que regula la organización territorial en Ecuador",
+      "question_type": "single_choice",
+      "topic": "Organización territorial del Estado",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "1 SIMULADOR_TEORÍA_GENERAL_DEL_ESTADO,_ESTADO_PLURINACIONAL_Y_SOCIOLOGÍA_JURÍDICA_C2 (copia)_ Revisión del intento _ Grado B UNEMI.pdf, pág. 3",
+      "prompt": "¿Qué norma regula integralmente la organización territorial, autonomía y descentralización en Ecuador?",
+      "options": [
+        {
+          "id": "A",
+          "text": "COOTAD"
+        },
+        {
+          "id": "B",
+          "text": "Código Civil"
+        },
+        {
+          "id": "C",
+          "text": "Código Penal"
+        },
+        {
+          "id": "D",
+          "text": "Ley de Compañías"
+        }
+      ],
+      "answer": {
+        "raw": "A. COOTAD",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El Código Orgánico de Organización Territorial, Autonomía y Descentralización (COOTAD) es la norma que regula de manera integral la organización territorial del Estado ecuatoriano y el régimen de los GAD.",
+      "feedback_incorrect": "Fíjate en el nombre completo del COOTAD: contiene exactamente los tres conceptos del enunciado. Los otros códigos regulan materias civiles, penales y societarias.",
+      "tip": "Descompón la sigla COOTAD y compárala con las palabras del enunciado."
+    },
+    {
+      "id": "DER104-P006",
+      "subject_code": "DER104",
+      "subject_name": "Teoría General del Estado y Sociología Jurídica",
+      "title": "Importancia de la Real Audiencia de Quito",
+      "question_type": "single_choice",
+      "topic": "Historia institucional del Ecuador",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "1 SIMULADOR_TEORÍA_GENERAL_DEL_ESTADO,_ESTADO_PLURINACIONAL_Y_SOCIOLOGÍA_JURÍDICA_C2 (copia)_ Revisión del intento _ Grado B UNEMI.pdf, pág. 3",
+      "prompt": "¿Qué importancia tuvo la Real Audiencia de Quito?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Constituyó la primera estructura formal de organización jurídica y política del territorio ecuatoriano"
+        },
+        {
+          "id": "B",
+          "text": "Declaró la independencia absoluta del Ecuador"
+        },
+        {
+          "id": "C",
+          "text": "Eliminó la dependencia colonial frente a España"
+        },
+        {
+          "id": "D",
+          "text": "Sustituyó a la Constitución de 2008"
+        }
+      ],
+      "answer": {
+        "raw": "A. Constituyó la primera estructura formal de organización jurídica y política del territorio ecuatoriano",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La Real Audiencia de Quito (1563) fue la primera institución que organizó jurídica y políticamente el territorio que hoy es Ecuador, dentro del régimen colonial español.",
+      "feedback_incorrect": "Recuerda que la Real Audiencia era una institución colonial: no declaró la independencia ni eliminó la dependencia de España; al contrario, formaba parte de la administración española.",
+      "tip": "Ubica la Real Audiencia en su época: siglo XVI, período colonial."
+    },
+    {
+      "id": "DER104-P007",
+      "subject_code": "DER104",
+      "subject_name": "Teoría General del Estado y Sociología Jurídica",
+      "title": "Concepto de desconcentración administrativa",
+      "question_type": "single_choice",
+      "topic": "Descentralización y desconcentración",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "1 SIMULADOR_TEORÍA_GENERAL_DEL_ESTADO,_ESTADO_PLURINACIONAL_Y_SOCIOLOGÍA_JURÍDICA_C2 (copia)_ Revisión del intento _ Grado B UNEMI.pdf, pág. 4",
+      "prompt": "¿Qué es la desconcentración administrativa?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Transferencia definitiva de autonomía política y financiera a los GAD"
+        },
+        {
+          "id": "B",
+          "text": "Eliminación de ministerios y servicios públicos"
+        },
+        {
+          "id": "C",
+          "text": "Conversión de entidades públicas en empresas privadas"
+        },
+        {
+          "id": "D",
+          "text": "Traslado de facultades de ejecución y administración desde la matriz de un ministerio hacia dependencias locales subordinadas"
+        }
+      ],
+      "answer": {
+        "raw": "D. Traslado de facultades de ejecución y administración desde la matriz de un ministerio hacia dependencias locales subordinadas",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "En la desconcentración, la misma entidad (por ejemplo, un ministerio) traslada funciones a sus oficinas territoriales, que siguen subordinadas a la matriz. No se transfiere autonomía, solo se acerca la gestión al territorio.",
+      "feedback_incorrect": "No confundas desconcentración con descentralización: la descentralización transfiere competencias a entidades autónomas (los GAD); la desconcentración solo reparte tareas dentro de la misma institución.",
+      "tip": "Pregúntate si la dependencia local sigue obedeciendo a la matriz. Si sí, es desconcentración."
+    },
+    {
+      "id": "DER104-P008",
+      "subject_code": "DER104",
+      "subject_name": "Teoría General del Estado y Sociología Jurídica",
+      "title": "Cómo se ejerce el control social",
+      "question_type": "single_choice",
+      "topic": "Sociología jurídica / Control social",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "1 SIMULADOR_TEORÍA_GENERAL_DEL_ESTADO,_ESTADO_PLURINACIONAL_Y_SOCIOLOGÍA_JURÍDICA_C2 (copia)_ Revisión del intento _ Grado B UNEMI.pdf, pág. 4",
+      "prompt": "¿Cómo se ejerce el control social?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Únicamente mediante decisiones individuales aisladas"
+        },
+        {
+          "id": "B",
+          "text": "Solo mediante contratos mercantiles internacionales"
+        },
+        {
+          "id": "C",
+          "text": "Sin normas ni presión social"
+        },
+        {
+          "id": "D",
+          "text": "Mediante normativas y presiones sociales que delimitan la conducta"
+        }
+      ],
+      "answer": {
+        "raw": "D. Mediante normativas y presiones sociales que delimitan la conducta",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El control social opera a través de normas (jurídicas, morales, religiosas) y de la presión del grupo, que orientan y delimitan la conducta de las personas en sociedad.",
+      "feedback_incorrect": "Revisa el concepto de control social en sociología: es un fenómeno colectivo y normativo, no individual ni contractual.",
+      "tip": "Piensa en cómo la sociedad logra que la mayoría respete las reglas, incluso sin policías presentes."
+    },
+    {
+      "id": "DER104-P009",
+      "subject_code": "DER104",
+      "subject_name": "Teoría General del Estado y Sociología Jurídica",
+      "title": "Derecho represivo en sociedades simples (Durkheim)",
+      "question_type": "single_choice",
+      "topic": "Sociología jurídica / Durkheim",
+      "difficulty": "advanced",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "1 SIMULADOR_TEORÍA_GENERAL_DEL_ESTADO,_ESTADO_PLURINACIONAL_Y_SOCIOLOGÍA_JURÍDICA_C2 (copia)_ Revisión del intento _ Grado B UNEMI.pdf, pág. 5",
+      "prompt": "¿Qué tipo de Derecho predomina en sociedades simples según Durkheim?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Derecho internacional privado"
+        },
+        {
+          "id": "B",
+          "text": "Derecho administrativo global"
+        },
+        {
+          "id": "C",
+          "text": "Derecho represivo y penal"
+        },
+        {
+          "id": "D",
+          "text": "Derecho restitutivo exclusivamente comercial"
+        }
+      ],
+      "answer": {
+        "raw": "C. Derecho represivo y penal",
+        "option_ids": [
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Para Durkheim, en las sociedades simples (de solidaridad mecánica) predomina el derecho represivo: se castiga con dureza a quien ofende la conciencia colectiva. En las sociedades complejas predomina el derecho restitutivo.",
+      "feedback_incorrect": "Repasa la distinción de Durkheim entre solidaridad mecánica (derecho represivo) y solidaridad orgánica (derecho restitutivo).",
+      "tip": "Asocia sociedad simple con castigo y sociedad compleja con reparación."
+    },
+    {
+      "id": "DER104-P010",
+      "subject_code": "DER104",
+      "subject_name": "Teoría General del Estado y Sociología Jurídica",
+      "title": "Objetivo de la Unidad 4",
+      "question_type": "single_choice",
+      "topic": "Sociología y Derecho",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "1 SIMULADOR_TEORÍA_GENERAL_DEL_ESTADO,_ESTADO_PLURINACIONAL_Y_SOCIOLOGÍA_JURÍDICA_C2 (copia)_ Revisión del intento _ Grado B UNEMI.pdf, pág. 5",
+      "prompt": "¿Cuál es el objetivo principal de la Unidad 4 de Teoría General del Estado, Estado Plurinacional y Sociología Jurídica?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reconocer los componentes de la sociología y su aporte en el derecho"
+        },
+        {
+          "id": "B",
+          "text": "Analizar solo la estructura administrativa de los GAD"
+        },
+        {
+          "id": "C",
+          "text": "Estudiar exclusivamente los elementos del contrato civil"
+        },
+        {
+          "id": "D",
+          "text": "Identificar únicamente los delitos contra la propiedad"
+        }
+      ],
+      "answer": {
+        "raw": "A. Reconocer los componentes de la sociología y su aporte en el derecho",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La Unidad 4 de la asignatura se centra en la sociología jurídica: qué estudia la sociología y cómo aporta a la comprensión del Derecho.",
+      "feedback_incorrect": "Observa que las otras opciones usan palabras excluyentes (\"solo\", \"exclusivamente\", \"únicamente\") y tratan temas ajenos a la sociología jurídica.",
+      "tip": "El nombre de la asignatura incluye \"Sociología Jurídica\": esa es la pista del objetivo de la unidad final."
+    },
+    {
+      "id": "DER104-P011",
+      "subject_code": "DER104",
+      "subject_name": "Teoría General del Estado y Sociología Jurídica",
+      "title": "Fin del Estado absolutista",
+      "question_type": "single_choice",
+      "topic": "Evolución histórica del Estado",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "2 SIMULADOR_TEORÍA_GENERAL_DEL_ESTADO,_ESTADO_PLURINACIONAL_Y_SOCIOLOGÍA_JURÍDICA_C2 (copia)_ Revisión del intento _ Grado B UNEMI.pdf, pág. 1",
+      "prompt": "¿Qué procesos marcaron el final del Estado absolutista?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La consolidación definitiva de la servidumbre"
+        },
+        {
+          "id": "B",
+          "text": "La desaparición de la burguesía"
+        },
+        {
+          "id": "C",
+          "text": "Las revoluciones burguesas y la aparición del Estado capitalista"
+        },
+        {
+          "id": "D",
+          "text": "El retorno pleno al sistema esclavista"
+        }
+      ],
+      "answer": {
+        "raw": "C. Las revoluciones burguesas y la aparición del Estado capitalista",
+        "option_ids": [
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Las revoluciones burguesas (como la francesa de 1789) acabaron con el absolutismo y dieron paso al Estado liberal capitalista, basado en la limitación del poder y los derechos individuales.",
+      "feedback_incorrect": "Revisa la secuencia histórica: absolutismo → revoluciones burguesas → Estado liberal. Las otras opciones describen retrocesos que no ocurrieron.",
+      "tip": "Piensa en 1789 y en qué clase social protagonizó ese cambio."
+    },
+    {
+      "id": "DER104-P012",
+      "subject_code": "DER104",
+      "subject_name": "Teoría General del Estado y Sociología Jurídica",
+      "title": "Los tres poderes clásicos del Estado",
+      "question_type": "single_choice",
+      "topic": "Funciones del Estado",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "2 SIMULADOR_TEORÍA_GENERAL_DEL_ESTADO,_ESTADO_PLURINACIONAL_Y_SOCIOLOGÍA_JURÍDICA_C2 (copia)_ Revisión del intento _ Grado B UNEMI.pdf, pág. 2",
+      "prompt": "Según la teoría clásica, ¿cuáles son los tres poderes del Estado?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Privado, Mercantil y Doméstico"
+        },
+        {
+          "id": "B",
+          "text": "Ejecutivo, Legislativo y Judicial"
+        },
+        {
+          "id": "C",
+          "text": "Feudal, Nobiliario y Campesino"
+        },
+        {
+          "id": "D",
+          "text": "Religioso, Comercial y Familiar"
+        }
+      ],
+      "answer": {
+        "raw": "B. Ejecutivo, Legislativo y Judicial",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La teoría clásica de la separación de poderes, formulada por Montesquieu, distingue tres poderes: el ejecutivo (gobierna), el legislativo (hace las leyes) y el judicial (juzga).",
+      "feedback_incorrect": "Repasa la doctrina de la separación de poderes y su finalidad: evitar la concentración del poder en una sola mano.",
+      "tip": "Recuerda a Montesquieu y su obra \"El espíritu de las leyes\"."
+    },
+    {
+      "id": "DER104-P013",
+      "subject_code": "DER104",
+      "subject_name": "Teoría General del Estado y Sociología Jurídica",
+      "title": "Mercados globales y Estado contemporáneo",
+      "question_type": "single_choice",
+      "topic": "Estado y globalización",
+      "difficulty": "advanced",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "2 SIMULADOR_TEORÍA_GENERAL_DEL_ESTADO,_ESTADO_PLURINACIONAL_Y_SOCIOLOGÍA_JURÍDICA_C2 (copia)_ Revisión del intento _ Grado B UNEMI.pdf, pág. 2",
+      "prompt": "¿Por qué los mercados globales desarticulan funcionalmente al Estado contemporáneo?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Porque desaparecen las calificaciones de riesgo"
+        },
+        {
+          "id": "B",
+          "text": "Porque el poder económico se vuelve global mientras el poder político permanece local"
+        },
+        {
+          "id": "C",
+          "text": "Porque no existen organismos de crédito"
+        },
+        {
+          "id": "D",
+          "text": "Porque el Estado controla completamente todas las empresas transnacionales"
+        }
+      ],
+      "answer": {
+        "raw": "B. Porque el poder económico se vuelve global mientras el poder político permanece local",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La globalización crea una asimetría: el capital y los mercados operan a escala mundial, pero el poder político del Estado sigue limitado a su territorio. Esa asimetría debilita la capacidad estatal de regular la economía.",
+      "feedback_incorrect": "Revisa el impacto de la globalización sobre la soberanía estatal: el problema es el desfase de escalas entre economía global y política nacional.",
+      "tip": "Compara el alcance territorial del Estado con el alcance de una empresa transnacional."
+    },
+    {
+      "id": "DER104-P014",
+      "subject_code": "DER104",
+      "subject_name": "Teoría General del Estado y Sociología Jurídica",
+      "title": "Principios del Estado de Derecho",
+      "question_type": "single_choice",
+      "topic": "Estado de Derecho",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "2 SIMULADOR_TEORÍA_GENERAL_DEL_ESTADO,_ESTADO_PLURINACIONAL_Y_SOCIOLOGÍA_JURÍDICA_C2 (copia)_ Revisión del intento _ Grado B UNEMI.pdf, pág. 3",
+      "prompt": "¿Cuáles son principios vinculados al Estado de Derecho?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Supremacía del gobernante sobre la Constitución"
+        },
+        {
+          "id": "B",
+          "text": "Arbitrariedad, opacidad y privilegio"
+        },
+        {
+          "id": "C",
+          "text": "Primacía de la ley, igualdad ante la ley, separación de poderes, legalidad y transparencia"
+        },
+        {
+          "id": "D",
+          "text": "Concentración del poder, subordinación judicial y discrecionalidad absoluta"
+        }
+      ],
+      "answer": {
+        "raw": "C. Primacía de la ley, igualdad ante la ley, separación de poderes, legalidad y transparencia",
+        "option_ids": [
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El Estado de Derecho se caracteriza por el sometimiento de todos (gobernantes incluidos) a la ley, la igualdad ante ella, la separación de poderes y la actuación legal y transparente del poder público.",
+      "feedback_incorrect": "Descarta las opciones que describen justamente lo contrario del Estado de Derecho: arbitrariedad, concentración del poder y supremacía del gobernante.",
+      "tip": "En el Estado de Derecho, la ley está por encima del gobernante, nunca al revés."
+    },
+    {
+      "id": "DER104-P015",
+      "subject_code": "DER104",
+      "subject_name": "Teoría General del Estado y Sociología Jurídica",
+      "title": "Características del Estado neoliberal",
+      "question_type": "single_choice",
+      "topic": "Modelos de Estado",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "2 SIMULADOR_TEORÍA_GENERAL_DEL_ESTADO,_ESTADO_PLURINACIONAL_Y_SOCIOLOGÍA_JURÍDICA_C2 (copia)_ Revisión del intento _ Grado B UNEMI.pdf, pág. 3",
+      "prompt": "¿Qué caracterizó al Estado neoliberal de los años ochenta y noventa?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Aumento ilimitado del gasto público y cierre total de mercados"
+        },
+        {
+          "id": "B",
+          "text": "Sustitución de la economía por estructuras comunitarias"
+        },
+        {
+          "id": "C",
+          "text": "Eliminación de la propiedad privada"
+        },
+        {
+          "id": "D",
+          "text": "Reducción del gasto público, privatizaciones y apertura de mercados"
+        }
+      ],
+      "answer": {
+        "raw": "D. Reducción del gasto público, privatizaciones y apertura de mercados",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El modelo neoliberal impulsó un Estado mínimo: recortó el gasto público, privatizó empresas estatales y abrió los mercados al comercio y a la inversión extranjera.",
+      "feedback_incorrect": "Revisa las políticas del Consenso de Washington y su aplicación en América Latina en los ochenta y noventa.",
+      "tip": "\"Neoliberal\" sugiere menos Estado y más mercado."
+    },
+    {
+      "id": "DER104-P016",
+      "subject_code": "DER104",
+      "subject_name": "Teoría General del Estado y Sociología Jurídica",
+      "title": "Descentralización obligatoria",
+      "question_type": "single_choice",
+      "topic": "Descentralización y desconcentración",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "2 SIMULADOR_TEORÍA_GENERAL_DEL_ESTADO,_ESTADO_PLURINACIONAL_Y_SOCIOLOGÍA_JURÍDICA_C2 (copia)_ Revisión del intento _ Grado B UNEMI.pdf, pág. 4",
+      "prompt": "¿Qué establece la descentralización obligatoria?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Concentración total de competencias en ministerios centrales"
+        },
+        {
+          "id": "B",
+          "text": "Transferencia sistemática, obligatoria y progresiva de competencias y recursos desde el Gobierno Central hacia los GAD"
+        },
+        {
+          "id": "C",
+          "text": "Eliminación de toda autonomía territorial"
+        },
+        {
+          "id": "D",
+          "text": "Supresión de los GAD"
+        }
+      ],
+      "answer": {
+        "raw": "B. Transferencia sistemática, obligatoria y progresiva de competencias y recursos desde el Gobierno Central hacia los GAD",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "En el modelo ecuatoriano, la descentralización es obligatoria y progresiva: el Gobierno Central debe transferir competencias y recursos a los Gobiernos Autónomos Descentralizados de manera sistemática.",
+      "feedback_incorrect": "Recuerda que descentralizar significa repartir el poder hacia los territorios, no concentrarlo ni eliminar los GAD.",
+      "tip": "Fíjate en la dirección de la transferencia: del centro hacia los territorios."
+    },
+    {
+      "id": "DER104-P017",
+      "subject_code": "DER104",
+      "subject_name": "Teoría General del Estado y Sociología Jurídica",
+      "title": "Finalidad de la desconcentración",
+      "question_type": "single_choice",
+      "topic": "Descentralización y desconcentración",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "2 SIMULADOR_TEORÍA_GENERAL_DEL_ESTADO,_ESTADO_PLURINACIONAL_Y_SOCIOLOGÍA_JURÍDICA_C2 (copia)_ Revisión del intento _ Grado B UNEMI.pdf, pág. 4",
+      "prompt": "¿Cuál es la finalidad principal de la desconcentración?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Concentrar todos los servicios en la capital"
+        },
+        {
+          "id": "B",
+          "text": "Alejar la administración pública de la ciudadanía"
+        },
+        {
+          "id": "C",
+          "text": "Acercar los servicios públicos al ciudadano y mejorar tiempos de respuesta"
+        },
+        {
+          "id": "D",
+          "text": "Suprimir la prestación de servicios estatales"
+        }
+      ],
+      "answer": {
+        "raw": "C. Acercar los servicios públicos al ciudadano y mejorar tiempos de respuesta",
+        "option_ids": [
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La desconcentración busca que los servicios del Estado lleguen al territorio: oficinas locales que atienden más cerca del ciudadano y responden con mayor rapidez.",
+      "feedback_incorrect": "Revisa la finalidad de la desconcentración: eficiencia y cercanía en la prestación de servicios, no concentración ni supresión.",
+      "tip": "Piensa en por qué existen direcciones distritales o zonales de los ministerios."
+    },
+    {
+      "id": "DER104-P018",
+      "subject_code": "DER104",
+      "subject_name": "Teoría General del Estado y Sociología Jurídica",
+      "title": "Objeto de la sociología general",
+      "question_type": "single_choice",
+      "topic": "Sociología general",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "2 SIMULADOR_TEORÍA_GENERAL_DEL_ESTADO,_ESTADO_PLURINACIONAL_Y_SOCIOLOGÍA_JURÍDICA_C2 (copia)_ Revisión del intento _ Grado B UNEMI.pdf, pág. 5",
+      "prompt": "¿Qué estudia la sociología como disciplina general?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Únicamente la estructura patrimonial de las empresas"
+        },
+        {
+          "id": "B",
+          "text": "El comportamiento social de las personas, los grupos y la organización de las sociedades"
+        },
+        {
+          "id": "C",
+          "text": "Solo las normas procesales penales"
+        },
+        {
+          "id": "D",
+          "text": "Exclusivamente la organización militar del Estado"
+        }
+      ],
+      "answer": {
+        "raw": "B. El comportamiento social de las personas, los grupos y la organización de las sociedades",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La sociología estudia la vida social: cómo se comportan las personas en grupo, cómo se organizan las sociedades y qué reglas y estructuras las ordenan.",
+      "feedback_incorrect": "Descarta las opciones con \"únicamente\", \"solo\" o \"exclusivamente\": la sociología es una ciencia general de la sociedad, no de un sector específico.",
+      "tip": "La raíz \"socio-\" indica su objeto: la sociedad."
+    },
+    {
+      "id": "DER104-P019",
+      "subject_code": "DER104",
+      "subject_name": "Teoría General del Estado y Sociología Jurídica",
+      "title": "Relaciones entre Derecho y Política",
+      "question_type": "single_choice",
+      "topic": "Derecho y Política",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "2 SIMULADOR_TEORÍA_GENERAL_DEL_ESTADO,_ESTADO_PLURINACIONAL_Y_SOCIOLOGÍA_JURÍDICA_C2 (copia)_ Revisión del intento _ Grado B UNEMI.pdf, pág. 5",
+      "prompt": "¿Cuáles son las cuatro relaciones entre Derecho y Política indicadas en la unidad?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mercado, empresa, contrato y patrimonio"
+        },
+        {
+          "id": "B",
+          "text": "Regir conductas, carácter político del derecho, carácter histórico del derecho y papel de la razón"
+        },
+        {
+          "id": "C",
+          "text": "Gobierno, banco, tribunal y universidad"
+        },
+        {
+          "id": "D",
+          "text": "Familia, economía, religión y costumbre"
+        }
+      ],
+      "answer": {
+        "raw": "B. Regir conductas, carácter político del derecho, carácter histórico del derecho y papel de la razón",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Según el material de la unidad, Derecho y Política se relacionan en cuatro planos: ambos rigen conductas, el derecho tiene carácter político, tiene carácter histórico y en ambos interviene la razón.",
+      "feedback_incorrect": "Revisa el apartado de la unidad sobre las relaciones entre Derecho y Política; las otras opciones enumeran instituciones o ámbitos, no relaciones.",
+      "tip": "Busca la opción que habla de características del derecho, no de listas de instituciones."
+    },
+    {
+      "id": "DER104-P020",
+      "subject_code": "DER104",
+      "subject_name": "Teoría General del Estado y Sociología Jurídica",
+      "title": "Dimensión sociológica del análisis jurídico",
+      "question_type": "single_choice",
+      "topic": "Sociología jurídica",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "2 SIMULADOR_TEORÍA_GENERAL_DEL_ESTADO,_ESTADO_PLURINACIONAL_Y_SOCIOLOGÍA_JURÍDICA_C2 (copia)_ Revisión del intento _ Grado B UNEMI.pdf, pág. 6",
+      "prompt": "¿Qué estudia la dimensión sociológica del análisis jurídico?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cómo desaparecen las normas dentro de la sociedad"
+        },
+        {
+          "id": "B",
+          "text": "Cómo las normas se aíslan totalmente de la ciudadanía"
+        },
+        {
+          "id": "C",
+          "text": "Cómo las normas son recibidas, aceptadas, resistidas o ignoradas por la población"
+        },
+        {
+          "id": "D",
+          "text": "Cómo los jueces eliminan el derecho vigente"
+        }
+      ],
+      "answer": {
+        "raw": "C. Cómo las normas son recibidas, aceptadas, resistidas o ignoradas por la población",
+        "option_ids": [
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La dimensión sociológica del Derecho estudia la norma en acción: qué hace la gente con las normas, si las acepta, las resiste o las ignora. Es el derecho vivido, no solo el derecho escrito.",
+      "feedback_incorrect": "Distingue el análisis normativo (qué dice la norma) del sociológico (qué pasa con la norma en la realidad social).",
+      "tip": "Piensa en la diferencia entre una ley en el papel y esa misma ley en la calle."
+    },
+    {
+      "id": "DER104-P021",
+      "subject_code": "DER104",
+      "subject_name": "Teoría General del Estado y Sociología Jurídica",
+      "title": "La imprenta y la modernidad",
+      "question_type": "single_choice",
+      "topic": "Modernidad y cambio social",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "3 SIMULADOR_TEORÍA_GENERAL_DEL_ESTADO,_ESTADO_PLURINACIONAL_Y_SOCIOLOGÍA_JURÍDICA_C2 (copia)_ Revisión del intento _ Grado B UNEMI.pdf, pág. 1",
+      "prompt": "¿Cuál fue el efecto de la invención de la imprenta en el nacimiento de la modernidad?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Suprimió el desarrollo cultural del Renacimiento"
+        },
+        {
+          "id": "B",
+          "text": "Permitió la expansión rápida del conocimiento por Europa"
+        },
+        {
+          "id": "C",
+          "text": "Fortaleció exclusivamente la economía feudal"
+        },
+        {
+          "id": "D",
+          "text": "Eliminó las ciencias modernas"
+        }
+      ],
+      "answer": {
+        "raw": "B. Permitió la expansión rápida del conocimiento por Europa",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La imprenta de Gutenberg multiplicó los libros y abarató su producción, lo que difundió rápidamente las ideas por Europa e impulsó el Renacimiento, la Reforma y la ciencia moderna.",
+      "feedback_incorrect": "Revisa el papel de la imprenta como motor de la modernidad: difundió el conocimiento, no lo suprimió.",
+      "tip": "Imagina qué pasa con las ideas cuando copiar un libro deja de tomar meses."
+    },
+    {
+      "id": "DER104-P022",
+      "subject_code": "DER104",
+      "subject_name": "Teoría General del Estado y Sociología Jurídica",
+      "title": "Definición política general del Estado",
+      "question_type": "single_choice",
+      "topic": "Concepto de Estado",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "3 SIMULADOR_TEORÍA_GENERAL_DEL_ESTADO,_ESTADO_PLURINACIONAL_Y_SOCIOLOGÍA_JURÍDICA_C2 (copia)_ Revisión del intento _ Grado B UNEMI.pdf, pág. 2",
+      "prompt": "¿Qué es el Estado desde una definición política general?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Una empresa privada sin territorio"
+        },
+        {
+          "id": "B",
+          "text": "Un grupo familiar sin normas comunes"
+        },
+        {
+          "id": "C",
+          "text": "Una forma de organización social con instituciones soberanas que regulan una comunidad en un territorio"
+        },
+        {
+          "id": "D",
+          "text": "Una asociación temporal sin autoridad"
+        }
+      ],
+      "answer": {
+        "raw": "C. Una forma de organización social con instituciones soberanas que regulan una comunidad en un territorio",
+        "option_ids": [
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El Estado es la organización política de una comunidad: instituciones con poder soberano que regulan la vida de una población asentada en un territorio.",
+      "feedback_incorrect": "Recuerda los elementos clásicos del Estado: población, territorio, poder soberano y orden jurídico. Solo una opción los reúne.",
+      "tip": "Busca la opción que combine comunidad, territorio e instituciones con soberanía."
+    },
+    {
+      "id": "DER104-P023",
+      "subject_code": "DER104",
+      "subject_name": "Teoría General del Estado y Sociología Jurídica",
+      "title": "Artículos 10 y 11 de la Constitución de 2008",
+      "question_type": "single_choice",
+      "topic": "Constitución ecuatoriana de 2008",
+      "difficulty": "advanced",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "3 SIMULADOR_TEORÍA_GENERAL_DEL_ESTADO,_ESTADO_PLURINACIONAL_Y_SOCIOLOGÍA_JURÍDICA_C2 (copia)_ Revisión del intento _ Grado B UNEMI.pdf, pág. 2",
+      "prompt": "¿Qué reconocen los artículos 10 y 11 de la Constitución ecuatoriana de 2008 según el material de estudio?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Solo derechos políticos de autoridades electas"
+        },
+        {
+          "id": "B",
+          "text": "La desaparición de los instrumentos internacionales de derechos humanos"
+        },
+        {
+          "id": "C",
+          "text": "Únicamente derechos patrimoniales de empresas privadas"
+        },
+        {
+          "id": "D",
+          "text": "Principios generales de aplicación de derechos y ampliación hacia derechos individuales y colectivos"
+        }
+      ],
+      "answer": {
+        "raw": "D. Principios generales de aplicación de derechos y ampliación hacia derechos individuales y colectivos",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Los artículos 10 y 11 de la Constitución de 2008 establecen quiénes son titulares de derechos (incluso la naturaleza) y los principios para su ejercicio y aplicación, ampliando la protección a derechos individuales y colectivos.",
+      "feedback_incorrect": "Revisa el Título II de la Constitución de 2008: los artículos 10 y 11 abren el capítulo de derechos con sus principios de aplicación.",
+      "tip": "Recuerda que la Constitución de 2008 es garantista: amplía derechos, no los restringe."
+    },
+    {
+      "id": "DER104-P024",
+      "subject_code": "DER104",
+      "subject_name": "Teoría General del Estado y Sociología Jurídica",
+      "title": "Subordinación financiera y políticas públicas",
+      "question_type": "single_choice",
+      "topic": "Estado y globalización",
+      "difficulty": "advanced",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "3 SIMULADOR_TEORÍA_GENERAL_DEL_ESTADO,_ESTADO_PLURINACIONAL_Y_SOCIOLOGÍA_JURÍDICA_C2 (copia)_ Revisión del intento _ Grado B UNEMI.pdf, pág. 3",
+      "prompt": "¿Qué efecto produce la subordinación financiera en las políticas públicas?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Las políticas se elaboran sin ningún factor económico externo"
+        },
+        {
+          "id": "B",
+          "text": "Las empresas transnacionales pierden toda influencia económica"
+        },
+        {
+          "id": "C",
+          "text": "El Estado adquiere autonomía absoluta frente a los mercados"
+        },
+        {
+          "id": "D",
+          "text": "Las políticas pueden quedar condicionadas por calificaciones de riesgo y exigencias de organismos de crédito"
+        }
+      ],
+      "answer": {
+        "raw": "D. Las políticas pueden quedar condicionadas por calificaciones de riesgo y exigencias de organismos de crédito",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Cuando un Estado depende del financiamiento externo, sus políticas públicas quedan condicionadas: las calificadoras de riesgo y los organismos de crédito imponen exigencias que limitan sus decisiones.",
+      "feedback_incorrect": "Revisa cómo la deuda y el financiamiento externo restringen la autonomía de los Estados para decidir sus políticas.",
+      "tip": "Piensa en qué pasa cuando quien presta el dinero pone condiciones."
+    },
+    {
+      "id": "DER104-P025",
+      "subject_code": "DER104",
+      "subject_name": "Teoría General del Estado y Sociología Jurídica",
+      "title": "Institucionalización de la autoridad",
+      "question_type": "single_choice",
+      "topic": "Autoridad e instituciones",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "3 SIMULADOR_TEORÍA_GENERAL_DEL_ESTADO,_ESTADO_PLURINACIONAL_Y_SOCIOLOGÍA_JURÍDICA_C2 (copia)_ Revisión del intento _ Grado B UNEMI.pdf, pág. 3",
+      "prompt": "¿Qué implica la institucionalización de la autoridad?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La desaparición del aparato administrativo"
+        },
+        {
+          "id": "B",
+          "text": "La creación de instituciones legítimas"
+        },
+        {
+          "id": "C",
+          "text": "La privatización total de la soberanía"
+        },
+        {
+          "id": "D",
+          "text": "La eliminación de símbolos patrios"
+        }
+      ],
+      "answer": {
+        "raw": "B. La creación de instituciones legítimas",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Institucionalizar la autoridad significa que el poder deja de depender de personas concretas y pasa a ejercerse a través de instituciones estables y legítimas, reguladas por normas.",
+      "feedback_incorrect": "Revisa el paso del poder personal al poder institucional: la autoridad se vuelve permanente y legítima cuando se encarna en instituciones.",
+      "tip": "La palabra clave está en el propio enunciado: \"institucionalización\" implica crear instituciones."
+    },
+    {
+      "id": "DER104-P026",
+      "subject_code": "DER104",
+      "subject_name": "Teoría General del Estado y Sociología Jurídica",
+      "title": "Centralización histórica en Ecuador",
+      "question_type": "single_choice",
+      "topic": "Organización territorial del Estado",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "3 SIMULADOR_TEORÍA_GENERAL_DEL_ESTADO,_ESTADO_PLURINACIONAL_Y_SOCIOLOGÍA_JURÍDICA_C2 (copia)_ Revisión del intento _ Grado B UNEMI.pdf, pág. 4",
+      "prompt": "¿Qué caracterizó históricamente a la centralización en Ecuador?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Acumulación del poder político, recaudación fiscal y toma de decisiones en el gobierno central"
+        },
+        {
+          "id": "B",
+          "text": "Desaparición del gobierno central"
+        },
+        {
+          "id": "C",
+          "text": "Ausencia de asimetrías provinciales"
+        },
+        {
+          "id": "D",
+          "text": "Autonomía fiscal plena de todas las provincias desde el origen republicano"
+        }
+      ],
+      "answer": {
+        "raw": "A. Acumulación del poder político, recaudación fiscal y toma de decisiones en el gobierno central",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Históricamente, en Ecuador el poder político, los recursos fiscales y las decisiones se concentraron en el gobierno central, lo que generó desequilibrios entre el centro y las provincias.",
+      "feedback_incorrect": "Centralizar es concentrar en el centro. Las demás opciones describen lo contrario o niegan las asimetrías que precisamente provocó la centralización.",
+      "tip": "Pregúntate dónde se decidía y se recaudaba todo en el Ecuador tradicional."
+    },
+    {
+      "id": "DER104-P027",
+      "subject_code": "DER104",
+      "subject_name": "Teoría General del Estado y Sociología Jurídica",
+      "title": "Batalla de Pichincha",
+      "question_type": "single_choice",
+      "topic": "Historia institucional del Ecuador",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "3 SIMULADOR_TEORÍA_GENERAL_DEL_ESTADO,_ESTADO_PLURINACIONAL_Y_SOCIOLOGÍA_JURÍDICA_C2 (copia)_ Revisión del intento _ Grado B UNEMI.pdf, pág. 4",
+      "prompt": "¿Qué batalla consolidó militarmente la independencia de Quito?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Batalla de Ayacucho"
+        },
+        {
+          "id": "B",
+          "text": "Batalla de Boyacá"
+        },
+        {
+          "id": "C",
+          "text": "Batalla de Tarqui"
+        },
+        {
+          "id": "D",
+          "text": "Batalla de Pichincha"
+        }
+      ],
+      "answer": {
+        "raw": "D. Batalla de Pichincha",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La Batalla de Pichincha (24 de mayo de 1822), liderada por Antonio José de Sucre, selló militarmente la independencia de Quito del dominio español.",
+      "feedback_incorrect": "Ubica cada batalla: Boyacá (Colombia), Ayacucho (Perú), Tarqui (conflicto con Perú en 1829). La de Quito es Pichincha.",
+      "tip": "El nombre de la batalla coincide con el volcán a cuyas faldas está Quito."
+    },
+    {
+      "id": "DER104-P028",
+      "subject_code": "DER104",
+      "subject_name": "Teoría General del Estado y Sociología Jurídica",
+      "title": "Dimensión normativa de la sociología jurídica",
+      "question_type": "single_choice",
+      "topic": "Sociología jurídica",
+      "difficulty": "advanced",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "3 SIMULADOR_TEORÍA_GENERAL_DEL_ESTADO,_ESTADO_PLURINACIONAL_Y_SOCIOLOGÍA_JURÍDICA_C2 (copia)_ Revisión del intento _ Grado B UNEMI.pdf, pág. 5",
+      "prompt": "¿Qué estudia la dimensión normativa de la sociología jurídica?",
+      "options": [
+        {
+          "id": "A",
+          "text": "El contenido de las normas y su coherencia interna con valores sociales predominantes"
+        },
+        {
+          "id": "B",
+          "text": "El diseño físico de edificios judiciales"
+        },
+        {
+          "id": "C",
+          "text": "El funcionamiento exclusivo de empresas privadas"
+        },
+        {
+          "id": "D",
+          "text": "La conducta individual sin relación normativa"
+        }
+      ],
+      "answer": {
+        "raw": "A. El contenido de las normas y su coherencia interna con valores sociales predominantes",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La dimensión normativa de la sociología jurídica analiza qué dicen las normas y si su contenido es coherente con los valores que predominan en la sociedad.",
+      "feedback_incorrect": "Distingue las dimensiones del análisis sociológico del Derecho: la normativa mira el contenido de las normas; la sociológica (fáctica) mira cómo la población las recibe.",
+      "tip": "\"Normativa\" apunta al contenido de las normas, no a los edificios ni a las empresas."
+    },
+    {
+      "id": "DER104-P029",
+      "subject_code": "DER104",
+      "subject_name": "Teoría General del Estado y Sociología Jurídica",
+      "title": "Objeto de la sociología del derecho",
+      "question_type": "single_choice",
+      "topic": "Sociología jurídica",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "3 SIMULADOR_TEORÍA_GENERAL_DEL_ESTADO,_ESTADO_PLURINACIONAL_Y_SOCIOLOGÍA_JURÍDICA_C2 (copia)_ Revisión del intento _ Grado B UNEMI.pdf, pág. 5",
+      "prompt": "¿Qué relación investiga la sociología del derecho?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La independencia absoluta del derecho respecto de la sociedad"
+        },
+        {
+          "id": "B",
+          "text": "La inexistencia de factores culturales en el derecho"
+        },
+        {
+          "id": "C",
+          "text": "La separación total entre norma jurídica y conducta social"
+        },
+        {
+          "id": "D",
+          "text": "La influencia de los factores sociales sobre el Derecho y del Derecho sobre la sociedad"
+        }
+      ],
+      "answer": {
+        "raw": "D. La influencia de los factores sociales sobre el Derecho y del Derecho sobre la sociedad",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La sociología del derecho estudia una relación de ida y vuelta: cómo la sociedad influye en el Derecho (creación de normas) y cómo el Derecho influye en la sociedad (efectos de las normas).",
+      "feedback_incorrect": "Las opciones que hablan de independencia o separación total contradicen la premisa básica de la disciplina: Derecho y sociedad están siempre conectados.",
+      "tip": "Busca la única opción que plantea una relación en ambas direcciones."
+    },
+    {
+      "id": "DER104-P030",
+      "subject_code": "DER104",
+      "subject_name": "Teoría General del Estado y Sociología Jurídica",
+      "title": "Factores que impulsan cambios sociales",
+      "question_type": "single_choice",
+      "topic": "Cambio social",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "3 SIMULADOR_TEORÍA_GENERAL_DEL_ESTADO,_ESTADO_PLURINACIONAL_Y_SOCIOLOGÍA_JURÍDICA_C2 (copia)_ Revisión del intento _ Grado B UNEMI.pdf, pág. 6",
+      "prompt": "¿Qué acontecimientos se mencionan como factores que impulsan cambios sociales?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Eliminación de derechos humanos"
+        },
+        {
+          "id": "B",
+          "text": "Supresión del pensamiento científico"
+        },
+        {
+          "id": "C",
+          "text": "Método científico, Revolución Francesa y Revolución Industrial"
+        },
+        {
+          "id": "D",
+          "text": "Rechazo de la razón y del humanismo"
+        }
+      ],
+      "answer": {
+        "raw": "C. Método científico, Revolución Francesa y Revolución Industrial",
+        "option_ids": [
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El material señala tres grandes motores del cambio social moderno: el método científico (nueva forma de conocer), la Revolución Francesa (nueva forma de organizar el poder) y la Revolución Industrial (nueva forma de producir).",
+      "feedback_incorrect": "Revisa los hitos de la modernidad que transformaron la sociedad; las demás opciones describen retrocesos, no impulsos de cambio.",
+      "tip": "Piensa en tres revoluciones: del conocimiento, de la política y de la producción."
+    }
+  ]
+}

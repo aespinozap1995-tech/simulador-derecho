@@ -1,0 +1,151 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "question.schema.json",
+  "title": "Pregunta del simulador de exámenes",
+  "description": "Esquema de una pregunta convertida desde los bancos Markdown revisados. El archivo consolidado (questions.json) y los archivos por asignatura (subjects/*.json) contienen arreglos de objetos que cumplen este esquema en su clave 'questions'.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "subject_code",
+    "subject_name",
+    "title",
+    "question_type",
+    "topic",
+    "difficulty",
+    "status",
+    "active",
+    "provenance",
+    "source",
+    "prompt",
+    "options",
+    "answer",
+    "feedback_correct",
+    "feedback_incorrect",
+    "tip"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Z0-9]+-P[0-9]{3}$",
+      "description": "Identificador único, p. ej. DER101-P001."
+    },
+    "subject_code": {
+      "type": "string",
+      "enum": ["DER101", "DER102", "DER104", "DER105", "DER106", "C10"]
+    },
+    "subject_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "question_type": {
+      "type": "string",
+      "enum": ["single_choice", "multiple_choice", "true_false", "fill_blank", "matching", "ordering", "unknown"]
+    },
+    "topic": {
+      "type": "string",
+      "minLength": 1
+    },
+    "difficulty": {
+      "type": "string",
+      "enum": ["basic", "medium", "advanced"]
+    },
+    "status": {
+      "type": "string",
+      "enum": ["reviewed", "pending_review"]
+    },
+    "active": {
+      "type": "boolean",
+      "description": "true solo si status == reviewed."
+    },
+    "provenance": {
+      "type": "string",
+      "enum": ["original_simulator"]
+    },
+    "source": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Archivo(s) y página(s) de origen tal como constan en el banco."
+    },
+    "prompt": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Enunciado completo."
+    },
+    "options": {
+      "type": "array",
+      "description": "Alternativas con letra. Puede estar vacío en fill_blank/matching sin alternativas letradas.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "text"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^[A-E]$"},
+          "text": {"type": "string", "minLength": 1}
+        }
+      }
+    },
+    "options_note": {
+      "type": "string",
+      "description": "Opcional. Texto literal de la sección Alternativas cuando no usa letras (banco de palabras, elementos a emparejar, etc.)."
+    },
+    "answer": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["raw", "option_ids", "accepted_text", "pairs", "ordered_items"],
+      "properties": {
+        "raw": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Texto original de la sección 'Respuesta correcta'. Siempre se conserva."
+        },
+        "option_ids": {
+          "type": "array",
+          "items": {"type": "string", "pattern": "^[A-E]$"},
+          "uniqueItems": true,
+          "description": "Letras correctas cuando pueden determinarse con seguridad."
+        },
+        "accepted_text": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1},
+          "description": "Respuestas textuales seguras para fill_blank (en el orden de los espacios)."
+        },
+        "pairs": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["left", "right"],
+            "properties": {
+              "left": {"type": "string", "minLength": 1},
+              "right": {"type": "string", "minLength": 1}
+            }
+          },
+          "description": "Emparejamientos normalizados para matching."
+        },
+        "ordered_items": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1},
+          "minItems": 0,
+          "description": "Elementos en el orden correcto para preguntas de tipo ordering."
+        }
+      }
+    },
+    "feedback_correct": {
+      "type": "string",
+      "minLength": 1
+    },
+    "feedback_incorrect": {
+      "type": "string",
+      "minLength": 1
+    },
+    "tip": {
+      "type": "string",
+      "minLength": 1
+    }
+  }
+}

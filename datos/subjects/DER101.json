@@ -1,0 +1,1240 @@
+{
+  "subject_code": "DER101",
+  "subject_name": "Introducción al Derecho",
+  "source_file": "Procesado/DER 101 - Introducción al Derecho/banco_preguntas.md",
+  "total": 28,
+  "questions": [
+    {
+      "id": "DER101-P001",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Personas naturales y jurídicas (Código Civil)",
+      "question_type": "single_choice",
+      "topic": "Sujetos del Derecho / Derecho Civil",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "1 SIMULADOR_INTRODUCCIÓN_AL_DERECHO_C2_ Revisión del intento _ Grado B UNEMI.pdf, pág. 1",
+      "prompt": "Las personas son naturales y jurídicas",
+      "options": [
+        {
+          "id": "A",
+          "text": "Código Civil, Art 22"
+        },
+        {
+          "id": "B",
+          "text": "Constitución de la República, Art. 1"
+        },
+        {
+          "id": "C",
+          "text": "Código Civil, Art. 40"
+        },
+        {
+          "id": "D",
+          "text": "Constitución de la República, Art. 14"
+        }
+      ],
+      "answer": {
+        "raw": "C. Código Civil, Art. 40",
+        "option_ids": [
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El Código Civil, en su artículo 40, es la norma que clasifica a las personas en naturales y jurídicas, por lo que esa es la referencia correcta.",
+      "feedback_incorrect": "Las otras opciones remiten a artículos constitucionales o a un artículo distinto del Código Civil que no trata esta clasificación. Revisa qué cuerpo legal regula específicamente a las personas como sujetos de derecho.",
+      "tip": "Piensa en qué código regula tradicionalmente las relaciones entre particulares y la clasificación de las personas."
+    },
+    {
+      "id": "DER101-P002",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Doctrina sobre el Derecho y la vida en sociedad",
+      "question_type": "single_choice",
+      "topic": "Doctrina y origen del Derecho",
+      "difficulty": "advanced",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "1 SIMULADOR_INTRODUCCIÓN_AL_DERECHO_C2_ Revisión del intento _ Grado B UNEMI.pdf, pág. 2",
+      "prompt": "A la par que el desarrollo de la vida en sociedad, se da el Derecho para aplicar la justicia. Este pensamiento fue difundido en la doctrina de:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Herbert Hart"
+        },
+        {
+          "id": "B",
+          "text": "Hans Kelsen"
+        },
+        {
+          "id": "C",
+          "text": "Rafael de Pina"
+        },
+        {
+          "id": "D",
+          "text": "Arauz Castex"
+        }
+      ],
+      "answer": {
+        "raw": "D. Arauz Castex",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Esta idea sobre el desarrollo paralelo del Derecho y la vida social para lograr justicia se atribuye a la doctrina de Arauz Castex.",
+      "feedback_incorrect": "Hart, Kelsen y Rafael de Pina son también juristas reconocidos, pero sus doctrinas más conocidas abordan otros enfoques (positivismo jurídico, teoría pura del derecho, etc.), no esta idea en particular.",
+      "tip": "Asocia el nombre del autor con la idea de que el Derecho \"acompaña\" la evolución de la sociedad."
+    },
+    {
+      "id": "DER101-P003",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Territorio de aplicación de la ley (ámbito espacial de validez)",
+      "question_type": "single_choice",
+      "topic": "Ámbitos de validez de la norma jurídica",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "1 SIMULADOR_INTRODUCCIÓN_AL_DERECHO_C2_ Revisión del intento _ Grado B UNEMI.pdf, pág. 2 (también en 2 SIMULADOR_INTRODUCCIÓN_AL_DERECHO_C2_ Revisión del intento _ Grado B UNEMI.pdf, pág. 6 — pregunta repetida en ambos intentos, alternativas en distinto orden)",
+      "prompt": "En el sistema jurídico, desde el punto de vista de la doctrina, el territorio de aplicación de la ley, se refiere a:",
+      "options": [
+        {
+          "id": "A",
+          "text": "La permanencia y aplicación de la norma jurídica en el contexto actual"
+        },
+        {
+          "id": "B",
+          "text": "El ámbito espacial de validez"
+        },
+        {
+          "id": "C",
+          "text": "La generalidad de la norma descrita en la Constitución"
+        },
+        {
+          "id": "D",
+          "text": "La jerarquía de las normas jurídicas"
+        }
+      ],
+      "answer": {
+        "raw": "B. El ámbito espacial de validez",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El territorio donde una ley se aplica corresponde a lo que la doctrina llama \"ámbito espacial de validez\" de la norma.",
+      "feedback_incorrect": "No confundas el ámbito espacial (dónde se aplica) con el ámbito temporal (cuándo se aplica), la generalidad (a quiénes aplica) o la jerarquía (qué norma prevalece).",
+      "tip": "Relaciona \"territorio\" con \"espacio\": ambas palabras apuntan al mismo tipo de ámbito de validez."
+    },
+    {
+      "id": "DER101-P004",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Origen del Derecho como necesidad de convivencia",
+      "question_type": "single_choice",
+      "topic": "Concepto y origen del Derecho",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "1 SIMULADOR_INTRODUCCIÓN_AL_DERECHO_C2_ Revisión del intento _ Grado B UNEMI.pdf, pág. 3",
+      "prompt": "Nace como una necesidad de la convivencia humana con la aspiración de lograr armonía en el actuar de la sociedad",
+      "options": [
+        {
+          "id": "A",
+          "text": "La República"
+        },
+        {
+          "id": "B",
+          "text": "Los principios jurídicos"
+        },
+        {
+          "id": "C",
+          "text": "La Constitución"
+        },
+        {
+          "id": "D",
+          "text": "El Derecho"
+        }
+      ],
+      "answer": {
+        "raw": "D. El Derecho",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El Derecho, en su conjunto, surge precisamente para ordenar la convivencia humana y procurar armonía social; no es una norma o cuerpo legal específico.",
+      "feedback_incorrect": "La República, la Constitución o los principios jurídicos son manifestaciones o instrumentos concretos, pero la pregunta apunta al concepto general que los engloba a todos.",
+      "tip": "Busca la opción más amplia y general, no una institución o norma específica."
+    },
+    {
+      "id": "DER101-P005",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Derecho Administrativo y servicios públicos",
+      "question_type": "single_choice",
+      "topic": "Ramas del Derecho",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "1 SIMULADOR_INTRODUCCIÓN_AL_DERECHO_C2_ Revisión del intento _ Grado B UNEMI.pdf, pág. 3",
+      "prompt": "Tienen como objetivo principal la dirección/gestión de los servicios públicos otorgados por el Estado a los ciudadanos a través de los organismos descentralizados",
+      "options": [
+        {
+          "id": "A",
+          "text": "Derecho Contractual"
+        },
+        {
+          "id": "B",
+          "text": "Derecho Administrativo"
+        },
+        {
+          "id": "C",
+          "text": "Solidaridad Pública"
+        },
+        {
+          "id": "D",
+          "text": "El bien común"
+        }
+      ],
+      "answer": {
+        "raw": "B. Derecho Administrativo",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El Derecho Administrativo regula la gestión de los servicios públicos y la actuación de los organismos estatales, incluidos los descentralizados.",
+      "feedback_incorrect": "El Derecho Contractual regula acuerdos entre particulares; \"solidaridad pública\" y \"bien común\" son valores o fines, no una rama del Derecho.",
+      "tip": "Piensa en la rama que se encarga directamente de la administración pública y sus organismos."
+    },
+    {
+      "id": "DER101-P006",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Democracia y soberanía popular",
+      "question_type": "single_choice",
+      "topic": "Estado y formas de gobierno",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "1 SIMULADOR_INTRODUCCIÓN_AL_DERECHO_C2_ Revisión del intento _ Grado B UNEMI.pdf, pág. 4",
+      "prompt": "Los individuos tienen la soberanía de elegir a los administradores del Estado",
+      "options": [
+        {
+          "id": "A",
+          "text": "Estado Constitucional"
+        },
+        {
+          "id": "B",
+          "text": "Democracia"
+        },
+        {
+          "id": "C",
+          "text": "Gobernabilidad"
+        },
+        {
+          "id": "D",
+          "text": "Institucionalidad del Estado"
+        }
+      ],
+      "answer": {
+        "raw": "B. Democracia",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La democracia es precisamente el sistema en el que los ciudadanos, mediante su voto, eligen a quienes administran el Estado.",
+      "feedback_incorrect": "Estado Constitucional, gobernabilidad e institucionalidad describen otros aspectos de la organización estatal, pero no la facultad ciudadana de elegir autoridades.",
+      "tip": "Relaciona la palabra \"elegir\" con el sistema de gobierno basado en el voto popular."
+    },
+    {
+      "id": "DER101-P007",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Ámbito espacial de validez: definición directa",
+      "question_type": "single_choice",
+      "topic": "Ámbitos de validez de la norma jurídica",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "1 SIMULADOR_INTRODUCCIÓN_AL_DERECHO_C2_ Revisión del intento _ Grado B UNEMI.pdf, pág. 4",
+      "prompt": "El ámbito espacial de validez, se refiere",
+      "options": [
+        {
+          "id": "A",
+          "text": "La estructura y el ordenamiento jurídico dentro de la legislación del Estado"
+        },
+        {
+          "id": "B",
+          "text": "Al territorio donde se aplica la norma jurídica"
+        },
+        {
+          "id": "C",
+          "text": "La obligación de los individuos de conocer y aplicar la norma jurídica"
+        },
+        {
+          "id": "D",
+          "text": "Al lugar que ocupa la norma jurídica dentro del sistema jurídico"
+        }
+      ],
+      "answer": {
+        "raw": "B. Al territorio donde se aplica la norma jurídica",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El ámbito espacial de validez indica el territorio geográfico en el que una norma jurídica tiene vigencia y puede aplicarse.",
+      "feedback_incorrect": "Las demás opciones describen estructura normativa, obligación de conocimiento de la ley o jerarquía normativa, conceptos distintos al ámbito espacial.",
+      "tip": "Esta pregunta es la definición inversa de \"territorio de aplicación de la ley\": ambas ideas se conectan."
+    },
+    {
+      "id": "DER101-P008",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Derecho Contractual",
+      "question_type": "single_choice",
+      "topic": "Ramas del Derecho",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "1 SIMULADOR_INTRODUCCIÓN_AL_DERECHO_C2_ Revisión del intento _ Grado B UNEMI.pdf, pág. 5",
+      "prompt": "Actos legales donde los individuos se comprometen libre y voluntariamente a realizar acciones lícitas",
+      "options": [
+        {
+          "id": "A",
+          "text": "Derecho Contractual"
+        },
+        {
+          "id": "B",
+          "text": "Principios jurídicos"
+        },
+        {
+          "id": "C",
+          "text": "Autonomía de la norma"
+        },
+        {
+          "id": "D",
+          "text": "Generalidad de la norma"
+        }
+      ],
+      "answer": {
+        "raw": "A. Derecho Contractual",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El Derecho Contractual regula precisamente los actos en los que las partes se obligan de forma libre y voluntaria a cumplir acciones lícitas.",
+      "feedback_incorrect": "\"Autonomía de la norma\" y \"generalidad de la norma\" son características de las normas jurídicas, no una rama del Derecho vinculada a los contratos.",
+      "tip": "Piensa en la rama del Derecho que regula los acuerdos y compromisos entre particulares."
+    },
+    {
+      "id": "DER101-P009",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Consecuencia jurídica",
+      "question_type": "single_choice",
+      "topic": "Elementos de la norma jurídica",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "1 SIMULADOR_INTRODUCCIÓN_AL_DERECHO_C2_ Revisión del intento _ Grado B UNEMI.pdf, pág. 5",
+      "prompt": "Participación del Estado mediante normativa legal castigando al infractor de la ley",
+      "options": [
+        {
+          "id": "A",
+          "text": "Consecuencia jurídica"
+        },
+        {
+          "id": "B",
+          "text": "Incoercibilidad de la norma"
+        },
+        {
+          "id": "C",
+          "text": "Justicia"
+        },
+        {
+          "id": "D",
+          "text": "Fin del Derecho"
+        }
+      ],
+      "answer": {
+        "raw": "A. Consecuencia jurídica",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Cuando el Estado sanciona a quien incumple la ley, se produce lo que se conoce como consecuencia jurídica, es decir, el efecto que la norma prevé ante su incumplimiento.",
+      "feedback_incorrect": "La incoercibilidad es lo opuesto a la coercibilidad (no aplicación forzada); la justicia y el fin del Derecho son conceptos más amplios que no describen específicamente la sanción estatal.",
+      "tip": "Relaciona \"castigo por incumplir la ley\" con el efecto que produce la norma jurídica."
+    },
+    {
+      "id": "DER101-P010",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Autonomía de la norma (definición según conducta consciente)",
+      "question_type": "single_choice",
+      "topic": "Naturaleza de la norma (moral y jurídica)",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "1 SIMULADOR_INTRODUCCIÓN_AL_DERECHO_C2_ Revisión del intento _ Grado B UNEMI.pdf, pág. 6",
+      "prompt": "Autonomía de la norma. Seleccione una:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Individuo mide sus actos con base en la legislación y de acuerdo a su criterio"
+        },
+        {
+          "id": "B",
+          "text": "Con base en los principios constitucionales, los ciudadanos gozan y exigen sus derechos"
+        },
+        {
+          "id": "C",
+          "text": "Ciudadano realiza sus actos consciente y voluntariamente de acuerdo a sus principios"
+        },
+        {
+          "id": "D",
+          "text": "Ciudadano amparado en la Constitución, obra y dirija su conducta"
+        }
+      ],
+      "answer": {
+        "raw": "C. Ciudadano realiza sus actos consciente y voluntariamente de acuerdo a sus principios",
+        "option_ids": [
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La autonomía implica que la persona actúa según sus propios principios y convicciones internas, de manera consciente y voluntaria, sin que una autoridad externa se lo imponga.",
+      "feedback_incorrect": "Las demás opciones mezclan la autonomía con la legislación o la Constitución, cuando en realidad la autonomía es un rasgo propio de la moral, basado en la conciencia individual.",
+      "tip": "Piensa en la diferencia entre actuar por convicción propia y actuar por obligación legal externa."
+    },
+    {
+      "id": "DER101-P011",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Ciudadanía",
+      "question_type": "single_choice",
+      "topic": "Estado y ciudadanía",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "2 SIMULADOR_INTRODUCCIÓN_AL_DERECHO_C2_ Revisión del intento _ Grado B UNEMI.pdf, pág. 1",
+      "prompt": "Individuo forma parte y pertenece a una sociedad política organizada gozando de derechos y libertades civiles",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ciudadanía"
+        },
+        {
+          "id": "B",
+          "text": "Derecho Público"
+        },
+        {
+          "id": "C",
+          "text": "Generalidad y coercibilidad de la norma"
+        },
+        {
+          "id": "D",
+          "text": "Constitución de la República"
+        }
+      ],
+      "answer": {
+        "raw": "A. Ciudadanía",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La ciudadanía es la condición de pertenecer a una sociedad política organizada, con derechos y libertades civiles reconocidos.",
+      "feedback_incorrect": "El Derecho Público, la Constitución y las características de la norma son conceptos relacionados, pero no describen la condición personal de pertenecer a una sociedad política.",
+      "tip": "Busca la palabra que describe el estatus de una persona dentro de un Estado, no una rama o característica del Derecho."
+    },
+    {
+      "id": "DER101-P012",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Coercibilidad estatal",
+      "question_type": "single_choice",
+      "topic": "Características de la norma jurídica",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "2 SIMULADOR_INTRODUCCIÓN_AL_DERECHO_C2_ Revisión del intento _ Grado B UNEMI.pdf, pág. 2",
+      "prompt": "Se manifiesta en el ordenamiento jurídico y se utiliza para mantener el orden y la justicia en el Estado",
+      "options": [
+        {
+          "id": "A",
+          "text": "Derechos Humanos"
+        },
+        {
+          "id": "B",
+          "text": "Principios constitucionales"
+        },
+        {
+          "id": "C",
+          "text": "Principio jurídicos"
+        },
+        {
+          "id": "D",
+          "text": "Coercibilidad estatal"
+        }
+      ],
+      "answer": {
+        "raw": "D. Coercibilidad estatal",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La coercibilidad estatal es la facultad del Estado de hacer cumplir las normas, incluso mediante la fuerza, para mantener el orden y la justicia.",
+      "feedback_incorrect": "Los Derechos Humanos y los principios constitucionales son otros elementos del sistema jurídico, pero no describen la capacidad de imponer el cumplimiento de la norma.",
+      "tip": "Relaciona la idea de \"mantener el orden\" con la posibilidad de aplicar la fuerza del Estado."
+    },
+    {
+      "id": "DER101-P013",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Derecho Constitucional",
+      "question_type": "single_choice",
+      "topic": "Ramas del Derecho",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "2 SIMULADOR_INTRODUCCIÓN_AL_DERECHO_C2_ Revisión del intento _ Grado B UNEMI.pdf, pág. 2",
+      "prompt": "Conjunto de normas donde se estipula la organización de las instituciones estatales",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ordenamiento jurídico"
+        },
+        {
+          "id": "B",
+          "text": "Derecho Administrativo Público"
+        },
+        {
+          "id": "C",
+          "text": "Institucionalidad del Estado"
+        },
+        {
+          "id": "D",
+          "text": "Derecho Constitucional"
+        }
+      ],
+      "answer": {
+        "raw": "D. Derecho Constitucional",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El Derecho Constitucional es la rama que organiza y estructura las instituciones del Estado.",
+      "feedback_incorrect": "El ordenamiento jurídico es un concepto más amplio (todas las normas); el Derecho Administrativo regula la gestión pública, no la organización institucional en sí.",
+      "tip": "Piensa en la rama del Derecho vinculada directamente a la Constitución y la organización del Estado."
+    },
+    {
+      "id": "DER101-P014",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Legislación",
+      "question_type": "single_choice",
+      "topic": "Fuentes del Derecho",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "2 SIMULADOR_INTRODUCCIÓN_AL_DERECHO_C2_ Revisión del intento _ Grado B UNEMI.pdf, pág. 3",
+      "prompt": "Todo el actuar de la conducta externa del individuo en sociedad, está establecido en ellas. Seleccione una:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Legislación"
+        },
+        {
+          "id": "B",
+          "text": "Coercibilidad de la norma"
+        },
+        {
+          "id": "C",
+          "text": "Bilateralidad de la norma"
+        },
+        {
+          "id": "D",
+          "text": "Registro Oficial"
+        }
+      ],
+      "answer": {
+        "raw": "A. Legislación",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La legislación es el conjunto de leyes que regula la conducta externa de las personas en sociedad.",
+      "feedback_incorrect": "La coercibilidad y la bilateralidad son características de la norma jurídica, y el Registro Oficial es solo el medio de publicación de las leyes, no el conjunto normativo en sí.",
+      "tip": "Busca la opción que representa el conjunto de leyes, no una característica o medio de publicación."
+    },
+    {
+      "id": "DER101-P015",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Coercible: significado",
+      "question_type": "single_choice",
+      "topic": "Características de la norma jurídica",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "2 SIMULADOR_INTRODUCCIÓN_AL_DERECHO_C2_ Revisión del intento _ Grado B UNEMI.pdf, pág. 3",
+      "prompt": "Coercible significa:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fuerza, poder y soberanía del Estado Constitucional"
+        },
+        {
+          "id": "B",
+          "text": "Susceptible de ser aplicada la fuerza"
+        },
+        {
+          "id": "C",
+          "text": "Norma jurídica"
+        },
+        {
+          "id": "D",
+          "text": "Poder del Estado otorgado en los reglamentos"
+        }
+      ],
+      "answer": {
+        "raw": "B. Susceptible de ser aplicada la fuerza",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "\"Coercible\" significa que la norma puede hacerse cumplir mediante la fuerza si no se obedece voluntariamente.",
+      "feedback_incorrect": "Las otras opciones describen conceptos relacionados con el poder estatal, pero no definen directamente el término \"coercible\".",
+      "tip": "Piensa en el significado literal de la palabra: viene de \"coerción\", es decir, forzar el cumplimiento."
+    },
+    {
+      "id": "DER101-P016",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Norma moral: autonomía como característica",
+      "question_type": "single_choice",
+      "topic": "Naturaleza de la norma (moral y jurídica)",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "2 SIMULADOR_INTRODUCCIÓN_AL_DERECHO_C2_ Revisión del intento _ Grado B UNEMI.pdf, pág. 4",
+      "prompt": "Su característica, es la autonomía",
+      "options": [
+        {
+          "id": "A",
+          "text": "Preceptos del Derecho"
+        },
+        {
+          "id": "B",
+          "text": "Norma moral"
+        },
+        {
+          "id": "C",
+          "text": "La coercibilidad del Estado"
+        },
+        {
+          "id": "D",
+          "text": "Norma jurídica"
+        }
+      ],
+      "answer": {
+        "raw": "B. Norma moral",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La autonomía es una característica propia de la norma moral, ya que su cumplimiento depende de la voluntad interna de la persona, no de una imposición externa.",
+      "feedback_incorrect": "La norma jurídica se caracteriza más bien por la heteronomía (viene impuesta desde fuera) y la coercibilidad, no por la autonomía.",
+      "tip": "Recuerda que la norma jurídica es heterónoma y coercible, mientras que la norma moral es autónoma."
+    },
+    {
+      "id": "DER101-P017",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Autonomía: criterios sobre el bien y el mal",
+      "question_type": "single_choice",
+      "topic": "Naturaleza de la norma (moral)",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "2 SIMULADOR_INTRODUCCIÓN_AL_DERECHO_C2_ Revisión del intento _ Grado B UNEMI.pdf, pág. 4",
+      "prompt": "Ciudadano actúa en base a sus criterios sobre el bien y el mal. Seleccione una:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hecho jurídico"
+        },
+        {
+          "id": "B",
+          "text": "Autonomía"
+        },
+        {
+          "id": "C",
+          "text": "Deber jurídico"
+        },
+        {
+          "id": "D",
+          "text": "Conducta jurídica"
+        }
+      ],
+      "answer": {
+        "raw": "B. Autonomía",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Actuar según los propios criterios sobre el bien y el mal es una manifestación de la autonomía, característica propia de la norma moral.",
+      "feedback_incorrect": "El deber jurídico y el hecho jurídico están vinculados a la norma jurídica externa, no a la valoración personal e interna del bien y el mal.",
+      "tip": "Relaciona \"criterios propios\" con la idea de decisión interna y voluntaria."
+    },
+    {
+      "id": "DER101-P018",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Constitución de la República: derechos y obligaciones",
+      "question_type": "single_choice",
+      "topic": "Ramas y jerarquía normativa",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "2 SIMULADOR_INTRODUCCIÓN_AL_DERECHO_C2_ Revisión del intento _ Grado B UNEMI.pdf, pág. 5",
+      "prompt": "Conjunto de normas donde se describen los derechos y obligaciones de los ciudadanos al igual de las instituciones que administran el Estado",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ley Orgánica de la Función Legislativa"
+        },
+        {
+          "id": "B",
+          "text": "Constitución de la República"
+        },
+        {
+          "id": "C",
+          "text": "La Jurisprudencia"
+        },
+        {
+          "id": "D",
+          "text": "Ley de Compañías"
+        }
+      ],
+      "answer": {
+        "raw": "B. Constitución de la República",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La Constitución de la República es la norma que establece los derechos y obligaciones de los ciudadanos, así como la organización de las instituciones del Estado.",
+      "feedback_incorrect": "Las leyes orgánicas y la Ley de Compañías regulan aspectos específicos, y la jurisprudencia son los precedentes judiciales; ninguna cumple el rol general que describe el enunciado.",
+      "tip": "Busca la norma jerárquicamente superior que regula tanto derechos ciudadanos como organización estatal."
+    },
+    {
+      "id": "DER101-P019",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Constitución: instituciones del poder público",
+      "question_type": "single_choice",
+      "topic": "Ramas y jerarquía normativa",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "2 SIMULADOR_INTRODUCCIÓN_AL_DERECHO_C2_ Revisión del intento _ Grado B UNEMI.pdf, pág. 5",
+      "prompt": "Ley que determina, la existencia de las instituciones del poder público y determina las competencias y funciones en la administración del Estado",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ley de las Funciones del Poder Publico del Estado"
+        },
+        {
+          "id": "B",
+          "text": "Ley Orgánica de la Función de Transparencia y Control Social"
+        },
+        {
+          "id": "C",
+          "text": "Ley Orgánica de la Función Legislativa"
+        },
+        {
+          "id": "D",
+          "text": "Constitución de la República"
+        }
+      ],
+      "answer": {
+        "raw": "D. Constitución de la República",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La Constitución es la norma fundamental que crea las instituciones del poder público y define sus competencias y funciones.",
+      "feedback_incorrect": "Las leyes orgánicas mencionadas regulan funciones específicas del Estado, pero derivan de la Constitución, que es la norma que las origina.",
+      "tip": "Piensa en la norma jerárquicamente más alta, de la cual se desprenden las demás leyes orgánicas."
+    },
+    {
+      "id": "DER101-P020",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Libre albedrío y autonomía de la norma",
+      "question_type": "single_choice",
+      "topic": "Naturaleza de la norma (moral)",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "gemini-code-1783977835989.md (Banco de Preguntas Consolidado – Intento 1), sección \"Naturaleza, Características y Elementos de la Norma\"",
+      "prompt": "El individuo actúa de acuerdo a sus principios aplicando y actuando según su libre albedrío / voluntad. Este concepto es lo que se conoce como:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Norma jurídica"
+        },
+        {
+          "id": "B",
+          "text": "Generalidad de la norma"
+        },
+        {
+          "id": "C",
+          "text": "Autonomía de la norma"
+        },
+        {
+          "id": "D",
+          "text": "Objeto jurídico"
+        }
+      ],
+      "answer": {
+        "raw": "C. Autonomía de la norma",
+        "option_ids": [
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La autonomía implica que la norma nace de la propia conciencia y valores del individuo, quien decide acatarla por convicción interna y libre albedrío, rasgo propio de la moral.",
+      "feedback_incorrect": "La norma jurídica y la generalidad de la norma se refieren a reglas externas impuestas a todos por igual, no a la decisión personal basada en el libre albedrío.",
+      "tip": "Relaciona \"libre albedrío\" y \"voluntad propia\" con una característica moral, no jurídica."
+    },
+    {
+      "id": "DER101-P021",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Deber jurídico",
+      "question_type": "single_choice",
+      "topic": "Elementos de la norma jurídica",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "gemini-code-1783977835989.md (Banco de Preguntas Consolidado – Intento 1), sección \"Naturaleza, Características y Elementos de la Norma\"",
+      "prompt": "Ciudadano, recibe un mandato y la obligación de obedecer:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Deber jurídico"
+        },
+        {
+          "id": "B",
+          "text": "Mandato constitucional"
+        },
+        {
+          "id": "C",
+          "text": "Consecuencia jurídica"
+        },
+        {
+          "id": "D",
+          "text": "Coercibilidad de la norma"
+        }
+      ],
+      "answer": {
+        "raw": "A. Deber jurídico",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El deber jurídico es el vínculo restrictivo que obliga al sujeto a acoplar su conducta a lo que prescribe el ordenamiento legal.",
+      "feedback_incorrect": "La coercibilidad es la posibilidad de forzar el cumplimiento, y la consecuencia jurídica es el efecto del incumplimiento; ninguna es el mandato/obligación en sí mismo.",
+      "tip": "Piensa en el término que designa la obligación de obedecer un mandato legal."
+    },
+    {
+      "id": "DER101-P022",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Conducta jurídica",
+      "question_type": "single_choice",
+      "topic": "Elementos de la norma jurídica",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "gemini-code-1783977835989.md (Banco de Preguntas Consolidado – Intento 1), sección \"Naturaleza, Características y Elementos de la Norma\"",
+      "prompt": "El actuar del individuo ya sea de modo individual o en comunidad de manera favorable o desfavorable al contexto donde se desenvuelve:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Acciones de comportamiento de acuerdo a la norma constitucional"
+        },
+        {
+          "id": "B",
+          "text": "Acciones de Derecho Público"
+        },
+        {
+          "id": "C",
+          "text": "Acciones de Derecho Privado"
+        },
+        {
+          "id": "D",
+          "text": "Conducta jurídica"
+        }
+      ],
+      "answer": {
+        "raw": "D. Conducta jurídica",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La conducta jurídica es el actuar del individuo, sea favorable o desfavorable, dentro del contexto social donde se desenvuelve.",
+      "feedback_incorrect": "Derecho Público y Derecho Privado son ramas del Derecho, no el concepto general de \"actuar\" del individuo en sociedad.",
+      "tip": "Busca el término más general que describe el comportamiento humano relevante para el Derecho."
+    },
+    {
+      "id": "DER101-P023",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Bien común",
+      "question_type": "single_choice",
+      "topic": "Fines y valores del Derecho",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "gemini-code-1783977835989.md (Banco de Preguntas Consolidado – Intento 1), sección \"Fines, Valores y Derechos Humanos\"",
+      "prompt": "Involucra a todos los ciudadanos y a todo el contexto donde se desenvuelven, protegiéndolos, además de garantizarles sus derechos:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bien común"
+        },
+        {
+          "id": "B",
+          "text": "La justicia"
+        },
+        {
+          "id": "C",
+          "text": "La libertad"
+        },
+        {
+          "id": "D",
+          "text": "La paz"
+        }
+      ],
+      "answer": {
+        "raw": "A. Bien común",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El bien común busca el bienestar socioeconómico e integral de la colectividad, sentando las bases operativas para que todos disfruten de sus derechos.",
+      "feedback_incorrect": "La justicia, la libertad y la paz son valores relacionados, pero el enunciado describe específicamente la protección y garantía de derechos para toda la colectividad, que es el bien común.",
+      "tip": "Piensa en el valor que abarca el bienestar de \"todos\", no en un valor individual."
+    },
+    {
+      "id": "DER101-P024",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Objetivo de la Declaración de los Derechos Humanos",
+      "question_type": "single_choice",
+      "topic": "Derechos Humanos",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "gemini-code-1783977835989.md (Banco de Preguntas Consolidado – Intento 1), sección \"Fines, Valores y Derechos Humanos\"",
+      "prompt": "El objetivo de la Declaración de los Derechos Humanos, es:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Equidad, libertad y orden"
+        },
+        {
+          "id": "B",
+          "text": "Un Estado donde impere la libertad, justicia y paz"
+        },
+        {
+          "id": "C",
+          "text": "Seguridad, justicia e igualdad"
+        },
+        {
+          "id": "D",
+          "text": "Justicia, solidaridad y paz"
+        }
+      ],
+      "answer": {
+        "raw": "B. Un Estado donde impere la libertad, justicia y paz",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La Declaración de los Derechos Humanos busca un Estado en el que prevalezcan la libertad, la justicia y la paz como base de la convivencia.",
+      "feedback_incorrect": "Las demás opciones combinan valores similares, pero no reflejan textualmente el objetivo tal como lo plantea la Declaración.",
+      "tip": "Recuerda la tríada de valores clásicos asociada a los Derechos Humanos: libertad, justicia y paz."
+    },
+    {
+      "id": "DER101-P025",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Bien jurídico",
+      "question_type": "single_choice",
+      "topic": "Fines y valores del Derecho",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "gemini-code-1783977835989.md (Banco de Preguntas Consolidado – Intento 1), sección \"Fines, Valores y Derechos Humanos\"",
+      "prompt": "En base a lo estipulado en las normas jurídicas, protege al Estado, a los individuos en sociedad para evitar amenazas de terceras personas:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Relación jurídica"
+        },
+        {
+          "id": "B",
+          "text": "La equidad"
+        },
+        {
+          "id": "C",
+          "text": "Bien jurídico"
+        },
+        {
+          "id": "D",
+          "text": "Igualdad"
+        }
+      ],
+      "answer": {
+        "raw": "C. Bien jurídico",
+        "option_ids": [
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Un bien jurídico es cualquier interés, valor o derecho socialmente relevante (la vida, el patrimonio) amparado por el poder punitivo y normativo del Estado.",
+      "feedback_incorrect": "La relación jurídica, la equidad y la igualdad son conceptos distintos: no describen específicamente aquello que la norma protege frente a amenazas de terceros.",
+      "tip": "Piensa en aquello \"protegido\" por la ley, como la vida o el patrimonio."
+    },
+    {
+      "id": "DER101-P026",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Acuerdo Ministerial",
+      "question_type": "single_choice",
+      "topic": "Fuentes y jerarquía normativa",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "gemini-code-1783977835989.md (Banco de Preguntas Consolidado – Intento 1), sección \"Ramas, Fuentes y Jerarquía Normativa\"",
+      "prompt": "Norma emitida por un funcionario del Estado, con respecto a las funciones y áreas que están bajo su responsabilidad:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Leyes orgánicas"
+        },
+        {
+          "id": "B",
+          "text": "Acuerdo Ministerial"
+        },
+        {
+          "id": "C",
+          "text": "Decretos"
+        },
+        {
+          "id": "D",
+          "text": "Leyes ordinarias"
+        }
+      ],
+      "answer": {
+        "raw": "B. Acuerdo Ministerial",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Es un acto administrativo dictado por los Ministros de Estado para ordenar y regular sus respectivas carteras, dentro del ámbito de su responsabilidad.",
+      "feedback_incorrect": "Las leyes orgánicas y ordinarias las emite la Asamblea/Legislatura, y los decretos suelen corresponder al Ejecutivo (Presidencia); el acuerdo ministerial es específico de un ministro.",
+      "tip": "Relaciona el término \"Ministerial\" con la autoridad que lo emite: un ministro, no el Presidente ni la Asamblea."
+    },
+    {
+      "id": "DER101-P027",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Derecho Privado",
+      "question_type": "single_choice",
+      "topic": "Ramas del Derecho",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "gemini-code-1783977835989.md (Banco de Preguntas Consolidado – Intento 1), sección \"Ramas, Fuentes y Jerarquía Normativa\"",
+      "prompt": "Regula los actos jurídicos entre los ciudadanos en iguales condiciones ante la ley:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Derecho Administrativo Público"
+        },
+        {
+          "id": "B",
+          "text": "Derecho Privado"
+        },
+        {
+          "id": "C",
+          "text": "Sujetos del Derecho"
+        },
+        {
+          "id": "D",
+          "text": "La Administración del Derecho"
+        }
+      ],
+      "answer": {
+        "raw": "B. Derecho Privado",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El Derecho Privado regula las relaciones jurídicas entre particulares que se encuentran en igualdad de condiciones ante la ley.",
+      "feedback_incorrect": "El Derecho Administrativo Público regula la relación entre el Estado y los ciudadanos, una relación desigual por naturaleza (de subordinación), a diferencia del Derecho Privado.",
+      "tip": "Piensa en la rama que regula relaciones \"entre iguales\", en contraposición a las relaciones con el Estado."
+    },
+    {
+      "id": "DER101-P028",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Derecho Indiano",
+      "question_type": "single_choice",
+      "topic": "Historia y evolución del Derecho",
+      "difficulty": "advanced",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "gemini-code-1783977835989.md (Banco de Preguntas Consolidado – Intento 1), sección \"Historia y Evolución del Derecho\"",
+      "prompt": "Se aplicó en España en sus territorios de ultramar, incluye los documentos previos al descubrimiento de América, hasta la conclusión de Nueva España:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Derecho revolucionario de 1900 a la actualidad"
+        },
+        {
+          "id": "B",
+          "text": "Derecho Indiano de 1492 a 1821"
+        },
+        {
+          "id": "C",
+          "text": "Derecho Europeo"
+        },
+        {
+          "id": "D",
+          "text": "Derecho Prehispánico"
+        }
+      ],
+      "answer": {
+        "raw": "B. Derecho Indiano de 1492 a 1821",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El Derecho Indiano fue el conjunto normativo aplicado por España en sus territorios de ultramar (las \"Indias\"), desde el descubrimiento de América hasta el fin de la Nueva España.",
+      "feedback_incorrect": "El Derecho Prehispánico es anterior a la llegada española, y el \"Derecho revolucionario\" corresponde a un periodo mucho más reciente; ninguno cubre el rango temporal descrito.",
+      "tip": "Relaciona el término \"Indiano\" con \"Indias\", el nombre que España daba a sus colonias de ultramar."
+    }
+  ]
+}

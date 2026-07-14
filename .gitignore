@@ -1,0 +1,32 @@
+# Dependencias y compilaciones
+prototipo/node_modules/
+prototipo/.next/
+prototipo/dist/
+prototipo/.vinext/
+prototipo/.wrangler/
+prototipo/.open-next/
+
+# Variables de entorno y secretos
+**/.env
+**/.env.*
+!**/.env.example
+
+# Estado local de Obsidian
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+
+# Material original y temporales
+Material original/
+**/*.pdf
+tmp/
+temp/
+*.log
+
+# Sistema operativo y editores
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+

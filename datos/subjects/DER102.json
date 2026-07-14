@@ -1,0 +1,888 @@
+{
+  "subject_code": "DER102",
+  "subject_name": "Lógica y Dialéctica Jurídica",
+  "source_file": "Procesado/DER 102 - Lógica y Dialéctica Jurídica/banco_preguntas.md",
+  "total": 20,
+  "questions": [
+    {
+      "id": "DER102-P001",
+      "subject_code": "DER102",
+      "subject_name": "Lógica y Dialéctica Jurídica",
+      "title": "La ponderación según Alexy",
+      "question_type": "single_choice",
+      "topic": "Argumentación jurídica / Ponderación de principios",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "1 SIMULADOR_LÓGICA_Y_DIALÉCTICA_JURÍDICA_C2_ Revisión del intento _ Grado B UNEMI.pdf, pág. 1",
+      "prompt": "La ponderación es considerada por Alexy como:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Una sanción constitucional."
+        },
+        {
+          "id": "B",
+          "text": "Una regla procesal."
+        },
+        {
+          "id": "C",
+          "text": "Una forma irracional de decidir."
+        },
+        {
+          "id": "D",
+          "text": "Una forma racional de resolver conflictos entre principios."
+        }
+      ],
+      "answer": {
+        "raw": "D. Una forma racional de resolver conflictos entre principios.",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Para Robert Alexy, cuando dos principios chocan (por ejemplo, libertad de expresión frente a honor), no se elimina uno de ellos: se ponderan, es decir, se pesan racionalmente para decidir cuál prevalece en el caso concreto. Por eso la ponderación es una forma racional de resolver conflictos entre principios.",
+      "feedback_incorrect": "Revisa la diferencia entre reglas y principios, y qué propone Alexy para resolver colisiones entre principios. La ponderación no es una sanción ni una regla procesal: es un método de razonamiento.",
+      "tip": "Piensa en la palabra \"ponderar\": significa pesar o sopesar. ¿Qué se sopesa cuando dos principios entran en conflicto?"
+    },
+    {
+      "id": "DER102-P002",
+      "subject_code": "DER102",
+      "subject_name": "Lógica y Dialéctica Jurídica",
+      "title": "Principio de no contradicción",
+      "question_type": "single_choice",
+      "topic": "Principios lógicos",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "1 SIMULADOR_LÓGICA_Y_DIALÉCTICA_JURÍDICA_C2_ Revisión del intento _ Grado B UNEMI.pdf, pág. 2",
+      "prompt": "El principio de no contradicción indica que:",
+      "options": [
+        {
+          "id": "A",
+          "text": "No se puede afirmar y negar algo al mismo tiempo"
+        },
+        {
+          "id": "B",
+          "text": "Todo es verdadero"
+        },
+        {
+          "id": "C",
+          "text": "Todo cambia"
+        },
+        {
+          "id": "D",
+          "text": "Todo debe justificarse"
+        }
+      ],
+      "answer": {
+        "raw": "A. No se puede afirmar y negar algo al mismo tiempo",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El principio de no contradicción dice que una proposición no puede ser verdadera y falsa a la vez y en el mismo sentido. Afirmar y negar lo mismo al mismo tiempo rompe la coherencia del razonamiento.",
+      "feedback_incorrect": "Repasa los principios lógicos clásicos: identidad, no contradicción, tercero excluido y razón suficiente. \"Todo debe justificarse\" corresponde a la razón suficiente, no a la no contradicción.",
+      "tip": "El nombre del principio ya describe su contenido: prohíbe la contradicción dentro de un mismo razonamiento."
+    },
+    {
+      "id": "DER102-P003",
+      "subject_code": "DER102",
+      "subject_name": "Lógica y Dialéctica Jurídica",
+      "title": "Principio de identidad",
+      "question_type": "single_choice",
+      "topic": "Principios lógicos",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "1 SIMULADOR_LÓGICA_Y_DIALÉCTICA_JURÍDICA_C2_ Revisión del intento _ Grado B UNEMI.pdf, pág. 3",
+      "prompt": "¿Qué principio lógico exige que un concepto conserve el mismo significado durante todo el razonamiento?",
+      "options": [
+        {
+          "id": "A",
+          "text": "No contradicción"
+        },
+        {
+          "id": "B",
+          "text": "Identidad."
+        },
+        {
+          "id": "C",
+          "text": "Razón suficiente."
+        },
+        {
+          "id": "D",
+          "text": "Tercero excluido."
+        }
+      ],
+      "answer": {
+        "raw": "B. Identidad.",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El principio de identidad establece que cada cosa es igual a sí misma: un término o concepto debe mantener el mismo significado a lo largo de todo el razonamiento, sin cambiarlo a mitad del argumento.",
+      "feedback_incorrect": "Distingue los cuatro principios lógicos clásicos. Si un concepto cambia de significado dentro del argumento, se viola la identidad, aunque no haya una contradicción explícita.",
+      "tip": "Pregúntate cuál principio garantiza que \"A es A\" de principio a fin del razonamiento."
+    },
+    {
+      "id": "DER102-P004",
+      "subject_code": "DER102",
+      "subject_name": "Lógica y Dialéctica Jurídica",
+      "title": "Dirección del razonamiento inductivo",
+      "question_type": "single_choice",
+      "topic": "Razonamiento inductivo y deductivo",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "1 SIMULADOR_LÓGICA_Y_DIALÉCTICA_JURÍDICA_C2_ Revisión del intento _ Grado B UNEMI.pdf, pág. 4",
+      "prompt": "El razonamiento inductivo va de:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Norma a hecho"
+        },
+        {
+          "id": "B",
+          "text": "General a particular"
+        },
+        {
+          "id": "C",
+          "text": "Ley a caso"
+        },
+        {
+          "id": "D",
+          "text": "Particular a general"
+        }
+      ],
+      "answer": {
+        "raw": "D. Particular a general",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La inducción parte de casos particulares u observaciones concretas para llegar a una conclusión general. Es el camino inverso a la deducción, que va de lo general a lo particular.",
+      "feedback_incorrect": "Repasa la diferencia entre inducción y deducción. \"General a particular\" y \"ley a caso\" describen la deducción, no la inducción.",
+      "tip": "Recuerda: la ciencia empírica observa muchos casos concretos antes de formular una regla general. Ese es el movimiento inductivo."
+    },
+    {
+      "id": "DER102-P005",
+      "subject_code": "DER102",
+      "subject_name": "Lógica y Dialéctica Jurídica",
+      "title": "Crítica del materialismo dialéctico al formalismo jurídico",
+      "question_type": "single_choice",
+      "topic": "Dialéctica y crítica al formalismo",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "1 SIMULADOR_LÓGICA_Y_DIALÉCTICA_JURÍDICA_C2_ Revisión del intento _ Grado B UNEMI.pdf, pág. 5",
+      "prompt": "Una crítica del materialismo dialéctico al formalismo jurídico es que:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Favorece la democracia."
+        },
+        {
+          "id": "B",
+          "text": "Exagera los derechos."
+        },
+        {
+          "id": "C",
+          "text": "Ignora la realidad social."
+        },
+        {
+          "id": "D",
+          "text": "Reduce la autoridad."
+        }
+      ],
+      "answer": {
+        "raw": "C. Ignora la realidad social.",
+        "option_ids": [
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El materialismo dialéctico critica al formalismo jurídico porque este se concentra solo en las normas y las formas, dejando de lado las condiciones sociales y materiales en las que el Derecho se aplica.",
+      "feedback_incorrect": "Revisa qué sostiene el formalismo jurídico (el Derecho como sistema cerrado de normas) y por qué las corrientes críticas le reprochan desconectarse de la realidad social.",
+      "tip": "Piensa en qué le falta a una visión del Derecho que solo mira normas escritas y no mira a la sociedad."
+    },
+    {
+      "id": "DER102-P006",
+      "subject_code": "DER102",
+      "subject_name": "Lógica y Dialéctica Jurídica",
+      "title": "Límites del formalismo jurídico",
+      "question_type": "single_choice",
+      "topic": "Formalismo jurídico y lenguaje",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "1 SIMULADOR_LÓGICA_Y_DIALÉCTICA_JURÍDICA_C2_ Revisión del intento _ Grado B UNEMI.pdf, pág. 6",
+      "prompt": "¿Qué fenómeno evidencia los límites del formalismo jurídico?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Indeterminación del lenguaje jurídico."
+        },
+        {
+          "id": "B",
+          "text": "Existencia de reglas claras."
+        },
+        {
+          "id": "C",
+          "text": "Casos fáciles."
+        },
+        {
+          "id": "D",
+          "text": "Seguridad jurídica."
+        }
+      ],
+      "answer": {
+        "raw": "A. Indeterminación del lenguaje jurídico.",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El formalismo supone que las normas dan siempre una respuesta clara. Pero el lenguaje jurídico es muchas veces vago o ambiguo (indeterminado), lo que obliga al juez a interpretar y argumentar. Esa indeterminación muestra los límites del formalismo.",
+      "feedback_incorrect": "Las reglas claras, los casos fáciles y la seguridad jurídica son justamente lo que el formalismo presume; no lo desafían. Revisa el problema de la vaguedad y ambigüedad del lenguaje en el Derecho.",
+      "tip": "Busca la opción que representa un problema para aplicar normas de manera mecánica, no una ventaja."
+    },
+    {
+      "id": "DER102-P007",
+      "subject_code": "DER102",
+      "subject_name": "Lógica y Dialéctica Jurídica",
+      "title": "El Derecho como práctica argumentativa",
+      "question_type": "single_choice",
+      "topic": "Argumentación jurídica",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "1 SIMULADOR_LÓGICA_Y_DIALÉCTICA_JURÍDICA_C2_ Revisión del intento _ Grado B UNEMI.pdf, pág. 7",
+      "prompt": "El Derecho es una práctica:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Arbitraria"
+        },
+        {
+          "id": "B",
+          "text": "Emocional"
+        },
+        {
+          "id": "C",
+          "text": "Argumentativa"
+        },
+        {
+          "id": "D",
+          "text": "Intuitiva"
+        }
+      ],
+      "answer": {
+        "raw": "C. Argumentativa",
+        "option_ids": [
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El Derecho funciona dando y pidiendo razones: los abogados argumentan, los jueces motivan sus decisiones. Por eso se dice que el Derecho es, ante todo, una práctica argumentativa.",
+      "feedback_incorrect": "Revisa la concepción del Derecho como argumentación. Las decisiones jurídicas no pueden basarse en arbitrariedad, emociones o intuiciones sin justificación racional.",
+      "tip": "¿Qué hacen jueces y abogados todos los días con las normas y los hechos? Dan razones."
+    },
+    {
+      "id": "DER102-P008",
+      "subject_code": "DER102",
+      "subject_name": "Lógica y Dialéctica Jurídica",
+      "title": "Falacia en decisiones basadas en el clamor social",
+      "question_type": "single_choice",
+      "topic": "Falacias",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "1 SIMULADOR_LÓGICA_Y_DIALÉCTICA_JURÍDICA_C2_ Revisión del intento _ Grado B UNEMI.pdf, pág. 8",
+      "prompt": "Una decisión judicial basada exclusivamente en el clamor social incurre principalmente en:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Falacia genética."
+        },
+        {
+          "id": "B",
+          "text": "Falacia ad hominem."
+        },
+        {
+          "id": "C",
+          "text": "Falacia ad populum."
+        },
+        {
+          "id": "D",
+          "text": "Falacia de composición."
+        }
+      ],
+      "answer": {
+        "raw": "C. Falacia ad populum.",
+        "option_ids": [
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La falacia ad populum consiste en dar por válida una conclusión solo porque la mayoría la apoya. Decidir un caso únicamente por la presión o el clamor popular, sin razones jurídicas, es exactamente ese error.",
+      "feedback_incorrect": "Repasa el catálogo de falacias: ad hominem ataca a la persona, la genética descalifica por el origen, la de composición atribuye al todo lo que vale para las partes. La que apela a la opinión de la multitud es la ad populum.",
+      "tip": "\"Populum\" viene de pueblo. ¿Qué falacia apela a lo que dice la gente?"
+    },
+    {
+      "id": "DER102-P009",
+      "subject_code": "DER102",
+      "subject_name": "Lógica y Dialéctica Jurídica",
+      "title": "Exigencia de la motivación judicial",
+      "question_type": "single_choice",
+      "topic": "Motivación de las decisiones judiciales",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "1 SIMULADOR_LÓGICA_Y_DIALÉCTICA_JURÍDICA_C2_ Revisión del intento _ Grado B UNEMI.pdf, pág. 9",
+      "prompt": "La motivación judicial exige:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Aplicar sanciones."
+        },
+        {
+          "id": "B",
+          "text": "Seguir únicamente precedentes."
+        },
+        {
+          "id": "C",
+          "text": "Decidir sin explicación."
+        },
+        {
+          "id": "D",
+          "text": "Explicar racionalmente la decisión."
+        }
+      ],
+      "answer": {
+        "raw": "D. Explicar racionalmente la decisión.",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Motivar una decisión judicial significa exponer las razones de hecho y de derecho que la justifican. El juez debe explicar racionalmente por qué decide como decide.",
+      "feedback_incorrect": "Revisa el concepto de motivación como garantía del debido proceso: no basta decidir; hay que justificar la decisión con razones controlables.",
+      "tip": "La palabra clave es \"motivo\": dar motivos es dar razones."
+    },
+    {
+      "id": "DER102-P010",
+      "subject_code": "DER102",
+      "subject_name": "Lógica y Dialéctica Jurídica",
+      "title": "Generalización apresurada",
+      "question_type": "single_choice",
+      "topic": "Falacias",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "1 SIMULADOR_LÓGICA_Y_DIALÉCTICA_JURÍDICA_C2_ Revisión del intento _ Grado B UNEMI.pdf, pág. 10",
+      "prompt": "Afirmar que todos los funcionarios son corruptos porque algunos han sido condenados constituye:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Generalización apresurada."
+        },
+        {
+          "id": "B",
+          "text": "Ad populum."
+        },
+        {
+          "id": "C",
+          "text": "Falsa causa."
+        },
+        {
+          "id": "D",
+          "text": "Falacia de autoridad."
+        }
+      ],
+      "answer": {
+        "raw": "A. Generalización apresurada.",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Pasar de \"algunos funcionarios fueron condenados\" a \"todos los funcionarios son corruptos\" es concluir una regla general a partir de una muestra insuficiente: eso es una generalización apresurada.",
+      "feedback_incorrect": "Observa la estructura del argumento: se generaliza desde pocos casos a todos los casos. No se apela a la multitud (ad populum), ni a una autoridad, ni se confunde una causa.",
+      "tip": "Fíjate en el salto de \"algunos\" a \"todos\". ¿Qué falacia comete ese salto?"
+    },
+    {
+      "id": "DER102-P011",
+      "subject_code": "DER102",
+      "subject_name": "Lógica y Dialéctica Jurídica",
+      "title": "Motivación y debido proceso",
+      "question_type": "single_choice",
+      "topic": "Motivación de las decisiones judiciales",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "2 SIMULADOR_LÓGICA_Y_DIALÉCTICA_JURÍDICA_C2_ Revisión del intento _ Grado B UNEMI.pdf, pág. 1",
+      "prompt": "La ausencia de motivación adecuada vulnera:",
+      "options": [
+        {
+          "id": "A",
+          "text": "El derecho de propiedad"
+        },
+        {
+          "id": "B",
+          "text": "La igualdad"
+        },
+        {
+          "id": "C",
+          "text": "La libertad"
+        },
+        {
+          "id": "D",
+          "text": "El debido proceso."
+        }
+      ],
+      "answer": {
+        "raw": "D. El debido proceso.",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La motivación de las resoluciones es una garantía del debido proceso. Si el juez no explica las razones de su decisión, la parte no puede controlarla ni impugnarla adecuadamente, y esa garantía se vulnera.",
+      "feedback_incorrect": "Revisa las garantías del debido proceso. La falta de motivación afecta directamente el derecho a una resolución fundamentada, que forma parte de ese conjunto de garantías.",
+      "tip": "Piensa en qué garantía procesal agrupa el derecho a ser oído, a probar y a recibir una decisión fundamentada."
+    },
+    {
+      "id": "DER102-P012",
+      "subject_code": "DER102",
+      "subject_name": "Lógica y Dialéctica Jurídica",
+      "title": "Estructura del silogismo jurídico",
+      "question_type": "single_choice",
+      "topic": "Silogismo jurídico",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "2 SIMULADOR_LÓGICA_Y_DIALÉCTICA_JURÍDICA_C2_ Revisión del intento _ Grado B UNEMI.pdf, pág. 2",
+      "prompt": "El silogismo jurídico incluye:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Solo normas"
+        },
+        {
+          "id": "B",
+          "text": "Juicios emocionales"
+        },
+        {
+          "id": "C",
+          "text": "Premisa mayor, menor y conclusión"
+        },
+        {
+          "id": "D",
+          "text": "Opiniones"
+        }
+      ],
+      "answer": {
+        "raw": "C. Premisa mayor, menor y conclusión",
+        "option_ids": [
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El silogismo jurídico se compone de una premisa mayor (la norma), una premisa menor (los hechos del caso) y una conclusión (la consecuencia jurídica que se aplica a esos hechos).",
+      "feedback_incorrect": "Repasa la estructura clásica del silogismo. No se trata solo de normas: se necesita también el hecho concreto y la conclusión que conecta ambos.",
+      "tip": "Recuerda el esquema: norma + hecho = consecuencia. Tres piezas."
+    },
+    {
+      "id": "DER102-P013",
+      "subject_code": "DER102",
+      "subject_name": "Lógica y Dialéctica Jurídica",
+      "title": "Dignidad humana en la argumentación material",
+      "question_type": "single_choice",
+      "topic": "Argumentación material / Dignidad humana",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "2 SIMULADOR_LÓGICA_Y_DIALÉCTICA_JURÍDICA_C2_ Revisión del intento _ Grado B UNEMI.pdf, pág. 3",
+      "prompt": "¿Qué exige el principio de dignidad humana dentro de la argumentación material?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Considerar a la persona como fin y no como medio."
+        },
+        {
+          "id": "B",
+          "text": "Priorizar siempre el interés estatal."
+        },
+        {
+          "id": "C",
+          "text": "Eliminar la ponderación."
+        },
+        {
+          "id": "D",
+          "text": "Aplicar la ley literalmente."
+        }
+      ],
+      "answer": {
+        "raw": "A. Considerar a la persona como fin y no como medio.",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La dignidad humana, en la línea kantiana, exige tratar a cada persona como un fin en sí misma y nunca como un simple instrumento. En la argumentación material, toda decisión debe respetar ese valor.",
+      "feedback_incorrect": "Revisa el fundamento kantiano de la dignidad: la persona no puede ser usada como medio para otros fines, ni siquiera estatales.",
+      "tip": "Recuerda la fórmula de Kant sobre tratar a la humanidad siempre como fin."
+    },
+    {
+      "id": "DER102-P014",
+      "subject_code": "DER102",
+      "subject_name": "Lógica y Dialéctica Jurídica",
+      "title": "Razonamiento deductivo del juez",
+      "question_type": "single_choice",
+      "topic": "Razonamiento inductivo y deductivo",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "2 SIMULADOR_LÓGICA_Y_DIALÉCTICA_JURÍDICA_C2_ Revisión del intento _ Grado B UNEMI.pdf, pág. 4",
+      "prompt": "Un juez concluye que una conducta es ilícita porque una norma general así lo establece y los hechos encajan exactamente en ella. ¿Qué tipo de razonamiento utiliza principalmente?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dialéctico."
+        },
+        {
+          "id": "B",
+          "text": "Inductivo."
+        },
+        {
+          "id": "C",
+          "text": "Deductivo."
+        },
+        {
+          "id": "D",
+          "text": "Analógico."
+        }
+      ],
+      "answer": {
+        "raw": "C. Deductivo.",
+        "option_ids": [
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El juez parte de una norma general y la aplica a un hecho concreto que encaja en ella: va de lo general a lo particular. Ese es el razonamiento deductivo, típico del silogismo jurídico.",
+      "feedback_incorrect": "Distingue: la deducción aplica una regla general a un caso; la inducción construye la regla desde los casos; la analogía compara casos semejantes.",
+      "tip": "Fíjate en el punto de partida del juez: ¿parte de la norma general o de los casos particulares?"
+    },
+    {
+      "id": "DER102-P015",
+      "subject_code": "DER102",
+      "subject_name": "Lógica y Dialéctica Jurídica",
+      "title": "En qué consiste la argumentación jurídica",
+      "question_type": "single_choice",
+      "topic": "Argumentación jurídica",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "2 SIMULADOR_LÓGICA_Y_DIALÉCTICA_JURÍDICA_C2_ Revisión del intento _ Grado B UNEMI.pdf, pág. 5",
+      "prompt": "La argumentación jurídica consiste en:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Memorizar normas."
+        },
+        {
+          "id": "B",
+          "text": "Justificar racionalmente decisiones."
+        },
+        {
+          "id": "C",
+          "text": "Imponer decisiones."
+        },
+        {
+          "id": "D",
+          "text": "Repetir jurisprudencia."
+        }
+      ],
+      "answer": {
+        "raw": "B. Justificar racionalmente decisiones.",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Argumentar jurídicamente es dar razones que justifiquen una decisión o una postura ante el Derecho. No es memorizar, imponer ni repetir, sino justificar racionalmente.",
+      "feedback_incorrect": "Revisa el concepto de justificación en el Derecho: las decisiones valen por las razones que las sostienen, no por la autoridad de quien las dicta.",
+      "tip": "La palabra clave de la argumentación es \"razones\"."
+    },
+    {
+      "id": "DER102-P016",
+      "subject_code": "DER102",
+      "subject_name": "Lógica y Dialéctica Jurídica",
+      "title": "Razón suficiente y motivación",
+      "question_type": "single_choice",
+      "topic": "Principios lógicos / Motivación",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "2 SIMULADOR_LÓGICA_Y_DIALÉCTICA_JURÍDICA_C2_ Revisión del intento _ Grado B UNEMI.pdf, pág. 6",
+      "prompt": "¿Qué principio lógico se relaciona directamente con la obligación de motivar las decisiones?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Universalidad."
+        },
+        {
+          "id": "B",
+          "text": "Identidad."
+        },
+        {
+          "id": "C",
+          "text": "Razón suficiente."
+        },
+        {
+          "id": "D",
+          "text": "Tercero excluido."
+        }
+      ],
+      "answer": {
+        "raw": "C. Razón suficiente.",
+        "option_ids": [
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El principio de razón suficiente dice que todo debe tener una razón que lo explique o justifique. Aplicado al Derecho, exige que toda decisión judicial esté respaldada por razones: eso es motivar.",
+      "feedback_incorrect": "Repasa los principios lógicos y su proyección jurídica. La identidad y el tercero excluido regulan la coherencia del pensamiento, pero el que exige justificación es la razón suficiente.",
+      "tip": "Motivar es dar razones. ¿Qué principio lógico habla precisamente de razones?"
+    },
+    {
+      "id": "DER102-P017",
+      "subject_code": "DER102",
+      "subject_name": "Lógica y Dialéctica Jurídica",
+      "title": "Aporte de la inducción al sistema jurídico",
+      "question_type": "single_choice",
+      "topic": "Razonamiento inductivo y deductivo",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "2 SIMULADOR_LÓGICA_Y_DIALÉCTICA_JURÍDICA_C2_ Revisión del intento _ Grado B UNEMI.pdf, pág. 7",
+      "prompt": "¿Qué aporta principalmente la inducción al sistema jurídico?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Certeza absoluta."
+        },
+        {
+          "id": "B",
+          "text": "Rigidez normativa."
+        },
+        {
+          "id": "C",
+          "text": "Adaptación a nuevas realidades."
+        },
+        {
+          "id": "D",
+          "text": "Eliminación de la discrecionalidad."
+        }
+      ],
+      "answer": {
+        "raw": "C. Adaptación a nuevas realidades.",
+        "option_ids": [
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La inducción parte de la observación de casos y realidades concretas, lo que permite al Derecho detectar cambios sociales y adaptarse a ellos. No ofrece certeza absoluta, pero sí flexibilidad.",
+      "feedback_incorrect": "Recuerda que la inducción produce conclusiones probables, no certezas. Su valor está en conectar el Derecho con la experiencia y los casos nuevos.",
+      "tip": "Piensa en cómo surgen las nuevas reglas: primero se observan casos y realidades que la norma vigente no cubría."
+    },
+    {
+      "id": "DER102-P018",
+      "subject_code": "DER102",
+      "subject_name": "Lógica y Dialéctica Jurídica",
+      "title": "Diferencia entre retórica y dialéctica",
+      "question_type": "single_choice",
+      "topic": "Retórica y dialéctica",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "2 SIMULADOR_LÓGICA_Y_DIALÉCTICA_JURÍDICA_C2_ Revisión del intento _ Grado B UNEMI.pdf, pág. 8",
+      "prompt": "¿Cuál es la diferencia principal entre retórica y dialéctica?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La retórica es jurídica y la dialéctica filosófica."
+        },
+        {
+          "id": "B",
+          "text": "No existe diferencia."
+        },
+        {
+          "id": "C",
+          "text": "La retórica es jurídica y la dialéctica filosófica."
+        },
+        {
+          "id": "D",
+          "text": "La retórica busca persuadir y la dialéctica busca examinar críticamente las ideas."
+        }
+      ],
+      "answer": {
+        "raw": "D. La retórica busca persuadir y la dialéctica busca examinar críticamente las ideas.",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La retórica es el arte de persuadir al auditorio; la dialéctica es el método de examinar y discutir críticamente las ideas mediante el diálogo. Comparten el terreno de la argumentación, pero su finalidad es distinta.",
+      "feedback_incorrect": "Revisa los fines de cada disciplina: persuadir (retórica) frente a examinar y depurar ideas mediante el debate (dialéctica).",
+      "tip": "Asocia retórica con el orador que convence y dialéctica con el diálogo que pone a prueba argumentos."
+    },
+    {
+      "id": "DER102-P019",
+      "subject_code": "DER102",
+      "subject_name": "Lógica y Dialéctica Jurídica",
+      "title": "Objeto de la validez lógica",
+      "question_type": "single_choice",
+      "topic": "Validez lógica",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "2 SIMULADOR_LÓGICA_Y_DIALÉCTICA_JURÍDICA_C2_ Revisión del intento _ Grado B UNEMI.pdf, pág. 9",
+      "prompt": "La validez lógica se refiere a:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Forma del argumento"
+        },
+        {
+          "id": "B",
+          "text": "Valores"
+        },
+        {
+          "id": "C",
+          "text": "Hechos"
+        },
+        {
+          "id": "D",
+          "text": "Verdad"
+        }
+      ],
+      "answer": {
+        "raw": "A. Forma del argumento",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La validez es una propiedad formal: un argumento es válido cuando la conclusión se sigue correctamente de las premisas por su estructura, sin importar si las premisas son verdaderas o valiosas.",
+      "feedback_incorrect": "Distingue validez (forma) de verdad (contenido). Un argumento puede ser válido con premisas falsas, y puede haber premisas verdaderas en un argumento inválido.",
+      "tip": "La validez se comprueba mirando la estructura del razonamiento, no su contenido."
+    },
+    {
+      "id": "DER102-P020",
+      "subject_code": "DER102",
+      "subject_name": "Lógica y Dialéctica Jurídica",
+      "title": "Validez formal del razonamiento",
+      "question_type": "single_choice",
+      "topic": "Validez lógica",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "2 SIMULADOR_LÓGICA_Y_DIALÉCTICA_JURÍDICA_C2_ Revisión del intento _ Grado B UNEMI.pdf, pág. 10",
+      "prompt": "Cuando una conclusión se deriva necesariamente de las premisas, se afirma que el razonamiento posee:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Validez formal."
+        },
+        {
+          "id": "B",
+          "text": "Analogía."
+        },
+        {
+          "id": "C",
+          "text": "Equidad."
+        },
+        {
+          "id": "D",
+          "text": "Ponderación."
+        }
+      ],
+      "answer": {
+        "raw": "A. Validez formal.",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Si la conclusión se sigue necesariamente de las premisas, el razonamiento es formalmente válido: su estructura garantiza que, aceptadas las premisas, hay que aceptar la conclusión.",
+      "feedback_incorrect": "Repasa el concepto de validez formal en la lógica deductiva. La analogía, la equidad y la ponderación son otras herramientas jurídicas, no propiedades formales del razonamiento.",
+      "tip": "La palabra \"necesariamente\" es la pista: la necesidad lógica es característica de la validez formal."
+    }
+  ]
+}
