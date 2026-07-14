@@ -34,6 +34,8 @@ npm start
 - Start Command: `npm start`
 - Node: `22.13.0` o posterior
 
+La aplicación utiliza el servidor oficial de Next.js para asegurar compatibilidad con Render.
+
 Como la aplicación vive dentro del proyecto académico, el campo Root Directory de Render debe ser `prototipo`.
 
 ## Estado de seguridad
