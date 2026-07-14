@@ -4,6 +4,16 @@ Proyecto académico y aplicación beta de un simulador de exámenes para seis as
 
 La aplicación desplegable se encuentra en `prototipo/`. Consulta su README para ejecutar y desplegar el simulador.
 
+## Versión individual sin instalación
+
+El archivo `simulador-examen-final.html` contiene la interfaz y el banco de preguntas completo. Puede copiarse a otra computadora y abrirse con doble clic, sin servidor ni conexión a internet.
+
+Para reconstruirlo después de actualizar el banco:
+
+```bash
+node scripts/build_standalone.mjs
+```
+
 ## Render
 
 - Root Directory: `prototipo`
@@ -12,4 +22,3 @@ La aplicación desplegable se encuentra en `prototipo/`. Consulta su README para
 - Node: `22.13.0` o posterior
 
 Los PDF y las fuentes originales se mantienen fuera del repositorio.
-
