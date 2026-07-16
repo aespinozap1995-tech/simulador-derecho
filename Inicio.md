@@ -16,6 +16,7 @@ Esta bóveda reúne el contenido, las preguntas y la planificación del simulado
 - [[Administración/Definición del producto|Definición del producto]]
 - [[Administración/Plan GitHub Render Supabase y monetización|Plan de GitHub, Render, Supabase y monetización]]
 - [[Administración/Fuentes y pendientes|Fuentes y pendientes]]
+- [[Administración/Inventario fuentes Drive julio 2026|Inventario de fuentes Drive — julio de 2026]]
 - [[Administración/Flujo de procesamiento|Flujo de procesamiento de fuentes]]
 - [[Material original/Índice|Material original en PDF]]
 - [[Plantillas/Pregunta|Plantilla de pregunta]]

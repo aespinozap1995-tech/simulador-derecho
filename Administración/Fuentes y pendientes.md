@@ -4,7 +4,20 @@
 
 - [x] Captura con las asignaturas de primer nivel.
 - [x] Resultados de simuladores del aula virtual en PDF y Markdown.
+- [x] Carpeta de Drive recibida el 16 de julio de 2026 con capturas, Word y PDF de intentos.
 - [ ] Compendios de clase, si fueran necesarios.
+
+## Nuevo lote de Drive — 16 de julio de 2026
+
+- Carpeta original: `C:\Users\melva\Documents\Proyectos IA\Educativo\drive-download-20260715T025600Z-1-001`.
+- 115 archivos: 65 JPG, 14 JPEG, 29 PDF y 7 Word.
+- Contiene material para las seis asignaturas.
+- Inventario técnico: [[Inventario fuentes Drive julio 2026]].
+- Transcripción manual: [[../Material original/Nuevos tests julio 2026/Preguntas comunicadas 2026-07-16|Preguntas comunicadas el 16 de julio de 2026]].
+- [x] Las cinco preguntas comunicadas de Investigación coinciden con C10-P018, C10-P040, C10-P057, C10-P058 y C10-P120; no deben duplicarse.
+- [ ] Recuperar las alternativas completas de las cinco preguntas nuevas de Introducción al Derecho.
+- [ ] Revisar visualmente las páginas escaneadas y las imágenes incrustadas antes de consolidar preguntas nuevas.
+- [ ] Comparar todas las preguntas recuperadas con el banco actual antes de asignar identificadores.
 
 ## Inventario al 13 de julio de 2026
 
@@ -47,7 +60,7 @@
 
 ## Próximo paso
 
-Convertir los bancos Markdown a datos estructurados y construir el primer prototipo funcional del simulador.
+Procesar el nuevo lote por asignatura, comenzando por Introducción al Derecho e Investigación, deduplicar contra el banco estructurado y reconstruir el HTML individual después de incorporar preguntas confirmadas.
 
 Los compendios de clase se incorporarán únicamente después de completar y validar el sistema. Servirán para generar una segunda colección de preguntas, claramente diferenciada del banco original.
 
