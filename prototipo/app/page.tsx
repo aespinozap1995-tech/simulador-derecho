@@ -108,6 +108,10 @@ export default function Home() {
       if (!answer || typeof answer !== "object" || Array.isArray(answer)) return false;
       return question.answer.pairs.every((pair) => answer[pair.left] === pair.right);
     }
+    if (question.question_type === "multiple_choice") {
+      return Array.isArray(answer) &&
+        JSON.stringify([...answer].sort()) === JSON.stringify([...question.answer.option_ids].sort());
+    }
     return typeof answer === "string" && answer === question.answer.option_ids[0];
   };
   const score = useMemo(
@@ -116,7 +120,7 @@ export default function Home() {
   );
 
   const availableCounts = subject
-    ? [10, 20, 30].filter((count) => count <= subject.total)
+    ? [...new Set([10, 20, 30, subject.total].filter((count) => count <= subject.total))]
     : [];
 
   const startAttempt = (count: number) => {
@@ -125,7 +129,8 @@ export default function Home() {
       (question) =>
         question.subject_code === subject.code &&
         question.active &&
-        ((["single_choice", "true_false"].includes(question.question_type) && question.options.length >= 2 && question.answer.option_ids.length === 1) ||
+        ((["single_choice", "true_false", "fill_blank"].includes(question.question_type) && question.options.length >= 2 && question.answer.option_ids.length === 1) ||
+          (question.question_type === "multiple_choice" && question.options.length >= 2 && question.answer.option_ids.length >= 1) ||
           (question.question_type === "ordering" && question.answer.ordered_items.length >= 2) ||
           (question.question_type === "matching" && question.answer.pairs.length >= 2)),
     );
@@ -149,6 +154,7 @@ export default function Home() {
   const hasCompleteAnswer = (question: BankQuestion, answer: AnswerValue | undefined) => {
     if (question.question_type === "ordering") return Array.isArray(answer) && answer.length === question.answer.ordered_items.length;
     if (question.question_type === "matching") return !!answer && typeof answer === "object" && !Array.isArray(answer) && Object.keys(answer).length === question.answer.pairs.length;
+    if (question.question_type === "multiple_choice") return Array.isArray(answer) && answer.length > 0;
     return typeof answer === "string" && answer.length > 0;
   };
 
@@ -243,17 +249,31 @@ export default function Home() {
             <div className="question-labels"><span>{current.topic}</span><span>Pregunta {questionIndex + 1} de {examQuestions.length}</span></div>
             <h1>{current.prompt}</h1>
             {tipsEnabled && !isSubmitted && <div className="hint"><b>Consejo</b><p>{current.tip}</p></div>}
-            {["single_choice", "true_false"].includes(current.question_type) && (
+            {["single_choice", "true_false", "fill_blank", "multiple_choice"].includes(current.question_type) && (
               <div className="answer-list">
                 {current.options.map((option) => {
-                  const chosen = selectedAnswer === option.id;
-                  const right = isSubmitted && option.id === current.answer.option_ids[0];
+                  const multiple = current.question_type === "multiple_choice";
+                  const chosen = multiple
+                    ? Array.isArray(selectedAnswer) && selectedAnswer.includes(option.id)
+                    : selectedAnswer === option.id;
+                  const right = isSubmitted && current.answer.option_ids.includes(option.id);
                   const wrong = isSubmitted && chosen && !right;
                   return (
                     <button
                       key={option.id}
                       className={`${chosen ? "chosen" : ""} ${right ? "right" : ""} ${wrong ? "wrong" : ""}`}
-                      onClick={() => !isSubmitted && setAnswers((value) => ({ ...value, [questionIndex]: option.id }))}
+                      onClick={() => {
+                        if (isSubmitted) return;
+                        if (!multiple) {
+                          setAnswers((value) => ({ ...value, [questionIndex]: option.id }));
+                          return;
+                        }
+                        const selected = Array.isArray(selectedAnswer) ? [...selectedAnswer] : [];
+                        const next = selected.includes(option.id)
+                          ? selected.filter((id) => id !== option.id)
+                          : [...selected, option.id];
+                        setAnswers((value) => ({ ...value, [questionIndex]: next }));
+                      }}
                     >
                       <span>{option.id}</span><p>{option.text}</p>{right && <em>Correcta</em>}{wrong && <em>Tu respuesta</em>}
                     </button>
@@ -357,6 +377,8 @@ export default function Home() {
 
   return (
     <main className="catalog-page">
+      <span className="ambient-glow glow-cyan" aria-hidden="true" />
+      <span className="ambient-glow glow-magenta" aria-hidden="true" />
       <header className="minimal-header centered-header">
         <div className="main-title"><h1>Simulador de examen final</h1><p>Carrera de Derecho</p></div>
       </header>
@@ -366,12 +388,12 @@ export default function Home() {
       </section>
 
       <section className="subject-catalog">
-        {subjects.map((item) => {
+        {subjects.map((item, index) => {
           const Icon = item.icon;
           return (
-            <button key={item.code} className="minimal-subject-card" onClick={() => setSubject(item)}>
+            <button key={item.code} className={`minimal-subject-card accent-${index % 3}`} onClick={() => setSubject(item)}>
               <span className="card-icon"><Icon size={31} strokeWidth={1.8} aria-hidden="true" /></span>
-              <span className="card-copy"><strong>{item.name}</strong></span>
+              <span className="card-copy"><strong>{item.name}</strong><em>{item.total} preguntas disponibles</em></span>
               <span className="card-arrow">→</span>
             </button>
           );
@@ -382,6 +404,7 @@ export default function Home() {
         <div className="modal-backdrop" role="presentation" onMouseDown={() => setSubject(null)}>
           <section className="count-dialog" role="dialog" aria-modal="true" aria-labelledby="count-title" onMouseDown={(event) => event.stopPropagation()}>
             <button className="dialog-close" onClick={() => setSubject(null)} aria-label="Cerrar">×</button>
+            <span className="dialog-kicker">Configurar intento</span>
             <h2 id="count-title">¿Cuántas preguntas quieres responder?</h2>
             <p>{subject.name} · 60 minutos</p>
             <div className="count-options">
