@@ -151,6 +151,15 @@ export default function Home() {
     setScreen("exam");
   };
 
+  const leaveAttempt = () => {
+    setSubject(null);
+    setExamQuestions([]);
+    setQuestionIndex(0);
+    setAnswers({});
+    setSubmitted({});
+    setScreen("home");
+  };
+
   const hasCompleteAnswer = (question: BankQuestion, answer: AnswerValue | undefined) => {
     if (question.question_type === "ordering") return Array.isArray(answer) && answer.length === question.answer.ordered_items.length;
     if (question.question_type === "matching") return !!answer && typeof answer === "object" && !Array.isArray(answer) && Object.keys(answer).length === question.answer.pairs.length;
@@ -209,7 +218,7 @@ export default function Home() {
     return (
       <main className={`exam-app theme-${theme} font-${fontSize}`}>
         <header className="exam-topbar">
-          <button className="exam-title" onClick={() => setScreen("home")}><strong>Simulador de examen final</strong><small>Carrera de Derecho</small></button>
+          <button className="exam-title" onClick={leaveAttempt}><strong>Simulador de examen final</strong><small>Carrera de Derecho</small></button>
           <div className="exam-identity"><small>{subject.label}</small><strong>{subject.name}</strong></div>
           <div className="exam-tools">
             <div className="tool-group" aria-label="Tamaño de letra">
@@ -242,7 +251,7 @@ export default function Home() {
               <label><input type="checkbox" checked={tipsEnabled} onChange={(event) => setTipsEnabled(event.target.checked)} /> Consejos</label>
               <label><input type="checkbox" checked={feedbackEnabled} onChange={(event) => setFeedbackEnabled(event.target.checked)} /> Retroalimentación</label>
             </div>
-            <button className="exit-link" onClick={() => setScreen("home")}>Salir del intento</button>
+            <button className="exit-link" onClick={leaveAttempt}>Salir del intento</button>
           </aside>
 
           <article className="question-panel">

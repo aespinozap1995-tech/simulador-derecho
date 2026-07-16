@@ -15085,7 +15085,7 @@
       var submit=document.getElementById('submitBtn');if(submit)submit.onclick=function(){state.submitted[q.id]=true;renderExam();};var prev=document.getElementById('prevBtn');if(prev)prev.onclick=function(){state.index--;renderExam();};var next=document.getElementById('nextBtn');if(next)next.onclick=function(){state.index++;renderExam();};var finish=document.getElementById('finishBtn');if(finish)finish.onclick=finishExam;
     }
     function moveOrder(q,index,delta){var items=selected(q).slice();var next=index+delta;if(next<0||next>=items.length)return;var t=items[index];items[index]=items[next];items[next]=t;state.answers[q.id]=items;renderExam();}
-    function confirmExit(){if(confirm('¿Salir del intento? El progreso de esta sesión no se guardará.')){state.screen='home';renderHome();}}
+    function confirmExit(){if(confirm('¿Salir del intento? El progreso de esta sesión no se guardará.')){state.subject=null;state.questions=[];state.answers={};state.submitted={};state.screen='home';renderHome();}}
     function finishExam(){
       if(state.screen!=='exam')return;clearTimer();var score=state.questions.filter(isCorrect).length;var pct=Math.round(score/state.questions.length*100);var a={id:Date.now(),subject:state.subject.name,score:score,total:state.questions.length,percentage:pct,date:new Date().toLocaleString('es-EC')};saveAttempt(a);state.result=a;state.screen='results';renderResults();
     }
