@@ -19,6 +19,17 @@
 - [ ] Revisar visualmente las páginas escaneadas y las imágenes incrustadas antes de consolidar preguntas nuevas.
 - [ ] Comparar todas las preguntas recuperadas con el banco actual antes de asignar identificadores.
 
+### Evaluación preliminar de PDF de revisión
+
+- Informe: [[Evaluación preliminar preguntas cargables julio 2026]].
+- 48 preguntas detectadas automáticamente en los PDF de revisión ubicados en la raíz del lote.
+- 28 preguntas contienen opciones y respuesta verificable mediante la capa de texto.
+- 12 son duplicados probables del banco actual.
+- 16 pueden incorporarse de forma conservadora: 11 de DER 102 y 5 de DER 104.
+- 20 preguntas de DER 105 requieren revisar visualmente la alternativa marcada.
+- Los PDF de DER 101 no muestran la respuesta en la capa de texto y requieren revisión visual.
+- Las cinco preguntas manuales nuevas de DER 101 siguen pendientes por falta de distractores completos.
+
 ## Inventario al 13 de julio de 2026
 
 - 27 archivos PDF.
