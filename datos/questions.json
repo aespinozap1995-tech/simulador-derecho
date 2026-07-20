@@ -4,7 +4,7 @@
     {
       "subject_code": "DER101",
       "subject_name": "Introducción al Derecho",
-      "total": 28
+      "total": 29
     },
     {
       "subject_code": "DER102",
@@ -32,7 +32,7 @@
       "total": 140
     }
   ],
-  "total": 346,
+  "total": 347,
   "questions": [
     {
       "id": "DER101-P001",
@@ -1265,6 +1265,58 @@
       "feedback_correct": "El Derecho Indiano fue el conjunto normativo aplicado por España en sus territorios de ultramar (las \"Indias\"), desde el descubrimiento de América hasta el fin de la Nueva España.",
       "feedback_incorrect": "El Derecho Prehispánico es anterior a la llegada española, y el \"Derecho revolucionario\" corresponde a un periodo mucho más reciente; ninguno cubre el rango temporal descrito.",
       "tip": "Relaciona el término \"Indiano\" con \"Indias\", el nombre que España daba a sus colonias de ultramar."
+    },
+    {
+      "id": "DER101-P029",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Sujeto del Derecho",
+      "question_type": "single_choice",
+      "topic": "Sujetos del Derecho",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "original_simulator",
+      "source": "copia manual del simulador del aula virtual, recibida el 13 de julio de 2026",
+      "prompt": "¿Qué es el sujeto del Derecho?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Toda persona o entidad con derechos y obligaciones"
+        },
+        {
+          "id": "B",
+          "text": "Solo las personas naturales"
+        },
+        {
+          "id": "C",
+          "text": "Los abogados"
+        },
+        {
+          "id": "D",
+          "text": "El Estado exclusivamente"
+        }
+      ],
+      "answer": {
+        "raw": "A. Toda persona o entidad con derechos y obligaciones",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El sujeto del Derecho es toda persona o entidad a la que el ordenamiento jurídico reconoce como titular de derechos y obligaciones. Esto incluye tanto a las personas naturales como a las personas jurídicas.",
+      "feedback_incorrect": "El sujeto del Derecho no se limita a las personas naturales, al Estado o a los abogados; también comprende personas jurídicas y otras entidades reconocidas por el ordenamiento jurídico.",
+      "tip": "Piensa en quién puede ser titular de un derecho o estar obligado a cumplir un deber jurídico.",
+      "explanation": "El sujeto del Derecho es quien puede tener derechos y asumir obligaciones dentro del ordenamiento jurídico. Puede ser una persona natural, una persona jurídica u otra entidad reconocida por la ley.",
+      "memory_key": "Si puede tener un derecho o asumir una obligación, puede ser sujeto del Derecho.",
+      "common_confusion": "No se limita a una profesión, a una autoridad pública ni únicamente a las personas naturales.",
+      "why_options_are_wrong": {
+        "B": "Es incompleta porque excluye a las personas jurídicas y a otras entidades reconocidas por la ley.",
+        "C": "Los abogados pueden ser sujetos del Derecho, pero su profesión no define el concepto.",
+        "D": "El Estado puede ser sujeto del Derecho, pero no es el único."
+      }
     },
     {
       "id": "DER102-P001",

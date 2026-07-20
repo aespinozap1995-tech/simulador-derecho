@@ -20,7 +20,7 @@ Crear un simulador de exámenes por asignatura con temporizador, acceso mediante
 
 - Recopilar y revisar las preguntas existentes en los simuladores del aula virtual.
 - Utilizar este banco como base para desarrollar y probar el sistema.
-- Banco inicial procesado: 346 preguntas distribuidas entre seis asignaturas.
+- Banco inicial procesado: 347 preguntas, 345 activas, distribuidas entre seis asignaturas.
 
 ### Etapa 2 — Sistema funcional
 

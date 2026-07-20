@@ -8,8 +8,8 @@ const bank = JSON.parse(
 
 test("the question bank contains the reviewed beta inventory", () => {
   assert.ok(Array.isArray(bank.questions));
-  assert.equal(bank.questions.length, 346);
-  assert.equal(bank.questions.filter((question) => question.active).length, 344);
+  assert.equal(bank.questions.length, 347);
+  assert.equal(bank.questions.filter((question) => question.active).length, 345);
   assert.deepEqual(
     [...new Set(bank.questions.map((question) => question.subject_code))].sort(),
     ["C10", "DER101", "DER102", "DER104", "DER105", "DER106"],
@@ -44,5 +44,15 @@ test("the main interface contains the beta entry points", async () => {
   assert.match(source, /Carrera de Derecho/);
   assert.match(source, /Tiempo restante/);
   assert.match(source, /Retroalimentación/);
+  assert.match(source, /subjectCatalog/);
+  assert.match(source, /Para recordar:/);
 });
 
+test("DER101 includes the subject-of-law question with structured feedback", () => {
+  const question = bank.questions.find((item) => item.id === "DER101-P029");
+  assert.ok(question);
+  assert.equal(question.answer.option_ids[0], "A");
+  assert.match(question.explanation, /derechos y asumir obligaciones/i);
+  assert.match(question.memory_key, /puede ser sujeto del Derecho/i);
+  assert.equal(question.why_options_are_wrong.B.length > 0, true);
+});

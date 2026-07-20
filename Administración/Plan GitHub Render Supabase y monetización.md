@@ -165,7 +165,7 @@ El servicio de despliegue elegido desplegará únicamente una versión que haya 
 3. Conectar un SMTP propio antes del lanzamiento; el servicio de correo predeterminado es solo para pruebas y tiene límites muy bajos.
 4. Crear el esquema mediante migraciones versionadas.
 5. Crear y probar las políticas RLS con usuario anónimo, gratuito, premium y administrador.
-6. Importar las 344 preguntas activas; mantener `DER105-P033` y `DER105-P087` inactivas hasta resolverlas.
+6. Importar las 345 preguntas activas; mantener `DER105-P033` y `DER105-P087` inactivas hasta resolverlas.
 7. Crear una función transaccional que guarde el intento gratuito y conserve solamente los tres últimos.
 8. Preparar copias de seguridad y un procedimiento de restauración antes de aceptar pagos.
 

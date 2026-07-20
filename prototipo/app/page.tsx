@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import {
   BookOpen,
   FilePenLine,
@@ -12,6 +12,7 @@ import {
 } from "lucide-react";
 
 type Subject = { code: string; label: string; name: string; total: number; icon: LucideIcon };
+type SubjectDefinition = Omit<Subject, "total">;
 type BankQuestion = {
   id: string;
   subject_code: string;
@@ -28,6 +29,10 @@ type BankQuestion = {
   feedback_correct: string;
   feedback_incorrect: string;
   tip: string;
+  explanation?: string;
+  memory_key?: string;
+  common_confusion?: string;
+  why_options_are_wrong?: Record<string, string>;
 };
 type AnswerValue = string | string[] | Record<string, string>;
 type Attempt = { id: string; subject: string; subjectName: string; date: string; score: number; total: number; percentage: number };
@@ -35,14 +40,46 @@ type Screen = "home" | "exam" | "results";
 type FontSize = "small" | "medium" | "large";
 type Theme = "light" | "dusk";
 
-const subjects: Subject[] = [
-  { code: "DER101", label: "DER 101", name: "Introducción al Derecho", total: 28, icon: BookOpen },
-  { code: "DER102", label: "DER 102", name: "Lógica y Dialéctica Jurídica", total: 20, icon: GitBranch },
-  { code: "DER104", label: "DER 104", name: "Teoría General del Estado y Sociología Jurídica", total: 30, icon: Landmark },
-  { code: "DER105", label: "DER 105", name: "Expresión Oral y Redacción Jurídica", total: 93, icon: FilePenLine },
-  { code: "DER106", label: "DER 106", name: "Historia y Filosofía del Derecho", total: 33, icon: History },
-  { code: "C10", label: "C10", name: "Investigación", total: 140, icon: SearchCheck },
+const subjectDefinitions: SubjectDefinition[] = [
+  { code: "DER101", label: "DER 101", name: "Introducción al Derecho", icon: BookOpen },
+  { code: "DER102", label: "DER 102", name: "Lógica y Dialéctica Jurídica", icon: GitBranch },
+  { code: "DER104", label: "DER 104", name: "Teoría General del Estado y Sociología Jurídica", icon: Landmark },
+  { code: "DER105", label: "DER 105", name: "Expresión Oral y Redacción Jurídica", icon: FilePenLine },
+  { code: "DER106", label: "DER 106", name: "Historia y Filosofía del Derecho", icon: History },
+  { code: "C10", label: "C10", name: "Investigación", icon: SearchCheck },
 ];
+
+const questionTypeLabels: Record<BankQuestion["question_type"], string> = {
+  single_choice: "Selecciona una respuesta",
+  multiple_choice: "Selecciona todas las correctas",
+  true_false: "Verdadero o falso",
+  fill_blank: "Completa el enunciado",
+  matching: "Empareja los conceptos",
+  ordering: "Ordena los elementos",
+  unknown: "Pregunta",
+};
+
+function shuffleItems<T>(items: T[]) {
+  const shuffled = [...items];
+  for (let index = shuffled.length - 1; index > 0; index -= 1) {
+    const target = Math.floor(Math.random() * (index + 1));
+    [shuffled[index], shuffled[target]] = [shuffled[target], shuffled[index]];
+  }
+  return shuffled;
+}
+
+function createOrderingStart(items: string[]) {
+  const correct = JSON.stringify(items);
+  const reversed = JSON.stringify([...items].reverse());
+  let candidate = shuffleItems(items);
+  for (let attempt = 0; attempt < 8 && (JSON.stringify(candidate) === correct || (items.length > 2 && JSON.stringify(candidate) === reversed)); attempt += 1) {
+    candidate = shuffleItems(items);
+  }
+  if (JSON.stringify(candidate) === correct && items.length > 1) {
+    [candidate[0], candidate[1]] = [candidate[1], candidate[0]];
+  }
+  return candidate;
+}
 
 function formatTime(seconds: number) {
   const minutes = Math.floor(seconds / 60).toString().padStart(2, "0");
@@ -65,6 +102,7 @@ export default function Home() {
   const [theme, setTheme] = useState<Theme>("light");
   const [attempts, setAttempts] = useState<Attempt[]>([]);
   const [draggedItem, setDraggedItem] = useState<string | null>(null);
+  const feedbackRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     fetch("/questions.json")
@@ -119,6 +157,14 @@ export default function Home() {
     [answers, examQuestions],
   );
 
+  const subjectCatalog = useMemo(
+    () => subjectDefinitions.map((item) => ({
+      ...item,
+      total: allQuestions.filter((question) => question.active && question.subject_code === item.code).length,
+    })),
+    [allQuestions],
+  );
+
   const availableCounts = subject
     ? [...new Set([10, 20, 30, subject.total].filter((count) => count <= subject.total))]
     : [];
@@ -135,13 +181,17 @@ export default function Home() {
           (question.question_type === "matching" && question.answer.pairs.length >= 2)),
     );
     const dragQuestion = pool.find((question) => ["ordering", "matching"].includes(question.question_type));
-    const shuffled = [...pool].sort(() => Math.random() - 0.5);
+    const shuffled = shuffleItems(pool);
     const selected = dragQuestion
       ? [dragQuestion, ...shuffled.filter((question) => question.id !== dragQuestion.id)].slice(0, Math.min(count, pool.length))
       : shuffled.slice(0, Math.min(count, pool.length));
+    const initialAnswers = selected.reduce<Record<number, AnswerValue>>((value, question, index) => {
+      if (question.question_type === "ordering") value[index] = createOrderingStart(question.answer.ordered_items);
+      return value;
+    }, {});
     setExamQuestions(selected);
     setQuestionIndex(0);
-    setAnswers({});
+    setAnswers(initialAnswers);
     setSubmitted({});
     setSecondsLeft(3600);
     setTipsEnabled(true);
@@ -167,14 +217,14 @@ export default function Home() {
     return typeof answer === "string" && answer.length > 0;
   };
 
-  const orderingItems = (question: BankQuestion) => {
+  const orderingItems = () => {
     const answer = answers[questionIndex];
-    return Array.isArray(answer) ? answer : [...question.answer.ordered_items].reverse();
+    return Array.isArray(answer) ? answer : [];
   };
 
   const moveOrderingItem = (from: number, to: number) => {
     if (isSubmitted) return;
-    const items = [...orderingItems(current)];
+    const items = [...orderingItems()];
     const [moved] = items.splice(from, 1);
     items.splice(to, 0, moved);
     setAnswers((value) => ({ ...value, [questionIndex]: items }));
@@ -186,6 +236,36 @@ export default function Home() {
     const mapping = currentAnswer && typeof currentAnswer === "object" && !Array.isArray(currentAnswer) ? currentAnswer : {};
     setAnswers((value) => ({ ...value, [questionIndex]: { ...mapping, [left]: right } }));
     setDraggedItem(null);
+  };
+
+  const clearMatch = (left: string) => {
+    if (isSubmitted) return;
+    const currentAnswer = answers[questionIndex];
+    if (!currentAnswer || typeof currentAnswer !== "object" || Array.isArray(currentAnswer)) return;
+    const mapping = { ...currentAnswer };
+    delete mapping[left];
+    setAnswers((value) => ({ ...value, [questionIndex]: mapping }));
+  };
+
+  const optionLabel = (question: BankQuestion, optionId: string) => {
+    const option = question.options.find((item) => item.id === optionId);
+    return option ? `${option.id}. ${option.text}` : optionId;
+  };
+
+  const describeAnswer = (question: BankQuestion, answer: AnswerValue | undefined) => {
+    if (!answer) return "Sin respuesta";
+    if (typeof answer === "string") return optionLabel(question, answer);
+    if (Array.isArray(answer)) {
+      if (question.question_type === "ordering") return answer.join(" → ");
+      return answer.map((item) => optionLabel(question, item)).join(" · ");
+    }
+    return Object.entries(answer).map(([left, right]) => `${left} → ${right}`).join(" · ");
+  };
+
+  const describeCorrectAnswer = (question: BankQuestion) => {
+    if (question.question_type === "ordering") return question.answer.ordered_items.join(" → ");
+    if (question.question_type === "matching") return question.answer.pairs.map((pair) => `${pair.left} → ${pair.right}`).join(" · ");
+    return question.answer.option_ids.map((id) => optionLabel(question, id)).join(" · ");
   };
 
   const finishAttempt = useCallback(() => {
@@ -212,6 +292,42 @@ export default function Home() {
       return () => window.clearTimeout(timeout);
     }
   }, [examQuestions.length, finishAttempt, screen, secondsLeft]);
+
+  useEffect(() => {
+    if (screen === "exam" && isSubmitted && feedbackEnabled) {
+      window.requestAnimationFrame(() => feedbackRef.current?.focus());
+    }
+  }, [feedbackEnabled, isSubmitted, questionIndex, screen]);
+
+  useEffect(() => {
+    if (screen !== "exam" || !current) return;
+    const handleKeyDown = (event: KeyboardEvent) => {
+      const target = event.target as HTMLElement;
+      if (["INPUT", "SELECT", "TEXTAREA"].includes(target.tagName)) return;
+      const choiceTypes = ["single_choice", "true_false", "fill_blank", "multiple_choice"];
+      const option = current.options.find((item) => item.id.toLowerCase() === event.key.toLowerCase());
+      if (!isSubmitted && choiceTypes.includes(current.question_type) && option) {
+        event.preventDefault();
+        if (current.question_type === "multiple_choice") {
+          const selected = Array.isArray(selectedAnswer) ? [...selectedAnswer] : [];
+          const next = selected.includes(option.id) ? selected.filter((id) => id !== option.id) : [...selected, option.id];
+          setAnswers((value) => ({ ...value, [questionIndex]: next }));
+        } else {
+          setAnswers((value) => ({ ...value, [questionIndex]: option.id }));
+        }
+      }
+      if (event.key === "Enter" && feedbackEnabled && !isSubmitted && hasCompleteAnswer(current, selectedAnswer)) {
+        event.preventDefault();
+        setSubmitted((value) => ({ ...value, [questionIndex]: true }));
+      }
+      if (event.key === "ArrowRight" && isSubmitted && questionIndex < examQuestions.length - 1) {
+        event.preventDefault();
+        setQuestionIndex((index) => index + 1);
+      }
+    };
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [current, examQuestions.length, feedbackEnabled, isSubmitted, questionIndex, screen, selectedAnswer]);
 
   if (screen === "exam" && current && subject) {
     const correct = isCorrectAnswer(current, selectedAnswer);
@@ -256,10 +372,15 @@ export default function Home() {
 
           <article className="question-panel">
             <div className="question-labels"><span>{current.topic}</span><span>Pregunta {questionIndex + 1} de {examQuestions.length}</span></div>
-            <h1>{current.prompt}</h1>
-            {tipsEnabled && !isSubmitted && <div className="hint"><b>Consejo</b><p>{current.tip}</p></div>}
+            <span className="question-type">{questionTypeLabels[current.question_type]}</span>
+            <h1 className={current.prompt.length > 400 ? "long-prompt" : ""}>{current.prompt}</h1>
+            {tipsEnabled && current.tip && <details className="hint"><summary>Consejo disponible</summary><p>{current.tip}</p></details>}
             {["single_choice", "true_false", "fill_blank", "multiple_choice"].includes(current.question_type) && (
-              <div className="answer-list">
+              <div
+                className={`answer-list ${isSubmitted ? "submitted" : ""}`}
+                role={current.question_type === "multiple_choice" ? "group" : "radiogroup"}
+                aria-label={questionTypeLabels[current.question_type]}
+              >
                 {current.options.map((option) => {
                   const multiple = current.question_type === "multiple_choice";
                   const chosen = multiple
@@ -270,7 +391,11 @@ export default function Home() {
                   return (
                     <button
                       key={option.id}
-                      className={`${chosen ? "chosen" : ""} ${right ? "right" : ""} ${wrong ? "wrong" : ""}`}
+                      type="button"
+                      role={multiple ? "checkbox" : "radio"}
+                      aria-checked={chosen}
+                      disabled={isSubmitted}
+                      className={`${multiple ? "multiple" : "single"} ${chosen ? "chosen" : ""} ${right ? "right" : ""} ${wrong ? "wrong" : ""}`}
                       onClick={() => {
                         if (isSubmitted) return;
                         if (!multiple) {
@@ -284,7 +409,7 @@ export default function Home() {
                         setAnswers((value) => ({ ...value, [questionIndex]: next }));
                       }}
                     >
-                      <span>{option.id}</span><p>{option.text}</p>{right && <em>Correcta</em>}{wrong && <em>Tu respuesta</em>}
+                      <span className="option-marker">{right ? "✓" : wrong ? "×" : option.id}</span><p>{option.text}</p>{right && <em>Correcta</em>}{wrong && <em>Tu respuesta</em>}
                     </button>
                   );
                 })}
@@ -295,7 +420,7 @@ export default function Home() {
               <div className="drag-question">
                 <p className="drag-instruction">Arrastra los elementos hasta colocarlos en el orden correcto.</p>
                 <div className="ordering-list">
-                  {orderingItems(current).map((item, index) => (
+                  {orderingItems().map((item, index) => (
                     <div
                       key={item}
                       draggable={!isSubmitted}
@@ -305,7 +430,7 @@ export default function Home() {
                       className="draggable-row"
                     >
                       <span className="drag-handle">⠿</span><b>{index + 1}</b><p>{item}</p>
-                      <span className="move-controls"><button onClick={() => moveOrderingItem(index, Math.max(0, index - 1))}>↑</button><button onClick={() => moveOrderingItem(index, Math.min(orderingItems(current).length - 1, index + 1))}>↓</button></span>
+                      <span className="move-controls"><button onClick={() => moveOrderingItem(index, Math.max(0, index - 1))}>↑</button><button onClick={() => moveOrderingItem(index, Math.min(orderingItems().length - 1, index + 1))}>↓</button></span>
                     </div>
                   ))}
                 </div>
@@ -329,15 +454,23 @@ export default function Home() {
                 <div className="match-targets">
                   {current.answer.pairs.map((pair) => {
                     const mapping = selectedAnswer && typeof selectedAnswer === "object" && !Array.isArray(selectedAnswer) ? selectedAnswer : {};
+                    const pairCorrect = isSubmitted && mapping[pair.left] === pair.right;
+                    const pairWrong = isSubmitted && !!mapping[pair.left] && mapping[pair.left] !== pair.right;
                     return (
-                      <div key={pair.left} className="match-row">
+                      <div key={pair.left} className={`match-row ${pairCorrect ? "pair-right" : ""} ${pairWrong ? "pair-wrong" : ""}`}>
                         <p>{pair.left}</p>
-                        <button
-                          className={mapping[pair.left] ? "filled" : ""}
-                          onDragOver={(event) => event.preventDefault()}
-                          onDrop={(event) => { event.preventDefault(); assignMatch(pair.left, event.dataTransfer.getData("text/plain")); }}
-                          onClick={() => draggedItem && assignMatch(pair.left, draggedItem)}
-                        >{mapping[pair.left] || "Soltar aquí"}</button>
+                        <div className="match-answer">
+                          <button
+                            className={mapping[pair.left] ? "filled" : ""}
+                            disabled={isSubmitted}
+                            onDragOver={(event) => event.preventDefault()}
+                            onDrop={(event) => { event.preventDefault(); assignMatch(pair.left, event.dataTransfer.getData("text/plain")); }}
+                            onClick={() => draggedItem && assignMatch(pair.left, draggedItem)}
+                          >{mapping[pair.left] || "Soltar aquí"}</button>
+                          {!isSubmitted && mapping[pair.left] && <button className="clear-match" onClick={() => clearMatch(pair.left)} aria-label={`Quitar relación de ${pair.left}`}>×</button>}
+                          {pairCorrect && <span className="pair-status">✓ Correcta</span>}
+                          {pairWrong && <span className="pair-status">× Revisar</span>}
+                        </div>
                       </div>
                     );
                   })}
@@ -346,21 +479,43 @@ export default function Home() {
             )}
 
             {feedbackEnabled && isSubmitted && (
-              <div className={`feedback ${correct ? "feedback-right" : "feedback-wrong"}`}>
-                <strong>{correct ? "Respuesta correcta" : "Revisa este concepto"}</strong>
-                <p>{correct ? current.feedback_correct : current.feedback_incorrect}</p>
+              <div
+                ref={feedbackRef}
+                tabIndex={-1}
+                role="status"
+                aria-live="polite"
+                className={`feedback ${correct ? "feedback-right" : "feedback-wrong"}`}
+              >
+                <div className="feedback-heading"><span aria-hidden="true">{correct ? "✓" : "×"}</span><strong>{correct ? "¡Correcto!" : "Esta vez no es correcto."}</strong></div>
+                {!correct && <p className="feedback-answer"><b>Tu respuesta:</b> {describeAnswer(current, selectedAnswer)}</p>}
+                <p className="feedback-answer correct-answer"><b>Respuesta correcta:</b> {describeCorrectAnswer(current)}</p>
+                <div className="feedback-explanation">
+                  <b>Por qué:</b>
+                  <p>{current.explanation || current.feedback_correct}</p>
+                </div>
+                {!correct && (
+                  <div className="feedback-explanation">
+                    <b>Por qué no corresponde:</b>
+                    <p>{typeof selectedAnswer === "string" && current.why_options_are_wrong?.[selectedAnswer] ? current.why_options_are_wrong[selectedAnswer] : current.feedback_incorrect}</p>
+                  </div>
+                )}
+                {(current.memory_key || current.tip) && <p className="memory-key"><b>Para recordar:</b> {current.memory_key || current.tip}</p>}
+                {current.common_confusion && <p className="common-confusion"><b>No confundir:</b> {current.common_confusion}</p>}
               </div>
             )}
 
             <footer className="exam-actions">
               <button className="secondary" disabled={questionIndex === 0} onClick={() => setQuestionIndex((index) => index - 1)}>Anterior</button>
-              {feedbackEnabled && !isSubmitted ? (
-                <button className="primary" disabled={!hasCompleteAnswer(current, selectedAnswer)} onClick={() => setSubmitted((value) => ({ ...value, [questionIndex]: true }))}>Comprobar</button>
-              ) : questionIndex < examQuestions.length - 1 ? (
-                <button className="primary" onClick={() => setQuestionIndex((index) => index + 1)}>Siguiente</button>
-              ) : (
-                <button className="primary" onClick={finishAttempt}>Finalizar intento</button>
-              )}
+              <div className="primary-action">
+                {feedbackEnabled && !isSubmitted && !hasCompleteAnswer(current, selectedAnswer) && <small>{current.question_type === "matching" ? "Completa todas las relaciones" : "Selecciona una respuesta"}</small>}
+                {feedbackEnabled && !isSubmitted ? (
+                  <button className="primary" disabled={!hasCompleteAnswer(current, selectedAnswer)} onClick={() => setSubmitted((value) => ({ ...value, [questionIndex]: true }))}>Comprobar</button>
+                ) : questionIndex < examQuestions.length - 1 ? (
+                  <button className="primary" onClick={() => setQuestionIndex((index) => index + 1)}>Siguiente</button>
+                ) : (
+                  <button className="primary" onClick={finishAttempt}>Finalizar intento</button>
+                )}
+              </div>
             </footer>
           </article>
         </section>
@@ -397,7 +552,7 @@ export default function Home() {
       </section>
 
       <section className="subject-catalog">
-        {subjects.map((item, index) => {
+        {subjectCatalog.map((item, index) => {
           const Icon = item.icon;
           return (
             <button key={item.code} className={`minimal-subject-card accent-${index % 3}`} onClick={() => setSubject(item)}>

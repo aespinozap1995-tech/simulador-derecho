@@ -119,6 +119,16 @@ def parse_options(alt_text):
     return options, " | ".join(note_lines)
 
 
+def parse_option_notes(text):
+    """Convierte líneas '- A. explicación' en un objeto por alternativa."""
+    notes = {}
+    for line in text.splitlines():
+        match = OPTION_RE.match(line.rstrip())
+        if match:
+            notes[match.group(1)] = match.group(2).strip()
+    return notes
+
+
 def extract_numbered_statements(prompt):
     """Extrae '(1) texto (2) texto…' del enunciado para resolver pares numerados."""
     found = re.findall(r"\((\d)\)\s*(.*?)(?=\s*\(\d\)|$)", prompt, re.S)
@@ -285,6 +295,15 @@ def convert_bank(code, name, rel_path):
             "feedback_incorrect": sections.get("Si responde incorrectamente", "").strip(),
             "tip": sections.get("Consejo opcional", "").strip(),
         }
+        optional_fields = {
+            "explanation": sections.get("Explicación", "").strip(),
+            "memory_key": sections.get("Clave para recordar", "").strip(),
+            "common_confusion": sections.get("Confusión común", "").strip(),
+            "why_options_are_wrong": parse_option_notes(
+                sections.get("Por qué las otras opciones no corresponden", "")
+            ),
+        }
+        q.update({key: value for key, value in optional_fields.items() if value})
         if options_note:
             q["options_note"] = options_note
         questions.append(q)

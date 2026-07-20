@@ -146,6 +146,27 @@
     "tip": {
       "type": "string",
       "minLength": 1
+    },
+    "explanation": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Explicación común para reforzar por qué la respuesta correcta es válida."
+    },
+    "memory_key": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Frase breve para recordar el concepto."
+    },
+    "common_confusion": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Distinción opcional frente a conceptos que suelen confundirse."
+    },
+    "why_options_are_wrong": {
+      "type": "object",
+      "description": "Explicación opcional y específica para cada distractor.",
+      "propertyNames": {"pattern": "^[A-E]$"},
+      "additionalProperties": {"type": "string", "minLength": 1}
     }
   }
 }

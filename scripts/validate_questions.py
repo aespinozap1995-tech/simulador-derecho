@@ -18,9 +18,9 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = PROJECT_ROOT / "datos"
 SUBJECTS_DIR = DATA_DIR / "subjects"
 
-EXPECTED_TOTAL = 346
+EXPECTED_TOTAL = 347
 EXPECTED_BY_SUBJECT = {
-    "DER101": 28,
+    "DER101": 29,
     "DER102": 20,
     "DER104": 30,
     "DER105": 95,
@@ -136,6 +136,20 @@ def validate_question(q):
     for item in ans.get("ordered_items", []):
         check(isinstance(item, str) and item.strip(),
               f"{qid}: elemento de ordenamiento vacío o no textual: {item!r}")
+
+    for field in ("explanation", "memory_key", "common_confusion"):
+        if field in q:
+            check(isinstance(q[field], str) and q[field].strip(),
+                  f"{qid}: campo opcional '{field}' vacío o no textual")
+    if "why_options_are_wrong" in q:
+        reasons = q["why_options_are_wrong"]
+        check(isinstance(reasons, dict), f"{qid}: why_options_are_wrong debe ser objeto")
+        if isinstance(reasons, dict):
+            for letter, reason in reasons.items():
+                check(letter in letters, f"{qid}: distractor '{letter}' no existe entre las opciones")
+                check(letter not in oids, f"{qid}: la opción correcta '{letter}' no debe tener explicación de distractor")
+                check(isinstance(reason, str) and reason.strip(),
+                      f"{qid}: explicación vacía para el distractor '{letter}'")
 
 
 def main():

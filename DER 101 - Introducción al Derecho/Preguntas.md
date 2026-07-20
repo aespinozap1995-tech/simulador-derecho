@@ -1,6 +1,6 @@
-# Entradas manuales pendientes de integración
+# Registro de entradas manuales
 
-Estas preguntas se recibieron fuera de los archivos procesados. Se mantienen separadas para evitar conflictos con la numeración del banco consolidado.
+Estas preguntas se recibieron fuera de los archivos procesados. Esta entrada ya fue incorporada al banco consolidado como `DER101-P029`.
 
 ## DER101-M001 — Sujeto del Derecho
 
@@ -8,7 +8,7 @@ Estas preguntas se recibieron fuera de los archivos procesados. Se mantienen sep
 tipo: opción múltiple
 tema: sujeto del Derecho
 dificultad: básica
-estado: pendiente de integración
+estado: integrada como DER101-P029
 fuente: copia manual del simulador del aula virtual
 ---
 

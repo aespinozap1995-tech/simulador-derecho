@@ -843,3 +843,47 @@ El Derecho Prehispánico es anterior a la llegada española, y el "Derecho revol
 Relaciona el término "Indiano" con "Indias", el nombre que España daba a sus colonias de ultramar.
 
 ---
+
+## DER101-P029 — Sujeto del Derecho
+- Asignatura: DER 101
+- Tema: Sujetos del Derecho
+- Dificultad: básica
+- Estado: revisada
+- Fuente: copia manual del simulador del aula virtual, recibida el 13 de julio de 2026
+
+### Enunciado
+¿Qué es el sujeto del Derecho?
+
+### Alternativas
+- A. Toda persona o entidad con derechos y obligaciones
+- B. Solo las personas naturales
+- C. Los abogados
+- D. El Estado exclusivamente
+
+### Respuesta correcta
+A. Toda persona o entidad con derechos y obligaciones
+
+### Retroalimentación sencilla
+El sujeto del Derecho es toda persona o entidad a la que el ordenamiento jurídico reconoce como titular de derechos y obligaciones. Esto incluye tanto a las personas naturales como a las personas jurídicas.
+
+### Si responde incorrectamente
+El sujeto del Derecho no se limita a las personas naturales, al Estado o a los abogados; también comprende personas jurídicas y otras entidades reconocidas por el ordenamiento jurídico.
+
+### Consejo opcional
+Piensa en quién puede ser titular de un derecho o estar obligado a cumplir un deber jurídico.
+
+### Explicación
+El sujeto del Derecho es quien puede tener derechos y asumir obligaciones dentro del ordenamiento jurídico. Puede ser una persona natural, una persona jurídica u otra entidad reconocida por la ley.
+
+### Clave para recordar
+Si puede tener un derecho o asumir una obligación, puede ser sujeto del Derecho.
+
+### Confusión común
+No se limita a una profesión, a una autoridad pública ni únicamente a las personas naturales.
+
+### Por qué las otras opciones no corresponden
+- B. Es incompleta porque excluye a las personas jurídicas y a otras entidades reconocidas por la ley.
+- C. Los abogados pueden ser sujetos del Derecho, pero su profesión no define el concepto.
+- D. El Estado puede ser sujeto del Derecho, pero no es el único.
+
+---

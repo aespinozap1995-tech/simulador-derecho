@@ -54,15 +54,15 @@
 - [x] Seis asignaturas procesadas.
 - [x] 27 PDF y 3 Markdown de contenido revisados.
 - [x] 359 páginas PDF revisadas visualmente.
-- [x] 346 preguntas únicas en los bancos procesados.
+- [x] 347 preguntas únicas en los bancos procesados.
 - [x] Identificadores únicos y consecutivos en todas las asignaturas.
 - [x] Todas las preguntas contienen fuente, respuesta, retroalimentación y consejo.
 - [ ] Resolver DER105-P033 y DER105-P087, pendientes de confirmación.
-- [ ] Evaluar e integrar DER101-M001, recibida manualmente fuera del lote procesado.
+- [x] DER101-M001 integrada como DER101-P029 con retroalimentación estructurada.
 
 ### Distribución
 
-- DER 101: 28 preguntas.
+- DER 101: 29 preguntas.
 - DER 102: 20 preguntas.
 - DER 104: 30 preguntas.
 - DER 105: 95 preguntas, dos pendientes de confirmación.
@@ -81,9 +81,9 @@ Los compendios de clase se incorporarán únicamente después de completar y val
 - [x] Un Markdown de contenido revisado íntegramente.
 - [x] 29 preguntas encontradas en bruto.
 - [x] Un duplicado exacto consolidado.
-- [x] 28 preguntas únicas en el banco procesado.
+- [x] 29 preguntas únicas en el banco procesado, incluida DER101-P029.
 - [x] Ninguna página ilegible.
 - [x] Ninguna pregunta marcada como pendiente por el revisor.
 - [ ] Validar con bibliografía la atribución doctrinal de DER101-P002 a Arauz Castex.
-- [ ] Validar contra una fuente primaria las preguntas DER101-P010, P016, P017 y P020, procedentes del Markdown consolidado.
-- [ ] Evaluar e integrar DER101-M001, recibida manualmente fuera del lote procesado.
+- [x] DER101-P010, P016, P017 y P020 contrastadas con los cinco PDF añadidos el 19 de julio de 2026.
+- [x] DER101-M001 integrada como DER101-P029.
