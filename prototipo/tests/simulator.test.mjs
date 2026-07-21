@@ -8,8 +8,12 @@ const bank = JSON.parse(
 
 test("the question bank contains the reviewed beta inventory", () => {
   assert.ok(Array.isArray(bank.questions));
-  assert.equal(bank.questions.length, 347);
-  assert.equal(bank.questions.filter((question) => question.active).length, 345);
+  assert.equal(bank.questions.length, 865);
+  assert.equal(bank.questions.filter((question) => question.active).length, 863);
+  assert.equal(
+    bank.questions.filter((question) => question.provenance === "generated_from_compendium").length,
+    518,
+  );
   assert.deepEqual(
     [...new Set(bank.questions.map((question) => question.subject_code))].sort(),
     ["C10", "DER101", "DER102", "DER104", "DER105", "DER106"],

@@ -64,7 +64,7 @@
     },
     "provenance": {
       "type": "string",
-      "enum": ["original_simulator"]
+      "enum": ["original_simulator", "generated_from_compendium"]
     },
     "source": {
       "type": "string",

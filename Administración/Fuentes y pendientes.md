@@ -5,7 +5,16 @@
 - [x] Captura con las asignaturas de primer nivel.
 - [x] Resultados de simuladores del aula virtual en PDF y Markdown.
 - [x] Carpeta de Drive recibida el 16 de julio de 2026 con capturas, Word y PDF de intentos.
-- [ ] Compendios de clase, si fueran necesarios.
+- [x] Compendios de clase incorporados en Markdown el 20 de julio de 2026.
+
+## Primera tanda desde compendios — 20 de julio de 2026
+
+- [x] Siete archivos Markdown revisados y asociados con las seis asignaturas.
+- [x] Archivo mixto de Introducción al Derecho limitado a sus páginas 1–504.
+- [x] Contenido repetido de Teoría General del Estado descontado durante la extracción.
+- [x] 518 preguntas nuevas generadas con fuente y retroalimentación estructurada.
+- [x] Banco consolidado actualizado a 865 preguntas, 863 activas.
+- [x] Conversión y validación completadas con 0 errores y 0 advertencias.
 
 ## Nuevo lote de Drive — 16 de julio de 2026
 

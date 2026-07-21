@@ -1,8 +1,11 @@
 {
   "subject_code": "DER105",
   "subject_name": "Expresión Oral y Redacción Jurídica",
-  "source_file": "Procesado/DER 105 - Expresión Oral y Redacción Jurídica/banco_preguntas.md",
-  "total": 95,
+  "source_files": [
+    "Procesado/DER 105 - Expresión Oral y Redacción Jurídica/banco_preguntas.md",
+    "Procesado/DER 105 - Expresión Oral y Redacción Jurídica/preguntas_compendios.md"
+  ],
+  "total": 142,
   "questions": [
     {
       "id": "DER105-P001",
@@ -4179,6 +4182,2317 @@
       "feedback_correct": "El inciso \"según el expediente\" debe ir encerrado entre dos comas: apertura y cierre. Una sola coma deja el inciso cojo.",
       "feedback_incorrect": "Los incisos funcionan como paréntesis: necesitan coma de entrada y de salida.",
       "tip": "Cuenta las comas: el inciso completo lleva dos."
+    },
+    {
+      "id": "DER105-P096",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Concepto: Los Fundamentos de la Precisión en el Léxico Jurídico",
+      "question_type": "single_choice",
+      "topic": "Los Fundamentos de la Precisión en el Léxico Jurídico",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "contenido_texto_juridico.md, apartado «Los Fundamentos de la Precisión en el Léxico Jurídico»",
+      "prompt": "¿A qué concepto o apartado corresponde la siguiente afirmación del compendio? «Por esta razón, la base de todo proceso escritural para quien se inicia en la carrera jurídica radica en la búsqueda de la palabra precisa.»",
+      "options": [
+        {
+          "id": "A",
+          "text": "Los Fundamentos de la Precisión en el Léxico Jurídico"
+        },
+        {
+          "id": "B",
+          "text": "El Dilema de la Repetición: Claridad frente a Estética"
+        },
+        {
+          "id": "C",
+          "text": "La Frase como Unidad de Sentido y su Extensión Ideal"
+        },
+        {
+          "id": "D",
+          "text": "La Métrica de la Claridad: La Regla de las 18 Palabras"
+        }
+      ],
+      "answer": {
+        "raw": "A. Los Fundamentos de la Precisión en el Léxico Jurídico",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La afirmación se desarrolla en el apartado «Los Fundamentos de la Precisión en el Léxico Jurídico».",
+      "feedback_incorrect": "La respuesta correcta es «Los Fundamentos de la Precisión en el Léxico Jurídico», porque ese apartado contiene la afirmación presentada.",
+      "tip": "Identifica el concepto que explica la idea completa, no una palabra aislada.",
+      "explanation": "En palabras sencillas, «Los Fundamentos de la Precisión en el Léxico Jurídico» se relaciona aquí con esta idea: Por esta razón, la base de todo proceso escritural para quien se inicia en la carrera jurídica radica en la búsqueda de la palabra precisa.",
+      "memory_key": "Los Fundamentos de la Precisión en el Léxico Jurídico: Por esta razón, la base de todo proceso escritural para quien se inicia en la carrera jurídica radica en la búsqueda de la palabra precisa..",
+      "common_confusion": "No confundas conceptos cercanos de la misma unidad: compara la definición completa.",
+      "why_options_are_wrong": {
+        "B": "«El Dilema de la Repetición: Claridad frente a Estética» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "C": "«La Frase como Unidad de Sentido y su Extensión Ideal» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "D": "«La Métrica de la Claridad: La Regla de las 18 Palabras» corresponde a otro concepto o apartado y no identifica toda la afirmación citada."
+      }
+    },
+    {
+      "id": "DER105-P097",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Concepto: El Dilema de la Repetición: Claridad frente a Estética",
+      "question_type": "single_choice",
+      "topic": "El Dilema de la Repetición: Claridad frente a Estética",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "contenido_texto_juridico.md, apartado «El Dilema de la Repetición: Claridad frente a Estética»",
+      "prompt": "¿A qué concepto o apartado corresponde la siguiente afirmación del compendio? «Existe un temor infundado en los escritores noveles hacia la repetición de palabras, asumiendo que esta empobrece el texto.»",
+      "options": [
+        {
+          "id": "A",
+          "text": "El justo medio y el enriquecimiento a través de la síntesis"
+        },
+        {
+          "id": "B",
+          "text": "El uso estratégico de los prefijos en la terminología legal"
+        },
+        {
+          "id": "C",
+          "text": "El Peligro de las Falsas Sinonimias y el Error de \"Adolecer\""
+        },
+        {
+          "id": "D",
+          "text": "El Dilema de la Repetición: Claridad frente a Estética"
+        }
+      ],
+      "answer": {
+        "raw": "D. El Dilema de la Repetición: Claridad frente a Estética",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La afirmación se desarrolla en el apartado «El Dilema de la Repetición: Claridad frente a Estética».",
+      "feedback_incorrect": "La respuesta correcta es «El Dilema de la Repetición: Claridad frente a Estética», porque ese apartado contiene la afirmación presentada.",
+      "tip": "Identifica el concepto que explica la idea completa, no una palabra aislada.",
+      "explanation": "En palabras sencillas, «El Dilema de la Repetición: Claridad frente a Estética» se relaciona aquí con esta idea: Existe un temor infundado en los escritores noveles hacia la repetición de palabras, asumiendo que esta empobrece el texto.",
+      "memory_key": "El Dilema de la Repetición: Claridad frente a Estética: Existe un temor infundado en los escritores noveles hacia la repetición de palabras, asumiendo que esta empobrece el texto..",
+      "common_confusion": "No confundas conceptos cercanos de la misma unidad: compara la definición completa.",
+      "why_options_are_wrong": {
+        "A": "«El justo medio y el enriquecimiento a través de la síntesis» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "B": "«El uso estratégico de los prefijos en la terminología legal» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "C": "«El Peligro de las Falsas Sinonimias y el Error de \"Adolecer\"» corresponde a otro concepto o apartado y no identifica toda la afirmación citada."
+      }
+    },
+    {
+      "id": "DER105-P098",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Concepto: El Peligro de las Falsas Sinonimias y el Error de \"Adolecer\"",
+      "question_type": "single_choice",
+      "topic": "El Peligro de las Falsas Sinonimias y el Error de \"Adolecer\"",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "contenido_texto_juridico.md, apartado «El Peligro de las Falsas Sinonimias y el Error de \"Adolecer\"»",
+      "prompt": "¿A qué concepto o apartado corresponde la siguiente afirmación del compendio? «La obsesión por evitar la reiteración de términos a toda costa suele conducir a un error técnico grave conocido como falsa sinonimia.»",
+      "options": [
+        {
+          "id": "A",
+          "text": "La precisión terminológica frente a la vanidad del léxico jurídico"
+        },
+        {
+          "id": "B",
+          "text": "La raya en la transcripción de testimonios y la narrativa procesal"
+        },
+        {
+          "id": "C",
+          "text": "El Peligro de las Falsas Sinonimias y el Error de \"Adolecer\""
+        },
+        {
+          "id": "D",
+          "text": "La arquitectura del párrafo jurídico: La fórmula 18/54"
+        }
+      ],
+      "answer": {
+        "raw": "C. El Peligro de las Falsas Sinonimias y el Error de \"Adolecer\"",
+        "option_ids": [
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La afirmación se desarrolla en el apartado «El Peligro de las Falsas Sinonimias y el Error de \"Adolecer\"».",
+      "feedback_incorrect": "La respuesta correcta es «El Peligro de las Falsas Sinonimias y el Error de \"Adolecer\"», porque ese apartado contiene la afirmación presentada.",
+      "tip": "Identifica el concepto que explica la idea completa, no una palabra aislada.",
+      "explanation": "En palabras sencillas, «El Peligro de las Falsas Sinonimias y el Error de \"Adolecer\"» se relaciona aquí con esta idea: La obsesión por evitar la reiteración de términos a toda costa suele conducir a un error técnico grave conocido como falsa sinonimia.",
+      "memory_key": "El Peligro de las Falsas Sinonimias y el Error de \"Adolecer\": La obsesión por evitar la reiteración de términos a toda costa suele conducir a un error técnico grave conocido como falsa sinonimia..",
+      "common_confusion": "No confundas conceptos cercanos de la misma unidad: compara la definición completa.",
+      "why_options_are_wrong": {
+        "A": "«La precisión terminológica frente a la vanidad del léxico jurídico» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "B": "«La raya en la transcripción de testimonios y la narrativa procesal» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "D": "«La arquitectura del párrafo jurídico: La fórmula 18/54» corresponde a otro concepto o apartado y no identifica toda la afirmación citada."
+      }
+    },
+    {
+      "id": "DER105-P099",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Concepto: Reglas de Concordancia: El Adjetivo y la Conjunción Disyuntiva",
+      "question_type": "single_choice",
+      "topic": "Reglas de Concordancia: El Adjetivo y la Conjunción Disyuntiva",
+      "difficulty": "advanced",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "contenido_texto_juridico.md, apartado «Reglas de Concordancia: El Adjetivo y la Conjunción Disyuntiva»",
+      "prompt": "¿A qué concepto o apartado corresponde la siguiente afirmación del compendio? «Cuando un adjetivo califica a dos o más sustantivos unidos por la conjunción \"o\", el redactor debe analizar la intención de la frase para aplicar la concordancia correcta.»",
+      "options": [
+        {
+          "id": "A",
+          "text": "La versatilidad del léxico en la narrativa jurídica"
+        },
+        {
+          "id": "B",
+          "text": "Reglas de Concordancia: El Adjetivo y la Conjunción Disyuntiva"
+        },
+        {
+          "id": "C",
+          "text": "Los Fundamentos de la Precisión en el Léxico Jurídico"
+        },
+        {
+          "id": "D",
+          "text": "La Frase como Unidad de Sentido y su Extensión Ideal"
+        }
+      ],
+      "answer": {
+        "raw": "B. Reglas de Concordancia: El Adjetivo y la Conjunción Disyuntiva",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La afirmación se desarrolla en el apartado «Reglas de Concordancia: El Adjetivo y la Conjunción Disyuntiva».",
+      "feedback_incorrect": "La respuesta correcta es «Reglas de Concordancia: El Adjetivo y la Conjunción Disyuntiva», porque ese apartado contiene la afirmación presentada.",
+      "tip": "Identifica el concepto que explica la idea completa, no una palabra aislada.",
+      "explanation": "En palabras sencillas, «Reglas de Concordancia: El Adjetivo y la Conjunción Disyuntiva» se relaciona aquí con esta idea: Cuando un adjetivo califica a dos o más sustantivos unidos por la conjunción \"o\", el redactor debe analizar la intención de la frase para aplicar la concordancia correcta.",
+      "memory_key": "Reglas de Concordancia: El Adjetivo y la Conjunción Disyuntiva: Cuando un adjetivo califica a dos o más sustantivos unidos por la conjunción \"o\", el redactor debe analizar la intención de la frase para aplicar la c.",
+      "common_confusion": "No confundas conceptos cercanos de la misma unidad: compara la definición completa.",
+      "why_options_are_wrong": {
+        "A": "«La versatilidad del léxico en la narrativa jurídica» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "C": "«Los Fundamentos de la Precisión en el Léxico Jurídico» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "D": "«La Frase como Unidad de Sentido y su Extensión Ideal» corresponde a otro concepto o apartado y no identifica toda la afirmación citada."
+      }
+    },
+    {
+      "id": "DER105-P100",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Concepto: El uso de los paréntesis como herramienta de aislamiento y precisión en el discurso legal",
+      "question_type": "single_choice",
+      "topic": "El uso de los paréntesis como herramienta de aislamiento y precisión en el discurso legal",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "contenido_texto_juridico.md, apartado «El uso de los paréntesis como herramienta de aislamiento y precisión en el discurso legal»",
+      "prompt": "¿A qué concepto o apartado corresponde la siguiente afirmación del compendio? «El uso de los paréntesis responde a la necesidad de introducir incisos o elementos intercalados que, aunque secundarios, aportan un valor probatorio o explicativo necesario.»",
+      "options": [
+        {
+          "id": "A",
+          "text": "El uso de los paréntesis como herramienta de aislamiento y precisión en el discurso legal"
+        },
+        {
+          "id": "B",
+          "text": "El Punto y Coma"
+        },
+        {
+          "id": "C",
+          "text": "Coma vocativa"
+        },
+        {
+          "id": "D",
+          "text": "El comportamiento de los verbos intransitivos y el complemento preposicional"
+        }
+      ],
+      "answer": {
+        "raw": "A. El uso de los paréntesis como herramienta de aislamiento y precisión en el discurso legal",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La afirmación se desarrolla en el apartado «El uso de los paréntesis como herramienta de aislamiento y precisión en el discurso legal».",
+      "feedback_incorrect": "La respuesta correcta es «El uso de los paréntesis como herramienta de aislamiento y precisión en el discurso legal», porque ese apartado contiene la afirmación presentada.",
+      "tip": "Identifica el concepto que explica la idea completa, no una palabra aislada.",
+      "explanation": "En palabras sencillas, «El uso de los paréntesis como herramienta de aislamiento y precisión en el discurso legal» se relaciona aquí con esta idea: El uso de los paréntesis responde a la necesidad de introducir incisos o elementos intercalados que, aunque secundarios, aportan un valor probatorio o explicativo necesario.",
+      "memory_key": "El uso de los paréntesis como herramienta de aislamiento y precisión en el discurso legal: El uso de los paréntesis responde a la necesidad de introducir incisos o elementos intercalados que, aunque secundarios, aportan un valor probatorio o.",
+      "common_confusion": "No confundas conceptos cercanos de la misma unidad: compara la definición completa.",
+      "why_options_are_wrong": {
+        "B": "«El Punto y Coma» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "C": "«Coma vocativa» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "D": "«El comportamiento de los verbos intransitivos y el complemento preposicional» corresponde a otro concepto o apartado y no identifica toda la afirmación citada."
+      }
+    },
+    {
+      "id": "DER105-P101",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Concepto: Los paréntesis en la documentación de actuaciones orales y usos auxiliares",
+      "question_type": "single_choice",
+      "topic": "Los paréntesis en la documentación de actuaciones orales y usos auxiliares",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "contenido_texto_juridico.md, apartado «Los paréntesis en la documentación de actuaciones orales y usos auxiliares»",
+      "prompt": "¿A qué concepto o apartado corresponde la siguiente afirmación del compendio? «En los interrogatorios o declaraciones testimoniales, los paréntesis cumplen una función descriptiva fundamental al encerrar los comentarios del transcriptor sobre lo que ocurre físicamente durante la diligencia.»",
+      "options": [
+        {
+          "id": "A",
+          "text": "La precisión terminológica frente a la vanidad del léxico jurídico"
+        },
+        {
+          "id": "B",
+          "text": "La raya en la transcripción de testimonios y la narrativa procesal"
+        },
+        {
+          "id": "C",
+          "text": "El debate sobre los adverbios y la libertad creativa del redactor"
+        },
+        {
+          "id": "D",
+          "text": "Los paréntesis en la documentación de actuaciones orales y usos auxiliares"
+        }
+      ],
+      "answer": {
+        "raw": "D. Los paréntesis en la documentación de actuaciones orales y usos auxiliares",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La afirmación se desarrolla en el apartado «Los paréntesis en la documentación de actuaciones orales y usos auxiliares».",
+      "feedback_incorrect": "La respuesta correcta es «Los paréntesis en la documentación de actuaciones orales y usos auxiliares», porque ese apartado contiene la afirmación presentada.",
+      "tip": "Identifica el concepto que explica la idea completa, no una palabra aislada.",
+      "explanation": "En palabras sencillas, «Los paréntesis en la documentación de actuaciones orales y usos auxiliares» se relaciona aquí con esta idea: En los interrogatorios o declaraciones testimoniales, los paréntesis cumplen una función descriptiva fundamental al encerrar los comentarios del transcriptor sobre lo que ocurre físicamente durante la diligencia.",
+      "memory_key": "Los paréntesis en la documentación de actuaciones orales y usos auxiliares: En los interrogatorios o declaraciones testimoniales, los paréntesis cumplen una función descriptiva fundamental al encerrar los comentarios del trans.",
+      "common_confusion": "No confundas conceptos cercanos de la misma unidad: compara la definición completa.",
+      "why_options_are_wrong": {
+        "A": "«La precisión terminológica frente a la vanidad del léxico jurídico» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "B": "«La raya en la transcripción de testimonios y la narrativa procesal» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "C": "«El debate sobre los adverbios y la libertad creativa del redactor» corresponde a otro concepto o apartado y no identifica toda la afirmación citada."
+      }
+    },
+    {
+      "id": "DER105-P102",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Concepto: Los corchetes como signo de intervención técnica y jerarquización",
+      "question_type": "single_choice",
+      "topic": "Los corchetes como signo de intervención técnica y jerarquización",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "contenido_texto_juridico.md, apartado «Los corchetes como signo de intervención técnica y jerarquización»",
+      "prompt": "¿A qué concepto o apartado corresponde la siguiente afirmación del compendio? «Los corchetes, aunque similares a los paréntesis, poseen una función técnica mucho más específica en la redacción jurídica avanzada: marcar la intervención del redactor sobre un texto que no es de su autoría.»",
+      "options": [
+        {
+          "id": "A",
+          "text": "El justo medio y el enriquecimiento a través de la síntesis"
+        },
+        {
+          "id": "B",
+          "text": "El uso estratégico de los prefijos en la terminología legal"
+        },
+        {
+          "id": "C",
+          "text": "Los corchetes como signo de intervención técnica y jerarquización"
+        },
+        {
+          "id": "D",
+          "text": "La integridad del texto: Enmiendas y omisiones con corchetes"
+        }
+      ],
+      "answer": {
+        "raw": "C. Los corchetes como signo de intervención técnica y jerarquización",
+        "option_ids": [
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La afirmación se desarrolla en el apartado «Los corchetes como signo de intervención técnica y jerarquización».",
+      "feedback_incorrect": "La respuesta correcta es «Los corchetes como signo de intervención técnica y jerarquización», porque ese apartado contiene la afirmación presentada.",
+      "tip": "Identifica el concepto que explica la idea completa, no una palabra aislada.",
+      "explanation": "En palabras sencillas, «Los corchetes como signo de intervención técnica y jerarquización» se relaciona aquí con esta idea: Los corchetes, aunque similares a los paréntesis, poseen una función técnica mucho más específica en la redacción jurídica avanzada: marcar la intervención del redactor sobre un texto que no es de su autoría.",
+      "memory_key": "Los corchetes como signo de intervención técnica y jerarquización: Los corchetes, aunque similares a los paréntesis, poseen una función técnica mucho más específica en la redacción jurídica avanzada: marcar la interve.",
+      "common_confusion": "No confundas conceptos cercanos de la misma unidad: compara la definición completa.",
+      "why_options_are_wrong": {
+        "A": "«El justo medio y el enriquecimiento a través de la síntesis» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "B": "«El uso estratégico de los prefijos en la terminología legal» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "D": "«La integridad del texto: Enmiendas y omisiones con corchetes» corresponde a otro concepto o apartado y no identifica toda la afirmación citada."
+      }
+    },
+    {
+      "id": "DER105-P103",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Dos afirmaciones sobre La integridad del texto: Enmiendas y omisiones con corchetes",
+      "question_type": "multiple_choice",
+      "topic": "La integridad del texto: Enmiendas y omisiones con corchetes",
+      "difficulty": "advanced",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "contenido_texto_juridico.md, apartado «La integridad del texto: Enmiendas y omisiones con corchetes»",
+      "prompt": "Seleccione las dos afirmaciones que corresponden a «La integridad del texto: Enmiendas y omisiones con corchetes» según el compendio.",
+      "options": [
+        {
+          "id": "A",
+          "text": "El esquema anterior es aplicable cuando utilizamos verbos transitivos."
+        },
+        {
+          "id": "B",
+          "text": "Por ello, los corchetes se utilizan para realizar interpolaciones o correcciones en transcripciones donde el original presenta errores o abreviaturas que podrían confundir al juez."
+        },
+        {
+          "id": "C",
+          "text": "De igual forma, cuando se desea omitir partes de una ley o un párrafo extenso que no son relevantes para el argumento, se utilizan los tres puntos entre corchetes para indicar que el texto ha sido recortado por el redactor."
+        },
+        {
+          "id": "D",
+          "text": "La funcionalidad de la raya se extiende a la transcripción de textos orales y a la redacción narrativa de hechos, donde actúa como un organizador de voces."
+        }
+      ],
+      "answer": {
+        "raw": "B y C. La integridad del texto: Enmiendas y omisiones con corchetes",
+        "option_ids": [
+          "B",
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Las dos afirmaciones correctas desarrollan directamente «La integridad del texto: Enmiendas y omisiones con corchetes».",
+      "feedback_incorrect": "Revisa qué dos enunciados explican el mismo apartado: «La integridad del texto: Enmiendas y omisiones con corchetes».",
+      "tip": "Busca dos afirmaciones que compartan el mismo concepto central, no solo palabras jurídicas generales.",
+      "explanation": "El compendio vincula con «La integridad del texto: Enmiendas y omisiones con corchetes» estas dos ideas: Por ello, los corchetes se utilizan para realizar interpolaciones o correcciones en transcripciones donde el original presenta errores o abreviaturas que podrían confundir al juez. De igual forma, cuando se desea omitir partes de una ley o un párrafo extenso que no son relevantes para el argumento, se utilizan los tres puntos entre corchetes para indicar que el texto ha sido recortado por el redactor.",
+      "memory_key": "La integridad del texto: Enmiendas y omisiones con corchetes: identifica las dos ideas que lo explican de forma conjunta.",
+      "common_confusion": "Una afirmación puede ser verdadera en otra parte del curso y aun así no responder al apartado preguntado."
+    },
+    {
+      "id": "DER105-P104",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Concepto: La raya como instrumento de precisión y jerarquía en el inciso jurídico",
+      "question_type": "single_choice",
+      "topic": "La raya como instrumento de precisión y jerarquía en el inciso jurídico",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "contenido_texto_juridico.md, apartado «La raya como instrumento de precisión y jerarquía en el inciso jurídico»",
+      "prompt": "¿A qué concepto o apartado corresponde la siguiente afirmación del compendio? «Es fundamental que el redactor comprenda la relación jerárquica entre los signos de aislamiento cuando se presentan aclaraciones dentro de otras aclaraciones.»",
+      "options": [
+        {
+          "id": "A",
+          "text": "La raya como instrumento de precisión y jerarquía en el inciso jurídico"
+        },
+        {
+          "id": "B",
+          "text": "La versatilidad del léxico en la narrativa jurídica"
+        },
+        {
+          "id": "C",
+          "text": "Adaptación del Texto según el Nivel del Lector"
+        },
+        {
+          "id": "D",
+          "text": "El Punto y Coma"
+        }
+      ],
+      "answer": {
+        "raw": "A. La raya como instrumento de precisión y jerarquía en el inciso jurídico",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La afirmación se desarrolla en el apartado «La raya como instrumento de precisión y jerarquía en el inciso jurídico».",
+      "feedback_incorrect": "La respuesta correcta es «La raya como instrumento de precisión y jerarquía en el inciso jurídico», porque ese apartado contiene la afirmación presentada.",
+      "tip": "Identifica el concepto que explica la idea completa, no una palabra aislada.",
+      "explanation": "En palabras sencillas, «La raya como instrumento de precisión y jerarquía en el inciso jurídico» se relaciona aquí con esta idea: Es fundamental que el redactor comprenda la relación jerárquica entre los signos de aislamiento cuando se presentan aclaraciones dentro de otras aclaraciones.",
+      "memory_key": "La raya como instrumento de precisión y jerarquía en el inciso jurídico: Es fundamental que el redactor comprenda la relación jerárquica entre los signos de aislamiento cuando se presentan aclaraciones dentro de otras aclar.",
+      "common_confusion": "No confundas conceptos cercanos de la misma unidad: compara la definición completa.",
+      "why_options_are_wrong": {
+        "B": "«La versatilidad del léxico en la narrativa jurídica» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "C": "«Adaptación del Texto según el Nivel del Lector» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "D": "«El Punto y Coma» corresponde a otro concepto o apartado y no identifica toda la afirmación citada."
+      }
+    },
+    {
+      "id": "DER105-P105",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Concepto: La raya en la transcripción de testimonios y la narrativa procesal",
+      "question_type": "single_choice",
+      "topic": "La raya en la transcripción de testimonios y la narrativa procesal",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "contenido_texto_juridico.md, apartado «La raya en la transcripción de testimonios y la narrativa procesal»",
+      "prompt": "¿A qué concepto o apartado corresponde la siguiente afirmación del compendio? «La funcionalidad de la raya se extiende a la transcripción de textos orales y a la redacción narrativa de hechos, donde actúa como un organizador de voces.»",
+      "options": [
+        {
+          "id": "A",
+          "text": "La inflación del lenguaje y la trampa de los sufijos innecesarios"
+        },
+        {
+          "id": "B",
+          "text": "La patología de los nexos subordinantes y las estructuras en racimo"
+        },
+        {
+          "id": "C",
+          "text": "Los corchetes como signo de intervención técnica y jerarquización"
+        },
+        {
+          "id": "D",
+          "text": "La raya en la transcripción de testimonios y la narrativa procesal"
+        }
+      ],
+      "answer": {
+        "raw": "D. La raya en la transcripción de testimonios y la narrativa procesal",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La afirmación se desarrolla en el apartado «La raya en la transcripción de testimonios y la narrativa procesal».",
+      "feedback_incorrect": "La respuesta correcta es «La raya en la transcripción de testimonios y la narrativa procesal», porque ese apartado contiene la afirmación presentada.",
+      "tip": "Identifica el concepto que explica la idea completa, no una palabra aislada.",
+      "explanation": "En palabras sencillas, «La raya en la transcripción de testimonios y la narrativa procesal» se relaciona aquí con esta idea: La funcionalidad de la raya se extiende a la transcripción de textos orales y a la redacción narrativa de hechos, donde actúa como un organizador de voces.",
+      "memory_key": "La raya en la transcripción de testimonios y la narrativa procesal: La funcionalidad de la raya se extiende a la transcripción de textos orales y a la redacción narrativa de hechos, donde actúa como un organizador de v.",
+      "common_confusion": "No confundas conceptos cercanos de la misma unidad: compara la definición completa.",
+      "why_options_are_wrong": {
+        "A": "«La inflación del lenguaje y la trampa de los sufijos innecesarios» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "B": "«La patología de los nexos subordinantes y las estructuras en racimo» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "C": "«Los corchetes como signo de intervención técnica y jerarquización» corresponde a otro concepto o apartado y no identifica toda la afirmación citada."
+      }
+    },
+    {
+      "id": "DER105-P106",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Concepto: Flexibilidad y matices en los signos de interrogación y exclamación",
+      "question_type": "single_choice",
+      "topic": "Flexibilidad y matices en los signos de interrogación y exclamación",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "contenido_texto_juridico.md, apartado «Flexibilidad y matices en los signos de interrogación y exclamación»",
+      "prompt": "¿A qué concepto o apartado corresponde la siguiente afirmación del compendio? «Aunque el derecho se caracteriza por un tono formal y asertivo, existen escenarios donde los signos de interrogación y exclamación se adaptan a las necesidades del redactor.»",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reglas de Concordancia: El Adjetivo y la Conjunción Disyuntiva"
+        },
+        {
+          "id": "B",
+          "text": "El Peligro de las Falsas Sinonimias y el Error de \"Adolecer\""
+        },
+        {
+          "id": "C",
+          "text": "Flexibilidad y matices en los signos de interrogación y exclamación"
+        },
+        {
+          "id": "D",
+          "text": "La estructura lógica de la frase jurídica: El esquema esencial"
+        }
+      ],
+      "answer": {
+        "raw": "C. Flexibilidad y matices en los signos de interrogación y exclamación",
+        "option_ids": [
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La afirmación se desarrolla en el apartado «Flexibilidad y matices en los signos de interrogación y exclamación».",
+      "feedback_incorrect": "La respuesta correcta es «Flexibilidad y matices en los signos de interrogación y exclamación», porque ese apartado contiene la afirmación presentada.",
+      "tip": "Identifica el concepto que explica la idea completa, no una palabra aislada.",
+      "explanation": "En palabras sencillas, «Flexibilidad y matices en los signos de interrogación y exclamación» se relaciona aquí con esta idea: Aunque el derecho se caracteriza por un tono formal y asertivo, existen escenarios donde los signos de interrogación y exclamación se adaptan a las necesidades del redactor.",
+      "memory_key": "Flexibilidad y matices en los signos de interrogación y exclamación: Aunque el derecho se caracteriza por un tono formal y asertivo, existen escenarios donde los signos de interrogación y exclamación se adaptan a las ne.",
+      "common_confusion": "No confundas conceptos cercanos de la misma unidad: compara la definición completa.",
+      "why_options_are_wrong": {
+        "A": "«Reglas de Concordancia: El Adjetivo y la Conjunción Disyuntiva» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "B": "«El Peligro de las Falsas Sinonimias y el Error de \"Adolecer\"» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "D": "«La estructura lógica de la frase jurídica: El esquema esencial» corresponde a otro concepto o apartado y no identifica toda la afirmación citada."
+      }
+    },
+    {
+      "id": "DER105-P107",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Concepto: La mayúscula institucional en la disposición de textos jurídicos",
+      "question_type": "single_choice",
+      "topic": "La mayúscula institucional en la disposición de textos jurídicos",
+      "difficulty": "advanced",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "contenido_texto_juridico.md, apartado «La mayúscula institucional en la disposición de textos jurídicos»",
+      "prompt": "¿A qué concepto o apartado corresponde la siguiente afirmación del compendio? «La disposición formal de las leyes y sentencias responde a una tradición que prioriza la visibilidad de los argumentos centrales.»",
+      "options": [
+        {
+          "id": "A",
+          "text": "La Métrica de la Claridad: La Regla de las 18 Palabras"
+        },
+        {
+          "id": "B",
+          "text": "La mayúscula institucional en la disposición de textos jurídicos"
+        },
+        {
+          "id": "C",
+          "text": "La eficiencia de la palabra corta y la economía procesal"
+        },
+        {
+          "id": "D",
+          "text": "El Dilema de la Repetición: Claridad frente a Estética"
+        }
+      ],
+      "answer": {
+        "raw": "B. La mayúscula institucional en la disposición de textos jurídicos",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La afirmación se desarrolla en el apartado «La mayúscula institucional en la disposición de textos jurídicos».",
+      "feedback_incorrect": "La respuesta correcta es «La mayúscula institucional en la disposición de textos jurídicos», porque ese apartado contiene la afirmación presentada.",
+      "tip": "Identifica el concepto que explica la idea completa, no una palabra aislada.",
+      "explanation": "En palabras sencillas, «La mayúscula institucional en la disposición de textos jurídicos» se relaciona aquí con esta idea: La disposición formal de las leyes y sentencias responde a una tradición que prioriza la visibilidad de los argumentos centrales.",
+      "memory_key": "La mayúscula institucional en la disposición de textos jurídicos: La disposición formal de las leyes y sentencias responde a una tradición que prioriza la visibilidad de los argumentos centrales..",
+      "common_confusion": "No confundas conceptos cercanos de la misma unidad: compara la definición completa.",
+      "why_options_are_wrong": {
+        "A": "«La Métrica de la Claridad: La Regla de las 18 Palabras» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "C": "«La eficiencia de la palabra corta y la economía procesal» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "D": "«El Dilema de la Repetición: Claridad frente a Estética» corresponde a otro concepto o apartado y no identifica toda la afirmación citada."
+      }
+    },
+    {
+      "id": "DER105-P108",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Concepto: La versatilidad del léxico en la narrativa jurídica",
+      "question_type": "single_choice",
+      "topic": "La versatilidad del léxico en la narrativa jurídica",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "contenido_texto_juridico.md, apartado «La versatilidad del léxico en la narrativa jurídica»",
+      "prompt": "¿A qué concepto o apartado corresponde la siguiente afirmación del compendio? «La construcción de un relato de hechos en el ámbito del Derecho requiere una comprensión profunda de que la palabra es, ante todo, una unidad de léxico que se transforma según su entorno.»",
+      "options": [
+        {
+          "id": "A",
+          "text": "La versatilidad del léxico en la narrativa jurídica"
+        },
+        {
+          "id": "B",
+          "text": "La raya como instrumento de precisión y jerarquía en el inciso jurídico"
+        },
+        {
+          "id": "C",
+          "text": "Los paréntesis en la documentación de actuaciones orales y usos auxiliares"
+        },
+        {
+          "id": "D",
+          "text": "El comportamiento de los verbos intransitivos y el complemento preposicional"
+        }
+      ],
+      "answer": {
+        "raw": "A. La versatilidad del léxico en la narrativa jurídica",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La afirmación se desarrolla en el apartado «La versatilidad del léxico en la narrativa jurídica».",
+      "feedback_incorrect": "La respuesta correcta es «La versatilidad del léxico en la narrativa jurídica», porque ese apartado contiene la afirmación presentada.",
+      "tip": "Identifica el concepto que explica la idea completa, no una palabra aislada.",
+      "explanation": "En palabras sencillas, «La versatilidad del léxico en la narrativa jurídica» se relaciona aquí con esta idea: La construcción de un relato de hechos en el ámbito del Derecho requiere una comprensión profunda de que la palabra es, ante todo, una unidad de léxico que se transforma según su entorno.",
+      "memory_key": "La versatilidad del léxico en la narrativa jurídica: La construcción de un relato de hechos en el ámbito del Derecho requiere una comprensión profunda de que la palabra es, ante todo, una unidad de léxic.",
+      "common_confusion": "No confundas conceptos cercanos de la misma unidad: compara la definición completa.",
+      "why_options_are_wrong": {
+        "B": "«La raya como instrumento de precisión y jerarquía en el inciso jurídico» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "C": "«Los paréntesis en la documentación de actuaciones orales y usos auxiliares» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "D": "«El comportamiento de los verbos intransitivos y el complemento preposicional» corresponde a otro concepto o apartado y no identifica toda la afirmación citada."
+      }
+    },
+    {
+      "id": "DER105-P109",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Concepto: La eficiencia de la palabra corta y la economía procesal",
+      "question_type": "single_choice",
+      "topic": "La eficiencia de la palabra corta y la economía procesal",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "contenido_texto_juridico.md, apartado «La eficiencia de la palabra corta y la economía procesal»",
+      "prompt": "¿A qué concepto o apartado corresponde la siguiente afirmación del compendio? «A pesar de la necesaria especialización del lenguaje legal, existe una recomendación técnica primordial para garantizar la fluidez de la narrativa: la preferencia por la palabra corta.»",
+      "options": [
+        {
+          "id": "A",
+          "text": "El Peligro de las Frases Laberínticas: Un Análisis Crítico"
+        },
+        {
+          "id": "B",
+          "text": "La Métrica de la Claridad: La Regla de las 18 Palabras"
+        },
+        {
+          "id": "C",
+          "text": "La arquitectura del párrafo jurídico: La fórmula 18/54"
+        },
+        {
+          "id": "D",
+          "text": "La eficiencia de la palabra corta y la economía procesal"
+        }
+      ],
+      "answer": {
+        "raw": "D. La eficiencia de la palabra corta y la economía procesal",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La afirmación se desarrolla en el apartado «La eficiencia de la palabra corta y la economía procesal».",
+      "feedback_incorrect": "La respuesta correcta es «La eficiencia de la palabra corta y la economía procesal», porque ese apartado contiene la afirmación presentada.",
+      "tip": "Identifica el concepto que explica la idea completa, no una palabra aislada.",
+      "explanation": "En palabras sencillas, «La eficiencia de la palabra corta y la economía procesal» se relaciona aquí con esta idea: A pesar de la necesaria especialización del lenguaje legal, existe una recomendación técnica primordial para garantizar la fluidez de la narrativa: la preferencia por la palabra corta.",
+      "memory_key": "La eficiencia de la palabra corta y la economía procesal: A pesar de la necesaria especialización del lenguaje legal, existe una recomendación técnica primordial para garantizar la fluidez de la narrativa: la.",
+      "common_confusion": "No confundas conceptos cercanos de la misma unidad: compara la definición completa.",
+      "why_options_are_wrong": {
+        "A": "«El Peligro de las Frases Laberínticas: Un Análisis Crítico» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "B": "«La Métrica de la Claridad: La Regla de las 18 Palabras» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "C": "«La arquitectura del párrafo jurídico: La fórmula 18/54» corresponde a otro concepto o apartado y no identifica toda la afirmación citada."
+      }
+    },
+    {
+      "id": "DER105-P110",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Concepto: El uso estratégico de los prefijos en la terminología legal",
+      "question_type": "single_choice",
+      "topic": "El uso estratégico de los prefijos en la terminología legal",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "contenido_texto_juridico.md, apartado «El uso estratégico de los prefijos en la terminología legal»",
+      "prompt": "¿A qué concepto o apartado corresponde la siguiente afirmación del compendio? «Para dominar la palabra larga, el estudiante debe comprender el funcionamiento de los prefijos, que son afijos añadidos al comienzo de una palabra para derivar nuevos significados.»",
+      "options": [
+        {
+          "id": "A",
+          "text": "La Métrica de la Claridad: La Regla de las 18 Palabras"
+        },
+        {
+          "id": "B",
+          "text": "La arquitectura del párrafo jurídico: La fórmula 18/54"
+        },
+        {
+          "id": "C",
+          "text": "El uso estratégico de los prefijos en la terminología legal"
+        },
+        {
+          "id": "D",
+          "text": "El Dilema de la Repetición: Claridad frente a Estética"
+        }
+      ],
+      "answer": {
+        "raw": "C. El uso estratégico de los prefijos en la terminología legal",
+        "option_ids": [
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La afirmación se desarrolla en el apartado «El uso estratégico de los prefijos en la terminología legal».",
+      "feedback_incorrect": "La respuesta correcta es «El uso estratégico de los prefijos en la terminología legal», porque ese apartado contiene la afirmación presentada.",
+      "tip": "Identifica el concepto que explica la idea completa, no una palabra aislada.",
+      "explanation": "En palabras sencillas, «El uso estratégico de los prefijos en la terminología legal» se relaciona aquí con esta idea: Para dominar la palabra larga, el estudiante debe comprender el funcionamiento de los prefijos, que son afijos añadidos al comienzo de una palabra para derivar nuevos significados.",
+      "memory_key": "El uso estratégico de los prefijos en la terminología legal: Para dominar la palabra larga, el estudiante debe comprender el funcionamiento de los prefijos, que son afijos añadidos al comienzo de una palabra par.",
+      "common_confusion": "No confundas conceptos cercanos de la misma unidad: compara la definición completa.",
+      "why_options_are_wrong": {
+        "A": "«La Métrica de la Claridad: La Regla de las 18 Palabras» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "B": "«La arquitectura del párrafo jurídico: La fórmula 18/54» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "D": "«El Dilema de la Repetición: Claridad frente a Estética» corresponde a otro concepto o apartado y no identifica toda la afirmación citada."
+      }
+    },
+    {
+      "id": "DER105-P111",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Dos afirmaciones sobre La inflación del lenguaje y la trampa de los sufijos innecesarios",
+      "question_type": "multiple_choice",
+      "topic": "La inflación del lenguaje y la trampa de los sufijos innecesarios",
+      "difficulty": "advanced",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "contenido_texto_juridico.md, apartado «La inflación del lenguaje y la trampa de los sufijos innecesarios»",
+      "prompt": "Seleccione las dos afirmaciones que corresponden a «La inflación del lenguaje y la trampa de los sufijos innecesarios» según el compendio.",
+      "options": [
+        {
+          "id": "A",
+          "text": "En estos escenarios, el esquema se transforma en: ext{QUIÉN + VERBO + COMPLEMENTO PREPOSICIONAL} Este complemento debe iniciar obligatoriamente con una preposición, estableciendo una relación específica entre el sujeto y el concepto legal."
+        },
+        {
+          "id": "B",
+          "text": "Un fenómeno común en la redacción jurídica es la tendencia a la creación de términos derivados mediante sufijos, incluso cuando la lengua ya dispone de opciones más sencillas y directas."
+        },
+        {
+          "id": "C",
+          "text": "Este proceso de \"inflación léxica\" a menudo complica el texto sin añadir valor sustancial al significado."
+        },
+        {
+          "id": "D",
+          "text": "Para alcanzar esta transparencia, se recomienda la aplicación de esquemas lógicos que organicen la información de manera previsible para el lector."
+        }
+      ],
+      "answer": {
+        "raw": "B y C. La inflación del lenguaje y la trampa de los sufijos innecesarios",
+        "option_ids": [
+          "B",
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Las dos afirmaciones correctas desarrollan directamente «La inflación del lenguaje y la trampa de los sufijos innecesarios».",
+      "feedback_incorrect": "Revisa qué dos enunciados explican el mismo apartado: «La inflación del lenguaje y la trampa de los sufijos innecesarios».",
+      "tip": "Busca dos afirmaciones que compartan el mismo concepto central, no solo palabras jurídicas generales.",
+      "explanation": "El compendio vincula con «La inflación del lenguaje y la trampa de los sufijos innecesarios» estas dos ideas: Un fenómeno común en la redacción jurídica es la tendencia a la creación de términos derivados mediante sufijos, incluso cuando la lengua ya dispone de opciones más sencillas y directas. Este proceso de \"inflación léxica\" a menudo complica el texto sin añadir valor sustancial al significado.",
+      "memory_key": "La inflación del lenguaje y la trampa de los sufijos innecesarios: identifica las dos ideas que lo explican de forma conjunta.",
+      "common_confusion": "Una afirmación puede ser verdadera en otra parte del curso y aun así no responder al apartado preguntado."
+    },
+    {
+      "id": "DER105-P112",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Concepto: La economía del lenguaje: Una perspectiva histórica y funcional",
+      "question_type": "single_choice",
+      "topic": "La economía del lenguaje: Una perspectiva histórica y funcional",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "contenido_texto_juridico.md, apartado «La economía del lenguaje: Una perspectiva histórica y funcional»",
+      "prompt": "¿A qué concepto o apartado corresponde la siguiente afirmación del compendio? «El lenguaje no es un ente estático, sino una herramienta en constante evolución que tiende, por naturaleza, hacia el acortamiento y la simplificación.»",
+      "options": [
+        {
+          "id": "A",
+          "text": "La economía del lenguaje: Una perspectiva histórica y funcional"
+        },
+        {
+          "id": "B",
+          "text": "La Frase como Unidad de Sentido y su Extensión Ideal"
+        },
+        {
+          "id": "C",
+          "text": "Los paréntesis en la documentación de actuaciones orales y usos auxiliares"
+        },
+        {
+          "id": "D",
+          "text": "La versatilidad del léxico en la narrativa jurídica"
+        }
+      ],
+      "answer": {
+        "raw": "A. La economía del lenguaje: Una perspectiva histórica y funcional",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La afirmación se desarrolla en el apartado «La economía del lenguaje: Una perspectiva histórica y funcional».",
+      "feedback_incorrect": "La respuesta correcta es «La economía del lenguaje: Una perspectiva histórica y funcional», porque ese apartado contiene la afirmación presentada.",
+      "tip": "Identifica el concepto que explica la idea completa, no una palabra aislada.",
+      "explanation": "En palabras sencillas, «La economía del lenguaje: Una perspectiva histórica y funcional» se relaciona aquí con esta idea: El lenguaje no es un ente estático, sino una herramienta en constante evolución que tiende, por naturaleza, hacia el acortamiento y la simplificación.",
+      "memory_key": "La economía del lenguaje: Una perspectiva histórica y funcional: El lenguaje no es un ente estático, sino una herramienta en constante evolución que tiende, por naturaleza, hacia el acortamiento y la simplificación..",
+      "common_confusion": "No confundas conceptos cercanos de la misma unidad: compara la definición completa.",
+      "why_options_are_wrong": {
+        "B": "«La Frase como Unidad de Sentido y su Extensión Ideal» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "C": "«Los paréntesis en la documentación de actuaciones orales y usos auxiliares» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "D": "«La versatilidad del léxico en la narrativa jurídica» corresponde a otro concepto o apartado y no identifica toda la afirmación citada."
+      }
+    },
+    {
+      "id": "DER105-P113",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Concepto: El debate sobre los adverbios y la libertad creativa del redactor",
+      "question_type": "single_choice",
+      "topic": "El debate sobre los adverbios y la libertad creativa del redactor",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "contenido_texto_juridico.md, apartado «El debate sobre los adverbios y la libertad creativa del redactor»",
+      "prompt": "¿A qué concepto o apartado corresponde la siguiente afirmación del compendio? «Una de las discusiones más frecuentes en los talleres de redacción avanzada gira en torno al uso de los adverbios terminados en «-mente».»",
+      "options": [
+        {
+          "id": "A",
+          "text": "Coma vocativa"
+        },
+        {
+          "id": "B",
+          "text": "La inflación del lenguaje y la trampa de los sufijos innecesarios"
+        },
+        {
+          "id": "C",
+          "text": "Los corchetes como signo de intervención técnica y jerarquización"
+        },
+        {
+          "id": "D",
+          "text": "El debate sobre los adverbios y la libertad creativa del redactor"
+        }
+      ],
+      "answer": {
+        "raw": "D. El debate sobre los adverbios y la libertad creativa del redactor",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La afirmación se desarrolla en el apartado «El debate sobre los adverbios y la libertad creativa del redactor».",
+      "feedback_incorrect": "La respuesta correcta es «El debate sobre los adverbios y la libertad creativa del redactor», porque ese apartado contiene la afirmación presentada.",
+      "tip": "Identifica el concepto que explica la idea completa, no una palabra aislada.",
+      "explanation": "En palabras sencillas, «El debate sobre los adverbios y la libertad creativa del redactor» se relaciona aquí con esta idea: Una de las discusiones más frecuentes en los talleres de redacción avanzada gira en torno al uso de los adverbios terminados en «-mente».",
+      "memory_key": "El debate sobre los adverbios y la libertad creativa del redactor: Una de las discusiones más frecuentes en los talleres de redacción avanzada gira en torno al uso de los adverbios terminados en «-mente»..",
+      "common_confusion": "No confundas conceptos cercanos de la misma unidad: compara la definición completa.",
+      "why_options_are_wrong": {
+        "A": "«Coma vocativa» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "B": "«La inflación del lenguaje y la trampa de los sufijos innecesarios» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "C": "«Los corchetes como signo de intervención técnica y jerarquización» corresponde a otro concepto o apartado y no identifica toda la afirmación citada."
+      }
+    },
+    {
+      "id": "DER105-P114",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Concepto: La precisión terminológica frente a la vanidad del léxico jurídico",
+      "question_type": "single_choice",
+      "topic": "La precisión terminológica frente a la vanidad del léxico jurídico",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "contenido_texto_juridico.md, apartado «La precisión terminológica frente a la vanidad del léxico jurídico»",
+      "prompt": "¿A qué concepto o apartado corresponde la siguiente afirmación del compendio? «En el plano del Derecho, existe una tendencia frecuente entre los profesionales a alargar las palabras bajo una falsa premisa de erudición o vanidad académica.»",
+      "options": [
+        {
+          "id": "A",
+          "text": "La mayúscula institucional en la disposición de textos jurídicos"
+        },
+        {
+          "id": "B",
+          "text": "La economía del lenguaje: Una perspectiva histórica y funcional"
+        },
+        {
+          "id": "C",
+          "text": "La precisión terminológica frente a la vanidad del léxico jurídico"
+        },
+        {
+          "id": "D",
+          "text": "La construcción \"Sustantivo + a + Infinitivo\" y la fluidez narrativa"
+        }
+      ],
+      "answer": {
+        "raw": "C. La precisión terminológica frente a la vanidad del léxico jurídico",
+        "option_ids": [
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La afirmación se desarrolla en el apartado «La precisión terminológica frente a la vanidad del léxico jurídico».",
+      "feedback_incorrect": "La respuesta correcta es «La precisión terminológica frente a la vanidad del léxico jurídico», porque ese apartado contiene la afirmación presentada.",
+      "tip": "Identifica el concepto que explica la idea completa, no una palabra aislada.",
+      "explanation": "En palabras sencillas, «La precisión terminológica frente a la vanidad del léxico jurídico» se relaciona aquí con esta idea: En el plano del Derecho, existe una tendencia frecuente entre los profesionales a alargar las palabras bajo una falsa premisa de erudición o vanidad académica.",
+      "memory_key": "La precisión terminológica frente a la vanidad del léxico jurídico: En el plano del Derecho, existe una tendencia frecuente entre los profesionales a alargar las palabras bajo una falsa premisa de erudición o vanidad a.",
+      "common_confusion": "No confundas conceptos cercanos de la misma unidad: compara la definición completa.",
+      "why_options_are_wrong": {
+        "A": "«La mayúscula institucional en la disposición de textos jurídicos» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "B": "«La economía del lenguaje: Una perspectiva histórica y funcional» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "D": "«La construcción \"Sustantivo + a + Infinitivo\" y la fluidez narrativa» corresponde a otro concepto o apartado y no identifica toda la afirmación citada."
+      }
+    },
+    {
+      "id": "DER105-P115",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Concepto: El justo medio y el enriquecimiento a través de la síntesis",
+      "question_type": "single_choice",
+      "topic": "El justo medio y el enriquecimiento a través de la síntesis",
+      "difficulty": "advanced",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "contenido_texto_juridico.md, apartado «El justo medio y el enriquecimiento a través de la síntesis»",
+      "prompt": "¿A qué concepto o apartado corresponde la siguiente afirmación del compendio? «Cuando un redactor se detiene a buscar una opción más breve, se ve obligado a explorar su léxico y a comparar significados, lo cual enriquece tanto su vocabulario como la experiencia del lector.»",
+      "options": [
+        {
+          "id": "A",
+          "text": "Los corchetes como signo de intervención técnica y jerarquización"
+        },
+        {
+          "id": "B",
+          "text": "El justo medio y el enriquecimiento a través de la síntesis"
+        },
+        {
+          "id": "C",
+          "text": "La inflación del lenguaje y la trampa de los sufijos innecesarios"
+        },
+        {
+          "id": "D",
+          "text": "Los Fundamentos de la Precisión en el Léxico Jurídico"
+        }
+      ],
+      "answer": {
+        "raw": "B. El justo medio y el enriquecimiento a través de la síntesis",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La afirmación se desarrolla en el apartado «El justo medio y el enriquecimiento a través de la síntesis».",
+      "feedback_incorrect": "La respuesta correcta es «El justo medio y el enriquecimiento a través de la síntesis», porque ese apartado contiene la afirmación presentada.",
+      "tip": "Identifica el concepto que explica la idea completa, no una palabra aislada.",
+      "explanation": "En palabras sencillas, «El justo medio y el enriquecimiento a través de la síntesis» se relaciona aquí con esta idea: Cuando un redactor se detiene a buscar una opción más breve, se ve obligado a explorar su léxico y a comparar significados, lo cual enriquece tanto su vocabulario como la experiencia del lector.",
+      "memory_key": "El justo medio y el enriquecimiento a través de la síntesis: Cuando un redactor se detiene a buscar una opción más breve, se ve obligado a explorar su léxico y a comparar significados, lo cual enriquece tanto su.",
+      "common_confusion": "No confundas conceptos cercanos de la misma unidad: compara la definición completa.",
+      "why_options_are_wrong": {
+        "A": "«Los corchetes como signo de intervención técnica y jerarquización» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "C": "«La inflación del lenguaje y la trampa de los sufijos innecesarios» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "D": "«Los Fundamentos de la Precisión en el Léxico Jurídico» corresponde a otro concepto o apartado y no identifica toda la afirmación citada."
+      }
+    },
+    {
+      "id": "DER105-P116",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Concepto: La construcción \"Sustantivo + a + Infinitivo\" y la fluidez narrativa",
+      "question_type": "single_choice",
+      "topic": "La construcción \"Sustantivo + a + Infinitivo\" y la fluidez narrativa",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "contenido_texto_juridico.md, apartado «La construcción \"Sustantivo + a + Infinitivo\" y la fluidez narrativa»",
+      "prompt": "¿A qué concepto o apartado corresponde la siguiente afirmación del compendio? «Para finalizar, es necesario abordar una estructura muy común pero técnicamente \"antipática\" en la redacción administrativa: la combinación de un sustantivo seguido de la preposición \"a\" y un verbo en infinitivo.»",
+      "options": [
+        {
+          "id": "A",
+          "text": "La construcción \"Sustantivo + a + Infinitivo\" y la fluidez narrativa"
+        },
+        {
+          "id": "B",
+          "text": "El Dilema de la Repetición: Claridad frente a Estética"
+        },
+        {
+          "id": "C",
+          "text": "La Métrica de la Claridad: La Regla de las 18 Palabras"
+        },
+        {
+          "id": "D",
+          "text": "La arquitectura del párrafo jurídico: La fórmula 18/54"
+        }
+      ],
+      "answer": {
+        "raw": "A. La construcción \"Sustantivo + a + Infinitivo\" y la fluidez narrativa",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La afirmación se desarrolla en el apartado «La construcción \"Sustantivo + a + Infinitivo\" y la fluidez narrativa».",
+      "feedback_incorrect": "La respuesta correcta es «La construcción \"Sustantivo + a + Infinitivo\" y la fluidez narrativa», porque ese apartado contiene la afirmación presentada.",
+      "tip": "Identifica el concepto que explica la idea completa, no una palabra aislada.",
+      "explanation": "En palabras sencillas, «La construcción \"Sustantivo + a + Infinitivo\" y la fluidez narrativa» se relaciona aquí con esta idea: Para finalizar, es necesario abordar una estructura muy común pero técnicamente \"antipática\" en la redacción administrativa: la combinación de un sustantivo seguido de la preposición \"a\" y un verbo en infinitivo.",
+      "memory_key": "La construcción \"Sustantivo + a + Infinitivo\" y la fluidez narrativa: Para finalizar, es necesario abordar una estructura muy común pero técnicamente \"antipática\" en la redacción administrativa: la combinación de un sust.",
+      "common_confusion": "No confundas conceptos cercanos de la misma unidad: compara la definición completa.",
+      "why_options_are_wrong": {
+        "B": "«El Dilema de la Repetición: Claridad frente a Estética» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "C": "«La Métrica de la Claridad: La Regla de las 18 Palabras» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "D": "«La arquitectura del párrafo jurídico: La fórmula 18/54» corresponde a otro concepto o apartado y no identifica toda la afirmación citada."
+      }
+    },
+    {
+      "id": "DER105-P117",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Concepto: La Frase como Unidad de Sentido y su Extensión Ideal",
+      "question_type": "single_choice",
+      "topic": "La Frase como Unidad de Sentido y su Extensión Ideal",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "contenido_texto_juridico.md, apartado «La Frase como Unidad de Sentido y su Extensión Ideal»",
+      "prompt": "¿A qué concepto o apartado corresponde la siguiente afirmación del compendio? «En la ciencia del Derecho, la frase debe entenderse como la expresión mínima de una idea completa.»",
+      "options": [
+        {
+          "id": "A",
+          "text": "El Punto y Coma"
+        },
+        {
+          "id": "B",
+          "text": "El uso de los paréntesis como herramienta de aislamiento y precisión en el discurso legal"
+        },
+        {
+          "id": "C",
+          "text": "Coma vocativa"
+        },
+        {
+          "id": "D",
+          "text": "La Frase como Unidad de Sentido y su Extensión Ideal"
+        }
+      ],
+      "answer": {
+        "raw": "D. La Frase como Unidad de Sentido y su Extensión Ideal",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La afirmación se desarrolla en el apartado «La Frase como Unidad de Sentido y su Extensión Ideal».",
+      "feedback_incorrect": "La respuesta correcta es «La Frase como Unidad de Sentido y su Extensión Ideal», porque ese apartado contiene la afirmación presentada.",
+      "tip": "Identifica el concepto que explica la idea completa, no una palabra aislada.",
+      "explanation": "En palabras sencillas, «La Frase como Unidad de Sentido y su Extensión Ideal» se relaciona aquí con esta idea: En la ciencia del Derecho, la frase debe entenderse como la expresión mínima de una idea completa.",
+      "memory_key": "La Frase como Unidad de Sentido y su Extensión Ideal: En la ciencia del Derecho, la frase debe entenderse como la expresión mínima de una idea completa..",
+      "common_confusion": "No confundas conceptos cercanos de la misma unidad: compara la definición completa.",
+      "why_options_are_wrong": {
+        "A": "«El Punto y Coma» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "B": "«El uso de los paréntesis como herramienta de aislamiento y precisión en el discurso legal» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "C": "«Coma vocativa» corresponde a otro concepto o apartado y no identifica toda la afirmación citada."
+      }
+    },
+    {
+      "id": "DER105-P118",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Concepto: El Peligro de las Frases Laberínticas: Un Análisis Crítico",
+      "question_type": "single_choice",
+      "topic": "El Peligro de las Frases Laberínticas: Un Análisis Crítico",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "contenido_texto_juridico.md, apartado «El Peligro de las Frases Laberínticas: Un Análisis Crítico»",
+      "prompt": "¿A qué concepto o apartado corresponde la siguiente afirmación del compendio? «Uno de los errores más comunes en la práctica forense es la construcción de frases excesivamente largas que intentan agotar todos los matices de un asunto en un solo bloque de texto.»",
+      "options": [
+        {
+          "id": "A",
+          "text": "El Dilema de la Repetición: Claridad frente a Estética"
+        },
+        {
+          "id": "B",
+          "text": "La Métrica de la Claridad: La Regla de las 18 Palabras"
+        },
+        {
+          "id": "C",
+          "text": "El Peligro de las Frases Laberínticas: Un Análisis Crítico"
+        },
+        {
+          "id": "D",
+          "text": "La integridad del texto: Enmiendas y omisiones con corchetes"
+        }
+      ],
+      "answer": {
+        "raw": "C. El Peligro de las Frases Laberínticas: Un Análisis Crítico",
+        "option_ids": [
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La afirmación se desarrolla en el apartado «El Peligro de las Frases Laberínticas: Un Análisis Crítico».",
+      "feedback_incorrect": "La respuesta correcta es «El Peligro de las Frases Laberínticas: Un Análisis Crítico», porque ese apartado contiene la afirmación presentada.",
+      "tip": "Identifica el concepto que explica la idea completa, no una palabra aislada.",
+      "explanation": "En palabras sencillas, «El Peligro de las Frases Laberínticas: Un Análisis Crítico» se relaciona aquí con esta idea: Uno de los errores más comunes en la práctica forense es la construcción de frases excesivamente largas que intentan agotar todos los matices de un asunto en un solo bloque de texto.",
+      "memory_key": "El Peligro de las Frases Laberínticas: Un Análisis Crítico: Uno de los errores más comunes en la práctica forense es la construcción de frases excesivamente largas que intentan agotar todos los matices de un as.",
+      "common_confusion": "No confundas conceptos cercanos de la misma unidad: compara la definición completa.",
+      "why_options_are_wrong": {
+        "A": "«El Dilema de la Repetición: Claridad frente a Estética» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "B": "«La Métrica de la Claridad: La Regla de las 18 Palabras» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "D": "«La integridad del texto: Enmiendas y omisiones con corchetes» corresponde a otro concepto o apartado y no identifica toda la afirmación citada."
+      }
+    },
+    {
+      "id": "DER105-P119",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Concepto: La Métrica de la Claridad: La Regla de las 18 Palabras",
+      "question_type": "single_choice",
+      "topic": "La Métrica de la Claridad: La Regla de las 18 Palabras",
+      "difficulty": "advanced",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "contenido_texto_juridico.md, apartado «La Métrica de la Claridad: La Regla de las 18 Palabras»",
+      "prompt": "¿A qué concepto o apartado corresponde la siguiente afirmación del compendio? «Para objetivar la calidad de la redacción, se propone un estándar cuantitativo que sirve como guía para el redactor: la frase de aproximadamente 18 palabras.»",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reglas de Concordancia: El Adjetivo y la Conjunción Disyuntiva"
+        },
+        {
+          "id": "B",
+          "text": "La Métrica de la Claridad: La Regla de las 18 Palabras"
+        },
+        {
+          "id": "C",
+          "text": "Adaptación del Texto según el Nivel del Lector"
+        },
+        {
+          "id": "D",
+          "text": "La estructura lógica de la frase jurídica: El esquema esencial"
+        }
+      ],
+      "answer": {
+        "raw": "B. La Métrica de la Claridad: La Regla de las 18 Palabras",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La afirmación se desarrolla en el apartado «La Métrica de la Claridad: La Regla de las 18 Palabras».",
+      "feedback_incorrect": "La respuesta correcta es «La Métrica de la Claridad: La Regla de las 18 Palabras», porque ese apartado contiene la afirmación presentada.",
+      "tip": "Identifica el concepto que explica la idea completa, no una palabra aislada.",
+      "explanation": "En palabras sencillas, «La Métrica de la Claridad: La Regla de las 18 Palabras» se relaciona aquí con esta idea: Para objetivar la calidad de la redacción, se propone un estándar cuantitativo que sirve como guía para el redactor: la frase de aproximadamente 18 palabras.",
+      "memory_key": "La Métrica de la Claridad: La Regla de las 18 Palabras: Para objetivar la calidad de la redacción, se propone un estándar cuantitativo que sirve como guía para el redactor: la frase de aproximadamente 18 pa.",
+      "common_confusion": "No confundas conceptos cercanos de la misma unidad: compara la definición completa.",
+      "why_options_are_wrong": {
+        "A": "«Reglas de Concordancia: El Adjetivo y la Conjunción Disyuntiva» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "C": "«Adaptación del Texto según el Nivel del Lector» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "D": "«La estructura lógica de la frase jurídica: El esquema esencial» corresponde a otro concepto o apartado y no identifica toda la afirmación citada."
+      }
+    },
+    {
+      "id": "DER105-P120",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Concepto: Adaptación del Texto según el Nivel del Lector",
+      "question_type": "single_choice",
+      "topic": "Adaptación del Texto según el Nivel del Lector",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "contenido_texto_juridico.md, apartado «Adaptación del Texto según el Nivel del Lector»",
+      "prompt": "¿A qué concepto o apartado corresponde la siguiente afirmación del compendio? «La brevedad, por tanto, no es falta de profundidad, sino el máximo nivel de dominio sobre la materia que se trata.»",
+      "options": [
+        {
+          "id": "A",
+          "text": "Adaptación del Texto según el Nivel del Lector"
+        },
+        {
+          "id": "B",
+          "text": "Los corchetes como signo de intervención técnica y jerarquización"
+        },
+        {
+          "id": "C",
+          "text": "La precisión terminológica frente a la vanidad del léxico jurídico"
+        },
+        {
+          "id": "D",
+          "text": "La raya en la transcripción de testimonios y la narrativa procesal"
+        }
+      ],
+      "answer": {
+        "raw": "A. Adaptación del Texto según el Nivel del Lector",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La afirmación se desarrolla en el apartado «Adaptación del Texto según el Nivel del Lector».",
+      "feedback_incorrect": "La respuesta correcta es «Adaptación del Texto según el Nivel del Lector», porque ese apartado contiene la afirmación presentada.",
+      "tip": "Identifica el concepto que explica la idea completa, no una palabra aislada.",
+      "explanation": "En palabras sencillas, «Adaptación del Texto según el Nivel del Lector» se relaciona aquí con esta idea: La brevedad, por tanto, no es falta de profundidad, sino el máximo nivel de dominio sobre la materia que se trata.",
+      "memory_key": "Adaptación del Texto según el Nivel del Lector: La brevedad, por tanto, no es falta de profundidad, sino el máximo nivel de dominio sobre la materia que se trata..",
+      "common_confusion": "No confundas conceptos cercanos de la misma unidad: compara la definición completa.",
+      "why_options_are_wrong": {
+        "B": "«Los corchetes como signo de intervención técnica y jerarquización» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "C": "«La precisión terminológica frente a la vanidad del léxico jurídico» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "D": "«La raya en la transcripción de testimonios y la narrativa procesal» corresponde a otro concepto o apartado y no identifica toda la afirmación citada."
+      }
+    },
+    {
+      "id": "DER105-P121",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Concepto: La estructura lógica de la frase jurídica: El esquema esencial",
+      "question_type": "single_choice",
+      "topic": "La estructura lógica de la frase jurídica: El esquema esencial",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "contenido_texto_juridico.md, apartado «La estructura lógica de la frase jurídica: El esquema esencial»",
+      "prompt": "¿A qué concepto o apartado corresponde la siguiente afirmación del compendio? «En el primer semestre de la formación jurídica, es imperativo comprender que la claridad de un alegato o de una providencia judicial no depende de la ornamentación del lenguaje, sino de la solidez de su estructura sintáctica.»",
+      "options": [
+        {
+          "id": "A",
+          "text": "El comportamiento de los verbos intransitivos y el complemento preposicional"
+        },
+        {
+          "id": "B",
+          "text": "Adaptación del Texto según el Nivel del Lector"
+        },
+        {
+          "id": "C",
+          "text": "El uso de los paréntesis como herramienta de aislamiento y precisión en el discurso legal"
+        },
+        {
+          "id": "D",
+          "text": "La estructura lógica de la frase jurídica: El esquema esencial"
+        }
+      ],
+      "answer": {
+        "raw": "D. La estructura lógica de la frase jurídica: El esquema esencial",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La afirmación se desarrolla en el apartado «La estructura lógica de la frase jurídica: El esquema esencial».",
+      "feedback_incorrect": "La respuesta correcta es «La estructura lógica de la frase jurídica: El esquema esencial», porque ese apartado contiene la afirmación presentada.",
+      "tip": "Identifica el concepto que explica la idea completa, no una palabra aislada.",
+      "explanation": "En palabras sencillas, «La estructura lógica de la frase jurídica: El esquema esencial» se relaciona aquí con esta idea: En el primer semestre de la formación jurídica, es imperativo comprender que la claridad de un alegato o de una providencia judicial no depende de la ornamentación del lenguaje, sino de la solidez de su estructura sintáctica.",
+      "memory_key": "La estructura lógica de la frase jurídica: El esquema esencial: En el primer semestre de la formación jurídica, es imperativo comprender que la claridad de un alegato o de una providencia judicial no depende de la.",
+      "common_confusion": "No confundas conceptos cercanos de la misma unidad: compara la definición completa.",
+      "why_options_are_wrong": {
+        "A": "«El comportamiento de los verbos intransitivos y el complemento preposicional» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "B": "«Adaptación del Texto según el Nivel del Lector» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "C": "«El uso de los paréntesis como herramienta de aislamiento y precisión en el discurso legal» corresponde a otro concepto o apartado y no identifica toda la afirmación citada."
+      }
+    },
+    {
+      "id": "DER105-P122",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Concepto: El comportamiento de los verbos intransitivos y el complemento preposicional",
+      "question_type": "single_choice",
+      "topic": "El comportamiento de los verbos intransitivos y el complemento preposicional",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "contenido_texto_juridico.md, apartado «El comportamiento de los verbos intransitivos y el complemento preposicional»",
+      "prompt": "¿A qué concepto o apartado corresponde la siguiente afirmación del compendio? «El esquema anterior es aplicable cuando utilizamos verbos transitivos.»",
+      "options": [
+        {
+          "id": "A",
+          "text": "Flexibilidad y matices en los signos de interrogación y exclamación"
+        },
+        {
+          "id": "B",
+          "text": "La patología de los nexos subordinantes y las estructuras en racimo"
+        },
+        {
+          "id": "C",
+          "text": "El comportamiento de los verbos intransitivos y el complemento preposicional"
+        },
+        {
+          "id": "D",
+          "text": "La construcción \"Sustantivo + a + Infinitivo\" y la fluidez narrativa"
+        }
+      ],
+      "answer": {
+        "raw": "C. El comportamiento de los verbos intransitivos y el complemento preposicional",
+        "option_ids": [
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La afirmación se desarrolla en el apartado «El comportamiento de los verbos intransitivos y el complemento preposicional».",
+      "feedback_incorrect": "La respuesta correcta es «El comportamiento de los verbos intransitivos y el complemento preposicional», porque ese apartado contiene la afirmación presentada.",
+      "tip": "Identifica el concepto que explica la idea completa, no una palabra aislada.",
+      "explanation": "En palabras sencillas, «El comportamiento de los verbos intransitivos y el complemento preposicional» se relaciona aquí con esta idea: El esquema anterior es aplicable cuando utilizamos verbos transitivos.",
+      "memory_key": "El comportamiento de los verbos intransitivos y el complemento preposicional: El esquema anterior es aplicable cuando utilizamos verbos transitivos..",
+      "common_confusion": "No confundas conceptos cercanos de la misma unidad: compara la definición completa.",
+      "why_options_are_wrong": {
+        "A": "«Flexibilidad y matices en los signos de interrogación y exclamación» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "B": "«La patología de los nexos subordinantes y las estructuras en racimo» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "D": "«La construcción \"Sustantivo + a + Infinitivo\" y la fluidez narrativa» corresponde a otro concepto o apartado y no identifica toda la afirmación citada."
+      }
+    },
+    {
+      "id": "DER105-P123",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Concepto: La arquitectura del párrafo jurídico: La fórmula 18/54",
+      "question_type": "single_choice",
+      "topic": "La arquitectura del párrafo jurídico: La fórmula 18/54",
+      "difficulty": "advanced",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "contenido_texto_juridico.md, apartado «La arquitectura del párrafo jurídico: La fórmula 18/54»",
+      "prompt": "¿A qué concepto o apartado corresponde la siguiente afirmación del compendio? «Un párrafo funcional y equilibrado debe estar integrado, aproximadamente, por tres frases cortas.»",
+      "options": [
+        {
+          "id": "A",
+          "text": "Adaptación del Texto según el Nivel del Lector"
+        },
+        {
+          "id": "B",
+          "text": "La arquitectura del párrafo jurídico: La fórmula 18/54"
+        },
+        {
+          "id": "C",
+          "text": "El Peligro de las Falsas Sinonimias y el Error de \"Adolecer\""
+        },
+        {
+          "id": "D",
+          "text": "La integridad del texto: Enmiendas y omisiones con corchetes"
+        }
+      ],
+      "answer": {
+        "raw": "B. La arquitectura del párrafo jurídico: La fórmula 18/54",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La afirmación se desarrolla en el apartado «La arquitectura del párrafo jurídico: La fórmula 18/54».",
+      "feedback_incorrect": "La respuesta correcta es «La arquitectura del párrafo jurídico: La fórmula 18/54», porque ese apartado contiene la afirmación presentada.",
+      "tip": "Identifica el concepto que explica la idea completa, no una palabra aislada.",
+      "explanation": "En palabras sencillas, «La arquitectura del párrafo jurídico: La fórmula 18/54» se relaciona aquí con esta idea: Un párrafo funcional y equilibrado debe estar integrado, aproximadamente, por tres frases cortas.",
+      "memory_key": "La arquitectura del párrafo jurídico: La fórmula 18/54: Un párrafo funcional y equilibrado debe estar integrado, aproximadamente, por tres frases cortas..",
+      "common_confusion": "No confundas conceptos cercanos de la misma unidad: compara la definición completa.",
+      "why_options_are_wrong": {
+        "A": "«Adaptación del Texto según el Nivel del Lector» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "C": "«El Peligro de las Falsas Sinonimias y el Error de \"Adolecer\"» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "D": "«La integridad del texto: Enmiendas y omisiones con corchetes» corresponde a otro concepto o apartado y no identifica toda la afirmación citada."
+      }
+    },
+    {
+      "id": "DER105-P124",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Concepto: La patología de los nexos subordinantes y las estructuras en racimo",
+      "question_type": "single_choice",
+      "topic": "La patología de los nexos subordinantes y las estructuras en racimo",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "contenido_texto_juridico.md, apartado «La patología de los nexos subordinantes y las estructuras en racimo»",
+      "prompt": "¿A qué concepto o apartado corresponde la siguiente afirmación del compendio? «Ocurre cuando el redactor intenta condensar demasiada información en una sola unidad, derivando en la repetición incesante de nexos subordinantes como «que» y «como» (\"queísmo\").»",
+      "options": [
+        {
+          "id": "A",
+          "text": "La patología de los nexos subordinantes y las estructuras en racimo"
+        },
+        {
+          "id": "B",
+          "text": "El uso estratégico de los prefijos en la terminología legal"
+        },
+        {
+          "id": "C",
+          "text": "El Peligro de las Frases Laberínticas: Un Análisis Crítico"
+        },
+        {
+          "id": "D",
+          "text": "El comportamiento de los verbos intransitivos y el complemento preposicional"
+        }
+      ],
+      "answer": {
+        "raw": "A. La patología de los nexos subordinantes y las estructuras en racimo",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La afirmación se desarrolla en el apartado «La patología de los nexos subordinantes y las estructuras en racimo».",
+      "feedback_incorrect": "La respuesta correcta es «La patología de los nexos subordinantes y las estructuras en racimo», porque ese apartado contiene la afirmación presentada.",
+      "tip": "Identifica el concepto que explica la idea completa, no una palabra aislada.",
+      "explanation": "En palabras sencillas, «La patología de los nexos subordinantes y las estructuras en racimo» se relaciona aquí con esta idea: Ocurre cuando el redactor intenta condensar demasiada información en una sola unidad, derivando en la repetición incesante de nexos subordinantes como «que» y «como» (\"queísmo\").",
+      "memory_key": "La patología de los nexos subordinantes y las estructuras en racimo: Ocurre cuando el redactor intenta condensar demasiada información en una sola unidad, derivando en la repetición incesante de nexos subordinantes como.",
+      "common_confusion": "No confundas conceptos cercanos de la misma unidad: compara la definición completa.",
+      "why_options_are_wrong": {
+        "B": "«El uso estratégico de los prefijos en la terminología legal» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "C": "«El Peligro de las Frases Laberínticas: Un Análisis Crítico» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "D": "«El comportamiento de los verbos intransitivos y el complemento preposicional» corresponde a otro concepto o apartado y no identifica toda la afirmación citada."
+      }
+    },
+    {
+      "id": "DER105-P125",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Concepto: Coma vocativa",
+      "question_type": "single_choice",
+      "topic": "Coma vocativa",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "contenido_texto_juridico.md, apartado «Coma vocativa»",
+      "prompt": "¿A qué concepto o apartado corresponde la siguiente afirmación del compendio? «La coma vocativa se utiliza para separar el mensaje del vocativo, es decir, de la persona a quien se le dirige la comunicación.»",
+      "options": [
+        {
+          "id": "A",
+          "text": "Flexibilidad y matices en los signos de interrogación y exclamación"
+        },
+        {
+          "id": "B",
+          "text": "La patología de los nexos subordinantes y las estructuras en racimo"
+        },
+        {
+          "id": "C",
+          "text": "La construcción \"Sustantivo + a + Infinitivo\" y la fluidez narrativa"
+        },
+        {
+          "id": "D",
+          "text": "Coma vocativa"
+        }
+      ],
+      "answer": {
+        "raw": "D. Coma vocativa",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La afirmación se desarrolla en el apartado «Coma vocativa».",
+      "feedback_incorrect": "La respuesta correcta es «Coma vocativa», porque ese apartado contiene la afirmación presentada.",
+      "tip": "Identifica el concepto que explica la idea completa, no una palabra aislada.",
+      "explanation": "En palabras sencillas, «Coma vocativa» se relaciona aquí con esta idea: La coma vocativa se utiliza para separar el mensaje del vocativo, es decir, de la persona a quien se le dirige la comunicación.",
+      "memory_key": "Coma vocativa: La coma vocativa se utiliza para separar el mensaje del vocativo, es decir, de la persona a quien se le dirige la comunicación..",
+      "common_confusion": "No confundas conceptos cercanos de la misma unidad: compara la definición completa.",
+      "why_options_are_wrong": {
+        "A": "«Flexibilidad y matices en los signos de interrogación y exclamación» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "B": "«La patología de los nexos subordinantes y las estructuras en racimo» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "C": "«La construcción \"Sustantivo + a + Infinitivo\" y la fluidez narrativa» corresponde a otro concepto o apartado y no identifica toda la afirmación citada."
+      }
+    },
+    {
+      "id": "DER105-P126",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Concepto: El Punto y Coma",
+      "question_type": "single_choice",
+      "topic": "El Punto y Coma",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "contenido_texto_juridico.md, apartado «El Punto y Coma»",
+      "prompt": "¿A qué concepto o apartado corresponde la siguiente afirmación del compendio? «El punto y coma (;) intermedia entre la coma y el punto.»",
+      "options": [
+        {
+          "id": "A",
+          "text": "Adaptación del Texto según el Nivel del Lector"
+        },
+        {
+          "id": "B",
+          "text": "La versatilidad del léxico en la narrativa jurídica"
+        },
+        {
+          "id": "C",
+          "text": "El Punto y Coma"
+        },
+        {
+          "id": "D",
+          "text": "Coma vocativa"
+        }
+      ],
+      "answer": {
+        "raw": "C. El Punto y Coma",
+        "option_ids": [
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La afirmación se desarrolla en el apartado «El Punto y Coma».",
+      "feedback_incorrect": "La respuesta correcta es «El Punto y Coma», porque ese apartado contiene la afirmación presentada.",
+      "tip": "Identifica el concepto que explica la idea completa, no una palabra aislada.",
+      "explanation": "En palabras sencillas, «El Punto y Coma» se relaciona aquí con esta idea: El punto y coma (;) intermedia entre la coma y el punto.",
+      "memory_key": "El Punto y Coma: El punto y coma (;) intermedia entre la coma y el punto..",
+      "common_confusion": "No confundas conceptos cercanos de la misma unidad: compara la definición completa.",
+      "why_options_are_wrong": {
+        "A": "«Adaptación del Texto según el Nivel del Lector» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "B": "«La versatilidad del léxico en la narrativa jurídica» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "D": "«Coma vocativa» corresponde a otro concepto o apartado y no identifica toda la afirmación citada."
+      }
+    },
+    {
+      "id": "DER105-P127",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Dos afirmaciones sobre Los Fundamentos de la Precisión en el Léxico Jurídico",
+      "question_type": "multiple_choice",
+      "topic": "Los Fundamentos de la Precisión en el Léxico Jurídico",
+      "difficulty": "advanced",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "contenido_texto_juridico.md, apartado «Los Fundamentos de la Precisión en el Léxico Jurídico»",
+      "prompt": "Seleccione las dos afirmaciones que corresponden a «Los Fundamentos de la Precisión en el Léxico Jurídico» según el compendio.",
+      "options": [
+        {
+          "id": "A",
+          "text": "En el plano del Derecho, existe una tendencia frecuente entre los profesionales a alargar las palabras bajo una falsa premisa de erudición o vanidad académica."
+        },
+        {
+          "id": "B",
+          "text": "Según la doctrina de Ávila, la precisión no es un adorno estético, sino la cualidad de una palabra que no admite sustitución sin que el significado original se vea alterado."
+        },
+        {
+          "id": "C",
+          "text": "Por esta razón, la base de todo proceso escritural para quien se inicia en la carrera jurídica radica en la búsqueda de la palabra precisa."
+        },
+        {
+          "id": "D",
+          "text": "La verdadera maestría en la narrativa jurídica no reside en emplear la palabra más larga y compleja, sino en saber cuándo un sufijo es estrictamente necesario para aportar un matiz técnico y cuándo es simplemente un lastre que entorpece la comunicación."
+        }
+      ],
+      "answer": {
+        "raw": "B y C. Los Fundamentos de la Precisión en el Léxico Jurídico",
+        "option_ids": [
+          "B",
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Las dos afirmaciones correctas desarrollan directamente «Los Fundamentos de la Precisión en el Léxico Jurídico».",
+      "feedback_incorrect": "Revisa qué dos enunciados explican el mismo apartado: «Los Fundamentos de la Precisión en el Léxico Jurídico».",
+      "tip": "Busca dos afirmaciones que compartan el mismo concepto central, no solo palabras jurídicas generales.",
+      "explanation": "El compendio vincula con «Los Fundamentos de la Precisión en el Léxico Jurídico» estas dos ideas: Según la doctrina de Ávila, la precisión no es un adorno estético, sino la cualidad de una palabra que no admite sustitución sin que el significado original se vea alterado. Por esta razón, la base de todo proceso escritural para quien se inicia en la carrera jurídica radica en la búsqueda de la palabra precisa.",
+      "memory_key": "Los Fundamentos de la Precisión en el Léxico Jurídico: identifica las dos ideas que lo explican de forma conjunta.",
+      "common_confusion": "Una afirmación puede ser verdadera en otra parte del curso y aun así no responder al apartado preguntado."
+    },
+    {
+      "id": "DER105-P128",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Concepto: El Dilema de la Repetición: Claridad frente a Estética",
+      "question_type": "single_choice",
+      "topic": "El Dilema de la Repetición: Claridad frente a Estética",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "contenido_texto_juridico.md, apartado «El Dilema de la Repetición: Claridad frente a Estética»",
+      "prompt": "¿A qué concepto o apartado corresponde la siguiente afirmación del compendio? «Sin embargo, en la redacción jurídica, la claridad debe prevalecer sobre la variedad léxica.»",
+      "options": [
+        {
+          "id": "A",
+          "text": "El Dilema de la Repetición: Claridad frente a Estética"
+        },
+        {
+          "id": "B",
+          "text": "La economía del lenguaje: Una perspectiva histórica y funcional"
+        },
+        {
+          "id": "C",
+          "text": "La mayúscula institucional en la disposición de textos jurídicos"
+        },
+        {
+          "id": "D",
+          "text": "El debate sobre los adverbios y la libertad creativa del redactor"
+        }
+      ],
+      "answer": {
+        "raw": "A. El Dilema de la Repetición: Claridad frente a Estética",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La afirmación se desarrolla en el apartado «El Dilema de la Repetición: Claridad frente a Estética».",
+      "feedback_incorrect": "La respuesta correcta es «El Dilema de la Repetición: Claridad frente a Estética», porque ese apartado contiene la afirmación presentada.",
+      "tip": "Identifica el concepto que explica la idea completa, no una palabra aislada.",
+      "explanation": "En palabras sencillas, «El Dilema de la Repetición: Claridad frente a Estética» se relaciona aquí con esta idea: Sin embargo, en la redacción jurídica, la claridad debe prevalecer sobre la variedad léxica.",
+      "memory_key": "El Dilema de la Repetición: Claridad frente a Estética: Sin embargo, en la redacción jurídica, la claridad debe prevalecer sobre la variedad léxica..",
+      "common_confusion": "No confundas conceptos cercanos de la misma unidad: compara la definición completa.",
+      "why_options_are_wrong": {
+        "B": "«La economía del lenguaje: Una perspectiva histórica y funcional» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "C": "«La mayúscula institucional en la disposición de textos jurídicos» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "D": "«El debate sobre los adverbios y la libertad creativa del redactor» corresponde a otro concepto o apartado y no identifica toda la afirmación citada."
+      }
+    },
+    {
+      "id": "DER105-P129",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Concepto: El Peligro de las Falsas Sinonimias y el Error de \"Adolecer\"",
+      "question_type": "single_choice",
+      "topic": "El Peligro de las Falsas Sinonimias y el Error de \"Adolecer\"",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "contenido_texto_juridico.md, apartado «El Peligro de las Falsas Sinonimias y el Error de \"Adolecer\"»",
+      "prompt": "¿A qué concepto o apartado corresponde la siguiente afirmación del compendio? «Un caso emblemático que todo estudiante debe identificar es el uso inapropiado del verbo adolecer.»",
+      "options": [
+        {
+          "id": "A",
+          "text": "La construcción \"Sustantivo + a + Infinitivo\" y la fluidez narrativa"
+        },
+        {
+          "id": "B",
+          "text": "La versatilidad del léxico en la narrativa jurídica"
+        },
+        {
+          "id": "C",
+          "text": "La raya como instrumento de precisión y jerarquía en el inciso jurídico"
+        },
+        {
+          "id": "D",
+          "text": "El Peligro de las Falsas Sinonimias y el Error de \"Adolecer\""
+        }
+      ],
+      "answer": {
+        "raw": "D. El Peligro de las Falsas Sinonimias y el Error de \"Adolecer\"",
+        "option_ids": [
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La afirmación se desarrolla en el apartado «El Peligro de las Falsas Sinonimias y el Error de \"Adolecer\"».",
+      "feedback_incorrect": "La respuesta correcta es «El Peligro de las Falsas Sinonimias y el Error de \"Adolecer\"», porque ese apartado contiene la afirmación presentada.",
+      "tip": "Identifica el concepto que explica la idea completa, no una palabra aislada.",
+      "explanation": "En palabras sencillas, «El Peligro de las Falsas Sinonimias y el Error de \"Adolecer\"» se relaciona aquí con esta idea: Un caso emblemático que todo estudiante debe identificar es el uso inapropiado del verbo adolecer.",
+      "memory_key": "El Peligro de las Falsas Sinonimias y el Error de \"Adolecer\": Un caso emblemático que todo estudiante debe identificar es el uso inapropiado del verbo adolecer..",
+      "common_confusion": "No confundas conceptos cercanos de la misma unidad: compara la definición completa.",
+      "why_options_are_wrong": {
+        "A": "«La construcción \"Sustantivo + a + Infinitivo\" y la fluidez narrativa» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "B": "«La versatilidad del léxico en la narrativa jurídica» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "C": "«La raya como instrumento de precisión y jerarquía en el inciso jurídico» corresponde a otro concepto o apartado y no identifica toda la afirmación citada."
+      }
+    },
+    {
+      "id": "DER105-P130",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Concepto: Reglas de Concordancia: El Adjetivo y la Conjunción Disyuntiva",
+      "question_type": "single_choice",
+      "topic": "Reglas de Concordancia: El Adjetivo y la Conjunción Disyuntiva",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "contenido_texto_juridico.md, apartado «Reglas de Concordancia: El Adjetivo y la Conjunción Disyuntiva»",
+      "prompt": "¿A qué concepto o apartado corresponde la siguiente afirmación del compendio? «En el primer escenario, cuando la conjunción cumple una función propiamente disyuntiva —es decir, cuando plantea una exclusión o una alternativa entre dos realidades distintas—, lo técnicamente adecuado es que el adjetivo se escriba en plural.»",
+      "options": [
+        {
+          "id": "A",
+          "text": "Coma vocativa"
+        },
+        {
+          "id": "B",
+          "text": "La estructura lógica de la frase jurídica: El esquema esencial"
+        },
+        {
+          "id": "C",
+          "text": "Reglas de Concordancia: El Adjetivo y la Conjunción Disyuntiva"
+        },
+        {
+          "id": "D",
+          "text": "El Punto y Coma"
+        }
+      ],
+      "answer": {
+        "raw": "C. Reglas de Concordancia: El Adjetivo y la Conjunción Disyuntiva",
+        "option_ids": [
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La afirmación se desarrolla en el apartado «Reglas de Concordancia: El Adjetivo y la Conjunción Disyuntiva».",
+      "feedback_incorrect": "La respuesta correcta es «Reglas de Concordancia: El Adjetivo y la Conjunción Disyuntiva», porque ese apartado contiene la afirmación presentada.",
+      "tip": "Identifica el concepto que explica la idea completa, no una palabra aislada.",
+      "explanation": "En palabras sencillas, «Reglas de Concordancia: El Adjetivo y la Conjunción Disyuntiva» se relaciona aquí con esta idea: En el primer escenario, cuando la conjunción cumple una función propiamente disyuntiva —es decir, cuando plantea una exclusión o una alternativa entre dos realidades distintas—, lo técnicamente adecuado es que el adjetivo se escriba en plural.",
+      "memory_key": "Reglas de Concordancia: El Adjetivo y la Conjunción Disyuntiva: En el primer escenario, cuando la conjunción cumple una función propiamente disyuntiva —es decir, cuando plantea una exclusión o una alternativa entre.",
+      "common_confusion": "No confundas conceptos cercanos de la misma unidad: compara la definición completa.",
+      "why_options_are_wrong": {
+        "A": "«Coma vocativa» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "B": "«La estructura lógica de la frase jurídica: El esquema esencial» corresponde a otro concepto o apartado y no identifica toda la afirmación citada.",
+        "D": "«El Punto y Coma» corresponde a otro concepto o apartado y no identifica toda la afirmación citada."
+      }
+    },
+    {
+      "id": "DER105-P131",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Secuencia: Gramática en documentos jurídicos",
+      "question_type": "ordering",
+      "topic": "Gramática en documentos jurídicos",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "contenido_texto_juridico.md",
+      "prompt": "Ordene los elementos de «Gramática en documentos jurídicos» según la secuencia expositiva del compendio.",
+      "options": [],
+      "answer": {
+        "raw": "1. Coma vocativa; 2. Coma elíptica; 3. Punto y coma; 4. Género del sustantivo",
+        "option_ids": [],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": [
+          "Coma vocativa",
+          "Coma elíptica",
+          "Punto y coma",
+          "Género del sustantivo"
+        ]
+      },
+      "feedback_correct": "La secuencia coincide con el orden establecido en el compendio.",
+      "feedback_incorrect": "Compara qué elemento inicia el proceso y cuál depende del anterior.",
+      "tip": "Busca primero el punto de partida; después revisa qué paso prepara al siguiente.",
+      "explanation": "El orden correcto conserva la relación progresiva presentada por la fuente.",
+      "memory_key": "Inicio, desarrollo y cierre: cada elemento debe ocupar el lugar que prepara al siguiente.",
+      "common_confusion": "No confundas una lista de elementos con una secuencia: aquí se sigue expresamente el orden de la fuente.",
+      "options_note": "Elementos para ordenar: Coma elíptica | Género del sustantivo | Coma vocativa | Punto y coma"
+    },
+    {
+      "id": "DER105-P132",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Secuencia: Normas y procedimientos de redacción jurídica",
+      "question_type": "ordering",
+      "topic": "Normas y procedimientos de redacción jurídica",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "contenido_texto_juridico.md",
+      "prompt": "Ordene los elementos de «Normas y procedimientos de redacción jurídica» según la secuencia expositiva del compendio.",
+      "options": [],
+      "answer": {
+        "raw": "1. Precisión léxica; 2. Control de falsas sinonimias; 3. Uso de paréntesis y corchetes; 4. Uso de la raya",
+        "option_ids": [],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": [
+          "Precisión léxica",
+          "Control de falsas sinonimias",
+          "Uso de paréntesis y corchetes",
+          "Uso de la raya"
+        ]
+      },
+      "feedback_correct": "La secuencia coincide con el orden establecido en el compendio.",
+      "feedback_incorrect": "Compara qué elemento inicia el proceso y cuál depende del anterior.",
+      "tip": "Busca primero el punto de partida; después revisa qué paso prepara al siguiente.",
+      "explanation": "El orden correcto conserva la relación progresiva presentada por la fuente.",
+      "memory_key": "Inicio, desarrollo y cierre: cada elemento debe ocupar el lugar que prepara al siguiente.",
+      "common_confusion": "No confundas una lista de elementos con una secuencia: aquí se sigue expresamente el orden de la fuente.",
+      "options_note": "Elementos para ordenar: Uso de paréntesis y corchetes | Control de falsas sinonimias | Precisión léxica | Uso de la raya"
+    },
+    {
+      "id": "DER105-P133",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Secuencia: Cálculo del índice de nebulosidad",
+      "question_type": "ordering",
+      "topic": "Cálculo del índice de nebulosidad",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "contenido_texto_juridico.md",
+      "prompt": "Ordene las etapas o elementos de «Cálculo del índice de nebulosidad» según la secuencia indicada en el compendio.",
+      "options": [],
+      "answer": {
+        "raw": "1. Dividir el total de palabras entre el número de frases; 2. Sumar el porcentaje de palabras largas; 3. Multiplicar el resultado por 0,4",
+        "option_ids": [],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": [
+          "Dividir el total de palabras entre el número de frases",
+          "Sumar el porcentaje de palabras largas",
+          "Multiplicar el resultado por 0,4"
+        ]
+      },
+      "feedback_correct": "La secuencia coincide con el orden establecido en el compendio.",
+      "feedback_incorrect": "Compara qué elemento inicia el proceso y cuál depende del anterior.",
+      "tip": "Busca primero el punto de partida; después revisa qué paso prepara al siguiente.",
+      "explanation": "El orden correcto conserva la relación progresiva presentada por la fuente.",
+      "memory_key": "Inicio, desarrollo y cierre: cada elemento debe ocupar el lugar que prepara al siguiente.",
+      "common_confusion": "No confundas una lista de elementos con una secuencia: aquí se sigue expresamente el orden de la fuente.",
+      "options_note": "Elementos para ordenar: Multiplicar el resultado por 0,4 | Sumar el porcentaje de palabras largas | Dividir el total de palabras entre el número de frases"
+    },
+    {
+      "id": "DER105-P134",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Secuencia: Estructura lógica de la frase jurídica",
+      "question_type": "ordering",
+      "topic": "Estructura lógica de la frase jurídica",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "contenido_texto_juridico.md",
+      "prompt": "Ordene las etapas o elementos de «Estructura lógica de la frase jurídica» según la secuencia indicada en el compendio.",
+      "options": [],
+      "answer": {
+        "raw": "1. Quién; 2. Verbo; 3. Qué; 4. A quién",
+        "option_ids": [],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": [
+          "Quién",
+          "Verbo",
+          "Qué",
+          "A quién"
+        ]
+      },
+      "feedback_correct": "La secuencia coincide con el orden establecido en el compendio.",
+      "feedback_incorrect": "Compara qué elemento inicia el proceso y cuál depende del anterior.",
+      "tip": "Busca primero el punto de partida; después revisa qué paso prepara al siguiente.",
+      "explanation": "El orden correcto conserva la relación progresiva presentada por la fuente.",
+      "memory_key": "Inicio, desarrollo y cierre: cada elemento debe ocupar el lugar que prepara al siguiente.",
+      "common_confusion": "No confundas una lista de elementos con una secuencia: aquí se sigue expresamente el orden de la fuente.",
+      "options_note": "Elementos para ordenar: Quién | A quién | Verbo | Qué"
+    },
+    {
+      "id": "DER105-P135",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Relaciones conceptuales 1",
+      "question_type": "matching",
+      "topic": "Relación de conceptos del compendio",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "contenido_texto_juridico.md",
+      "prompt": "Relacione cada concepto con la afirmación que le corresponde según el compendio.",
+      "options": [],
+      "answer": {
+        "raw": "Los Fundamentos de la Precisión en el Léxico Jurídico → Por esta razón, la base de todo proceso escritural para quien se inicia en la carrera jurídica radica en la búsqueda de la palabra precisa.; Los paréntesis en la documentación de actuaciones orales y usos auxiliares → En los interrogatorios o declaraciones testimoniales, los paréntesis cumplen una función descriptiva fundamental al encerrar los comentarios del transcriptor sobre lo que ocurre físicamente durante la diligencia.; Flexibilidad y matices en los signos de interrogación y exclamación → Aunque el derecho se caracteriza por un tono formal y asertivo, existen escenarios donde los signos de interrogación y exclamación se adaptan a las necesidades del redactor.; La inflación del lenguaje y la trampa de los sufijos innecesarios → Un fenómeno común en la redacción jurídica es la tendencia a la creación de términos derivados mediante sufijos, incluso cuando la lengua ya dispone de opciones más sencillas y directas.",
+        "option_ids": [],
+        "accepted_text": [],
+        "pairs": [
+          {
+            "left": "Los Fundamentos de la Precisión en el Léxico Jurídico",
+            "right": "Por esta razón, la base de todo proceso escritural para quien se inicia en la carrera jurídica radica en la búsqueda de la palabra precisa"
+          },
+          {
+            "left": "Los paréntesis en la documentación de actuaciones orales y usos auxiliares",
+            "right": "En los interrogatorios o declaraciones testimoniales, los paréntesis cumplen una función descriptiva fundamental al encerrar los comentarios del transcriptor sobre lo que ocurre físicamente durante la diligencia"
+          },
+          {
+            "left": "Flexibilidad y matices en los signos de interrogación y exclamación",
+            "right": "Aunque el derecho se caracteriza por un tono formal y asertivo, existen escenarios donde los signos de interrogación y exclamación se adaptan a las necesidades del redactor"
+          },
+          {
+            "left": "La inflación del lenguaje y la trampa de los sufijos innecesarios",
+            "right": "Un fenómeno común en la redacción jurídica es la tendencia a la creación de términos derivados mediante sufijos, incluso cuando la lengua ya dispone de opciones más sencillas y directas"
+          }
+        ],
+        "ordered_items": []
+      },
+      "feedback_correct": "Cada concepto quedó unido con la afirmación desarrollada en su propio apartado.",
+      "feedback_incorrect": "Vuelve a identificar la idea central de cada descripción antes de formar las parejas.",
+      "tip": "Empieza por la pareja más evidente y descarta esa descripción antes de continuar.",
+      "explanation": "El emparejamiento evalúa si puedes distinguir conceptos próximos por su definición completa.",
+      "memory_key": "Concepto y definición deben conservar el mismo núcleo de significado.",
+      "common_confusion": "No emparejes solo por una palabra compartida; comprueba el sentido completo de cada descripción.",
+      "options_note": "Conceptos: Los Fundamentos de la Precisión en el Léxico Jurídico | Los paréntesis en la documentación de actuaciones orales y usos auxiliares | Flexibilidad y matices en los signos de interrogación y exclamación | La inflación del lenguaje y la trampa de los sufijos innecesarios | Descripciones: Un fenómeno común en la redacción jurídica es la tendencia a la creación de términos derivados mediante sufijos, incluso cuando la lengua ya dispone de opciones más sencillas y directas. | Aunque el derecho se caracteriza por un tono formal y asertivo, existen escenarios donde los signos de interrogación y exclamación se adaptan a las necesidades del redactor. | En los interrogatorios o declaraciones testimoniales, los paréntesis cumplen una función descriptiva fundamental al encerrar los comentarios del transcriptor sobre lo que ocurre físicamente durante la diligencia. | Por esta razón, la base de todo proceso escritural para quien se inicia en la carrera jurídica radica en la búsqueda de la palabra precisa."
+    },
+    {
+      "id": "DER105-P136",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Relaciones conceptuales 2",
+      "question_type": "matching",
+      "topic": "Relación de conceptos del compendio",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "contenido_texto_juridico.md",
+      "prompt": "Relacione cada concepto con la afirmación que le corresponde según el compendio.",
+      "options": [],
+      "answer": {
+        "raw": "Reglas de Concordancia: El Adjetivo y la Conjunción Disyuntiva → Cuando un adjetivo califica a dos o más sustantivos unidos por la conjunción \"o\", el redactor debe analizar la intención de la frase para aplicar la concordancia correcta.; La raya como instrumento de precisión y jerarquía en el inciso jurídico → Es fundamental que el redactor comprenda la relación jerárquica entre los signos de aislamiento cuando se presentan aclaraciones dentro de otras aclaraciones.; La eficiencia de la palabra corta y la economía procesal → A pesar de la necesaria especialización del lenguaje legal, existe una recomendación técnica primordial para garantizar la fluidez de la narrativa: la preferencia por la palabra corta.; La precisión terminológica frente a la vanidad del léxico jurídico → En el plano del Derecho, existe una tendencia frecuente entre los profesionales a alargar las palabras bajo una falsa premisa de erudición o vanidad académica.",
+        "option_ids": [],
+        "accepted_text": [],
+        "pairs": [
+          {
+            "left": "Reglas de Concordancia: El Adjetivo y la Conjunción Disyuntiva",
+            "right": "Cuando un adjetivo califica a dos o más sustantivos unidos por la conjunción \"o\", el redactor debe analizar la intención de la frase para aplicar la concordancia correcta"
+          },
+          {
+            "left": "La raya como instrumento de precisión y jerarquía en el inciso jurídico",
+            "right": "Es fundamental que el redactor comprenda la relación jerárquica entre los signos de aislamiento cuando se presentan aclaraciones dentro de otras aclaraciones"
+          },
+          {
+            "left": "La eficiencia de la palabra corta y la economía procesal",
+            "right": "A pesar de la necesaria especialización del lenguaje legal, existe una recomendación técnica primordial para garantizar la fluidez de la narrativa: la preferencia por la palabra corta"
+          },
+          {
+            "left": "La precisión terminológica frente a la vanidad del léxico jurídico",
+            "right": "En el plano del Derecho, existe una tendencia frecuente entre los profesionales a alargar las palabras bajo una falsa premisa de erudición o vanidad académica"
+          }
+        ],
+        "ordered_items": []
+      },
+      "feedback_correct": "Cada concepto quedó unido con la afirmación desarrollada en su propio apartado.",
+      "feedback_incorrect": "Vuelve a identificar la idea central de cada descripción antes de formar las parejas.",
+      "tip": "Empieza por la pareja más evidente y descarta esa descripción antes de continuar.",
+      "explanation": "El emparejamiento evalúa si puedes distinguir conceptos próximos por su definición completa.",
+      "memory_key": "Concepto y definición deben conservar el mismo núcleo de significado.",
+      "common_confusion": "No emparejes solo por una palabra compartida; comprueba el sentido completo de cada descripción.",
+      "options_note": "Conceptos: Reglas de Concordancia: El Adjetivo y la Conjunción Disyuntiva | La raya como instrumento de precisión y jerarquía en el inciso jurídico | La eficiencia de la palabra corta y la economía procesal | La precisión terminológica frente a la vanidad del léxico jurídico | Descripciones: En el plano del Derecho, existe una tendencia frecuente entre los profesionales a alargar las palabras bajo una falsa premisa de erudición o vanidad académica. | A pesar de la necesaria especialización del lenguaje legal, existe una recomendación técnica primordial para garantizar la fluidez de la narrativa: la preferencia por la palabra corta. | Es fundamental que el redactor comprenda la relación jerárquica entre los signos de aislamiento cuando se presentan aclaraciones dentro de otras aclaraciones. | Cuando un adjetivo califica a dos o más sustantivos unidos por la conjunción \"o\", el redactor debe analizar la intención de la frase para aplicar la concordancia correcta."
+    },
+    {
+      "id": "DER105-P137",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Relaciones conceptuales 3",
+      "question_type": "matching",
+      "topic": "Relación de conceptos del compendio",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "contenido_texto_juridico.md",
+      "prompt": "Relacione cada concepto con la afirmación que le corresponde según el compendio.",
+      "options": [],
+      "answer": {
+        "raw": "Los corchetes como signo de intervención técnica y jerarquización → Los corchetes, aunque similares a los paréntesis, poseen una función técnica mucho más específica en la redacción jurídica avanzada: marcar la intervención del redactor sobre un texto que no es de su autoría.; La mayúscula institucional en la disposición de textos jurídicos → La disposición formal de las leyes y sentencias responde a una tradición que prioriza la visibilidad de los argumentos centrales.; La economía del lenguaje: Una perspectiva histórica y funcional → El lenguaje no es un ente estático, sino una herramienta en constante evolución que tiende, por naturaleza, hacia el acortamiento y la simplificación.; La Frase como Unidad de Sentido y su Extensión Ideal → En la ciencia del Derecho, la frase debe entenderse como la expresión mínima de una idea completa.",
+        "option_ids": [],
+        "accepted_text": [],
+        "pairs": [
+          {
+            "left": "Los corchetes como signo de intervención técnica y jerarquización",
+            "right": "Los corchetes, aunque similares a los paréntesis, poseen una función técnica mucho más específica en la redacción jurídica avanzada: marcar la intervención del redactor sobre un texto que no es de su autoría"
+          },
+          {
+            "left": "La mayúscula institucional en la disposición de textos jurídicos",
+            "right": "La disposición formal de las leyes y sentencias responde a una tradición que prioriza la visibilidad de los argumentos centrales"
+          },
+          {
+            "left": "La economía del lenguaje: Una perspectiva histórica y funcional",
+            "right": "El lenguaje no es un ente estático, sino una herramienta en constante evolución que tiende, por naturaleza, hacia el acortamiento y la simplificación"
+          },
+          {
+            "left": "La Frase como Unidad de Sentido y su Extensión Ideal",
+            "right": "En la ciencia del Derecho, la frase debe entenderse como la expresión mínima de una idea completa"
+          }
+        ],
+        "ordered_items": []
+      },
+      "feedback_correct": "Cada concepto quedó unido con la afirmación desarrollada en su propio apartado.",
+      "feedback_incorrect": "Vuelve a identificar la idea central de cada descripción antes de formar las parejas.",
+      "tip": "Empieza por la pareja más evidente y descarta esa descripción antes de continuar.",
+      "explanation": "El emparejamiento evalúa si puedes distinguir conceptos próximos por su definición completa.",
+      "memory_key": "Concepto y definición deben conservar el mismo núcleo de significado.",
+      "common_confusion": "No emparejes solo por una palabra compartida; comprueba el sentido completo de cada descripción.",
+      "options_note": "Conceptos: Los corchetes como signo de intervención técnica y jerarquización | La mayúscula institucional en la disposición de textos jurídicos | La economía del lenguaje: Una perspectiva histórica y funcional | La Frase como Unidad de Sentido y su Extensión Ideal | Descripciones: En la ciencia del Derecho, la frase debe entenderse como la expresión mínima de una idea completa. | El lenguaje no es un ente estático, sino una herramienta en constante evolución que tiende, por naturaleza, hacia el acortamiento y la simplificación. | La disposición formal de las leyes y sentencias responde a una tradición que prioriza la visibilidad de los argumentos centrales. | Los corchetes, aunque similares a los paréntesis, poseen una función técnica mucho más específica en la redacción jurídica avanzada: marcar la intervención del redactor sobre un texto que no es de su autoría."
+    },
+    {
+      "id": "DER105-P138",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Relaciones conceptuales 4",
+      "question_type": "matching",
+      "topic": "Relación de conceptos del compendio",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "contenido_texto_juridico.md",
+      "prompt": "Relacione cada concepto con la afirmación que le corresponde según el compendio.",
+      "options": [],
+      "answer": {
+        "raw": "La raya en la transcripción de testimonios y la narrativa procesal → La funcionalidad de la raya se extiende a la transcripción de textos orales y a la redacción narrativa de hechos, donde actúa como un organizador de voces.; El uso estratégico de los prefijos en la terminología legal → Para dominar la palabra larga, el estudiante debe comprender el funcionamiento de los prefijos, que son afijos añadidos al comienzo de una palabra para derivar nuevos significados.; El justo medio y el enriquecimiento a través de la síntesis → Cuando un redactor se detiene a buscar una opción más breve, se ve obligado a explorar su léxico y a comparar significados, lo cual enriquece tanto su vocabulario como la experiencia del lector.; Adaptación del Texto según el Nivel del Lector → La brevedad, por tanto, no es falta de profundidad, sino el máximo nivel de dominio sobre la materia que se trata.",
+        "option_ids": [],
+        "accepted_text": [],
+        "pairs": [
+          {
+            "left": "La raya en la transcripción de testimonios y la narrativa procesal",
+            "right": "La funcionalidad de la raya se extiende a la transcripción de textos orales y a la redacción narrativa de hechos, donde actúa como un organizador de voces"
+          },
+          {
+            "left": "El uso estratégico de los prefijos en la terminología legal",
+            "right": "Para dominar la palabra larga, el estudiante debe comprender el funcionamiento de los prefijos, que son afijos añadidos al comienzo de una palabra para derivar nuevos significados"
+          },
+          {
+            "left": "El justo medio y el enriquecimiento a través de la síntesis",
+            "right": "Cuando un redactor se detiene a buscar una opción más breve, se ve obligado a explorar su léxico y a comparar significados, lo cual enriquece tanto su vocabulario como la experiencia del lector"
+          },
+          {
+            "left": "Adaptación del Texto según el Nivel del Lector",
+            "right": "La brevedad, por tanto, no es falta de profundidad, sino el máximo nivel de dominio sobre la materia que se trata"
+          }
+        ],
+        "ordered_items": []
+      },
+      "feedback_correct": "Cada concepto quedó unido con la afirmación desarrollada en su propio apartado.",
+      "feedback_incorrect": "Vuelve a identificar la idea central de cada descripción antes de formar las parejas.",
+      "tip": "Empieza por la pareja más evidente y descarta esa descripción antes de continuar.",
+      "explanation": "El emparejamiento evalúa si puedes distinguir conceptos próximos por su definición completa.",
+      "memory_key": "Concepto y definición deben conservar el mismo núcleo de significado.",
+      "common_confusion": "No emparejes solo por una palabra compartida; comprueba el sentido completo de cada descripción.",
+      "options_note": "Conceptos: La raya en la transcripción de testimonios y la narrativa procesal | El uso estratégico de los prefijos en la terminología legal | El justo medio y el enriquecimiento a través de la síntesis | Adaptación del Texto según el Nivel del Lector | Descripciones: La brevedad, por tanto, no es falta de profundidad, sino el máximo nivel de dominio sobre la materia que se trata. | Cuando un redactor se detiene a buscar una opción más breve, se ve obligado a explorar su léxico y a comparar significados, lo cual enriquece tanto su vocabulario como la experiencia del lector. | Para dominar la palabra larga, el estudiante debe comprender el funcionamiento de los prefijos, que son afijos añadidos al comienzo de una palabra para derivar nuevos significados. | La funcionalidad de la raya se extiende a la transcripción de textos orales y a la redacción narrativa de hechos, donde actúa como un organizador de voces."
+    },
+    {
+      "id": "DER105-P139",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Relaciones conceptuales 5",
+      "question_type": "matching",
+      "topic": "Relación de conceptos del compendio",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "contenido_texto_juridico.md",
+      "prompt": "Relacione cada concepto con la afirmación que le corresponde según el compendio.",
+      "options": [],
+      "answer": {
+        "raw": "La versatilidad del léxico en la narrativa jurídica → La construcción de un relato de hechos en el ámbito del Derecho requiere una comprensión profunda de que la palabra es, ante todo, una unidad de léxico que se transforma según su entorno.; El debate sobre los adverbios y la libertad creativa del redactor → Una de las discusiones más frecuentes en los talleres de redacción avanzada gira en torno al uso de los adverbios terminados en «-mente».; El Peligro de las Frases Laberínticas: Un Análisis Crítico → Uno de los errores más comunes en la práctica forense es la construcción de frases excesivamente largas que intentan agotar todos los matices de un asunto en un solo bloque de texto.; La arquitectura del párrafo jurídico: La fórmula 18/54 → Un párrafo funcional y equilibrado debe estar integrado, aproximadamente, por tres frases cortas.",
+        "option_ids": [],
+        "accepted_text": [],
+        "pairs": [
+          {
+            "left": "La versatilidad del léxico en la narrativa jurídica",
+            "right": "La construcción de un relato de hechos en el ámbito del Derecho requiere una comprensión profunda de que la palabra es, ante todo, una unidad de léxico que se transforma según su entorno"
+          },
+          {
+            "left": "El debate sobre los adverbios y la libertad creativa del redactor",
+            "right": "Una de las discusiones más frecuentes en los talleres de redacción avanzada gira en torno al uso de los adverbios terminados en «-mente»"
+          },
+          {
+            "left": "El Peligro de las Frases Laberínticas: Un Análisis Crítico",
+            "right": "Uno de los errores más comunes en la práctica forense es la construcción de frases excesivamente largas que intentan agotar todos los matices de un asunto en un solo bloque de texto"
+          },
+          {
+            "left": "La arquitectura del párrafo jurídico: La fórmula 18/54",
+            "right": "Un párrafo funcional y equilibrado debe estar integrado, aproximadamente, por tres frases cortas"
+          }
+        ],
+        "ordered_items": []
+      },
+      "feedback_correct": "Cada concepto quedó unido con la afirmación desarrollada en su propio apartado.",
+      "feedback_incorrect": "Vuelve a identificar la idea central de cada descripción antes de formar las parejas.",
+      "tip": "Empieza por la pareja más evidente y descarta esa descripción antes de continuar.",
+      "explanation": "El emparejamiento evalúa si puedes distinguir conceptos próximos por su definición completa.",
+      "memory_key": "Concepto y definición deben conservar el mismo núcleo de significado.",
+      "common_confusion": "No emparejes solo por una palabra compartida; comprueba el sentido completo de cada descripción.",
+      "options_note": "Conceptos: La versatilidad del léxico en la narrativa jurídica | El debate sobre los adverbios y la libertad creativa del redactor | El Peligro de las Frases Laberínticas: Un Análisis Crítico | La arquitectura del párrafo jurídico: La fórmula 18/54 | Descripciones: Un párrafo funcional y equilibrado debe estar integrado, aproximadamente, por tres frases cortas. | Uno de los errores más comunes en la práctica forense es la construcción de frases excesivamente largas que intentan agotar todos los matices de un asunto en un solo bloque de texto. | Una de las discusiones más frecuentes en los talleres de redacción avanzada gira en torno al uso de los adverbios terminados en «-mente». | La construcción de un relato de hechos en el ámbito del Derecho requiere una comprensión profunda de que la palabra es, ante todo, una unidad de léxico que se transforma según su entorno."
+    },
+    {
+      "id": "DER105-P140",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Relaciones conceptuales 6",
+      "question_type": "matching",
+      "topic": "Relación de conceptos del compendio",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "contenido_texto_juridico.md",
+      "prompt": "Relacione cada concepto con la afirmación que le corresponde según el compendio.",
+      "options": [],
+      "answer": {
+        "raw": "La inflación del lenguaje y la trampa de los sufijos innecesarios → Un fenómeno común en la redacción jurídica es la tendencia a la creación de términos derivados mediante sufijos, incluso cuando la lengua ya dispone de opciones más sencillas y directas.; La construcción \"Sustantivo + a + Infinitivo\" y la fluidez narrativa → Para finalizar, es necesario abordar una estructura muy común pero técnicamente \"antipática\" en la redacción administrativa: la combinación de un sustantivo seguido de la preposición \"a\" y un verbo en infinitivo.; La estructura lógica de la frase jurídica: El esquema esencial → En el primer semestre de la formación jurídica, es imperativo comprender que la claridad de un alegato o de una providencia judicial no depende de la ornamentación del lenguaje, sino de la solidez de su estructura sintáctica.; El Punto y Coma → El punto y coma (,) intermedia entre la coma y el punto.",
+        "option_ids": [],
+        "accepted_text": [],
+        "pairs": [
+          {
+            "left": "La inflación del lenguaje y la trampa de los sufijos innecesarios",
+            "right": "Un fenómeno común en la redacción jurídica es la tendencia a la creación de términos derivados mediante sufijos, incluso cuando la lengua ya dispone de opciones más sencillas y directas"
+          },
+          {
+            "left": "La construcción \"Sustantivo + a + Infinitivo\" y la fluidez narrativa",
+            "right": "Para finalizar, es necesario abordar una estructura muy común pero técnicamente \"antipática\" en la redacción administrativa: la combinación de un sustantivo seguido de la preposición \"a\" y un verbo en infinitivo"
+          },
+          {
+            "left": "La estructura lógica de la frase jurídica: El esquema esencial",
+            "right": "En el primer semestre de la formación jurídica, es imperativo comprender que la claridad de un alegato o de una providencia judicial no depende de la ornamentación del lenguaje, sino de la solidez de su estructura sintáctica"
+          },
+          {
+            "left": "El Punto y Coma",
+            "right": "El punto y coma (,) intermedia entre la coma y el punto"
+          }
+        ],
+        "ordered_items": []
+      },
+      "feedback_correct": "Cada concepto quedó unido con la afirmación desarrollada en su propio apartado.",
+      "feedback_incorrect": "Vuelve a identificar la idea central de cada descripción antes de formar las parejas.",
+      "tip": "Empieza por la pareja más evidente y descarta esa descripción antes de continuar.",
+      "explanation": "El emparejamiento evalúa si puedes distinguir conceptos próximos por su definición completa.",
+      "memory_key": "Concepto y definición deben conservar el mismo núcleo de significado.",
+      "common_confusion": "No emparejes solo por una palabra compartida; comprueba el sentido completo de cada descripción.",
+      "options_note": "Conceptos: La inflación del lenguaje y la trampa de los sufijos innecesarios | La construcción \"Sustantivo + a + Infinitivo\" y la fluidez narrativa | La estructura lógica de la frase jurídica: El esquema esencial | El Punto y Coma | Descripciones: El punto y coma (,) intermedia entre la coma y el punto. | En el primer semestre de la formación jurídica, es imperativo comprender que la claridad de un alegato o de una providencia judicial no depende de la ornamentación del lenguaje, sino de la solidez de su estructura sintáctica. | Para finalizar, es necesario abordar una estructura muy común pero técnicamente \"antipática\" en la redacción administrativa: la combinación de un sustantivo seguido de la preposición \"a\" y un verbo en infinitivo. | Un fenómeno común en la redacción jurídica es la tendencia a la creación de términos derivados mediante sufijos, incluso cuando la lengua ya dispone de opciones más sencillas y directas."
+    },
+    {
+      "id": "DER105-P141",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Relaciones conceptuales 7",
+      "question_type": "matching",
+      "topic": "Relación de conceptos del compendio",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "contenido_texto_juridico.md",
+      "prompt": "Relacione cada concepto con la afirmación que le corresponde según el compendio.",
+      "options": [],
+      "answer": {
+        "raw": "La precisión terminológica frente a la vanidad del léxico jurídico → En el plano del Derecho, existe una tendencia frecuente entre los profesionales a alargar las palabras bajo una falsa premisa de erudición o vanidad académica.; La Métrica de la Claridad: La Regla de las 18 Palabras → Para objetivar la calidad de la redacción, se propone un estándar cuantitativo que sirve como guía para el redactor: la frase de aproximadamente 18 palabras.; La patología de los nexos subordinantes y las estructuras en racimo → Ocurre cuando el redactor intenta condensar demasiada información en una sola unidad, derivando en la repetición incesante de nexos subordinantes como «que» y «como» (\"queísmo\").; El Peligro de las Falsas Sinonimias y el Error de \"Adolecer\" → La obsesión por evitar la reiteración de términos a toda costa suele conducir a un error técnico grave conocido como falsa sinonimia.",
+        "option_ids": [],
+        "accepted_text": [],
+        "pairs": [
+          {
+            "left": "La precisión terminológica frente a la vanidad del léxico jurídico",
+            "right": "En el plano del Derecho, existe una tendencia frecuente entre los profesionales a alargar las palabras bajo una falsa premisa de erudición o vanidad académica"
+          },
+          {
+            "left": "La Métrica de la Claridad: La Regla de las 18 Palabras",
+            "right": "Para objetivar la calidad de la redacción, se propone un estándar cuantitativo que sirve como guía para el redactor: la frase de aproximadamente 18 palabras"
+          },
+          {
+            "left": "La patología de los nexos subordinantes y las estructuras en racimo",
+            "right": "Ocurre cuando el redactor intenta condensar demasiada información en una sola unidad, derivando en la repetición incesante de nexos subordinantes como «que» y «como» (\"queísmo\")"
+          },
+          {
+            "left": "El Peligro de las Falsas Sinonimias y el Error de \"Adolecer\"",
+            "right": "La obsesión por evitar la reiteración de términos a toda costa suele conducir a un error técnico grave conocido como falsa sinonimia"
+          }
+        ],
+        "ordered_items": []
+      },
+      "feedback_correct": "Cada concepto quedó unido con la afirmación desarrollada en su propio apartado.",
+      "feedback_incorrect": "Vuelve a identificar la idea central de cada descripción antes de formar las parejas.",
+      "tip": "Empieza por la pareja más evidente y descarta esa descripción antes de continuar.",
+      "explanation": "El emparejamiento evalúa si puedes distinguir conceptos próximos por su definición completa.",
+      "memory_key": "Concepto y definición deben conservar el mismo núcleo de significado.",
+      "common_confusion": "No emparejes solo por una palabra compartida; comprueba el sentido completo de cada descripción.",
+      "options_note": "Conceptos: La precisión terminológica frente a la vanidad del léxico jurídico | La Métrica de la Claridad: La Regla de las 18 Palabras | La patología de los nexos subordinantes y las estructuras en racimo | El Peligro de las Falsas Sinonimias y el Error de \"Adolecer\" | Descripciones: La obsesión por evitar la reiteración de términos a toda costa suele conducir a un error técnico grave conocido como falsa sinonimia. | Ocurre cuando el redactor intenta condensar demasiada información en una sola unidad, derivando en la repetición incesante de nexos subordinantes como «que» y «como» (\"queísmo\"). | Para objetivar la calidad de la redacción, se propone un estándar cuantitativo que sirve como guía para el redactor: la frase de aproximadamente 18 palabras. | En el plano del Derecho, existe una tendencia frecuente entre los profesionales a alargar las palabras bajo una falsa premisa de erudición o vanidad académica."
+    },
+    {
+      "id": "DER105-P142",
+      "subject_code": "DER105",
+      "subject_name": "Expresión Oral y Redacción Jurídica",
+      "title": "Relaciones conceptuales 8",
+      "question_type": "matching",
+      "topic": "Relación de conceptos del compendio",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "contenido_texto_juridico.md",
+      "prompt": "Relacione cada concepto con la afirmación que le corresponde según el compendio.",
+      "options": [],
+      "answer": {
+        "raw": "La Frase como Unidad de Sentido y su Extensión Ideal → En la ciencia del Derecho, la frase debe entenderse como la expresión mínima de una idea completa.; El comportamiento de los verbos intransitivos y el complemento preposicional → El esquema anterior es aplicable cuando utilizamos verbos transitivos.; Los Fundamentos de la Precisión en el Léxico Jurídico → Por esta razón, la base de todo proceso escritural para quien se inicia en la carrera jurídica radica en la búsqueda de la palabra precisa.; Los paréntesis en la documentación de actuaciones orales y usos auxiliares → En los interrogatorios o declaraciones testimoniales, los paréntesis cumplen una función descriptiva fundamental al encerrar los comentarios del transcriptor sobre lo que ocurre físicamente durante la diligencia.",
+        "option_ids": [],
+        "accepted_text": [],
+        "pairs": [
+          {
+            "left": "La Frase como Unidad de Sentido y su Extensión Ideal",
+            "right": "En la ciencia del Derecho, la frase debe entenderse como la expresión mínima de una idea completa"
+          },
+          {
+            "left": "El comportamiento de los verbos intransitivos y el complemento preposicional",
+            "right": "El esquema anterior es aplicable cuando utilizamos verbos transitivos"
+          },
+          {
+            "left": "Los Fundamentos de la Precisión en el Léxico Jurídico",
+            "right": "Por esta razón, la base de todo proceso escritural para quien se inicia en la carrera jurídica radica en la búsqueda de la palabra precisa"
+          },
+          {
+            "left": "Los paréntesis en la documentación de actuaciones orales y usos auxiliares",
+            "right": "En los interrogatorios o declaraciones testimoniales, los paréntesis cumplen una función descriptiva fundamental al encerrar los comentarios del transcriptor sobre lo que ocurre físicamente durante la diligencia"
+          }
+        ],
+        "ordered_items": []
+      },
+      "feedback_correct": "Cada concepto quedó unido con la afirmación desarrollada en su propio apartado.",
+      "feedback_incorrect": "Vuelve a identificar la idea central de cada descripción antes de formar las parejas.",
+      "tip": "Empieza por la pareja más evidente y descarta esa descripción antes de continuar.",
+      "explanation": "El emparejamiento evalúa si puedes distinguir conceptos próximos por su definición completa.",
+      "memory_key": "Concepto y definición deben conservar el mismo núcleo de significado.",
+      "common_confusion": "No emparejes solo por una palabra compartida; comprueba el sentido completo de cada descripción.",
+      "options_note": "Conceptos: La Frase como Unidad de Sentido y su Extensión Ideal | El comportamiento de los verbos intransitivos y el complemento preposicional | Los Fundamentos de la Precisión en el Léxico Jurídico | Los paréntesis en la documentación de actuaciones orales y usos auxiliares | Descripciones: En los interrogatorios o declaraciones testimoniales, los paréntesis cumplen una función descriptiva fundamental al encerrar los comentarios del transcriptor sobre lo que ocurre físicamente durante la diligencia. | Por esta razón, la base de todo proceso escritural para quien se inicia en la carrera jurídica radica en la búsqueda de la palabra precisa. | El esquema anterior es aplicable cuando utilizamos verbos transitivos. | En la ciencia del Derecho, la frase debe entenderse como la expresión mínima de una idea completa."
     }
   ]
 }

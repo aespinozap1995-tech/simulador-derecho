@@ -18,16 +18,17 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = PROJECT_ROOT / "datos"
 SUBJECTS_DIR = DATA_DIR / "subjects"
 
-EXPECTED_TOTAL = 347
+EXPECTED_TOTAL = 865
 EXPECTED_BY_SUBJECT = {
-    "DER101": 29,
-    "DER102": 20,
-    "DER104": 30,
-    "DER105": 95,
-    "DER106": 33,
-    "C10": 140,
+    "DER101": 125,
+    "DER102": 105,
+    "DER104": 125,
+    "DER105": 142,
+    "DER106": 153,
+    "C10": 215,
 }
 EXPECTED_PENDING = {"DER105-P033", "DER105-P087"}
+EXPECTED_GENERATED = 518
 
 ALLOWED_TYPES = {
     "single_choice", "multiple_choice", "true_false", "fill_blank",
@@ -84,7 +85,8 @@ def validate_question(q):
     check(q.get("question_type") in ALLOWED_TYPES, f"{qid}: question_type no permitido: {q.get('question_type')!r}")
     check(q.get("difficulty") in ALLOWED_DIFFICULTY, f"{qid}: dificultad no permitida: {q.get('difficulty')!r}")
     check(q.get("status") in ALLOWED_STATUS, f"{qid}: estado no permitido: {q.get('status')!r}")
-    check(q.get("provenance") == "original_simulator", f"{qid}: provenance inesperado: {q.get('provenance')!r}")
+    check(q.get("provenance") in {"original_simulator", "generated_from_compendium"},
+          f"{qid}: provenance inesperado: {q.get('provenance')!r}")
 
     # Regla active/status.
     if q.get("status") == "pending_review":
@@ -102,6 +104,9 @@ def validate_question(q):
         check(isinstance(o.get("text"), str) and o["text"].strip(), f"{qid}: opción {o.get('id')} sin texto")
         letters.append(o.get("id"))
     check(len(letters) == len(set(letters)), f"{qid}: letras de opción duplicadas: {letters}")
+    option_texts = [re.sub(r"\s+", " ", o.get("text", "")).strip().casefold() for o in opts]
+    if q.get("provenance") == "generated_from_compendium":
+        check(len(option_texts) == len(set(option_texts)), f"{qid}: textos de opción duplicados")
 
     # Respuesta.
     ans = q.get("answer", {})
@@ -133,9 +138,17 @@ def validate_question(q):
     for p in ans.get("pairs", []):
         check(isinstance(p, dict) and set(p) == {"left", "right"} and p["left"].strip() and p["right"].strip(),
               f"{qid}: par mal formado: {p!r}")
+    pairs = ans.get("pairs", [])
+    if pairs:
+        lefts = [re.sub(r"\s+", " ", p["left"]).strip().casefold() for p in pairs]
+        rights = [re.sub(r"\s+", " ", p["right"]).strip().casefold() for p in pairs]
+        check(len(lefts) == len(set(lefts)), f"{qid}: conceptos repetidos en matching")
+        check(len(rights) == len(set(rights)), f"{qid}: descripciones repetidas en matching")
     for item in ans.get("ordered_items", []):
         check(isinstance(item, str) and item.strip(),
               f"{qid}: elemento de ordenamiento vacío o no textual: {item!r}")
+    ordered = [re.sub(r"\s+", " ", item).strip().casefold() for item in ans.get("ordered_items", [])]
+    check(len(ordered) == len(set(ordered)), f"{qid}: elementos repetidos en ordering")
 
     for field in ("explanation", "memory_key", "common_confusion"):
         if field in q:
@@ -151,6 +164,15 @@ def validate_question(q):
                 check(isinstance(reason, str) and reason.strip(),
                       f"{qid}: explicación vacía para el distractor '{letter}'")
 
+    if q.get("provenance") == "generated_from_compendium":
+        for field in ("explanation", "memory_key", "common_confusion"):
+            check(isinstance(q.get(field), str) and q[field].strip(),
+                  f"{qid}: pregunta generada sin '{field}'")
+        check("compendio" in q.get("source", "").casefold()
+              or q.get("source", "").casefold().endswith(".md")
+              or ".md," in q.get("source", "").casefold(),
+              f"{qid}: pregunta generada sin fuente Markdown identificable")
+
 
 def main():
     consolidated = load_utf8(DATA_DIR / "questions.json")
@@ -161,6 +183,9 @@ def main():
     # Total y conteos por asignatura.
     check(len(questions) == EXPECTED_TOTAL,
           f"Total: se esperaban {EXPECTED_TOTAL} preguntas y hay {len(questions)}")
+    generated = [q for q in questions if q.get("provenance") == "generated_from_compendium"]
+    check(len(generated) == EXPECTED_GENERATED,
+          f"Generadas desde compendios: se esperaban {EXPECTED_GENERATED} y hay {len(generated)}")
     counts = {}
     for q in questions:
         counts[q.get("subject_code")] = counts.get(q.get("subject_code"), 0) + 1

@@ -24,18 +24,30 @@ SUBJECTS_DIR = DATA_DIR / "subjects"
 
 # Orden determinista de asignaturas y sus rutas de origen.
 BANKS = [
-    ("DER101", "Introducción al Derecho",
-     "Procesado/DER 101 - Introducción al Derecho/banco_preguntas.md"),
-    ("DER102", "Lógica y Dialéctica Jurídica",
-     "Procesado/DER 102 - Lógica y Dialéctica Jurídica/banco_preguntas.md"),
-    ("DER104", "Teoría General del Estado y Sociología Jurídica",
-     "Procesado/DER 104 - Teoría General del Estado y Sociología Jurídica/banco_preguntas.md"),
-    ("DER105", "Expresión Oral y Redacción Jurídica",
-     "Procesado/DER 105 - Expresión Oral y Redacción Jurídica/banco_preguntas.md"),
-    ("DER106", "Historia y Filosofía del Derecho",
-     "Procesado/DER 106 - Historia y Filosofía del Derecho/banco_preguntas.md"),
-    ("C10", "Investigación",
-     "Procesado/C10 - Investigación/banco_preguntas.md"),
+    ("DER101", "Introducción al Derecho", [
+        "Procesado/DER 101 - Introducción al Derecho/banco_preguntas.md",
+        "Procesado/DER 101 - Introducción al Derecho/preguntas_compendios.md",
+    ]),
+    ("DER102", "Lógica y Dialéctica Jurídica", [
+        "Procesado/DER 102 - Lógica y Dialéctica Jurídica/banco_preguntas.md",
+        "Procesado/DER 102 - Lógica y Dialéctica Jurídica/preguntas_compendios.md",
+    ]),
+    ("DER104", "Teoría General del Estado y Sociología Jurídica", [
+        "Procesado/DER 104 - Teoría General del Estado y Sociología Jurídica/banco_preguntas.md",
+        "Procesado/DER 104 - Teoría General del Estado y Sociología Jurídica/preguntas_compendios.md",
+    ]),
+    ("DER105", "Expresión Oral y Redacción Jurídica", [
+        "Procesado/DER 105 - Expresión Oral y Redacción Jurídica/banco_preguntas.md",
+        "Procesado/DER 105 - Expresión Oral y Redacción Jurídica/preguntas_compendios.md",
+    ]),
+    ("DER106", "Historia y Filosofía del Derecho", [
+        "Procesado/DER 106 - Historia y Filosofía del Derecho/banco_preguntas.md",
+        "Procesado/DER 106 - Historia y Filosofía del Derecho/preguntas_compendios.md",
+    ]),
+    ("C10", "Investigación", [
+        "Procesado/C10 - Investigación/banco_preguntas.md",
+        "Procesado/C10 - Investigación/preguntas_compendios.md",
+    ]),
 ]
 
 DIFFICULTY_MAP = {"básica": "basic", "media": "medium", "avanzada": "advanced"}
@@ -43,7 +55,7 @@ STATUS_MAP = {"revisada": "reviewed", "pendiente_de_revision": "pending_review"}
 
 OPTION_RE = re.compile(r"^- ([A-E])\.\s+(.*)$")
 HEADER_RE = re.compile(r"^([A-Z0-9]+-P\d{3})\s+—\s+(.*)$")
-META_RE = re.compile(r"^- (Asignatura|Tema|Dificultad|Estado|Fuente):\s*(.*)$")
+META_RE = re.compile(r"^- (Asignatura|Tema|Dificultad|Estado|Fuente|Procedencia):\s*(.*)$")
 SINGLE_LETTER_RE = re.compile(r"^([A-E])\.\s")
 MULTI_LETTER_RE = re.compile(r"^([A-E](?:,\s*[A-E])*\s+y\s+[A-E])\.\s")
 BRACKET_RE = re.compile(r"\[([^\[\]]+)\]")
@@ -286,7 +298,7 @@ def convert_bank(code, name, rel_path):
             "difficulty": difficulty,
             "status": status,
             "active": status == "reviewed",
-            "provenance": "original_simulator",
+            "provenance": meta.get("Procedencia", "original_simulator").strip(),
             "source": meta.get("Fuente", "").strip(),
             "prompt": prompt,
             "options": options,
@@ -322,17 +334,22 @@ def dump_json(path, payload):
 def main():
     all_questions = []
     per_subject = {}
-    for code, name, rel in BANKS:
-        qs = convert_bank(code, name, rel)
+    for code, name, rel_paths in BANKS:
+        qs = []
+        for rel in rel_paths:
+            path = PROJECT_ROOT / rel
+            if path.exists():
+                qs.extend(convert_bank(code, name, rel))
+        qs.sort(key=lambda q: int(q["id"].rsplit("P", 1)[1]))
         per_subject[code] = {
             "subject_code": code,
             "subject_name": name,
-            "source_file": rel,
+            "source_files": rel_paths,
             "total": len(qs),
             "questions": qs,
         }
         all_questions.extend(qs)
-        print(f"{code}: {len(qs)} preguntas convertidas desde {rel}")
+        print(f"{code}: {len(qs)} preguntas convertidas desde {len(rel_paths)} bancos")
 
     for code, payload in per_subject.items():
         dump_json(SUBJECTS_DIR / f"{code}.json", payload)
