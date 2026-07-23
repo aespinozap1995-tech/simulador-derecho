@@ -8,11 +8,11 @@ const bank = JSON.parse(
 
 test("the question bank contains the reviewed beta inventory", () => {
   assert.ok(Array.isArray(bank.questions));
-  assert.equal(bank.questions.length, 865);
-  assert.equal(bank.questions.filter((question) => question.active).length, 863);
+  assert.equal(bank.questions.length, 900);
+  assert.equal(bank.questions.filter((question) => question.active).length, 898);
   assert.equal(
     bank.questions.filter((question) => question.provenance === "generated_from_compendium").length,
-    518,
+    553,
   );
   assert.deepEqual(
     [...new Set(bank.questions.map((question) => question.subject_code))].sort(),
@@ -46,7 +46,13 @@ test("the main interface contains the beta entry points", async () => {
   const source = await readFile(new URL("../app/page.tsx", import.meta.url), "utf8");
   assert.match(source, /Simulador de examen final/);
   assert.match(source, /Carrera de Derecho/);
-  assert.match(source, /Tiempo restante/);
+  assert.match(source, /Tiempo empleado/);
+  assert.match(source, /aula-juridica-active-attempt/);
+  assert.match(source, /Pausar intento/);
+  assert.match(source, /Continuar donde quedé/);
+  assert.match(source, /Terminar y ver resultado/);
+  assert.match(source, /Cerrar intento/);
+  assert.doesNotMatch(source, /secondsLeft === 0/);
   assert.match(source, /Retroalimentación/);
   assert.match(source, /subjectCatalog/);
   assert.match(source, /Para recordar:/);
@@ -59,4 +65,18 @@ test("DER101 includes the subject-of-law question with structured feedback", () 
   assert.match(question.explanation, /derechos y asumir obligaciones/i);
   assert.match(question.memory_key, /puede ser sujeto del Derecho/i);
   assert.equal(question.why_options_are_wrong.B.length > 0, true);
+});
+
+test("DER101 includes the reconstructed previous-exam set", () => {
+  const reconstructed = bank.questions.filter((item) => {
+    const number = Number(item.id.replace("DER101-P", ""));
+    return item.subject_code === "DER101" && number >= 126 && number <= 160;
+  });
+
+  assert.equal(reconstructed.length, 35);
+  assert.equal(reconstructed.filter((item) => item.question_type === "single_choice").length, 24);
+  assert.equal(reconstructed.filter((item) => item.question_type === "multiple_choice").length, 3);
+  assert.equal(reconstructed.filter((item) => item.question_type === "ordering").length, 2);
+  assert.equal(reconstructed.filter((item) => item.question_type === "matching").length, 6);
+  assert.ok(reconstructed.every((item) => item.source.includes("introduccion_al_derecho_texto_completo.md")));
 });

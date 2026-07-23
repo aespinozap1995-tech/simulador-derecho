@@ -24,10 +24,10 @@ const applicationScript = template
 if (output.includes("__QUESTION_DATA__")) {
   throw new Error("No se pudo insertar el banco de preguntas en el HTML.");
 }
-if (questions.length !== 865 || questions.filter((question) => question.active).length !== 863) {
+if (questions.length !== 900 || questions.filter((question) => question.active).length !== 898) {
   throw new Error("El inventario de preguntas no coincide con el banco validado.");
 }
 new Function(applicationScript);
 
 await writeFile(outputPath, output, "utf8");
-console.log(`${outputPath} — ${Buffer.byteLength(output)} bytes — 863 preguntas activas`);
+console.log(`${outputPath} — ${Buffer.byteLength(output)} bytes — 898 preguntas activas`);

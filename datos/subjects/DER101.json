@@ -3,9 +3,10 @@
   "subject_name": "Introducción al Derecho",
   "source_files": [
     "Procesado/DER 101 - Introducción al Derecho/banco_preguntas.md",
-    "Procesado/DER 101 - Introducción al Derecho/preguntas_compendios.md"
+    "Procesado/DER 101 - Introducción al Derecho/preguntas_compendios.md",
+    "Procesado/DER 101 - Introducción al Derecho/preguntas_examenes_anteriores.md"
   ],
-  "total": 125,
+  "total": 160,
   "questions": [
     {
       "id": "DER101-P001",
@@ -6078,6 +6079,1741 @@
       "memory_key": "Concepto y definición deben conservar el mismo núcleo de significado.",
       "common_confusion": "No emparejes solo por una palabra compartida; comprueba el sentido completo de cada descripción.",
       "options_note": "Conceptos: Fuentes Formales | El negocio jurídico en el Derecho Privado | Concepto de orden jurídico | Diferencia entre norma jurídica, norma | Descripciones: moral y norma social La normatividad jurídica es un concepto esencial en el estudio del derecho, ya que establece el marco dentro del cual se desarrollan las relaciones sociales y se regulan comportamientos. | Corriente Institucional: Se alinea con el iuspositivismo, sosteniendo que el ordenamiento jurídico es producto de la sociedad y sus mecanismos de garantía de legalidad y consenso (CONCEPTO). 4 EL ORDEN JURÍDICO Y LA CULTURA. | El negocio jurídico es un concepto fundamental en el Derecho Privado, que regula las relaciones entre particulares. | Procedimientos y modos formales mediante los cuales se crean las normas jurídicas: Legislación: Proceso formal estatal mediante el cual se promulgan normas escritas. Jurisprudencia: Conjunto de principios y doctrinas emitidas por los tribunales."
+    },
+    {
+      "id": "DER101-P126",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Estadios de evolución de las costumbres",
+      "question_type": "ordering",
+      "topic": "Costumbre jurídica",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "introduccion_al_derecho_texto_completo.md, apartado «Las fuentes del Derecho y la normatividad jurídica», páginas extraídas 168-179; banco complementario atribuido a exámenes anteriores",
+      "prompt": "Ordene los tres estadios de evolución de las costumbres descritos en el compendio.",
+      "options": [],
+      "answer": {
+        "raw": "1. Predominan inicialmente los motivos religiosos y luego los morales; 2. Se organizan las relaciones sociales y comienzan a diferenciarse los motivos moral y religioso; 3. Las costumbres, el Derecho y la moralidad se distinguen completamente",
+        "option_ids": [],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": [
+          "Predominan inicialmente los motivos religiosos y luego los morales",
+          "Se organizan las relaciones sociales y comienzan a diferenciarse los motivos moral y religioso",
+          "Las costumbres, el Derecho y la moralidad se distinguen completamente"
+        ]
+      },
+      "feedback_correct": "El compendio presenta una evolución desde la influencia religiosa y moral, pasando por la organización social, hasta la separación entre costumbre, Derecho y moralidad.",
+      "feedback_incorrect": "Revisa la idea central: Primero motivos; después organización; finalmente diferenciación.",
+      "tip": "Primero motivos; después organización; finalmente diferenciación.",
+      "explanation": "El compendio presenta una evolución desde la influencia religiosa y moral, pasando por la organización social, hasta la separación entre costumbre, Derecho y moralidad.",
+      "memory_key": "Primero motivos; después organización; finalmente diferenciación.",
+      "common_confusion": "No ordenes por importancia, sino por la secuencia histórica o expositiva solicitada.",
+      "options_note": "Los elementos se presentan en orden aleatorio durante el intento."
+    },
+    {
+      "id": "DER101-P127",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Heterogénesis de los fines",
+      "question_type": "single_choice",
+      "topic": "Costumbre jurídica",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "introduccion_al_derecho_texto_completo.md, apartado «Las fuentes del Derecho y la normatividad jurídica», páginas extraídas 168-179; banco complementario atribuido a exámenes anteriores",
+      "prompt": "Según la ley de heterogénesis de los fines, ¿qué ocurre con las costumbres?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Desaparecen cuando termina el motivo religioso que las originó"
+        },
+        {
+          "id": "B",
+          "text": "Sobreviven a sus motivos iniciales y producen efectos cada vez menos relacionados con ellos"
+        },
+        {
+          "id": "C",
+          "text": "Solo se conservan cuando una ley escrita las incorpora"
+        },
+        {
+          "id": "D",
+          "text": "Mantienen siempre exactamente el mismo propósito"
+        }
+      ],
+      "answer": {
+        "raw": "B. Sobreviven a sus motivos iniciales y producen efectos cada vez menos relacionados con ellos",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La heterogénesis explica que una costumbre puede continuar aun cuando desaparece o cambia el motivo que la originó.",
+      "feedback_incorrect": "Revisa la idea central: La costumbre puede sobrevivir a su finalidad original.",
+      "tip": "La costumbre puede sobrevivir a su finalidad original.",
+      "explanation": "La heterogénesis explica que una costumbre puede continuar aun cuando desaparece o cambia el motivo que la originó.",
+      "memory_key": "La costumbre puede sobrevivir a su finalidad original.",
+      "common_confusion": "No confundas conceptos cercanos: identifica el elemento exacto que pide el enunciado.",
+      "why_options_are_wrong": {
+        "A": "«Desaparecen cuando termina el motivo religioso que las originó» no responde al concepto o dato específico confirmado en el compendio.",
+        "C": "«Solo se conservan cuando una ley escrita las incorpora» no responde al concepto o dato específico confirmado en el compendio.",
+        "D": "«Mantienen siempre exactamente el mismo propósito» no responde al concepto o dato específico confirmado en el compendio."
+      }
+    },
+    {
+      "id": "DER101-P128",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Costumbre según Aftalión",
+      "question_type": "single_choice",
+      "topic": "Costumbre jurídica",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "introduccion_al_derecho_texto_completo.md, apartado «Las fuentes del Derecho y la normatividad jurídica», páginas extraídas 168-179; banco complementario atribuido a exámenes anteriores",
+      "prompt": "¿Cómo define Aftalión la costumbre jurídica?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Como una repetición de conducta en interferencia intersubjetiva que adquiere carácter obligatorio"
+        },
+        {
+          "id": "B",
+          "text": "Como toda sentencia dictada por un tribunal superior"
+        },
+        {
+          "id": "C",
+          "text": "Como una declaración escrita del órgano legislativo"
+        },
+        {
+          "id": "D",
+          "text": "Como una práctica individual que no produce efectos sociales"
+        }
+      ],
+      "answer": {
+        "raw": "A. Como una repetición de conducta en interferencia intersubjetiva que adquiere carácter obligatorio",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Para Aftalión, la repetición de la conducta se vuelve jurídicamente relevante cuando se le añade la idea de obligatoriedad.",
+      "feedback_incorrect": "Revisa la idea central: Aftalión: repetición más obligatoriedad.",
+      "tip": "Aftalión: repetición más obligatoriedad.",
+      "explanation": "Para Aftalión, la repetición de la conducta se vuelve jurídicamente relevante cuando se le añade la idea de obligatoriedad.",
+      "memory_key": "Aftalión: repetición más obligatoriedad.",
+      "common_confusion": "No confundas conceptos cercanos: identifica el elemento exacto que pide el enunciado.",
+      "why_options_are_wrong": {
+        "B": "«Como toda sentencia dictada por un tribunal superior» no responde al concepto o dato específico confirmado en el compendio.",
+        "C": "«Como una declaración escrita del órgano legislativo» no responde al concepto o dato específico confirmado en el compendio.",
+        "D": "«Como una práctica individual que no produce efectos sociales» no responde al concepto o dato específico confirmado en el compendio."
+      }
+    },
+    {
+      "id": "DER101-P129",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Costumbre según Latorre",
+      "question_type": "single_choice",
+      "topic": "Costumbre jurídica",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "introduccion_al_derecho_texto_completo.md, apartado «Las fuentes del Derecho y la normatividad jurídica», páginas extraídas 168-179; banco complementario atribuido a exámenes anteriores",
+      "prompt": "Según Latorre, además de un uso repetido y antiguo, ¿qué se necesita para hablar de costumbre jurídica?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La autorización previa de un juez"
+        },
+        {
+          "id": "B",
+          "text": "La publicación del uso en el Registro Oficial"
+        },
+        {
+          "id": "C",
+          "text": "La conciencia de que el uso expresa una norma obligatoria para todos"
+        },
+        {
+          "id": "D",
+          "text": "La aceptación exclusiva de quienes iniciaron la práctica"
+        }
+      ],
+      "answer": {
+        "raw": "C. La conciencia de que el uso expresa una norma obligatoria para todos",
+        "option_ids": [
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El simple uso no basta. Debe existir la convicción de que la práctica expresa una regla obligatoria.",
+      "feedback_incorrect": "Revisa la idea central: Latorre: uso más conciencia de obligatoriedad.",
+      "tip": "Latorre: uso más conciencia de obligatoriedad.",
+      "explanation": "El simple uso no basta. Debe existir la convicción de que la práctica expresa una regla obligatoria.",
+      "memory_key": "Latorre: uso más conciencia de obligatoriedad.",
+      "common_confusion": "No confundas conceptos cercanos: identifica el elemento exacto que pide el enunciado.",
+      "why_options_are_wrong": {
+        "A": "«La autorización previa de un juez» no responde al concepto o dato específico confirmado en el compendio.",
+        "B": "«La publicación del uso en el Registro Oficial» no responde al concepto o dato específico confirmado en el compendio.",
+        "D": "«La aceptación exclusiva de quienes iniciaron la práctica» no responde al concepto o dato específico confirmado en el compendio."
+      }
+    },
+    {
+      "id": "DER101-P130",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Origen consuetudinario del Derecho",
+      "question_type": "single_choice",
+      "topic": "Costumbre jurídica",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "introduccion_al_derecho_texto_completo.md, apartado «Las fuentes del Derecho y la normatividad jurídica», páginas extraídas 168-179; banco complementario atribuido a exámenes anteriores",
+      "prompt": "De acuerdo con el compendio, el Derecho surge históricamente como una diferenciación de:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Las costumbres"
+        },
+        {
+          "id": "B",
+          "text": "Los contratos mercantiles"
+        },
+        {
+          "id": "C",
+          "text": "Las decisiones administrativas"
+        },
+        {
+          "id": "D",
+          "text": "Los reglamentos legislativos"
+        }
+      ],
+      "answer": {
+        "raw": "A. Las costumbres",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El texto señala que las costumbres originan el Derecho y que este se diferencia progresivamente de ellas.",
+      "feedback_incorrect": "Revisa la idea central: La costumbre es el tronco histórico del Derecho.",
+      "tip": "La costumbre es el tronco histórico del Derecho.",
+      "explanation": "El texto señala que las costumbres originan el Derecho y que este se diferencia progresivamente de ellas.",
+      "memory_key": "La costumbre es el tronco histórico del Derecho.",
+      "common_confusion": "No confundas conceptos cercanos: identifica el elemento exacto que pide el enunciado.",
+      "why_options_are_wrong": {
+        "B": "«Los contratos mercantiles» no responde al concepto o dato específico confirmado en el compendio.",
+        "C": "«Las decisiones administrativas» no responde al concepto o dato específico confirmado en el compendio.",
+        "D": "«Los reglamentos legislativos» no responde al concepto o dato específico confirmado en el compendio."
+      }
+    },
+    {
+      "id": "DER101-P131",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Fuente más antigua del Derecho",
+      "question_type": "single_choice",
+      "topic": "Fuentes del Derecho",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "introduccion_al_derecho_texto_completo.md, apartado «Las fuentes del Derecho y la normatividad jurídica», páginas extraídas 168-179; banco complementario atribuido a exámenes anteriores",
+      "prompt": "¿Cuál es reconocida como la fuente más antigua del Derecho?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La doctrina"
+        },
+        {
+          "id": "B",
+          "text": "La jurisprudencia constitucional"
+        },
+        {
+          "id": "C",
+          "text": "La costumbre jurídica"
+        },
+        {
+          "id": "D",
+          "text": "El reglamento administrativo"
+        }
+      ],
+      "answer": {
+        "raw": "C. La costumbre jurídica",
+        "option_ids": [
+          "C"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La costumbre jurídica antecede a las grandes codificaciones y fue una forma temprana de creación del Derecho.",
+      "feedback_incorrect": "Revisa la idea central: Antes de la ley escrita estuvo la costumbre.",
+      "tip": "Antes de la ley escrita estuvo la costumbre.",
+      "explanation": "La costumbre jurídica antecede a las grandes codificaciones y fue una forma temprana de creación del Derecho.",
+      "memory_key": "Antes de la ley escrita estuvo la costumbre.",
+      "common_confusion": "No confundas conceptos cercanos: identifica el elemento exacto que pide el enunciado.",
+      "why_options_are_wrong": {
+        "A": "«La doctrina» no responde al concepto o dato específico confirmado en el compendio.",
+        "B": "«La jurisprudencia constitucional» no responde al concepto o dato específico confirmado en el compendio.",
+        "D": "«El reglamento administrativo» no responde al concepto o dato específico confirmado en el compendio."
+      }
+    },
+    {
+      "id": "DER101-P132",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Leyes de evolución de las costumbres",
+      "question_type": "single_choice",
+      "topic": "Costumbre jurídica",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "introduccion_al_derecho_texto_completo.md, apartado «Las fuentes del Derecho y la normatividad jurídica», páginas extraídas 168-179; banco complementario atribuido a exámenes anteriores",
+      "prompt": "¿Cuántas leyes señala el compendio para explicar la evolución de las costumbres?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Una"
+        },
+        {
+          "id": "B",
+          "text": "Dos"
+        },
+        {
+          "id": "C",
+          "text": "Tres"
+        },
+        {
+          "id": "D",
+          "text": "Cuatro"
+        }
+      ],
+      "answer": {
+        "raw": "B. Dos",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El texto anuncia expresamente dos leyes que rigen la evolución de las costumbres.",
+      "feedback_incorrect": "Revisa la idea central: Evolución de las costumbres: dos leyes.",
+      "tip": "Evolución de las costumbres: dos leyes.",
+      "explanation": "El texto anuncia expresamente dos leyes que rigen la evolución de las costumbres.",
+      "memory_key": "Evolución de las costumbres: dos leyes.",
+      "common_confusion": "No confundas conceptos cercanos: identifica el elemento exacto que pide el enunciado.",
+      "why_options_are_wrong": {
+        "A": "«Una» no responde al concepto o dato específico confirmado en el compendio.",
+        "C": "«Tres» no responde al concepto o dato específico confirmado en el compendio.",
+        "D": "«Cuatro» no responde al concepto o dato específico confirmado en el compendio."
+      }
+    },
+    {
+      "id": "DER101-P133",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Mito y costumbre",
+      "question_type": "single_choice",
+      "topic": "Costumbre jurídica",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "introduccion_al_derecho_texto_completo.md, apartado «Las fuentes del Derecho y la normatividad jurídica», páginas extraídas 168-179; banco complementario atribuido a exámenes anteriores",
+      "prompt": "¿Cómo describe el compendio la influencia del mito sobre las costumbres?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Secundaria frente a la ley escrita"
+        },
+        {
+          "id": "B",
+          "text": "Preponderante, como la del sentimiento sobre la acción individual"
+        },
+        {
+          "id": "C",
+          "text": "Inexistente desde el primer estadio"
+        },
+        {
+          "id": "D",
+          "text": "Limitada únicamente a las normas penales"
+        }
+      ],
+      "answer": {
+        "raw": "B. Preponderante, como la del sentimiento sobre la acción individual",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El texto atribuye al mito una influencia preponderante en la formación temprana de las costumbres.",
+      "feedback_incorrect": "Revisa la idea central: En los primeros estadios, mito y sentimiento tienen gran influencia.",
+      "tip": "En los primeros estadios, mito y sentimiento tienen gran influencia.",
+      "explanation": "El texto atribuye al mito una influencia preponderante en la formación temprana de las costumbres.",
+      "memory_key": "En los primeros estadios, mito y sentimiento tienen gran influencia.",
+      "common_confusion": "No confundas conceptos cercanos: identifica el elemento exacto que pide el enunciado.",
+      "why_options_are_wrong": {
+        "A": "«Secundaria frente a la ley escrita» no responde al concepto o dato específico confirmado en el compendio.",
+        "C": "«Inexistente desde el primer estadio» no responde al concepto o dato específico confirmado en el compendio.",
+        "D": "«Limitada únicamente a las normas penales» no responde al concepto o dato específico confirmado en el compendio."
+      }
+    },
+    {
+      "id": "DER101-P134",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Ley en sentido formal y material",
+      "question_type": "matching",
+      "topic": "La ley",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "introduccion_al_derecho_texto_completo.md, apartado «Las fuentes del Derecho y la normatividad jurídica», páginas extraídas 168-179; banco complementario atribuido a exámenes anteriores",
+      "prompt": "Relacione cada clase de ley con la descripción que le corresponde.",
+      "options": [],
+      "answer": {
+        "raw": "Ley en sentido formal → Acto emanado del órgano legislativo, independientemente de su contenido normativo; Ley en sentido material → Acto que contiene normas generales y abstractas, sin importar el órgano que lo emite; Ley en sentido formal y material → Acto del órgano legislativo que además está provisto de contenido normativo",
+        "option_ids": [],
+        "accepted_text": [],
+        "pairs": [
+          {
+            "left": "Ley en sentido formal",
+            "right": "Acto emanado del órgano legislativo, independientemente de su contenido normativo"
+          },
+          {
+            "left": "Ley en sentido material",
+            "right": "Acto que contiene normas generales y abstractas, sin importar el órgano que lo emite"
+          },
+          {
+            "left": "Ley en sentido formal y material",
+            "right": "Acto del órgano legislativo que además está provisto de contenido normativo"
+          }
+        ],
+        "ordered_items": []
+      },
+      "feedback_correct": "La clasificación distingue el órgano que produce el acto —sentido formal— de su contenido general y abstracto —sentido material—.",
+      "feedback_incorrect": "Revisa la idea central: Formal mira al órgano; material mira al contenido.",
+      "tip": "Formal mira al órgano; material mira al contenido.",
+      "explanation": "La clasificación distingue el órgano que produce el acto —sentido formal— de su contenido general y abstracto —sentido material—.",
+      "memory_key": "Formal mira al órgano; material mira al contenido.",
+      "common_confusion": "Relaciona cada concepto con su rasgo distintivo, no solo con palabras parecidas.",
+      "options_note": "Conceptos y descripciones se presentan en orden aleatorio durante el intento."
+    },
+    {
+      "id": "DER101-P135",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Definición legal de ley",
+      "question_type": "single_choice",
+      "topic": "La ley",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "introduccion_al_derecho_texto_completo.md, apartado «Las fuentes del Derecho y la normatividad jurídica», páginas extraídas 168-179; banco complementario atribuido a exámenes anteriores",
+      "prompt": "Según el Código Civil ecuatoriano citado en el material, la ley es:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Una recomendación de los tribunales para orientar a la ciudadanía"
+        },
+        {
+          "id": "B",
+          "text": "Una declaración de la voluntad soberana que, manifestada en la forma prescrita por la Constitución, manda, prohíbe o permite"
+        },
+        {
+          "id": "C",
+          "text": "Toda práctica social repetida durante un periodo prolongado"
+        },
+        {
+          "id": "D",
+          "text": "Un acuerdo privado celebrado entre dos o más personas"
+        }
+      ],
+      "answer": {
+        "raw": "B. Una declaración de la voluntad soberana que, manifestada en la forma prescrita por la Constitución, manda, prohíbe o permite",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La definición legal destaca la voluntad soberana, la forma constitucional y sus tres posibles efectos: mandar, prohibir o permitir.",
+      "feedback_incorrect": "Revisa la idea central: La ley manda, prohíbe o permite.",
+      "tip": "La ley manda, prohíbe o permite.",
+      "explanation": "La definición legal destaca la voluntad soberana, la forma constitucional y sus tres posibles efectos: mandar, prohibir o permitir.",
+      "memory_key": "La ley manda, prohíbe o permite.",
+      "common_confusion": "No confundas conceptos cercanos: identifica el elemento exacto que pide el enunciado.",
+      "why_options_are_wrong": {
+        "A": "«Una recomendación de los tribunales para orientar a la ciudadanía» no responde al concepto o dato específico confirmado en el compendio.",
+        "C": "«Toda práctica social repetida durante un periodo prolongado» no responde al concepto o dato específico confirmado en el compendio.",
+        "D": "«Un acuerdo privado celebrado entre dos o más personas» no responde al concepto o dato específico confirmado en el compendio."
+      }
+    },
+    {
+      "id": "DER101-P136",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Aprobación de la ley",
+      "question_type": "single_choice",
+      "topic": "La ley",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "introduccion_al_derecho_texto_completo.md, apartado «Las fuentes del Derecho y la normatividad jurídica», páginas extraídas 168-179; banco complementario atribuido a exámenes anteriores",
+      "prompt": "¿Qué caracteriza a la ley como acto normativo?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Es aprobada por el órgano legislativo competente mediante el procedimiento constitucional"
+        },
+        {
+          "id": "B",
+          "text": "Es emitida libremente por cualquier servidor público"
+        },
+        {
+          "id": "C",
+          "text": "Surge únicamente de la repetición de sentencias"
+        },
+        {
+          "id": "D",
+          "text": "Depende de la aceptación individual de cada ciudadano"
+        }
+      ],
+      "answer": {
+        "raw": "A. Es aprobada por el órgano legislativo competente mediante el procedimiento constitucional",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La ley requiere órgano competente y observancia del procedimiento de creación previsto constitucionalmente.",
+      "feedback_incorrect": "Revisa la idea central: Ley: órgano legislativo competente más procedimiento constitucional.",
+      "tip": "Ley: órgano legislativo competente más procedimiento constitucional.",
+      "explanation": "La ley requiere órgano competente y observancia del procedimiento de creación previsto constitucionalmente.",
+      "memory_key": "Ley: órgano legislativo competente más procedimiento constitucional.",
+      "common_confusion": "No confundas conceptos cercanos: identifica el elemento exacto que pide el enunciado.",
+      "why_options_are_wrong": {
+        "B": "«Es emitida libremente por cualquier servidor público» no responde al concepto o dato específico confirmado en el compendio.",
+        "C": "«Surge únicamente de la repetición de sentencias» no responde al concepto o dato específico confirmado en el compendio.",
+        "D": "«Depende de la aceptación individual de cada ciudadano» no responde al concepto o dato específico confirmado en el compendio."
+      }
+    },
+    {
+      "id": "DER101-P137",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Fuente del Derecho",
+      "question_type": "single_choice",
+      "topic": "Fuentes del Derecho",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "introduccion_al_derecho_texto_completo.md, apartado «Las fuentes del Derecho y la normatividad jurídica», páginas extraídas 168-179; banco complementario atribuido a exámenes anteriores",
+      "prompt": "En el sentido explicado por el compendio, una fuente del Derecho es:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cada acto o documento que produce normas, independientemente de su régimen jurídico"
+        },
+        {
+          "id": "B",
+          "text": "Solo una ley aprobada por la Asamblea Nacional"
+        },
+        {
+          "id": "C",
+          "text": "Cualquier opinión personal sobre la justicia"
+        },
+        {
+          "id": "D",
+          "text": "Únicamente una sentencia de la Corte Constitucional"
+        }
+      ],
+      "answer": {
+        "raw": "A. Cada acto o documento que produce normas, independientemente de su régimen jurídico",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El concepto de fuente se refiere al origen productor de normas y no se limita a un único órgano o tipo documental.",
+      "feedback_incorrect": "Revisa la idea central: Fuente es aquello de donde nace una norma.",
+      "tip": "Fuente es aquello de donde nace una norma.",
+      "explanation": "El concepto de fuente se refiere al origen productor de normas y no se limita a un único órgano o tipo documental.",
+      "memory_key": "Fuente es aquello de donde nace una norma.",
+      "common_confusion": "No confundas conceptos cercanos: identifica el elemento exacto que pide el enunciado.",
+      "why_options_are_wrong": {
+        "B": "«Solo una ley aprobada por la Asamblea Nacional» no responde al concepto o dato específico confirmado en el compendio.",
+        "C": "«Cualquier opinión personal sobre la justicia» no responde al concepto o dato específico confirmado en el compendio.",
+        "D": "«Únicamente una sentencia de la Corte Constitucional» no responde al concepto o dato específico confirmado en el compendio."
+      }
+    },
+    {
+      "id": "DER101-P138",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Etimología de jurisprudencia",
+      "question_type": "matching",
+      "topic": "Jurisprudencia",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "introduccion_al_derecho_texto_completo.md, apartado «Las fuentes del Derecho y la normatividad jurídica», páginas extraídas 168-179; banco complementario atribuido a exámenes anteriores",
+      "prompt": "Relacione cada término con su significado.",
+      "options": [],
+      "answer": {
+        "raw": "Ius → Derecho; Prudentia → Sabiduría o conocimiento; Iurisprudentia → Sabiduría del Derecho",
+        "option_ids": [],
+        "accepted_text": [],
+        "pairs": [
+          {
+            "left": "Ius",
+            "right": "Derecho"
+          },
+          {
+            "left": "Prudentia",
+            "right": "Sabiduría o conocimiento"
+          },
+          {
+            "left": "Iurisprudentia",
+            "right": "Sabiduría del Derecho"
+          }
+        ],
+        "ordered_items": []
+      },
+      "feedback_correct": "La voz latina iurisprudentia se forma con ius y prudentia, de donde proviene su significado etimológico.",
+      "feedback_incorrect": "Revisa la idea central: Ius más prudentia: sabiduría del Derecho.",
+      "tip": "Ius más prudentia: sabiduría del Derecho.",
+      "explanation": "La voz latina iurisprudentia se forma con ius y prudentia, de donde proviene su significado etimológico.",
+      "memory_key": "Ius más prudentia: sabiduría del Derecho.",
+      "common_confusion": "Relaciona cada concepto con su rasgo distintivo, no solo con palabras parecidas.",
+      "options_note": "Conceptos y descripciones se presentan en orden aleatorio durante el intento."
+    },
+    {
+      "id": "DER101-P139",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Reconocimiento del Derecho judicial",
+      "question_type": "single_choice",
+      "topic": "Jurisprudencia",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "introduccion_al_derecho_texto_completo.md, apartado «Las fuentes del Derecho y la normatividad jurídica», páginas extraídas 168-179; banco complementario atribuido a exámenes anteriores",
+      "prompt": "¿Cuándo adquiere reconocimiento el Derecho judicial según el compendio?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cuando se publica una sola sentencia"
+        },
+        {
+          "id": "B",
+          "text": "Ante la repetición constante de sentencias que revela un criterio general"
+        },
+        {
+          "id": "C",
+          "text": "Cuando una parte acepta voluntariamente el fallo"
+        },
+        {
+          "id": "D",
+          "text": "Cuando la doctrina sustituye completamente a la ley"
+        }
+      ],
+      "answer": {
+        "raw": "B. Ante la repetición constante de sentencias que revela un criterio general",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "No basta una decisión aislada: la repetición constante, uniforme y coherente permite reconocer una pauta jurisprudencial.",
+      "feedback_incorrect": "Revisa la idea central: Jurisprudencia implica repetición y criterio constante.",
+      "tip": "Jurisprudencia implica repetición y criterio constante.",
+      "explanation": "No basta una decisión aislada: la repetición constante, uniforme y coherente permite reconocer una pauta jurisprudencial.",
+      "memory_key": "Jurisprudencia implica repetición y criterio constante.",
+      "common_confusion": "No confundas conceptos cercanos: identifica el elemento exacto que pide el enunciado.",
+      "why_options_are_wrong": {
+        "A": "«Cuando se publica una sola sentencia» no responde al concepto o dato específico confirmado en el compendio.",
+        "C": "«Cuando una parte acepta voluntariamente el fallo» no responde al concepto o dato específico confirmado en el compendio.",
+        "D": "«Cuando la doctrina sustituye completamente a la ley» no responde al concepto o dato específico confirmado en el compendio."
+      }
+    },
+    {
+      "id": "DER101-P140",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Importancia de la jurisprudencia judicial",
+      "question_type": "single_choice",
+      "topic": "Jurisprudencia",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "introduccion_al_derecho_texto_completo.md, apartado «Las fuentes del Derecho y la normatividad jurídica», páginas extraídas 168-179; banco complementario atribuido a exámenes anteriores",
+      "prompt": "¿En qué radica la importancia de la jurisprudencia judicial?",
+      "options": [
+        {
+          "id": "A",
+          "text": "En reemplazar todas las leyes vigentes"
+        },
+        {
+          "id": "B",
+          "text": "En dictar sentencias para casos concretos y desarrollar criterios de aplicación"
+        },
+        {
+          "id": "C",
+          "text": "En aprobar reglamentos administrativos"
+        },
+        {
+          "id": "D",
+          "text": "En recopilar exclusivamente opiniones académicas"
+        }
+      ],
+      "answer": {
+        "raw": "B. En dictar sentencias para casos concretos y desarrollar criterios de aplicación",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La jurisprudencia se forma mediante la solución de casos concretos y la consolidación de criterios para interpretar y aplicar el Derecho.",
+      "feedback_incorrect": "Revisa la idea central: La jurisprudencia lleva la norma al caso concreto.",
+      "tip": "La jurisprudencia lleva la norma al caso concreto.",
+      "explanation": "La jurisprudencia se forma mediante la solución de casos concretos y la consolidación de criterios para interpretar y aplicar el Derecho.",
+      "memory_key": "La jurisprudencia lleva la norma al caso concreto.",
+      "common_confusion": "No confundas conceptos cercanos: identifica el elemento exacto que pide el enunciado.",
+      "why_options_are_wrong": {
+        "A": "«En reemplazar todas las leyes vigentes» no responde al concepto o dato específico confirmado en el compendio.",
+        "C": "«En aprobar reglamentos administrativos» no responde al concepto o dato específico confirmado en el compendio.",
+        "D": "«En recopilar exclusivamente opiniones académicas» no responde al concepto o dato específico confirmado en el compendio."
+      }
+    },
+    {
+      "id": "DER101-P141",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Desarrollo histórico de la doctrina jurídica",
+      "question_type": "ordering",
+      "topic": "Doctrina jurídica",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "introduccion_al_derecho_texto_completo.md, apartado «Las fuentes del Derecho y la normatividad jurídica», páginas extraídas 168-179; banco complementario atribuido a exámenes anteriores",
+      "prompt": "Ordene los hitos del desarrollo de la doctrina jurídica mencionados en el compendio.",
+      "options": [],
+      "answer": {
+        "raw": "1. Desarrollo de la doctrina jurídica romana desde el siglo II antes de Cristo; 2. Alto nivel de sofisticación durante el siglo III después de Cristo; 3. Redescubrimiento y estudio renovado en la Bolonia del siglo XI; 4. Consideración de la doctrina jurídica como disciplina científica durante la Edad Media",
+        "option_ids": [],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": [
+          "Desarrollo de la doctrina jurídica romana desde el siglo II antes de Cristo",
+          "Alto nivel de sofisticación durante el siglo III después de Cristo",
+          "Redescubrimiento y estudio renovado en la Bolonia del siglo XI",
+          "Consideración de la doctrina jurídica como disciplina científica durante la Edad Media"
+        ]
+      },
+      "feedback_correct": "El compendio presenta una secuencia que parte de Roma, continúa con su sofisticación, pasa por Bolonia y llega a su consideración científica medieval.",
+      "feedback_incorrect": "Revisa la idea central: Roma, sofisticación, Bolonia y ciencia medieval.",
+      "tip": "Roma, sofisticación, Bolonia y ciencia medieval.",
+      "explanation": "El compendio presenta una secuencia que parte de Roma, continúa con su sofisticación, pasa por Bolonia y llega a su consideración científica medieval.",
+      "memory_key": "Roma, sofisticación, Bolonia y ciencia medieval.",
+      "common_confusion": "No ordenes por importancia, sino por la secuencia histórica o expositiva solicitada.",
+      "options_note": "Los elementos se presentan en orden aleatorio durante el intento."
+    },
+    {
+      "id": "DER101-P142",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Significado de doctrina",
+      "question_type": "single_choice",
+      "topic": "Doctrina jurídica",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "introduccion_al_derecho_texto_completo.md, apartado «Las fuentes del Derecho y la normatividad jurídica», páginas extraídas 168-179; banco complementario atribuido a exámenes anteriores",
+      "prompt": "¿Qué significa doctrina en el ámbito del Derecho?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La formulación y desarrollo de enunciados teóricos para explicar, mantener o modificar una realidad"
+        },
+        {
+          "id": "B",
+          "text": "La repetición automática de decisiones judiciales"
+        },
+        {
+          "id": "C",
+          "text": "La sanción impuesta por incumplir una ley"
+        },
+        {
+          "id": "D",
+          "text": "El conjunto exclusivo de reglamentos del Ejecutivo"
+        }
+      ],
+      "answer": {
+        "raw": "A. La formulación y desarrollo de enunciados teóricos para explicar, mantener o modificar una realidad",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La doctrina desarrolla explicaciones teóricas rigurosas sobre la realidad jurídica y orienta su comprensión o modificación.",
+      "feedback_incorrect": "Revisa la idea central: Doctrina es elaboración teórica sobre el Derecho.",
+      "tip": "Doctrina es elaboración teórica sobre el Derecho.",
+      "explanation": "La doctrina desarrolla explicaciones teóricas rigurosas sobre la realidad jurídica y orienta su comprensión o modificación.",
+      "memory_key": "Doctrina es elaboración teórica sobre el Derecho.",
+      "common_confusion": "No confundas conceptos cercanos: identifica el elemento exacto que pide el enunciado.",
+      "why_options_are_wrong": {
+        "B": "«La repetición automática de decisiones judiciales» no responde al concepto o dato específico confirmado en el compendio.",
+        "C": "«La sanción impuesta por incumplir una ley» no responde al concepto o dato específico confirmado en el compendio.",
+        "D": "«El conjunto exclusivo de reglamentos del Ejecutivo» no responde al concepto o dato específico confirmado en el compendio."
+      }
+    },
+    {
+      "id": "DER101-P143",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Inicio de la doctrina jurídica romana",
+      "question_type": "single_choice",
+      "topic": "Doctrina jurídica",
+      "difficulty": "basic",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "introduccion_al_derecho_texto_completo.md, apartado «Las fuentes del Derecho y la normatividad jurídica», páginas extraídas 168-179; banco complementario atribuido a exámenes anteriores",
+      "prompt": "¿Desde qué época se desarrolló la doctrina jurídica romana según el compendio?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Desde el siglo II antes de Cristo"
+        },
+        {
+          "id": "B",
+          "text": "Desde el siglo XI después de Cristo"
+        },
+        {
+          "id": "C",
+          "text": "Desde el siglo XIX"
+        },
+        {
+          "id": "D",
+          "text": "Desde el siglo III antes de Cristo"
+        }
+      ],
+      "answer": {
+        "raw": "A. Desde el siglo II antes de Cristo",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El material sitúa el inicio de su desarrollo en el siglo II antes de Cristo.",
+      "feedback_incorrect": "Revisa la idea central: Doctrina romana: siglo II a. C.",
+      "tip": "Doctrina romana: siglo II a. C.",
+      "explanation": "El material sitúa el inicio de su desarrollo en el siglo II antes de Cristo.",
+      "memory_key": "Doctrina romana: siglo II a. C.",
+      "common_confusion": "No confundas conceptos cercanos: identifica el elemento exacto que pide el enunciado.",
+      "why_options_are_wrong": {
+        "B": "«Desde el siglo XI después de Cristo» no responde al concepto o dato específico confirmado en el compendio.",
+        "C": "«Desde el siglo XIX» no responde al concepto o dato específico confirmado en el compendio.",
+        "D": "«Desde el siglo III antes de Cristo» no responde al concepto o dato específico confirmado en el compendio."
+      }
+    },
+    {
+      "id": "DER101-P144",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Doctrina durante la Edad Media",
+      "question_type": "single_choice",
+      "topic": "Doctrina jurídica",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "introduccion_al_derecho_texto_completo.md, apartado «Las fuentes del Derecho y la normatividad jurídica», páginas extraídas 168-179; banco complementario atribuido a exámenes anteriores",
+      "prompt": "¿Cómo era considerada la doctrina jurídica durante la Edad Media?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Como una práctica sin valor académico"
+        },
+        {
+          "id": "B",
+          "text": "Como una disciplina científica"
+        },
+        {
+          "id": "C",
+          "text": "Como una costumbre exclusivamente religiosa"
+        },
+        {
+          "id": "D",
+          "text": "Como una actividad reservada al poder ejecutivo"
+        }
+      ],
+      "answer": {
+        "raw": "B. Como una disciplina científica",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Durante la Edad Media, la interpretación autorizada otorgaba a la doctrina jurídica estatus de disciplina científica.",
+      "feedback_incorrect": "Revisa la idea central: En la Edad Media, la doctrina se consideraba ciencia.",
+      "tip": "En la Edad Media, la doctrina se consideraba ciencia.",
+      "explanation": "Durante la Edad Media, la interpretación autorizada otorgaba a la doctrina jurídica estatus de disciplina científica.",
+      "memory_key": "En la Edad Media, la doctrina se consideraba ciencia.",
+      "common_confusion": "No confundas conceptos cercanos: identifica el elemento exacto que pide el enunciado.",
+      "why_options_are_wrong": {
+        "A": "«Como una práctica sin valor académico» no responde al concepto o dato específico confirmado en el compendio.",
+        "C": "«Como una costumbre exclusivamente religiosa» no responde al concepto o dato específico confirmado en el compendio.",
+        "D": "«Como una actividad reservada al poder ejecutivo» no responde al concepto o dato específico confirmado en el compendio."
+      }
+    },
+    {
+      "id": "DER101-P145",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Características de la ley",
+      "question_type": "matching",
+      "topic": "La ley",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "introduccion_al_derecho_texto_completo.md, apartado «Las fuentes del Derecho y la normatividad jurídica», páginas extraídas 168-179; banco complementario atribuido a exámenes anteriores",
+      "prompt": "Relacione cada característica de la ley con su explicación.",
+      "options": [],
+      "answer": {
+        "raw": "Generalidad → Se aplica a todas las personas que se encuentran en las condiciones previstas; Abstracción → Regula categorías de casos no individualizados de antemano; Impersonalidad → No se crea para una persona determinada; Permanencia → Conserva vigencia hasta que sea modificada o derogada",
+        "option_ids": [],
+        "accepted_text": [],
+        "pairs": [
+          {
+            "left": "Generalidad",
+            "right": "Se aplica a todas las personas que se encuentran en las condiciones previstas"
+          },
+          {
+            "left": "Abstracción",
+            "right": "Regula categorías de casos no individualizados de antemano"
+          },
+          {
+            "left": "Impersonalidad",
+            "right": "No se crea para una persona determinada"
+          },
+          {
+            "left": "Permanencia",
+            "right": "Conserva vigencia hasta que sea modificada o derogada"
+          }
+        ],
+        "ordered_items": []
+      },
+      "feedback_correct": "Estas características permiten que la ley opere de manera general y estable, sin dirigirse a una persona o caso individual.",
+      "feedback_incorrect": "Revisa la idea central: General: personas; abstracta: casos; impersonal: sin nombre; permanente: hasta su cambio.",
+      "tip": "General: personas; abstracta: casos; impersonal: sin nombre; permanente: hasta su cambio.",
+      "explanation": "Estas características permiten que la ley opere de manera general y estable, sin dirigirse a una persona o caso individual.",
+      "memory_key": "General: personas; abstracta: casos; impersonal: sin nombre; permanente: hasta su cambio.",
+      "common_confusion": "Relaciona cada concepto con su rasgo distintivo, no solo con palabras parecidas.",
+      "options_note": "Conceptos y descripciones se presentan en orden aleatorio durante el intento."
+    },
+    {
+      "id": "DER101-P146",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Rasgos de las leyes",
+      "question_type": "multiple_choice",
+      "topic": "La ley",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "introduccion_al_derecho_texto_completo.md, apartado «Las fuentes del Derecho y la normatividad jurídica», páginas extraídas 168-179; banco complementario atribuido a exámenes anteriores",
+      "prompt": "Seleccione todas las afirmaciones correctas sobre las características de las leyes.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Son obligatorias incluso cuando una persona no está de acuerdo con ellas"
+        },
+        {
+          "id": "B",
+          "text": "Se crean normalmente para una persona identificada por su nombre"
+        },
+        {
+          "id": "C",
+          "text": "Son abstractas porque contemplan categorías de casos no particularizados"
+        },
+        {
+          "id": "D",
+          "text": "Son impersonales porque no se dirigen a un individuo determinado"
+        }
+      ],
+      "answer": {
+        "raw": "A, C y D. A. Son obligatorias incluso cuando una persona no está de acuerdo con ellas; C. Son abstractas porque contemplan categorías de casos no particularizados; D. Son impersonales porque no se dirigen a un individuo determinado",
+        "option_ids": [
+          "A",
+          "C",
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La obligatoriedad, abstracción e impersonalidad son rasgos de la ley. Dirigirse a una persona concreta contradice su impersonalidad.",
+      "feedback_incorrect": "Revisa la idea central: La ley obliga y regula casos generales, no personas nombradas.",
+      "tip": "La ley obliga y regula casos generales, no personas nombradas.",
+      "explanation": "La obligatoriedad, abstracción e impersonalidad son rasgos de la ley. Dirigirse a una persona concreta contradice su impersonalidad.",
+      "memory_key": "La ley obliga y regula casos generales, no personas nombradas.",
+      "common_confusion": "Revisa cada afirmación por separado; puede haber más de una correcta.",
+      "why_options_are_wrong": {
+        "B": "«Se crean normalmente para una persona identificada por su nombre» no responde al concepto o dato específico confirmado en el compendio."
+      }
+    },
+    {
+      "id": "DER101-P147",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Leyes imperativas",
+      "question_type": "single_choice",
+      "topic": "Clasificación de la ley",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "introduccion_al_derecho_texto_completo.md, apartado «Las fuentes del Derecho y la normatividad jurídica», páginas extraídas 168-179; banco complementario atribuido a exámenes anteriores",
+      "prompt": "¿Qué son las leyes imperativas?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Normas cuyo cumplimiento es obligatorio"
+        },
+        {
+          "id": "B",
+          "text": "Consejos que pueden ignorarse libremente"
+        },
+        {
+          "id": "C",
+          "text": "Reglas aplicables solo si las partes las aceptan después"
+        },
+        {
+          "id": "D",
+          "text": "Opiniones académicas sin fuerza normativa"
+        }
+      ],
+      "answer": {
+        "raw": "A. Normas cuyo cumplimiento es obligatorio",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Las leyes imperativas imponen una conducta obligatoria y no quedan a libre disposición de sus destinatarios.",
+      "feedback_incorrect": "Revisa la idea central: Imperativa significa cumplimiento obligatorio.",
+      "tip": "Imperativa significa cumplimiento obligatorio.",
+      "explanation": "Las leyes imperativas imponen una conducta obligatoria y no quedan a libre disposición de sus destinatarios.",
+      "memory_key": "Imperativa significa cumplimiento obligatorio.",
+      "common_confusion": "No confundas conceptos cercanos: identifica el elemento exacto que pide el enunciado.",
+      "why_options_are_wrong": {
+        "B": "«Consejos que pueden ignorarse libremente» no responde al concepto o dato específico confirmado en el compendio.",
+        "C": "«Reglas aplicables solo si las partes las aceptan después» no responde al concepto o dato específico confirmado en el compendio.",
+        "D": "«Opiniones académicas sin fuerza normativa» no responde al concepto o dato específico confirmado en el compendio."
+      }
+    },
+    {
+      "id": "DER101-P148",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Leyes prohibitivas",
+      "question_type": "single_choice",
+      "topic": "Clasificación de la ley",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "introduccion_al_derecho_texto_completo.md, apartado «Las fuentes del Derecho y la normatividad jurídica», páginas extraídas 168-179; banco complementario atribuido a exámenes anteriores",
+      "prompt": "¿Qué función cumplen las leyes prohibitivas?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Autorizar cualquier conducta no escrita"
+        },
+        {
+          "id": "B",
+          "text": "Impedir la realización de determinados actos jurídicos"
+        },
+        {
+          "id": "C",
+          "text": "Explicar el significado histórico de una costumbre"
+        },
+        {
+          "id": "D",
+          "text": "Recomendar soluciones sin imponerlas"
+        }
+      ],
+      "answer": {
+        "raw": "B. Impedir la realización de determinados actos jurídicos",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La norma prohibitiva impide realizar la conducta o el acto señalado por el ordenamiento.",
+      "feedback_incorrect": "Revisa la idea central: Prohibitiva: establece lo que no debe hacerse.",
+      "tip": "Prohibitiva: establece lo que no debe hacerse.",
+      "explanation": "La norma prohibitiva impide realizar la conducta o el acto señalado por el ordenamiento.",
+      "memory_key": "Prohibitiva: establece lo que no debe hacerse.",
+      "common_confusion": "No confundas conceptos cercanos: identifica el elemento exacto que pide el enunciado.",
+      "why_options_are_wrong": {
+        "A": "«Autorizar cualquier conducta no escrita» no responde al concepto o dato específico confirmado en el compendio.",
+        "C": "«Explicar el significado histórico de una costumbre» no responde al concepto o dato específico confirmado en el compendio.",
+        "D": "«Recomendar soluciones sin imponerlas» no responde al concepto o dato específico confirmado en el compendio."
+      }
+    },
+    {
+      "id": "DER101-P149",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Concepto de antinomia",
+      "question_type": "single_choice",
+      "topic": "Antinomias jurídicas",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "introduccion_al_derecho_texto_completo.md, apartado «El orden jurídico y la cultura»; banco complementario atribuido a exámenes anteriores",
+      "prompt": "¿Qué es una antinomia jurídica?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La ausencia total de una norma aplicable a un caso"
+        },
+        {
+          "id": "B",
+          "text": "La incompatibilidad entre normas que atribuyen consecuencias jurídicas contradictorias a un mismo supuesto"
+        },
+        {
+          "id": "C",
+          "text": "La coincidencia de dos normas con idéntico contenido"
+        },
+        {
+          "id": "D",
+          "text": "La pérdida de vigencia de una norma por falta de uso"
+        }
+      ],
+      "answer": {
+        "raw": "B. La incompatibilidad entre normas que atribuyen consecuencias jurídicas contradictorias a un mismo supuesto",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Existe antinomia cuando dos normas aplicables entran en contradicción y no pueden ejecutarse simultáneamente para el mismo supuesto.",
+      "feedback_incorrect": "Revisa la idea central: Antinomia es conflicto entre normas; laguna es ausencia de norma.",
+      "tip": "Antinomia es conflicto entre normas; laguna es ausencia de norma.",
+      "explanation": "Existe antinomia cuando dos normas aplicables entran en contradicción y no pueden ejecutarse simultáneamente para el mismo supuesto.",
+      "memory_key": "Antinomia es conflicto entre normas; laguna es ausencia de norma.",
+      "common_confusion": "No confundas conceptos cercanos: identifica el elemento exacto que pide el enunciado.",
+      "why_options_are_wrong": {
+        "A": "«La ausencia total de una norma aplicable a un caso» no responde al concepto o dato específico confirmado en el compendio.",
+        "C": "«La coincidencia de dos normas con idéntico contenido» no responde al concepto o dato específico confirmado en el compendio.",
+        "D": "«La pérdida de vigencia de una norma por falta de uso» no responde al concepto o dato específico confirmado en el compendio."
+      }
+    },
+    {
+      "id": "DER101-P150",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Jerarquía ante conflicto normativo",
+      "question_type": "single_choice",
+      "topic": "Jerarquía normativa",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "introduccion_al_derecho_texto_completo.md, apartado «El orden jurídico y la cultura»; banco complementario atribuido a exámenes anteriores",
+      "prompt": "Según el artículo 425 de la Constitución citado en el compendio, ¿cómo se resuelve un conflicto entre normas de distinta jerarquía?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Aplicando la norma jerárquicamente superior"
+        },
+        {
+          "id": "B",
+          "text": "Aplicando siempre la norma más antigua"
+        },
+        {
+          "id": "C",
+          "text": "Eligiendo la norma de menor rango"
+        },
+        {
+          "id": "D",
+          "text": "Dejando ambas normas sin efecto automáticamente"
+        }
+      ],
+      "answer": {
+        "raw": "A. Aplicando la norma jerárquicamente superior",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El criterio jerárquico exige aplicar la norma superior, considerando también el principio de competencia cuando corresponda.",
+      "feedback_incorrect": "Revisa la idea central: En conflicto de jerarquía, prevalece la norma superior.",
+      "tip": "En conflicto de jerarquía, prevalece la norma superior.",
+      "explanation": "El criterio jerárquico exige aplicar la norma superior, considerando también el principio de competencia cuando corresponda.",
+      "memory_key": "En conflicto de jerarquía, prevalece la norma superior.",
+      "common_confusion": "No confundas conceptos cercanos: identifica el elemento exacto que pide el enunciado.",
+      "why_options_are_wrong": {
+        "B": "«Aplicando siempre la norma más antigua» no responde al concepto o dato específico confirmado en el compendio.",
+        "C": "«Eligiendo la norma de menor rango» no responde al concepto o dato específico confirmado en el compendio.",
+        "D": "«Dejando ambas normas sin efecto automáticamente» no responde al concepto o dato específico confirmado en el compendio."
+      }
+    },
+    {
+      "id": "DER101-P151",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Generalidad de la ley",
+      "question_type": "single_choice",
+      "topic": "Características de la ley",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "introduccion_al_derecho_texto_completo.md, apartado «Las fuentes del Derecho y la normatividad jurídica», páginas extraídas 168-179; banco complementario atribuido a exámenes anteriores",
+      "prompt": "Una ley aplicable a todas las personas que reúnen las condiciones previstas manifiesta la característica de:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Generalidad"
+        },
+        {
+          "id": "B",
+          "text": "Retroactividad"
+        },
+        {
+          "id": "C",
+          "text": "Individualidad"
+        },
+        {
+          "id": "D",
+          "text": "Temporalidad"
+        }
+      ],
+      "answer": {
+        "raw": "A. Generalidad",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La generalidad significa que la norma comprende a todos quienes se encuentren dentro del supuesto regulado.",
+      "feedback_incorrect": "Revisa la idea central: Generalidad: todos los que cumplen el supuesto.",
+      "tip": "Generalidad: todos los que cumplen el supuesto.",
+      "explanation": "La generalidad significa que la norma comprende a todos quienes se encuentren dentro del supuesto regulado.",
+      "memory_key": "Generalidad: todos los que cumplen el supuesto.",
+      "common_confusion": "No confundas conceptos cercanos: identifica el elemento exacto que pide el enunciado.",
+      "why_options_are_wrong": {
+        "B": "«Retroactividad» no responde al concepto o dato específico confirmado en el compendio.",
+        "C": "«Individualidad» no responde al concepto o dato específico confirmado en el compendio.",
+        "D": "«Temporalidad» no responde al concepto o dato específico confirmado en el compendio."
+      }
+    },
+    {
+      "id": "DER101-P152",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Funciones de las fuentes del Derecho",
+      "question_type": "matching",
+      "topic": "Fuentes del Derecho",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "introduccion_al_derecho_texto_completo.md, apartado «Las fuentes del Derecho y la normatividad jurídica», páginas extraídas 168-179; banco complementario atribuido a exámenes anteriores",
+      "prompt": "Relacione cada fuente o actividad jurídica con su función principal.",
+      "options": [],
+      "answer": {
+        "raw": "Ley → Acto normativo aprobado mediante el procedimiento legislativo correspondiente; Costumbre jurídica → Práctica reiterada acompañada por conciencia de obligatoriedad; Jurisprudencia → Interpretación y aplicación constante del Derecho mediante decisiones judiciales; Doctrina → Elaboración teórica que explica y orienta el conocimiento jurídico",
+        "option_ids": [],
+        "accepted_text": [],
+        "pairs": [
+          {
+            "left": "Ley",
+            "right": "Acto normativo aprobado mediante el procedimiento legislativo correspondiente"
+          },
+          {
+            "left": "Costumbre jurídica",
+            "right": "Práctica reiterada acompañada por conciencia de obligatoriedad"
+          },
+          {
+            "left": "Jurisprudencia",
+            "right": "Interpretación y aplicación constante del Derecho mediante decisiones judiciales"
+          },
+          {
+            "left": "Doctrina",
+            "right": "Elaboración teórica que explica y orienta el conocimiento jurídico"
+          }
+        ],
+        "ordered_items": []
+      },
+      "feedback_correct": "Cada fuente cumple una función diferente: producción legislativa, práctica obligatoria, criterio judicial o explicación académica.",
+      "feedback_incorrect": "Revisa la idea central: Ley legisla; costumbre reitera; jurisprudencia interpreta; doctrina explica.",
+      "tip": "Ley legisla; costumbre reitera; jurisprudencia interpreta; doctrina explica.",
+      "explanation": "Cada fuente cumple una función diferente: producción legislativa, práctica obligatoria, criterio judicial o explicación académica.",
+      "memory_key": "Ley legisla; costumbre reitera; jurisprudencia interpreta; doctrina explica.",
+      "common_confusion": "Relaciona cada concepto con su rasgo distintivo, no solo con palabras parecidas.",
+      "options_note": "Conceptos y descripciones se presentan en orden aleatorio durante el intento."
+    },
+    {
+      "id": "DER101-P153",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Autores y conceptos",
+      "question_type": "matching",
+      "topic": "Fuentes del Derecho",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "introduccion_al_derecho_texto_completo.md, apartado «Las fuentes del Derecho y la normatividad jurídica», páginas extraídas 168-179; banco complementario atribuido a exámenes anteriores",
+      "prompt": "Relacione cada referencia doctrinaria con la idea correspondiente.",
+      "options": [],
+      "answer": {
+        "raw": "Aftalión → Costumbre como repetición de conducta en interferencia intersubjetiva; Latorre → El uso necesita conciencia de obligatoriedad para ser costumbre jurídica; Fernández → Jurisprudencia como interpretación correcta y válida de la ley; López → Distinción entre ley en sentido formal y ley en sentido material",
+        "option_ids": [],
+        "accepted_text": [],
+        "pairs": [
+          {
+            "left": "Aftalión",
+            "right": "Costumbre como repetición de conducta en interferencia intersubjetiva"
+          },
+          {
+            "left": "Latorre",
+            "right": "El uso necesita conciencia de obligatoriedad para ser costumbre jurídica"
+          },
+          {
+            "left": "Fernández",
+            "right": "Jurisprudencia como interpretación correcta y válida de la ley"
+          },
+          {
+            "left": "López",
+            "right": "Distinción entre ley en sentido formal y ley en sentido material"
+          }
+        ],
+        "ordered_items": []
+      },
+      "feedback_correct": "El compendio atribuye a cada autor una explicación específica sobre costumbre, jurisprudencia o ley.",
+      "feedback_incorrect": "Revisa la idea central: Aftalión y Latorre: costumbre; Fernández: jurisprudencia; López: ley.",
+      "tip": "Aftalión y Latorre: costumbre; Fernández: jurisprudencia; López: ley.",
+      "explanation": "El compendio atribuye a cada autor una explicación específica sobre costumbre, jurisprudencia o ley.",
+      "memory_key": "Aftalión y Latorre: costumbre; Fernández: jurisprudencia; López: ley.",
+      "common_confusion": "Relaciona cada concepto con su rasgo distintivo, no solo con palabras parecidas.",
+      "options_note": "Conceptos y descripciones se presentan en orden aleatorio durante el intento."
+    },
+    {
+      "id": "DER101-P154",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Mandar, prohibir y permitir",
+      "question_type": "matching",
+      "topic": "La ley",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "introduccion_al_derecho_texto_completo.md, apartado «Las fuentes del Derecho y la normatividad jurídica», páginas extraídas 168-179; banco complementario atribuido a exámenes anteriores",
+      "prompt": "Relacione cada efecto de la ley con el tipo de conducta que expresa.",
+      "options": [],
+      "answer": {
+        "raw": "Mandar → Exigir la realización de una conducta; Prohibir → Impedir la realización de una conducta; Permitir → Autorizar una conducta dentro del ordenamiento",
+        "option_ids": [],
+        "accepted_text": [],
+        "pairs": [
+          {
+            "left": "Mandar",
+            "right": "Exigir la realización de una conducta"
+          },
+          {
+            "left": "Prohibir",
+            "right": "Impedir la realización de una conducta"
+          },
+          {
+            "left": "Permitir",
+            "right": "Autorizar una conducta dentro del ordenamiento"
+          }
+        ],
+        "ordered_items": []
+      },
+      "feedback_correct": "La definición legal resume los efectos de la ley en tres verbos: mandar, prohibir y permitir.",
+      "feedback_incorrect": "Revisa la idea central: Mandar exige; prohibir impide; permitir autoriza.",
+      "tip": "Mandar exige; prohibir impide; permitir autoriza.",
+      "explanation": "La definición legal resume los efectos de la ley en tres verbos: mandar, prohibir y permitir.",
+      "memory_key": "Mandar exige; prohibir impide; permitir autoriza.",
+      "common_confusion": "Relaciona cada concepto con su rasgo distintivo, no solo con palabras parecidas.",
+      "options_note": "Conceptos y descripciones se presentan en orden aleatorio durante el intento."
+    },
+    {
+      "id": "DER101-P155",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Libertad y buen gobierno",
+      "question_type": "single_choice",
+      "topic": "Fines y principios del Derecho",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "introduccion_al_derecho_texto_completo.md, apartado «El Derecho, fines y principios»; banco complementario atribuido a exámenes anteriores",
+      "prompt": "La idea desarrollada a partir de las nociones de buen gobierno identificadas por los griegos corresponde al principio de:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Libertad"
+        },
+        {
+          "id": "B",
+          "text": "Coercibilidad"
+        },
+        {
+          "id": "C",
+          "text": "Jerarquía normativa"
+        },
+        {
+          "id": "D",
+          "text": "Irretroactividad"
+        }
+      ],
+      "answer": {
+        "raw": "A. Libertad",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El compendio relaciona el desarrollo histórico de las nociones de buen gobierno con la idea de libertad.",
+      "feedback_incorrect": "Revisa la idea central: Buen gobierno, en este apartado, conduce a la libertad.",
+      "tip": "Buen gobierno, en este apartado, conduce a la libertad.",
+      "explanation": "El compendio relaciona el desarrollo histórico de las nociones de buen gobierno con la idea de libertad.",
+      "memory_key": "Buen gobierno, en este apartado, conduce a la libertad.",
+      "common_confusion": "No confundas conceptos cercanos: identifica el elemento exacto que pide el enunciado.",
+      "why_options_are_wrong": {
+        "B": "«Coercibilidad» no responde al concepto o dato específico confirmado en el compendio.",
+        "C": "«Jerarquía normativa» no responde al concepto o dato específico confirmado en el compendio.",
+        "D": "«Irretroactividad» no responde al concepto o dato específico confirmado en el compendio."
+      }
+    },
+    {
+      "id": "DER101-P156",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Evolución del Derecho",
+      "question_type": "single_choice",
+      "topic": "Naturaleza del Derecho",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "introduccion_al_derecho_texto_completo.md, apartado «El Derecho, fines y principios»; banco complementario atribuido a exámenes anteriores",
+      "prompt": "El hecho de que la sociedad cambie y las normas jurídicas se adapten a esos cambios expresa:",
+      "options": [
+        {
+          "id": "A",
+          "text": "La evolución del Derecho"
+        },
+        {
+          "id": "B",
+          "text": "La desaparición del orden jurídico"
+        },
+        {
+          "id": "C",
+          "text": "La inmovilidad de la legislación"
+        },
+        {
+          "id": "D",
+          "text": "La autonomía de la norma moral"
+        }
+      ],
+      "answer": {
+        "raw": "A. La evolución del Derecho",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El Derecho no es fijo: cambia a lo largo del tiempo para responder a nuevas realidades sociales.",
+      "feedback_incorrect": "Revisa la idea central: Si cambia la sociedad y cambia la norma, existe evolución del Derecho.",
+      "tip": "Si cambia la sociedad y cambia la norma, existe evolución del Derecho.",
+      "explanation": "El Derecho no es fijo: cambia a lo largo del tiempo para responder a nuevas realidades sociales.",
+      "memory_key": "Si cambia la sociedad y cambia la norma, existe evolución del Derecho.",
+      "common_confusion": "No confundas conceptos cercanos: identifica el elemento exacto que pide el enunciado.",
+      "why_options_are_wrong": {
+        "B": "«La desaparición del orden jurídico» no responde al concepto o dato específico confirmado en el compendio.",
+        "C": "«La inmovilidad de la legislación» no responde al concepto o dato específico confirmado en el compendio.",
+        "D": "«La autonomía de la norma moral» no responde al concepto o dato específico confirmado en el compendio."
+      }
+    },
+    {
+      "id": "DER101-P157",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Finalidad de la justicia social",
+      "question_type": "single_choice",
+      "topic": "Justicia social",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "introduccion_al_derecho_texto_completo.md, apartado «El Derecho, fines y principios»; banco complementario atribuido a exámenes anteriores",
+      "prompt": "¿Cuál es la finalidad inmediata de la justicia social según el compendio?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Concentrar los bienes y servicios en un solo grupo"
+        },
+        {
+          "id": "B",
+          "text": "Lograr una distribución equitativa y un trato humano en las relaciones sociales"
+        },
+        {
+          "id": "C",
+          "text": "Sustituir todas las normas jurídicas por normas morales"
+        },
+        {
+          "id": "D",
+          "text": "Eliminar las obligaciones del Estado"
+        }
+      ],
+      "answer": {
+        "raw": "B. Lograr una distribución equitativa y un trato humano en las relaciones sociales",
+        "option_ids": [
+          "B"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La justicia social busca una distribución equitativa y condiciones humanas que favorezcan el bienestar colectivo.",
+      "feedback_incorrect": "Revisa la idea central: Justicia social: distribución equitativa y trato humano.",
+      "tip": "Justicia social: distribución equitativa y trato humano.",
+      "explanation": "La justicia social busca una distribución equitativa y condiciones humanas que favorezcan el bienestar colectivo.",
+      "memory_key": "Justicia social: distribución equitativa y trato humano.",
+      "common_confusion": "No confundas conceptos cercanos: identifica el elemento exacto que pide el enunciado.",
+      "why_options_are_wrong": {
+        "A": "«Concentrar los bienes y servicios en un solo grupo» no responde al concepto o dato específico confirmado en el compendio.",
+        "C": "«Sustituir todas las normas jurídicas por normas morales» no responde al concepto o dato específico confirmado en el compendio.",
+        "D": "«Eliminar las obligaciones del Estado» no responde al concepto o dato específico confirmado en el compendio."
+      }
+    },
+    {
+      "id": "DER101-P158",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Hecho jurídico en la relación jurídica",
+      "question_type": "single_choice",
+      "topic": "Relación jurídica",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "introduccion_al_derecho_texto_completo.md, apartado «Elementos de la relación jurídica»; cuestionario complementario contrastado con el compendio",
+      "prompt": "Dentro de los elementos de la relación jurídica, el hecho jurídico se entiende como:",
+      "options": [
+        {
+          "id": "A",
+          "text": "La hipótesis o supuesto contemplado en la norma"
+        },
+        {
+          "id": "B",
+          "text": "La sanción que siempre aplica un juez penal"
+        },
+        {
+          "id": "C",
+          "text": "La opinión personal del sujeto activo"
+        },
+        {
+          "id": "D",
+          "text": "El documento que contiene exclusivamente doctrina"
+        }
+      ],
+      "answer": {
+        "raw": "A. La hipótesis o supuesto contemplado en la norma",
+        "option_ids": [
+          "A"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "El compendio presenta el hecho jurídico como el supuesto previsto por la norma cuya realización produce consecuencias jurídicas.",
+      "feedback_incorrect": "Revisa la idea central: Hecho jurídico: supuesto previsto; al cumplirse, nacen consecuencias.",
+      "tip": "Hecho jurídico: supuesto previsto; al cumplirse, nacen consecuencias.",
+      "explanation": "El compendio presenta el hecho jurídico como el supuesto previsto por la norma cuya realización produce consecuencias jurídicas.",
+      "memory_key": "Hecho jurídico: supuesto previsto; al cumplirse, nacen consecuencias.",
+      "common_confusion": "No confundas conceptos cercanos: identifica el elemento exacto que pide el enunciado.",
+      "why_options_are_wrong": {
+        "B": "«La sanción que siempre aplica un juez penal» no responde al concepto o dato específico confirmado en el compendio.",
+        "C": "«La opinión personal del sujeto activo» no responde al concepto o dato específico confirmado en el compendio.",
+        "D": "«El documento que contiene exclusivamente doctrina» no responde al concepto o dato específico confirmado en el compendio."
+      }
+    },
+    {
+      "id": "DER101-P159",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Elementos de la costumbre jurídica",
+      "question_type": "multiple_choice",
+      "topic": "Costumbre jurídica",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "introduccion_al_derecho_texto_completo.md, apartado «Las fuentes del Derecho y la normatividad jurídica», páginas extraídas 168-179; banco complementario atribuido a exámenes anteriores",
+      "prompt": "Seleccione todas las afirmaciones compatibles con la costumbre jurídica descrita en el compendio.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Supone una conducta reiterada en el tiempo"
+        },
+        {
+          "id": "B",
+          "text": "Requiere conciencia de que el uso expresa una regla obligatoria"
+        },
+        {
+          "id": "C",
+          "text": "Solo existe cuando ha sido redactada por el órgano legislativo"
+        },
+        {
+          "id": "D",
+          "text": "Puede adquirir relevancia jurídica y formar parte del ordenamiento"
+        }
+      ],
+      "answer": {
+        "raw": "A, B y D. A. Supone una conducta reiterada en el tiempo; B. Requiere conciencia de que el uso expresa una regla obligatoria; D. Puede adquirir relevancia jurídica y formar parte del ordenamiento",
+        "option_ids": [
+          "A",
+          "B",
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "La costumbre combina reiteración y convicción de obligatoriedad, y bajo determinadas condiciones puede convertirse en regla jurídica.",
+      "feedback_incorrect": "Revisa la idea central: Repetición más obligatoriedad puede producir costumbre jurídica.",
+      "tip": "Repetición más obligatoriedad puede producir costumbre jurídica.",
+      "explanation": "La costumbre combina reiteración y convicción de obligatoriedad, y bajo determinadas condiciones puede convertirse en regla jurídica.",
+      "memory_key": "Repetición más obligatoriedad puede producir costumbre jurídica.",
+      "common_confusion": "Revisa cada afirmación por separado; puede haber más de una correcta.",
+      "why_options_are_wrong": {
+        "C": "«Solo existe cuando ha sido redactada por el órgano legislativo» no responde al concepto o dato específico confirmado en el compendio."
+      }
+    },
+    {
+      "id": "DER101-P160",
+      "subject_code": "DER101",
+      "subject_name": "Introducción al Derecho",
+      "title": "Identificación de antinomias",
+      "question_type": "multiple_choice",
+      "topic": "Antinomias jurídicas",
+      "difficulty": "medium",
+      "status": "reviewed",
+      "active": true,
+      "provenance": "generated_from_compendium",
+      "source": "introduccion_al_derecho_texto_completo.md, apartado «El orden jurídico y la cultura»; banco complementario atribuido a exámenes anteriores",
+      "prompt": "Seleccione todas las afirmaciones correctas sobre las antinomias jurídicas.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Surgen por contradicción entre normas de un mismo ordenamiento"
+        },
+        {
+          "id": "B",
+          "text": "Pueden dificultar o impedir la aplicación simultánea de las normas"
+        },
+        {
+          "id": "C",
+          "text": "Siempre se resuelven aplicando la norma de menor jerarquía"
+        },
+        {
+          "id": "D",
+          "text": "Un ordenamiento coherente debe procurar reducirlas o eliminarlas"
+        }
+      ],
+      "answer": {
+        "raw": "A, B y D. A. Surgen por contradicción entre normas de un mismo ordenamiento; B. Pueden dificultar o impedir la aplicación simultánea de las normas; D. Un ordenamiento coherente debe procurar reducirlas o eliminarlas",
+        "option_ids": [
+          "A",
+          "B",
+          "D"
+        ],
+        "accepted_text": [],
+        "pairs": [],
+        "ordered_items": []
+      },
+      "feedback_correct": "Las antinomias son contradicciones normativas que afectan la aplicación coherente del Derecho. La norma inferior no prevalece por el solo hecho de ser inferior.",
+      "feedback_incorrect": "Revisa la idea central: Antinomia: contradicción que exige un criterio jurídico de solución.",
+      "tip": "Antinomia: contradicción que exige un criterio jurídico de solución.",
+      "explanation": "Las antinomias son contradicciones normativas que afectan la aplicación coherente del Derecho. La norma inferior no prevalece por el solo hecho de ser inferior.",
+      "memory_key": "Antinomia: contradicción que exige un criterio jurídico de solución.",
+      "common_confusion": "Revisa cada afirmación por separado; puede haber más de una correcta.",
+      "why_options_are_wrong": {
+        "C": "«Siempre se resuelven aplicando la norma de menor jerarquía» no responde al concepto o dato específico confirmado en el compendio."
+      }
     }
   ]
 }

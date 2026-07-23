@@ -35,7 +35,22 @@ type BankQuestion = {
   why_options_are_wrong?: Record<string, string>;
 };
 type AnswerValue = string | string[] | Record<string, string>;
-type Attempt = { id: string; subject: string; subjectName: string; date: string; score: number; total: number; percentage: number };
+type Attempt = { id: string; subject: string; subjectName: string; date: string; score: number; total: number; percentage: number; durationSeconds?: number };
+type SavedAttempt = {
+  version: 1;
+  subjectCode: string;
+  questionIds: string[];
+  questionIndex: number;
+  answers: Record<number, AnswerValue>;
+  submitted: Record<number, boolean>;
+  secondsElapsed: number;
+  isPaused: boolean;
+  tipsEnabled: boolean;
+  feedbackEnabled: boolean;
+  fontSize: FontSize;
+  theme: Theme;
+  savedAt: string;
+};
 type Screen = "home" | "exam" | "results";
 type FontSize = "small" | "medium" | "large";
 type Theme = "light" | "dusk";
@@ -95,7 +110,9 @@ export default function Home() {
   const [questionIndex, setQuestionIndex] = useState(0);
   const [answers, setAnswers] = useState<Record<number, AnswerValue>>({});
   const [submitted, setSubmitted] = useState<Record<number, boolean>>({});
-  const [secondsLeft, setSecondsLeft] = useState(3600);
+  const [secondsElapsed, setSecondsElapsed] = useState(0);
+  const [isPaused, setIsPaused] = useState(false);
+  const [savedAttempt, setSavedAttempt] = useState<SavedAttempt | null>(null);
   const [tipsEnabled, setTipsEnabled] = useState(true);
   const [feedbackEnabled, setFeedbackEnabled] = useState(true);
   const [fontSize, setFontSize] = useState<FontSize>("medium");
@@ -119,21 +136,23 @@ export default function Home() {
         }
       });
     }
+    const savedActiveAttempt = window.localStorage.getItem("aula-juridica-active-attempt");
+    if (savedActiveAttempt) {
+      try {
+        setSavedAttempt(JSON.parse(savedActiveAttempt));
+      } catch {
+        window.localStorage.removeItem("aula-juridica-active-attempt");
+      }
+    }
   }, []);
 
   useEffect(() => {
-    if (screen !== "exam") return;
+    if (screen !== "exam" || isPaused) return;
     const timer = window.setInterval(() => {
-      setSecondsLeft((value) => {
-        if (value <= 1) {
-          window.clearInterval(timer);
-          return 0;
-        }
-        return value - 1;
-      });
+      setSecondsElapsed((value) => value + 1);
     }, 1000);
     return () => window.clearInterval(timer);
-  }, [screen]);
+  }, [isPaused, screen]);
 
   const current = examQuestions[questionIndex];
   const selectedAnswer = answers[questionIndex];
@@ -169,6 +188,33 @@ export default function Home() {
     ? [...new Set([10, 20, 30, subject.total].filter((count) => count <= subject.total))]
     : [];
 
+  const createActiveAttemptSnapshot = useCallback((paused = isPaused): SavedAttempt | null => {
+    if (!subject || !examQuestions.length) return null;
+    return {
+      version: 1,
+      subjectCode: subject.code,
+      questionIds: examQuestions.map((question) => question.id),
+      questionIndex,
+      answers,
+      submitted,
+      secondsElapsed,
+      isPaused: paused,
+      tipsEnabled,
+      feedbackEnabled,
+      fontSize,
+      theme,
+      savedAt: new Date().toISOString(),
+    };
+  }, [answers, examQuestions, feedbackEnabled, fontSize, isPaused, questionIndex, secondsElapsed, subject, submitted, theme, tipsEnabled]);
+
+  useEffect(() => {
+    if (screen !== "exam") return;
+    const snapshot = createActiveAttemptSnapshot();
+    if (snapshot) {
+      window.localStorage.setItem("aula-juridica-active-attempt", JSON.stringify(snapshot));
+    }
+  }, [createActiveAttemptSnapshot, screen]);
+
   const startAttempt = (count: number) => {
     if (!subject) return;
     const pool = allQuestions.filter(
@@ -193,7 +239,10 @@ export default function Home() {
     setQuestionIndex(0);
     setAnswers(initialAnswers);
     setSubmitted({});
-    setSecondsLeft(3600);
+    setSecondsElapsed(0);
+    setIsPaused(false);
+    setSavedAttempt(null);
+    window.localStorage.removeItem("aula-juridica-active-attempt");
     setTipsEnabled(true);
     setFeedbackEnabled(true);
     setFontSize("medium");
@@ -201,12 +250,53 @@ export default function Home() {
     setScreen("exam");
   };
 
-  const leaveAttempt = () => {
+  const saveAndExitAttempt = () => {
+    const snapshot = createActiveAttemptSnapshot(true);
+    if (snapshot) {
+      window.localStorage.setItem("aula-juridica-active-attempt", JSON.stringify(snapshot));
+      setSavedAttempt(snapshot);
+    }
+    setSubject(null);
+    setScreen("home");
+  };
+
+  const resumeSavedAttempt = () => {
+    if (!savedAttempt) return;
+    const savedSubject = subjectCatalog.find((item) => item.code === savedAttempt.subjectCode);
+    const questionsById = new Map(allQuestions.map((question) => [question.id, question]));
+    const restoredQuestions = savedAttempt.questionIds
+      .map((id) => questionsById.get(id))
+      .filter((question): question is BankQuestion => Boolean(question));
+    if (!savedSubject || restoredQuestions.length !== savedAttempt.questionIds.length) {
+      window.localStorage.removeItem("aula-juridica-active-attempt");
+      setSavedAttempt(null);
+      return;
+    }
+    setSubject(savedSubject);
+    setExamQuestions(restoredQuestions);
+    setQuestionIndex(Math.min(savedAttempt.questionIndex, restoredQuestions.length - 1));
+    setAnswers(savedAttempt.answers || {});
+    setSubmitted(savedAttempt.submitted || {});
+    setSecondsElapsed(savedAttempt.secondsElapsed || 0);
+    setTipsEnabled(savedAttempt.tipsEnabled);
+    setFeedbackEnabled(savedAttempt.feedbackEnabled);
+    setFontSize(savedAttempt.fontSize || "medium");
+    setTheme(savedAttempt.theme || "light");
+    setIsPaused(false);
+    setScreen("exam");
+  };
+
+  const closeAttempt = () => {
+    if (!window.confirm("¿Cerrar este intento? Se perderán el progreso y las respuestas guardadas.")) return;
+    window.localStorage.removeItem("aula-juridica-active-attempt");
+    setSavedAttempt(null);
     setSubject(null);
     setExamQuestions([]);
     setQuestionIndex(0);
     setAnswers({});
     setSubmitted({});
+    setSecondsElapsed(0);
+    setIsPaused(false);
     setScreen("home");
   };
 
@@ -279,19 +369,16 @@ export default function Home() {
       score,
       total: examQuestions.length,
       percentage,
+      durationSeconds: secondsElapsed,
     };
     const updated = [attempt, ...attempts].slice(0, 20);
     setAttempts(updated);
     window.localStorage.setItem("aula-juridica-attempts", JSON.stringify(updated));
+    window.localStorage.removeItem("aula-juridica-active-attempt");
+    setSavedAttempt(null);
+    setIsPaused(true);
     setScreen("results");
-  }, [attempts, examQuestions.length, score, subject]);
-
-  useEffect(() => {
-    if (screen === "exam" && secondsLeft === 0 && examQuestions.length) {
-      const timeout = window.setTimeout(finishAttempt, 0);
-      return () => window.clearTimeout(timeout);
-    }
-  }, [examQuestions.length, finishAttempt, screen, secondsLeft]);
+  }, [attempts, examQuestions.length, score, secondsElapsed, subject]);
 
   useEffect(() => {
     if (screen === "exam" && isSubmitted && feedbackEnabled) {
@@ -334,7 +421,7 @@ export default function Home() {
     return (
       <main className={`exam-app theme-${theme} font-${fontSize}`}>
         <header className="exam-topbar">
-          <button className="exam-title" onClick={leaveAttempt}><strong>Simulador de examen final</strong><small>Carrera de Derecho</small></button>
+          <button className="exam-title" onClick={saveAndExitAttempt}><strong>Simulador de examen final</strong><small>Carrera de Derecho</small></button>
           <div className="exam-identity"><small>{subject.label}</small><strong>{subject.name}</strong></div>
           <div className="exam-tools">
             <div className="tool-group" aria-label="Tamaño de letra">
@@ -345,7 +432,7 @@ export default function Home() {
             <button className="theme-button" onClick={() => setTheme(theme === "light" ? "dusk" : "light")}>
               {theme === "light" ? "Tema azul" : "Tema claro"}
             </button>
-            <div className="clock"><small>Tiempo restante</small><strong>{formatTime(secondsLeft)}</strong></div>
+            <div className={`clock ${isPaused ? "paused" : ""}`}><small>{isPaused ? "Cronómetro pausado" : "Tiempo empleado"}</small><strong>{formatTime(secondsElapsed)}</strong></div>
           </div>
         </header>
 
@@ -359,18 +446,33 @@ export default function Home() {
                 <button
                   key={index}
                   className={`${index === questionIndex ? "current" : ""} ${answers[index] ? "answered" : ""}`}
+                  disabled={isPaused}
                   onClick={() => setQuestionIndex(index)}
                 >{index + 1}</button>
               ))}
             </div>
             <div className="session-options">
-              <label><input type="checkbox" checked={tipsEnabled} onChange={(event) => setTipsEnabled(event.target.checked)} /> Consejos</label>
-              <label><input type="checkbox" checked={feedbackEnabled} onChange={(event) => setFeedbackEnabled(event.target.checked)} /> Retroalimentación</label>
+              <label><input type="checkbox" disabled={isPaused} checked={tipsEnabled} onChange={(event) => setTipsEnabled(event.target.checked)} /> Consejos</label>
+              <label><input type="checkbox" disabled={isPaused} checked={feedbackEnabled} onChange={(event) => setFeedbackEnabled(event.target.checked)} /> Retroalimentación</label>
             </div>
-            <button className="exit-link" onClick={leaveAttempt}>Salir del intento</button>
+            <div className="attempt-controls">
+              <button className="attempt-control pause-control" onClick={() => setIsPaused((value) => !value)}>
+                {isPaused ? "Continuar intento" : "Pausar intento"}
+              </button>
+              <button className="attempt-control save-control" onClick={saveAndExitAttempt}>Guardar y salir</button>
+              <button className="attempt-control finish-control" onClick={finishAttempt}>Terminar y ver resultado</button>
+              <button className="attempt-control close-control" onClick={closeAttempt}>Cerrar intento</button>
+            </div>
           </aside>
 
-          <article className="question-panel">
+          <article className={`question-panel ${isPaused ? "attempt-paused" : ""}`}>
+            {isPaused && (
+              <div className="pause-overlay" role="status">
+                <strong>Intento en pausa</strong>
+                <p>El cronómetro y la actividad están detenidos. Tu progreso está guardado.</p>
+                <button className="primary" onClick={() => setIsPaused(false)}>Continuar intento</button>
+              </div>
+            )}
             <div className="question-labels"><span>{current.topic}</span><span>Pregunta {questionIndex + 1} de {examQuestions.length}</span></div>
             <span className="question-type">{questionTypeLabels[current.question_type]}</span>
             <h1 className={current.prompt.length > 400 ? "long-prompt" : ""}>{current.prompt}</h1>
@@ -532,7 +634,7 @@ export default function Home() {
           <small>Intento finalizado</small>
           <h1>{subject.name}</h1>
           <div className="result-number"><strong>{percentage}%</strong><span>{score} de {examQuestions.length} respuestas correctas</span></div>
-          <p>El resultado quedó guardado en tu historial. Tus respuestas individuales no se almacenaron.</p>
+          <p>Completaste el intento en <b>{formatTime(secondsElapsed)}</b>. El resultado quedó guardado en tu historial; tus respuestas individuales no se almacenaron.</p>
           <div><button className="secondary" onClick={() => { setSubject(null); setScreen("home"); }}>Volver a materias</button><button className="primary" onClick={() => setScreen("home")}>Nuevo intento</button></div>
         </section>
       </main>
@@ -540,7 +642,7 @@ export default function Home() {
   }
 
   return (
-    <main className="catalog-page">
+    <main className={`catalog-page ${savedAttempt ? "with-saved-attempt" : ""}`}>
       <span className="ambient-glow glow-cyan" aria-hidden="true" />
       <span className="ambient-glow glow-magenta" aria-hidden="true" />
       <header className="minimal-header centered-header">
@@ -548,8 +650,22 @@ export default function Home() {
       </header>
 
       <section className="catalog-intro">
-        <p>Selecciona una asignatura para comenzar. Cada intento dura una hora.</p>
+        <p>Selecciona una asignatura para comenzar. El cronómetro registrará cuánto tardas, sin cerrar el intento automáticamente.</p>
       </section>
+
+      {savedAttempt && (
+        <section className="resume-attempt" aria-label="Intento guardado">
+          <span>
+            <small>Intento guardado</small>
+            <strong>{subjectCatalog.find((item) => item.code === savedAttempt.subjectCode)?.name || savedAttempt.subjectCode}</strong>
+            <em>Pregunta {savedAttempt.questionIndex + 1} · {formatTime(savedAttempt.secondsElapsed)} empleados</em>
+          </span>
+          <div>
+            <button className="primary" disabled={!allQuestions.length} onClick={resumeSavedAttempt}>Continuar donde quedé</button>
+            <button className="secondary danger-outline" onClick={closeAttempt}>Cerrar intento</button>
+          </div>
+        </section>
+      )}
 
       <section className="subject-catalog">
         {subjectCatalog.map((item, index) => {
@@ -570,7 +686,7 @@ export default function Home() {
             <button className="dialog-close" onClick={() => setSubject(null)} aria-label="Cerrar">×</button>
             <span className="dialog-kicker">Configurar intento</span>
             <h2 id="count-title">¿Cuántas preguntas quieres responder?</h2>
-            <p>{subject.name} · 60 minutos</p>
+            <p>{subject.name} · cronómetro sin límite</p>
             <div className="count-options">
               {availableCounts.map((count) => <button key={count} disabled={!allQuestions.length} onClick={() => startAttempt(count)}><strong>{count}</strong><span>preguntas</span></button>)}
             </div>

@@ -5,7 +5,9 @@ Beta funcional de un simulador de exámenes para seis asignaturas de la carrera 
 ## Funciones de la beta
 
 - Selección de asignatura y cantidad de preguntas.
-- Examen de una hora con navegación entre preguntas.
+- Cronómetro ascendente que registra el tiempo empleado sin finalizar automáticamente.
+- Pausa, reanudación, guardado local y recuperación del intento donde se dejó.
+- Controles diferenciados para guardar y salir, terminar con resultado o cerrar el intento.
 - Tema claro o crepuscular y tamaño de letra ajustable.
 - Consejos y retroalimentación configurables.
 - Preguntas de selección, asociación y ordenamiento.

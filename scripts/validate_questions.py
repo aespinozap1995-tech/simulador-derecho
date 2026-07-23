@@ -18,9 +18,9 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = PROJECT_ROOT / "datos"
 SUBJECTS_DIR = DATA_DIR / "subjects"
 
-EXPECTED_TOTAL = 865
+EXPECTED_TOTAL = 900
 EXPECTED_BY_SUBJECT = {
-    "DER101": 125,
+    "DER101": 160,
     "DER102": 105,
     "DER104": 125,
     "DER105": 142,
@@ -28,7 +28,7 @@ EXPECTED_BY_SUBJECT = {
     "C10": 215,
 }
 EXPECTED_PENDING = {"DER105-P033", "DER105-P087"}
-EXPECTED_GENERATED = 518
+EXPECTED_GENERATED = 553
 
 ALLOWED_TYPES = {
     "single_choice", "multiple_choice", "true_false", "fill_blank",

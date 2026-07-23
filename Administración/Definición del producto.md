@@ -6,7 +6,9 @@ Crear un simulador de exámenes por asignatura con temporizador, acceso mediante
 
 ## Funciones previstas
 
-- Temporizador configurable por simulacro.
+- Cronómetro ascendente para medir el tiempo empleado, sin límite ni finalización automática.
+- Pausa, reanudación y persistencia local del intento para continuarlo posteriormente.
+- Acciones independientes para guardar y salir, terminar con resultado o cerrar y descartar el intento.
 - Consejos y retroalimentación inmediata activables o desactivables.
 - Preguntas y alternativas en orden aleatorio.
 - Registro de aciertos, errores, calificación y tiempo empleado.
@@ -20,7 +22,7 @@ Crear un simulador de exámenes por asignatura con temporizador, acceso mediante
 
 - Recopilar y revisar las preguntas existentes en los simuladores del aula virtual.
 - Utilizar este banco como base para desarrollar y probar el sistema.
-- Banco consolidado: 865 preguntas, 863 activas, distribuidas entre seis asignaturas. Incluye 347 preguntas del banco original y 518 generadas desde compendios.
+- Banco consolidado: 900 preguntas, 898 activas, distribuidas entre seis asignaturas. Incluye 347 preguntas del banco original y 553 preguntas reconstruidas o generadas con respaldo en los compendios.
 
 ### Etapa 2 — Sistema funcional
 

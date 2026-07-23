@@ -27,6 +27,7 @@ BANKS = [
     ("DER101", "Introducción al Derecho", [
         "Procesado/DER 101 - Introducción al Derecho/banco_preguntas.md",
         "Procesado/DER 101 - Introducción al Derecho/preguntas_compendios.md",
+        "Procesado/DER 101 - Introducción al Derecho/preguntas_examenes_anteriores.md",
     ]),
     ("DER102", "Lógica y Dialéctica Jurídica", [
         "Procesado/DER 102 - Lógica y Dialéctica Jurídica/banco_preguntas.md",
