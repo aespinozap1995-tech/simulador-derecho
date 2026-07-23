@@ -441,6 +441,18 @@ export default function Home() {
         <section className="exam-body">
           <aside className="navigator">
             <div className="navigator-heading"><strong>Preguntas</strong><span>{Object.keys(answers).length}/{examQuestions.length}</span></div>
+            <div className="attempt-controls" aria-label="Acciones del intento">
+              <button className="attempt-control pause-control" aria-label={isPaused ? "Continuar intento" : "Pausar intento"} onClick={() => setIsPaused((value) => !value)}>
+                {isPaused ? "Continuar" : "Pausar"}
+              </button>
+              <button className="attempt-control save-control" aria-label="Guardar y salir" onClick={saveAndExitAttempt}>Guardar</button>
+              <button className="attempt-control finish-control" aria-label="Terminar y ver resultado" onClick={finishAttempt}>Terminar</button>
+              <button className="attempt-control close-control" aria-label="Cerrar intento" onClick={closeAttempt}>Cerrar</button>
+            </div>
+            <div className="session-options">
+              <label><input type="checkbox" disabled={isPaused} checked={tipsEnabled} onChange={(event) => setTipsEnabled(event.target.checked)} /> Consejos</label>
+              <label><input type="checkbox" disabled={isPaused} checked={feedbackEnabled} onChange={(event) => setFeedbackEnabled(event.target.checked)} /> Retroalimentación</label>
+            </div>
             <div className="question-grid">
               {examQuestions.map((_, index) => (
                 <button
@@ -450,18 +462,6 @@ export default function Home() {
                   onClick={() => setQuestionIndex(index)}
                 >{index + 1}</button>
               ))}
-            </div>
-            <div className="session-options">
-              <label><input type="checkbox" disabled={isPaused} checked={tipsEnabled} onChange={(event) => setTipsEnabled(event.target.checked)} /> Consejos</label>
-              <label><input type="checkbox" disabled={isPaused} checked={feedbackEnabled} onChange={(event) => setFeedbackEnabled(event.target.checked)} /> Retroalimentación</label>
-            </div>
-            <div className="attempt-controls">
-              <button className="attempt-control pause-control" onClick={() => setIsPaused((value) => !value)}>
-                {isPaused ? "Continuar intento" : "Pausar intento"}
-              </button>
-              <button className="attempt-control save-control" onClick={saveAndExitAttempt}>Guardar y salir</button>
-              <button className="attempt-control finish-control" onClick={finishAttempt}>Terminar y ver resultado</button>
-              <button className="attempt-control close-control" onClick={closeAttempt}>Cerrar intento</button>
             </div>
           </aside>
 
